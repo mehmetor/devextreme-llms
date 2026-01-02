@@ -5,30 +5,30 @@ const fs = require('fs');
 const componentName = process.argv[2];
 
 if (!componentName) {
-    console.log('Kullanım: node generate-doc.js <ComponentName>');
-    console.log('Örnek: node generate-doc.js DataGrid');
+    console.log('Usage: node generate-doc.js <ComponentName>');
+    console.log('Example: node generate-doc.js DataGrid');
     process.exit(1);
 }
 
 // PascalCase to kebab-case (e.g., DataGrid -> data-grid)
 const kebabCase = componentName.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
 
-// Dosya yolları
+// File paths
 const repoRoot = path.join(__dirname, 'DevExtreme');
 
 if (!fs.existsSync(repoRoot)) {
-    console.error(`\n❌ Hata: DevExtreme kaynak klasörü bulunamadı: ${repoRoot}`);
-    console.log('Lütfen DevExtreme reposunu bu dizine klonlayın veya bir sembolik link oluşturun.');
-    console.log('Komut: ln -s /yol/to/DevExtreme DevExtreme');
+    console.error(`\n❌ Error: DevExtreme source folder not found: ${repoRoot}`);
+    console.log('Please clone the DevExtreme repo into this directory or create a symbolic link.');
+    console.log('Command: ln -s /path/to/DevExtreme DevExtreme');
     process.exit(1);
 }
 
 const entryPoint = path.join(repoRoot, 'packages/devextreme-react/src', `${kebabCase}.ts`);
 const outDir = path.join(__dirname, 'react', componentName);
 
-// Giriş dosyası kontrolü
+// Entry file check
 if (!fs.existsSync(entryPoint)) {
-    console.error(`Hata: Giriş dosyası bulunamadı: ${entryPoint}`);
+    console.error(`Error: Entry file not found: ${entryPoint}`);
     process.exit(1);
 }
 
@@ -36,10 +36,10 @@ if (!fs.existsSync(path.join(__dirname, 'react'))) {
     fs.mkdirSync(path.join(__dirname, 'react'));
 }
 
-console.log(`${componentName} için döküman üretiliyor...`);
+console.log(`Generating documentation for ${componentName}...`);
 
 try {
-    // Typedoc komutunu oluştur
+    // Create Typedoc command
     const typedocBin = fs.existsSync(path.join(__dirname, 'node_modules/.bin/typedoc')) 
         ? path.join(__dirname, 'node_modules/.bin/typedoc')
         : 'npx typedoc';
@@ -56,26 +56,26 @@ try {
         '--skipErrorChecking true'
     ].join(' ');
 
-    console.log(`Çalıştırılan komut: ${command}`);
+    console.log(`Executing command: ${command}`);
     execSync(command, { stdio: 'inherit' });
 
-    console.log(`\n✅ İşlem başarıyla tamamlandı.`);
-    console.log(`Döküman konumu: ${outDir}`);
+    console.log(`\n✅ Process completed successfully.`);
+    console.log(`Documentation location: ${outDir}`);
 
-    // AI Optimizasyonu: llms-full.txt ve llms.txt oluşturma
+    // AI Optimization: Create llms-full.txt and llms.txt
     generateAiDocs(outDir, componentName);
 
 } catch (error) {
-    console.error('\n❌ Hata oluştu:', error.message);
+    console.error('\n❌ Error occurred:', error.message);
     process.exit(1);
 }
 
 function generateAiDocs(dir, name) {
-    console.log(`\n🤖 AI optimizasyon dosyaları üretiliyor (${name})...`);
+    console.log(`\n🤖 Generating AI optimization files for ${name}...`);
     
     let fullContent = `# ${name} Full API Documentation\n\n`;
     
-    // Dosyaları belirli bir sırayla birleştir (README en üstte)
+    // Merge files in a specific order (README at top)
     const filesToMerge = [];
     
     function walkDir(currentPath) {
@@ -86,7 +86,7 @@ function generateAiDocs(dir, name) {
                 walkDir(filePath);
             } else if (file.endsWith('.md')) {
                 if (file === 'README.md' && currentPath === dir) {
-                    filesToMerge.unshift(filePath); // Ana README en başa
+                    filesToMerge.unshift(filePath); // Main README at the beginning
                 } else {
                     filesToMerge.push(filePath);
                 }
@@ -102,28 +102,28 @@ function generateAiDocs(dir, name) {
         fullContent += `\n--- SOURCE: ${relativePath} ---\n\n${content}\n`;
     }
 
-    // llms-full.txt yaz
+    // Write llms-full.txt
     fs.writeFileSync(path.join(dir, 'llms-full.txt'), fullContent);
-    console.log(`- llms-full.txt oluşturuldu.`);
+    console.log(`- llms-full.txt created.`);
 
-    // llms.txt (bileşene özel) yaz
+    // Write llms.txt (component-specific)
     const llmsContent = `# ${name} Documentation Map
     
-Bu dizin ${name} bileşeni için AI-optimize dökümantasyon içerir.
+This directory contains AI-optimized documentation for the ${name} component.
 
-## Ana Dosyalar
-- [Full API (Tek Dosya)](./llms-full.txt): AI modelleri için önerilen tüm API içeriği.
-- [README](./README.md): Bileşene genel bakış.
+## Core Files
+- [Full API (Single File)](./llms-full.txt): Recommended full API content for AI models.
+- [README](./README.md): Component overview.
 
-## Dizin Yapısı
-- \`interfaces/\`: Props ve konfigürasyon arayüzleri.
-- \`type-aliases/\`: Tip tanımlamaları.
-- \`variables/\`: Sabitler ve olay işleyiciler.
+## Directory Structure
+- \`interfaces/\`: Props and configuration interfaces.
+- \`type-aliases/\`: Type definitions.
+- \`variables/\`: Constants and event handlers.
 `;
     fs.writeFileSync(path.join(dir, 'llms.txt'), llmsContent);
-    console.log(`- llms.txt oluşturuldu.`);
+    console.log(`- llms.txt created.`);
 
-    // Root llms.txt dosyasını güncelle
+    // Update root llms.txt
     updateRootLlms();
 }
 
@@ -132,10 +132,10 @@ function updateRootLlms() {
     
     let content = `# DevExtreme LLM Hub
 
-DevExtreme bileşenleri için AI-optimize (Cursor, Claude, Windsurf vb.) dökümantasyon merkezi.
+AI-optimized documentation (llms.txt) for DevExtreme components, designed for AI assistants like Cursor, Claude, and Windsurf.
 
 ## ⚛️ React
-DevExtreme React bileşenleri için AI kılavuzları.
+AI-ready documentation for DevExtreme React components.
 
 `;
 
@@ -146,19 +146,19 @@ DevExtreme React bileşenleri için AI kılavuzları.
         );
 
         components.sort().forEach(comp => {
-            content += `- **${comp}**: [Özet](./react/${comp}/llms.txt) | [Full API](./react/${comp}/llms-full.txt)\n`;
+            content += `- **${comp}**: [Summary](./react/${comp}/llms.txt) | [Full API](./react/${comp}/llms.txt)\n`;
         });
     }
 
     content += `
-## 🛠️ Araçlar
-- \`generate-doc.js\`: Yeni bileşenler için döküman ve AI dosyalarını üretir.
-- \`generate-all-docs.js\`: Tüm bileşenleri otomatik tarar ve üretir.
+## 🛠️ Tools
+- \`generate-doc.js\`: Generate documentation and AI files for a single component.
+- \`generate-all-docs.js\`: Automatically scans and generates documentation for all components.
 
 ---
-*Gelecekte Angular ve Vue dökümanları da buraya eklenecektir.*
+*Future support for Angular and Vue documentation is planned.*
 `;
 
     fs.writeFileSync(rootLlmsPath, content);
-    console.log(`- Root llms.txt güncellendi.`);
+    console.log(`- Root llms.txt updated.`);
 }

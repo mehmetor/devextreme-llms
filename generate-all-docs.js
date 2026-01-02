@@ -2,18 +2,18 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-// Bileşenlerin bulunduğu kaynak dizini
+// Source directory where components are located
 const srcDir = path.join(__dirname, 'DevExtreme', 'packages', 'devextreme-react', 'src');
 
 if (!fs.existsSync(srcDir)) {
-    console.error(`\n❌ Hata: Kaynak dizini bulunamadı: ${srcDir}`);
-    console.log('Lütfen DevExtreme reposunun doğru konumda olduğundan emin olun.');
+    console.error(`\n❌ Error: Source directory not found: ${srcDir}`);
+    console.log('Please ensure the DevExtreme repo is in the correct location.');
     process.exit(1);
 }
 
-console.log('🔍 Bileşenler taranıyor...');
+console.log('🔍 Scanning for components...');
 
-// Dizindeki .ts dosyalarını oku (index.ts ve klasörler hariç)
+// Read .ts files in directory (excluding index.ts and folders)
 const components = fs.readdirSync(srcDir)
     .filter(file => {
         const filePath = path.join(srcDir, file);
@@ -22,7 +22,7 @@ const components = fs.readdirSync(srcDir)
                fs.statSync(filePath).isFile();
     })
     .map(file => {
-        // kebab-case to PascalCase (örn: data-grid.ts -> DataGrid)
+        // kebab-case to PascalCase (e.g., data-grid.ts -> DataGrid)
         const baseName = path.basename(file, '.ts');
         return baseName
             .split('-')
@@ -30,7 +30,7 @@ const components = fs.readdirSync(srcDir)
             .join('');
     });
 
-console.log(`🚀 Toplam ${components.length} bileşen bulundu. İşlem başlatılıyor...\n`);
+console.log(`🚀 Found ${components.length} components. Starting process...\n`);
 
 const startTime = Date.now();
 let successCount = 0;
@@ -39,11 +39,11 @@ let failCount = 0;
 for (const component of components) {
     try {
         console.log(`\n[${successCount + failCount + 1}/${components.length}] --- ${component} ---`);
-        // Mevcut generate-doc.js betiğini çalıştır
+        // Execute the existing generate-doc.js script
         execSync(`node generate-doc.js ${component}`, { stdio: 'inherit' });
         successCount++;
     } catch (error) {
-        console.error(`❌ ${component} için docs üretilemedi.`);
+        console.error(`❌ Failed to generate docs for ${component}.`);
         failCount++;
     }
 }
@@ -51,9 +51,8 @@ for (const component of components) {
 const duration = ((Date.now() - startTime) / 1000).toFixed(2);
 
 console.log('\n================================================');
-console.log(`✅ İşlem Tamamlandı!`);
-console.log(`⏱️ Süre: ${duration} saniye`);
-console.log(`👍 Başarılı: ${successCount}`);
-console.log(`👎 Başarısız: ${failCount}`);
+console.log(`✅ Process Completed!`);
+console.log(`⏱️ Duration: ${duration} seconds`);
+console.log(`👍 Successful: ${successCount}`);
+console.log(`👎 Failed: ${failCount}`);
 console.log('================================================');
-

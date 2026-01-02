@@ -1,12 +1,12 @@
 # PieChart Documentation Map
     
-Bu dizin PieChart bileşeni için AI-optimize dökümantasyon içerir.
+This directory contains AI-optimized documentation for the PieChart component.
 
-## Ana Dosyalar
-- [Full API (Tek Dosya)](./llms-full.txt): AI modelleri için önerilen tüm API içeriği.
-- [README](./README.md): Bileşene genel bakış.
+## Core Files
+- [Full API (Single File)](./llms-full.txt): Recommended full API content for AI models.
+- [README](./README.md): Component overview.
 
-## Dizin Yapısı
-- `interfaces/`: Props ve konfigürasyon arayüzleri.
-- `type-aliases/`: Tip tanımlamaları.
-- `variables/`: Sabitler ve olay işleyiciler.
+## Directory Structure
+- `interfaces/`: Props and configuration interfaces.
+- `type-aliases/`: Type definitions.
+- `variables/`: Constants and event handlers.
