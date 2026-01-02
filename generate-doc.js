@@ -146,7 +146,7 @@ AI-ready documentation for DevExtreme React components.
         );
 
         components.sort().forEach(comp => {
-            content += `- **${comp}**: [Summary](./react/${comp}/llms.txt) | [Full API](./react/${comp}/llms.txt)\n`;
+            content += `- **${comp}**: [Summary](./react/${comp}/llms.txt) | [Full API](./react/${comp}/llms-full.txt)\n`;
         });
     }
 
