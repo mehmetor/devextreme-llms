@@ -1,0 +1,11 @@
+[**DevExtreme React DataGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DataGrid API](../globals.md) / IValueFormatProps
+
+# Type Alias: IValueFormatProps
+
+> **IValueFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/data-grid.ts:3324](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/data-grid.ts#L3324)

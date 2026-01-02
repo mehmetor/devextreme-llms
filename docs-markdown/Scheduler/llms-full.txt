@@ -1,0 +1,2666 @@
+# Scheduler Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Scheduler API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/README.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../globals.md) / SchedulerTypes
+
+# SchedulerTypes
+
+## Interfaces
+
+- [dxSchedulerScrolling](interfaces/dxSchedulerScrolling.md)
+
+## Type Aliases
+
+- [AllDayPanelMode](type-aliases/AllDayPanelMode.md)
+- [Appointment](type-aliases/Appointment.md)
+- [AppointmentAddedEvent](type-aliases/AppointmentAddedEvent.md)
+- [AppointmentAddingEvent](type-aliases/AppointmentAddingEvent.md)
+- [AppointmentClickEvent](type-aliases/AppointmentClickEvent.md)
+- [AppointmentCollectorTemplateData](type-aliases/AppointmentCollectorTemplateData.md)
+- [AppointmentContextMenuEvent](type-aliases/AppointmentContextMenuEvent.md)
+- [AppointmentDblClickEvent](type-aliases/AppointmentDblClickEvent.md)
+- [AppointmentDeletedEvent](type-aliases/AppointmentDeletedEvent.md)
+- [AppointmentDeletingEvent](type-aliases/AppointmentDeletingEvent.md)
+- [AppointmentDraggingAddEvent](type-aliases/AppointmentDraggingAddEvent.md)
+- [AppointmentDraggingEndEvent](type-aliases/AppointmentDraggingEndEvent.md)
+- [AppointmentDraggingMoveEvent](type-aliases/AppointmentDraggingMoveEvent.md)
+- [AppointmentDraggingRemoveEvent](type-aliases/AppointmentDraggingRemoveEvent.md)
+- [AppointmentDraggingStartEvent](type-aliases/AppointmentDraggingStartEvent.md)
+- [AppointmentFormIconsShowMode](type-aliases/AppointmentFormIconsShowMode.md)
+- [AppointmentFormOpeningEvent](type-aliases/AppointmentFormOpeningEvent.md)
+- [AppointmentFormProperties](type-aliases/AppointmentFormProperties.md)
+- [AppointmentRenderedEvent](type-aliases/AppointmentRenderedEvent.md)
+- [AppointmentTemplateData](type-aliases/AppointmentTemplateData.md)
+- [AppointmentTooltipShowingAppointmentInfo](type-aliases/AppointmentTooltipShowingAppointmentInfo.md)
+- [AppointmentTooltipShowingEvent](type-aliases/AppointmentTooltipShowingEvent.md)
+- [AppointmentTooltipTemplateData](type-aliases/AppointmentTooltipTemplateData.md)
+- [AppointmentUpdatedEvent](type-aliases/AppointmentUpdatedEvent.md)
+- [AppointmentUpdatingEvent](type-aliases/AppointmentUpdatingEvent.md)
+- [CellAppointmentsLimit](type-aliases/CellAppointmentsLimit.md)
+- [CellClickEvent](type-aliases/CellClickEvent.md)
+- [CellContextMenuEvent](type-aliases/CellContextMenuEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DateNavigatorItemProperties](type-aliases/DateNavigatorItemProperties.md)
+- [DateNavigatorTextInfo](type-aliases/DateNavigatorTextInfo.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [FirstDayOfWeek](type-aliases/FirstDayOfWeek.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Orientation](type-aliases/Orientation.md)
+- [Properties](type-aliases/Properties.md)
+- [RecurrenceEditMode](type-aliases/RecurrenceEditMode.md)
+- [SchedulerPredefinedDateNavigatorItem](type-aliases/SchedulerPredefinedDateNavigatorItem.md)
+- [SchedulerPredefinedToolbarItem](type-aliases/SchedulerPredefinedToolbarItem.md)
+- [ScrollMode](type-aliases/ScrollMode.md)
+- [Toolbar](type-aliases/Toolbar.md)
+- [ToolbarItem](type-aliases/ToolbarItem.md)
+- [ViewType](type-aliases/ViewType.md)
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/interfaces/dxSchedulerScrolling.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / dxSchedulerScrolling
+
+# Interface: dxSchedulerScrolling
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1441
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui
+
+## Properties
+
+### mode?
+
+> `optional` **mode**: [`ScrollMode`](../type-aliases/ScrollMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1447
+
+#### Docid
+
+#### Default
+
+```ts
+"standard"
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AllDayPanelMode.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AllDayPanelMode
+
+# Type Alias: AllDayPanelMode
+
+> **AllDayPanelMode** = `"all"` \| `"allDay"` \| `"hidden"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:83
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Appointment.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / Appointment
+
+# Type Alias: Appointment
+
+> **Appointment** = `dxSchedulerAppointment`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1354
+
+**`Namespace`**
+
+## Docid
+
+dxSchedulerAppointment
+ DevExpress.ui
+
+## Inherits
+
+CollectionWidgetItem
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentAddedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentAddedEvent
+
+# Type Alias: AppointmentAddedEvent
+
+> **AppointmentAddedEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:117
+
+## Type Declaration
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentAddedEvent.appointmentData
+
+### error?
+
+> `readonly` `optional` **error**: `Error`
+
+#### Docid
+
+_ui_scheduler_AppointmentAddedEvent.error
+
+## Docid
+
+_ui_scheduler_AppointmentAddedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentAddingEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentAddingEvent
+
+# Type Alias: AppointmentAddingEvent
+
+> **AppointmentAddingEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:133
+
+## Type Declaration
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentAddingEvent.appointmentData
+
+### cancel
+
+> **cancel**: `boolean` \| `PromiseLike`\<`boolean`\>
+
+#### Docid
+
+_ui_scheduler_AppointmentAddingEvent.cancel
+
+## Docid
+
+_ui_scheduler_AppointmentAddingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentClickEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentClickEvent
+
+# Type Alias: AppointmentClickEvent
+
+> **AppointmentClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxScheduler`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `TargetedAppointmentInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:152
+
+## Type Declaration
+
+### appointmentElement
+
+> `readonly` **appointmentElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_AppointmentClickEvent.appointmentElement
+
+## Docid
+
+_ui_scheduler_AppointmentClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo,TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentCollectorTemplateData.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentCollectorTemplateData
+
+# Type Alias: AppointmentCollectorTemplateData
+
+> **AppointmentCollectorTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:429
+
+## Docid
+
+## Properties
+
+### appointmentCount
+
+> `readonly` **appointmentCount**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:433
+
+#### Docid
+
+***
+
+### isCompact
+
+> `readonly` **isCompact**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:442
+
+#### Docid
+
+***
+
+### items
+
+> `readonly` **items**: [`Appointment`](Appointment.md)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:438
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentContextMenuEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentContextMenuEvent
+
+# Type Alias: AppointmentContextMenuEvent
+
+> **AppointmentContextMenuEvent** = `NativeEventInfo`\<`dxScheduler`, `PointerInteractionEvent`\> & `TargetedAppointmentInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:163
+
+## Type Declaration
+
+### appointmentElement
+
+> `readonly` **appointmentElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_AppointmentContextMenuEvent.appointmentElement
+
+## Docid
+
+_ui_scheduler_AppointmentContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDblClickEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDblClickEvent
+
+# Type Alias: AppointmentDblClickEvent
+
+> **AppointmentDblClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxScheduler`, `MouseEvent` \| `PointerEvent`\> & `TargetedAppointmentInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:174
+
+## Type Declaration
+
+### appointmentElement
+
+> `readonly` **appointmentElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_AppointmentDblClickEvent.appointmentElement
+
+## Docid
+
+_ui_scheduler_AppointmentDblClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo,TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDeletedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDeletedEvent
+
+# Type Alias: AppointmentDeletedEvent
+
+> **AppointmentDeletedEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:185
+
+## Type Declaration
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentDeletedEvent.appointmentData
+
+### error?
+
+> `readonly` `optional` **error**: `Error`
+
+#### Docid
+
+_ui_scheduler_AppointmentDeletedEvent.error
+
+## Docid
+
+_ui_scheduler_AppointmentDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDeletingEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDeletingEvent
+
+# Type Alias: AppointmentDeletingEvent
+
+> **AppointmentDeletingEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:201
+
+## Type Declaration
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentDeletingEvent.appointmentData
+
+### cancel
+
+> **cancel**: `boolean` \| `PromiseLike`\<`boolean`\>
+
+#### Docid
+
+_ui_scheduler_AppointmentDeletingEvent.cancel
+
+## Docid
+
+_ui_scheduler_AppointmentDeletingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDraggingAddEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDraggingAddEvent
+
+# Type Alias: AppointmentDraggingAddEvent
+
+> **AppointmentDraggingAddEvent** = `AppointmentDraggingEvent` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:374
+
+## Type Declaration
+
+### fromComponent?
+
+> `readonly` `optional` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+### toComponent?
+
+> `readonly` `optional` **toComponent**: `dxSortable` \| `dxDraggable`
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDraggingEndEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDraggingEndEvent
+
+# Type Alias: AppointmentDraggingEndEvent
+
+> **AppointmentDraggingEndEvent** = `Cancelable` & `AppointmentDraggingEvent` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:381
+
+## Type Declaration
+
+### fromComponent?
+
+> `readonly` `optional` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+### toComponent?
+
+> `readonly` `optional` **toComponent**: `dxSortable` \| `dxDraggable`
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+### toItemData?
+
+> `readonly` `optional` **toItemData**: `any`
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDraggingMoveEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDraggingMoveEvent
+
+# Type Alias: AppointmentDraggingMoveEvent
+
+> **AppointmentDraggingMoveEvent** = `Cancelable` & `AppointmentDraggingEvent` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:389
+
+## Type Declaration
+
+### fromComponent?
+
+> `readonly` `optional` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+### toComponent?
+
+> `readonly` `optional` **toComponent**: `dxSortable` \| `dxDraggable`
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDraggingRemoveEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDraggingRemoveEvent
+
+# Type Alias: AppointmentDraggingRemoveEvent
+
+> **AppointmentDraggingRemoveEvent** = `AppointmentDraggingEvent` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:401
+
+## Type Declaration
+
+### fromComponent?
+
+> `readonly` `optional` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+### toComponent?
+
+> `readonly` `optional` **toComponent**: `dxSortable` \| `dxDraggable`
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentDraggingStartEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentDraggingStartEvent
+
+# Type Alias: AppointmentDraggingStartEvent
+
+> **AppointmentDraggingStartEvent** = `Cancelable` & `Omit`\<`AppointmentDraggingEvent`, `"itemData"`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:396
+
+## Type Declaration
+
+### itemData?
+
+> `optional` **itemData**: `any`
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentFormIconsShowMode.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentFormIconsShowMode
+
+# Type Alias: AppointmentFormIconsShowMode
+
+> **AppointmentFormIconsShowMode** = `"both"` \| `"main"` \| `"recurrence"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:89
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentFormOpeningEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentFormOpeningEvent
+
+# Type Alias: AppointmentFormOpeningEvent
+
+> **AppointmentFormOpeningEvent** = `Cancelable` & `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:220
+
+## Type Declaration
+
+### appointmentData?
+
+> `readonly` `optional` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentFormOpeningEvent.appointmentData
+
+### form
+
+> `readonly` **form**: `dxForm`
+
+#### Docid
+
+_ui_scheduler_AppointmentFormOpeningEvent.form
+
+### popup
+
+> `readonly` **popup**: `dxPopup`
+
+#### Docid
+
+_ui_scheduler_AppointmentFormOpeningEvent.popup
+
+## Docid
+
+_ui_scheduler_AppointmentFormOpeningEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentFormProperties.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentFormProperties
+
+# Type Alias: AppointmentFormProperties
+
+> **AppointmentFormProperties** = `FormProperties` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:96
+
+## Type Declaration
+
+### iconsShowMode?
+
+> `optional` **iconsShowMode**: [`AppointmentFormIconsShowMode`](AppointmentFormIconsShowMode.md)
+
+#### Docid
+
+#### Default
+
+```ts
+"main"
+@public
+```
+
+## Docid
+
+## Inherits
+
+dxFormOptions
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentRenderedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentRenderedEvent
+
+# Type Alias: AppointmentRenderedEvent
+
+> **AppointmentRenderedEvent** = `EventInfo`\<`dxScheduler`\> & `TargetedAppointmentInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:264
+
+## Type Declaration
+
+### appointmentElement
+
+> `readonly` **appointmentElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_AppointmentRenderedEvent.appointmentElement
+
+## Docid
+
+_ui_scheduler_AppointmentRenderedEvent
+
+## Inherits
+
+EventInfo,TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentTemplateData.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentTemplateData
+
+# Type Alias: AppointmentTemplateData
+
+> **AppointmentTemplateData** = `TargetedAppointmentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:411
+
+## Docid
+
+## Inherits
+
+TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentTooltipShowingAppointmentInfo.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentTooltipShowingAppointmentInfo
+
+# Type Alias: AppointmentTooltipShowingAppointmentInfo
+
+> **AppointmentTooltipShowingAppointmentInfo** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:236
+
+## Docid
+
+## Properties
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:237
+
+***
+
+### color
+
+> `readonly` **color**: `PromiseLike`\<`string`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:239
+
+***
+
+### currentAppointmentData
+
+> `readonly` **currentAppointmentData**: [`Appointment`](Appointment.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:238
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentTooltipShowingEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentTooltipShowingEvent
+
+# Type Alias: AppointmentTooltipShowingEvent
+
+> **AppointmentTooltipShowingEvent** = `Cancelable` & `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:248
+
+## Type Declaration
+
+### appointments
+
+> `readonly` **appointments**: [`AppointmentTooltipShowingAppointmentInfo`](AppointmentTooltipShowingAppointmentInfo.md)[]
+
+#### Docid
+
+_ui_scheduler_AppointmentTooltipShowingEvent.appointments
+
+### targetElement
+
+> `readonly` **targetElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_AppointmentTooltipShowingEvent.targetElement
+
+## Docid
+
+_ui_scheduler_AppointmentTooltipShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentTooltipTemplateData.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentTooltipTemplateData
+
+# Type Alias: AppointmentTooltipTemplateData
+
+> **AppointmentTooltipTemplateData** = `TargetedAppointmentInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:418
+
+## Type Declaration
+
+### isButtonClicked
+
+> `readonly` **isButtonClicked**: `boolean`
+
+#### Docid
+
+## Docid
+
+## Inherits
+
+TargetedAppointmentInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentUpdatedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentUpdatedEvent
+
+# Type Alias: AppointmentUpdatedEvent
+
+> **AppointmentUpdatedEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:275
+
+## Type Declaration
+
+### appointmentData
+
+> `readonly` **appointmentData**: [`Appointment`](Appointment.md)
+
+#### Docid
+
+_ui_scheduler_AppointmentUpdatedEvent.appointmentData
+
+### error?
+
+> `readonly` `optional` **error**: `Error`
+
+#### Docid
+
+_ui_scheduler_AppointmentUpdatedEvent.error
+
+## Docid
+
+_ui_scheduler_AppointmentUpdatedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentUpdatingEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / AppointmentUpdatingEvent
+
+# Type Alias: AppointmentUpdatingEvent
+
+> **AppointmentUpdatingEvent** = `EventInfo`\<`dxScheduler`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:291
+
+## Type Declaration
+
+### cancel?
+
+> `optional` **cancel**: `boolean` \| `PromiseLike`\<`boolean`\>
+
+#### Docid
+
+_ui_scheduler_AppointmentUpdatingEvent.cancel
+
+### newData
+
+> `readonly` **newData**: `any`
+
+#### Docid
+
+_ui_scheduler_AppointmentUpdatingEvent.newData
+
+### oldData
+
+> `readonly` **oldData**: `any`
+
+#### Docid
+
+_ui_scheduler_AppointmentUpdatingEvent.oldData
+
+## Docid
+
+_ui_scheduler_AppointmentUpdatingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/CellAppointmentsLimit.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / CellAppointmentsLimit
+
+# Type Alias: CellAppointmentsLimit
+
+> **CellAppointmentsLimit** = `"auto"` \| `"unlimited"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:85
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/CellClickEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / CellClickEvent
+
+# Type Alias: CellClickEvent
+
+> **CellClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxScheduler`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:315
+
+## Type Declaration
+
+### cellData
+
+> `readonly` **cellData**: `any`
+
+#### Docid
+
+_ui_scheduler_CellClickEvent.cellData
+
+### cellElement
+
+> `readonly` **cellElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_CellClickEvent.cellElement
+
+## Docid
+
+_ui_scheduler_CellClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/CellContextMenuEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / CellContextMenuEvent
+
+# Type Alias: CellContextMenuEvent
+
+> **CellContextMenuEvent** = `NativeEventInfo`\<`dxScheduler`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:331
+
+## Type Declaration
+
+### cellData
+
+> `readonly` **cellData**: `any`
+
+#### Docid
+
+_ui_scheduler_CellContextMenuEvent.cellData
+
+### cellElement
+
+> `readonly` **cellElement**: `DxElement`
+
+#### Docid
+
+_ui_scheduler_CellContextMenuEvent.cellElement
+
+## Docid
+
+_ui_scheduler_CellContextMenuEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxScheduler`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:347
+
+## Docid
+
+_ui_scheduler_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/DateNavigatorItemProperties.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / DateNavigatorItemProperties
+
+# Type Alias: DateNavigatorItemProperties
+
+> **DateNavigatorItemProperties** = `dxButtonGroupOptions` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1176
+
+**`Namespace`**
+
+## Type Declaration
+
+### items
+
+> **items**: (`dxButtonGroupItem` \| [`SchedulerPredefinedDateNavigatorItem`](SchedulerPredefinedDateNavigatorItem.md))[]
+
+#### Docid
+
+## Docid
+
+## Inherits
+
+dxButtonGroupOptions
+ DevExpress.ui.dxScheduler
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/DateNavigatorTextInfo.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / DateNavigatorTextInfo
+
+# Type Alias: DateNavigatorTextInfo
+
+> **DateNavigatorTextInfo** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:446
+
+## Properties
+
+### endDate
+
+> `readonly` **endDate**: `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:448
+
+***
+
+### startDate
+
+> `readonly` **startDate**: `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:447
+
+***
+
+### text
+
+> `readonly` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:449
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxScheduler`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:355
+
+## Docid
+
+_ui_scheduler_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/FirstDayOfWeek.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / FirstDayOfWeek
+
+# Type Alias: FirstDayOfWeek
+
+> **FirstDayOfWeek** = `0` \| `1` \| `2` \| `3` \| `4` \| `5` \| `6`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:273
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxScheduler`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:363
+
+## Docid
+
+_ui_scheduler_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxScheduler`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:371
+
+## Docid
+
+_ui_scheduler_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Orientation.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / Orientation
+
+# Type Alias: Orientation
+
+> **Orientation** = `"horizontal"` \| `"vertical"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:485
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSchedulerOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1431
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/RecurrenceEditMode.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / RecurrenceEditMode
+
+# Type Alias: RecurrenceEditMode
+
+> **RecurrenceEditMode** = `"dialog"` \| `"occurrence"` \| `"series"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:87
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedDateNavigatorItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / SchedulerPredefinedDateNavigatorItem
+
+# Type Alias: SchedulerPredefinedDateNavigatorItem
+
+> **SchedulerPredefinedDateNavigatorItem** = `"prev"` \| `"next"` \| `"dateInterval"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:109
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedToolbarItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / SchedulerPredefinedToolbarItem
+
+# Type Alias: SchedulerPredefinedToolbarItem
+
+> **SchedulerPredefinedToolbarItem** = `"today"` \| `"dateNavigator"` \| `"viewSwitcher"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:107
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ScrollMode.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / ScrollMode
+
+# Type Alias: ScrollMode
+
+> **ScrollMode** = `"standard"` \| `"virtual"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:635
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Toolbar.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / Toolbar
+
+# Type Alias: Toolbar
+
+> **Toolbar** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1226
+
+**`Namespace`**
+
+## Docid
+
+dxSchedulerToolbar
+ DevExpress.ui.dxScheduler
+
+## Properties
+
+### disabled?
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1250
+
+#### Docid
+
+dxSchedulerToolbar.disabled
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### items?
+
+> `optional` **items**: ([`SchedulerPredefinedToolbarItem`](SchedulerPredefinedToolbarItem.md) \| [`ToolbarItem`](ToolbarItem.md))[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1232
+
+#### Docid
+
+dxSchedulerToolbar.items
+
+***
+
+### multiline?
+
+> `optional` **multiline**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1244
+
+#### Docid
+
+dxSchedulerToolbar.multiline
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1238
+
+#### Docid
+
+dxSchedulerToolbar.visible
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ToolbarItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / ToolbarItem
+
+# Type Alias: ToolbarItem
+
+> **ToolbarItem** = `dxToolbarItem` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:1197
+
+**`Namespace`**
+
+## Type Declaration
+
+### location?
+
+> `optional` **location**: `ToolbarItemLocation`
+
+#### Docid
+
+dxSchedulerToolbarItem.location
+
+### name?
+
+> `optional` **name**: [`SchedulerPredefinedToolbarItem`](SchedulerPredefinedToolbarItem.md)
+
+#### Docid
+
+dxSchedulerToolbarItem.name
+
+### options?
+
+> `optional` **options**: [`DateNavigatorItemProperties`](DateNavigatorItemProperties.md) \| `Object`
+
+#### Docid
+
+dxSchedulerToolbarItem.options
+
+## Docid
+
+dxSchedulerToolbarItem
+
+## Inherits
+
+dxToolbarItem
+ DevExpress.ui.dxScheduler
+
+
+--- SOURCE: DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ViewType.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../../../../globals.md) / [SchedulerTypes](../README.md) / ViewType
+
+# Type Alias: ViewType
+
+> **ViewType** = `"agenda"` \| `"day"` \| `"month"` \| `"timelineDay"` \| `"timelineMonth"` \| `"timelineWeek"` \| `"timelineWorkWeek"` \| `"week"` \| `"workWeek"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scheduler.d.ts:105
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Scheduler API v26.1.0
+
+## Namespaces
+
+- [SchedulerTypes](DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/README.md)
+
+## Interfaces
+
+- [SchedulerRef](interfaces/SchedulerRef.md)
+
+## Type Aliases
+
+- [IAIOptionsProps](type-aliases/IAIOptionsProps.md)
+- [IAppointmentDraggingProps](type-aliases/IAppointmentDraggingProps.md)
+- [IAsyncRuleProps](type-aliases/IAsyncRuleProps.md)
+- [IButtonItemProps](type-aliases/IButtonItemProps.md)
+- [IButtonOptionsProps](type-aliases/IButtonOptionsProps.md)
+- [IColCountByScreenProps](type-aliases/IColCountByScreenProps.md)
+- [ICompareRuleProps](type-aliases/ICompareRuleProps.md)
+- [ICustomRuleProps](type-aliases/ICustomRuleProps.md)
+- [IEditingProps](type-aliases/IEditingProps.md)
+- [IEmailRuleProps](type-aliases/IEmailRuleProps.md)
+- [IEmptyItemProps](type-aliases/IEmptyItemProps.md)
+- [IFormProps](type-aliases/IFormProps.md)
+- [IGroupItemProps](type-aliases/IGroupItemProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [INumericRuleProps](type-aliases/INumericRuleProps.md)
+- [IOptionsItemProps](type-aliases/IOptionsItemProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPatternRuleProps](type-aliases/IPatternRuleProps.md)
+- [IRangeRuleProps](type-aliases/IRangeRuleProps.md)
+- [IRequiredRuleProps](type-aliases/IRequiredRuleProps.md)
+- [IResourceProps](type-aliases/IResourceProps.md)
+- [ISchedulerOptions](type-aliases/ISchedulerOptions.md)
+- [IScrollingProps](type-aliases/IScrollingProps.md)
+- [ISimpleItemProps](type-aliases/ISimpleItemProps.md)
+- [IStringLengthRuleProps](type-aliases/IStringLengthRuleProps.md)
+- [ITabbedItemProps](type-aliases/ITabbedItemProps.md)
+- [ITabPanelOptionsItemProps](type-aliases/ITabPanelOptionsItemProps.md)
+- [ITabPanelOptionsProps](type-aliases/ITabPanelOptionsProps.md)
+- [ITabProps](type-aliases/ITabProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToolbarProps](type-aliases/IToolbarProps.md)
+- [IValidationRuleProps](type-aliases/IValidationRuleProps.md)
+- [IViewProps](type-aliases/IViewProps.md)
+
+## Variables
+
+- [AIOptions](variables/AIOptions.md)
+- [AppointmentDragging](variables/AppointmentDragging.md)
+- [AsyncRule](variables/AsyncRule.md)
+- [ButtonItem](variables/ButtonItem.md)
+- [ButtonOptions](variables/ButtonOptions.md)
+- [ColCountByScreen](variables/ColCountByScreen.md)
+- [CompareRule](variables/CompareRule.md)
+- [CustomRule](variables/CustomRule.md)
+- [Editing](variables/Editing.md)
+- [EmailRule](variables/EmailRule.md)
+- [EmptyItem](variables/EmptyItem.md)
+- [Form](variables/Form.md)
+- [GroupItem](variables/GroupItem.md)
+- [Item](variables/Item.md)
+- [Label](variables/Label.md)
+- [NumericRule](variables/NumericRule.md)
+- [Options](variables/Options.md)
+- [OptionsItem](variables/OptionsItem.md)
+- [PatternRule](variables/PatternRule.md)
+- [RangeRule](variables/RangeRule.md)
+- [RequiredRule](variables/RequiredRule.md)
+- [Resource](variables/Resource.md)
+- [Scheduler](variables/Scheduler.md)
+- [Scrolling](variables/Scrolling.md)
+- [SimpleItem](variables/SimpleItem.md)
+- [StringLengthRule](variables/StringLengthRule.md)
+- [Tab](variables/Tab.md)
+- [TabbedItem](variables/TabbedItem.md)
+- [TabPanelOptions](variables/TabPanelOptions.md)
+- [TabPanelOptionsItem](variables/TabPanelOptionsItem.md)
+- [Toolbar](variables/Toolbar.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+- [ValidationRule](variables/ValidationRule.md)
+- [View](variables/View.md)
+
+## References
+
+### default
+
+Renames and re-exports [Scheduler](variables/Scheduler.md)
+
+
+--- SOURCE: interfaces/SchedulerRef.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / SchedulerRef
+
+# Interface: SchedulerRef
+
+Defined in: [devextreme-react/src/scheduler.ts:76](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L76)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxScheduler`
+
+Defined in: [devextreme-react/src/scheduler.ts:77](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L77)
+
+#### Returns
+
+`dxScheduler`
+
+
+--- SOURCE: type-aliases/IAIOptionsProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IAIOptionsProps
+
+# Type Alias: IAIOptionsProps
+
+> **IAIOptionsProps** = `React.PropsWithChildren`\<\{ `disabled?`: `boolean`; `instruction?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:167](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L167)
+
+
+--- SOURCE: type-aliases/IAppointmentDraggingProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IAppointmentDraggingProps
+
+# Type Alias: IAppointmentDraggingProps
+
+> **IAppointmentDraggingProps** = `React.PropsWithChildren`\<\{ `autoScroll?`: `boolean`; `data?`: `any`; `group?`: `string`; `onAdd?`: (`e`) => `void`; `onDragEnd?`: (`e`) => `void`; `onDragMove?`: (`e`) => `void`; `onDragStart?`: (`e`) => `void`; `onRemove?`: (`e`) => `void`; `scrollSensitivity?`: `number`; `scrollSpeed?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:186](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L186)
+
+
+--- SOURCE: type-aliases/IAsyncRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IAsyncRuleProps
+
+# Type Alias: IAsyncRuleProps
+
+> **IAsyncRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:213](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L213)
+
+
+--- SOURCE: type-aliases/IButtonItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IButtonItemProps
+
+# Type Alias: IButtonItemProps
+
+> **IButtonItemProps** = `React.PropsWithChildren`\<\{ `buttonOptions?`: `dxButtonOptions`; `colSpan?`: `number`; `cssClass?`: `string`; `horizontalAlignment?`: `HorizontalAlignment`; `itemType?`: `FormItemType`; `name?`: `FormPredefinedButtonItem` \| `string`; `verticalAlignment?`: `VerticalAlignment`; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:239](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L239)
+
+
+--- SOURCE: type-aliases/IButtonOptionsProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IButtonOptionsProps
+
+# Type Alias: IButtonOptionsProps
+
+> **IButtonOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:272](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L272)
+
+
+--- SOURCE: type-aliases/IColCountByScreenProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IColCountByScreenProps
+
+# Type Alias: IColCountByScreenProps
+
+> **IColCountByScreenProps** = `React.PropsWithChildren`\<\{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:322](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L322)
+
+
+--- SOURCE: type-aliases/ICompareRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ICompareRuleProps
+
+# Type Alias: ICompareRuleProps
+
+> **ICompareRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:343](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L343)
+
+
+--- SOURCE: type-aliases/ICustomRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ICustomRuleProps
+
+# Type Alias: ICustomRuleProps
+
+> **ICustomRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:369](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L369)
+
+
+--- SOURCE: type-aliases/IEditingProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IEditingProps
+
+# Type Alias: IEditingProps
+
+> **IEditingProps** = `React.PropsWithChildren`\<\{ `allowAdding?`: `boolean`; `allowDeleting?`: `boolean`; `allowDragging?`: `boolean`; `allowResizing?`: `boolean`; `allowTimeZoneEditing?`: `boolean`; `allowUpdating?`: `boolean`; `form?`: [`AppointmentFormProperties`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentFormProperties.md); `popup?`: `Record`\<`string`, `any`\>; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:395](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L395)
+
+
+--- SOURCE: type-aliases/IEmailRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IEmailRuleProps
+
+# Type Alias: IEmailRuleProps
+
+> **IEmailRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:423](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L423)
+
+
+--- SOURCE: type-aliases/IEmptyItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IEmptyItemProps
+
+# Type Alias: IEmptyItemProps
+
+> **IEmptyItemProps** = `React.PropsWithChildren`\<\{ `colSpan?`: `number`; `cssClass?`: `string`; `itemType?`: `FormItemType`; `name?`: `string`; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:447](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L447)
+
+
+--- SOURCE: type-aliases/IFormProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IFormProps
+
+# Type Alias: IFormProps
+
+> **IFormProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `aiIntegration?`: `AIIntegration`; `alignItemLabels?`: `boolean`; `alignItemLabelsInAllGroups?`: `boolean`; `colCount?`: `Mode` \| `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `customizeItem?`: (`item`) => `void`; `defaultFormData?`: `any`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `formData?`: `any`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `iconsShowMode?`: [`AppointmentFormIconsShowMode`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AppointmentFormIconsShowMode.md); `isDirty?`: `boolean`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `labelLocation?`: `LabelLocation`; `labelMode?`: `FormLabelMode`; `minColWidth?`: `number`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onEditorEnterKey?`: (`e`) => `void`; `onFieldDataChanged?`: (`e`) => `void`; `onFormDataChange?`: (`value`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onSmartPasted?`: (`e`) => `void`; `onSmartPasting?`: (`e`) => `void`; `optionalMark?`: `string`; `readOnly?`: `boolean`; `requiredMark?`: `string`; `requiredMessage?`: `string`; `rtlEnabled?`: `boolean`; `screenByWidth?`: () => `void`; `scrollingEnabled?`: `boolean`; `showColonAfterLabel?`: `boolean`; `showOptionalMark?`: `boolean`; `showRequiredMark?`: `boolean`; `showValidationSummary?`: `boolean`; `tabIndex?`: `number`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:474](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L474)
+
+
+--- SOURCE: type-aliases/IGroupItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IGroupItemProps
+
+# Type Alias: IGroupItemProps
+
+> **IGroupItemProps** = `React.PropsWithChildren`\<\{ `alignItemLabels?`: `boolean`; `caption?`: `string`; `captionComponent?`: `React.ComponentType`\<`any`\>; `captionRender?`: (...`params`) => `React.ReactNode`; `captionTemplate?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `itemType?`: `FormItemType`; `name?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:554](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L554)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `aiOptions?`: `Record`\<`string`, `any`\> \| \{ `disabled?`: `boolean`; `instruction?`: `string`; \}; `alignItemLabels?`: `boolean`; `badge?`: `string`; `buttonOptions?`: `dxButtonOptions`; `caption?`: `string`; `captionComponent?`: `React.ComponentType`\<`any`\>; `captionRender?`: (...`params`) => `React.ReactNode`; `captionTemplate?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `dataField?`: `string`; `disabled?`: `boolean`; `editorOptions?`: `any`; `editorType?`: `FormItemComponent`; `elementAttr?`: `Record`\<`string`, `any`\>; `helpText?`: `string`; `hint?`: `string`; `horizontalAlignment?`: `HorizontalAlignment`; `html?`: `string`; `icon?`: `string`; `isRequired?`: `boolean`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `itemType?`: `FormItemType`; `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: `HorizontalAlignment`; `location?`: `LabelLocation`; `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: `string` \| `FormPredefinedButtonItem` \| [`SchedulerPredefinedToolbarItem`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedToolbarItem.md); `options?`: [`DateNavigatorItemProperties`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/DateNavigatorItemProperties.md) \| `Record`\<`string`, `any`\>; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabPanelOptions?`: `dxTabPanelOptions`; `tabRender?`: (...`params`) => `React.ReactNode`; `tabs?`: `Record`\<`string`, `any`\>[] \| `object`[]; `tabTemplate?`: () => `string` \| `any` \| `template`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `title?`: `string`; `type?`: `ButtonType` \| `string`; `validationRules?`: `CommonTypes.ValidationRule`[]; `verticalAlignment?`: `VerticalAlignment`; `visible?`: `boolean`; `visibleIndex?`: `number`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:612](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L612)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `alignment?`: `HorizontalAlignment`; `component?`: `React.ComponentType`\<`any`\>; `location?`: `LabelLocation`; `render?`: (...`params`) => `React.ReactNode`; `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:747](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L747)
+
+
+--- SOURCE: type-aliases/INumericRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / INumericRuleProps
+
+# Type Alias: INumericRuleProps
+
+> **INumericRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:777](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L777)
+
+
+--- SOURCE: type-aliases/IOptionsItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IOptionsItemProps
+
+# Type Alias: IOptionsItemProps
+
+> **IOptionsItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `hint?`: `string`; `icon?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:862](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L862)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `buttonComponent?`: `React.ComponentType`\<`any`\>; `buttonRender?`: (...`params`) => `React.ReactNode`; `buttonTemplate?`: (`buttonData`, `buttonContent`) => `string` \| `any` \| `template`; `defaultSelectedItemKeys?`: `any`[]; `defaultSelectedItems?`: `any`[]; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `items?`: (`dxButtonGroupItem` \| [`SchedulerPredefinedDateNavigatorItem`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedDateNavigatorItem.md))[]; `keyExpr?`: () => `void` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onItemClick?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onSelectedItemKeysChange?`: (`value`) => `void`; `onSelectedItemsChange?`: (`value`) => `void`; `onSelectionChanged?`: (`e`) => `void`; `rtlEnabled?`: `boolean`; `selectedItemKeys?`: `any`[]; `selectedItems?`: `any`[]; `selectionMode?`: `SingleMultipleOrNone`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:801](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L801)
+
+
+--- SOURCE: type-aliases/IPatternRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IPatternRuleProps
+
+# Type Alias: IPatternRuleProps
+
+> **IPatternRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `pattern?`: `RegExp` \| `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:895](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L895)
+
+
+--- SOURCE: type-aliases/IRangeRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IRangeRuleProps
+
+# Type Alias: IRangeRuleProps
+
+> **IRangeRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:920](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L920)
+
+
+--- SOURCE: type-aliases/IRequiredRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IRequiredRuleProps
+
+# Type Alias: IRequiredRuleProps
+
+> **IRequiredRuleProps** = `React.PropsWithChildren`\<\{ `message?`: `string`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:947](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L947)
+
+
+--- SOURCE: type-aliases/IResourceProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IResourceProps
+
+# Type Alias: IResourceProps
+
+> **IResourceProps** = `React.PropsWithChildren`\<\{ `allowMultiple?`: `boolean`; `colorExpr?`: `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `displayExpr?`: (`resource`) => `string` \| `string`; `fieldExpr?`: `string`; `icon?`: `string`; `label?`: `string`; `useColorAsDefault?`: `boolean`; `valueExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:971](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L971)
+
+
+--- SOURCE: type-aliases/ISchedulerOptions.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ISchedulerOptions
+
+# Type Alias: ISchedulerOptions
+
+> **ISchedulerOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Properties.md), `ISchedulerOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/scheduler.ts:55](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L55)
+
+
+--- SOURCE: type-aliases/IScrollingProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IScrollingProps
+
+# Type Alias: IScrollingProps
+
+> **IScrollingProps** = `React.PropsWithChildren`\<\{ `mode?`: [`ScrollMode`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ScrollMode.md); \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:999](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L999)
+
+
+--- SOURCE: type-aliases/ISimpleItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ISimpleItemProps
+
+# Type Alias: ISimpleItemProps
+
+> **ISimpleItemProps** = `React.PropsWithChildren`\<\{ `aiOptions?`: `Record`\<`string`, `any`\> \| \{ `disabled?`: `boolean`; `instruction?`: `string`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `dataField?`: `string`; `editorOptions?`: `any`; `editorType?`: `FormItemComponent`; `helpText?`: `string`; `isRequired?`: `boolean`; `itemType?`: `FormItemType`; `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: `HorizontalAlignment`; `location?`: `LabelLocation`; `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}; `name?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `validationRules?`: `CommonTypes.ValidationRule`[]; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1017](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1017)
+
+
+--- SOURCE: type-aliases/IStringLengthRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IStringLengthRuleProps
+
+# Type Alias: IStringLengthRuleProps
+
+> **IStringLengthRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `number`; `message?`: `string`; `min?`: `number`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1084](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1084)
+
+
+--- SOURCE: type-aliases/ITabPanelOptionsItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ITabPanelOptionsItemProps
+
+# Type Alias: ITabPanelOptionsItemProps
+
+> **ITabPanelOptionsItemProps** = `React.PropsWithChildren`\<\{ `badge?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabRender?`: (...`params`) => `React.ReactNode`; `tabTemplate?`: () => `string` \| `any` \| `template`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `title?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1299](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1299)
+
+
+--- SOURCE: type-aliases/ITabPanelOptionsProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ITabPanelOptionsProps
+
+# Type Alias: ITabPanelOptionsProps
+
+> **ITabPanelOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `animationEnabled?`: `boolean`; `dataSource?`: (`any` \| `dxTabPanelItem` \| `string`)[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `defaultItems?`: (`any` \| `dxTabPanelItem` \| `string`)[]; `defaultSelectedIndex?`: `number`; `defaultSelectedItem?`: `any`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `iconPosition?`: `TabsIconPosition`; `itemComponent?`: `React.ComponentType`\<`any`\>; `itemHoldTimeout?`: `number`; `itemRender?`: (...`params`) => `React.ReactNode`; `items?`: (`any` \| `dxTabPanelItem` \| `string`)[]; `itemTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `itemTitleComponent?`: `React.ComponentType`\<`any`\>; `itemTitleRender?`: (...`params`) => `React.ReactNode`; `itemTitleTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `keyExpr?`: () => `void` \| `string`; `loop?`: `boolean`; `noDataText?`: `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onItemClick?`: (`e`) => `void`; `onItemContextMenu?`: (`e`) => `void`; `onItemHold?`: (`e`) => `void`; `onItemRendered?`: (`e`) => `void`; `onItemsChange?`: (`value`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onSelectedIndexChange?`: (`value`) => `void`; `onSelectedItemChange?`: (`value`) => `void`; `onSelectionChanged?`: (`e`) => `void`; `onSelectionChanging?`: (`e`) => `void`; `onTitleClick?`: (`e`) => `void`; `onTitleHold?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `repaintChangesOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `scrollByContent?`: `boolean`; `scrollingEnabled?`: `boolean`; `selectedIndex?`: `number`; `selectedItem?`: `any`; `showNavButtons?`: `boolean`; `stylingMode?`: `TabsStyle`; `swipeEnabled?`: `boolean`; `tabIndex?`: `number`; `tabsPosition?`: `Position`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1209)
+
+
+--- SOURCE: type-aliases/ITabProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ITabProps
+
+# Type Alias: ITabProps
+
+> **ITabProps** = `React.PropsWithChildren`\<\{ `alignItemLabels?`: `boolean`; `badge?`: `string`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `render?`: (...`params`) => `React.ReactNode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabRender?`: (...`params`) => `React.ReactNode`; `tabTemplate?`: (`tabData`, `tabIndex`, `tabElement`) => `any` \| `template`; `template?`: (`tabData`, `tabIndex`, `tabElement`) => `any` \| `template`; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1111](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1111)
+
+
+--- SOURCE: type-aliases/ITabbedItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ITabbedItemProps
+
+# Type Alias: ITabbedItemProps
+
+> **ITabbedItemProps** = `React.PropsWithChildren`\<\{ `colSpan?`: `number`; `cssClass?`: `string`; `itemType?`: `FormItemType`; `name?`: `string`; `tabPanelOptions?`: `dxTabPanelOptions`; `tabs?`: `Record`\<`string`, `any`\>[] \| `object`[]; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1160](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1160)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: [`SchedulerPredefinedToolbarItem`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedToolbarItem.md); `options?`: [`DateNavigatorItemProperties`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/DateNavigatorItemProperties.md) \| `Record`\<`string`, `any`\>; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1364](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1364)
+
+
+--- SOURCE: type-aliases/IToolbarProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IToolbarProps
+
+# Type Alias: IToolbarProps
+
+> **IToolbarProps** = `React.PropsWithChildren`\<\{ `disabled?`: `boolean`; `items?`: (`dxSchedulerToolbarItem` \| [`SchedulerPredefinedToolbarItem`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/SchedulerPredefinedToolbarItem.md))[]; `multiline?`: `boolean`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1339](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1339)
+
+
+--- SOURCE: type-aliases/IValidationRuleProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IValidationRuleProps
+
+# Type Alias: IValidationRuleProps
+
+> **IValidationRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `pattern?`: `RegExp` \| `string`; `reevaluate?`: `boolean`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1411](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1411)
+
+
+--- SOURCE: type-aliases/IViewProps.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / IViewProps
+
+# Type Alias: IViewProps
+
+> **IViewProps** = `React.PropsWithChildren`\<\{ `agendaDuration?`: `number`; `allDayPanelMode?`: [`AllDayPanelMode`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/AllDayPanelMode.md); `appointmentCollectorComponent?`: `React.ComponentType`\<`any`\>; `appointmentCollectorRender?`: (...`params`) => `React.ReactNode`; `appointmentCollectorTemplate?`: (`data`, `collectorElement`) => `string` \| `any` \| `template`; `appointmentComponent?`: `React.ComponentType`\<`any`\>; `appointmentRender?`: (...`params`) => `React.ReactNode`; `appointmentTemplate?`: (`model`, `itemIndex`, `contentElement`) => `string` \| `any` \| `template`; `appointmentTooltipComponent?`: `React.ComponentType`\<`any`\>; `appointmentTooltipRender?`: (...`params`) => `React.ReactNode`; `appointmentTooltipTemplate?`: (`model`, `itemIndex`, `contentElement`) => `string` \| `any` \| `template`; `cellDuration?`: `number`; `dataCellComponent?`: `React.ComponentType`\<`any`\>; `dataCellRender?`: (...`params`) => `React.ReactNode`; `dataCellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `dateCellComponent?`: `React.ComponentType`\<`any`\>; `dateCellRender?`: (...`params`) => `React.ReactNode`; `dateCellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `endDayHour?`: `number`; `firstDayOfWeek?`: [`FirstDayOfWeek`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/FirstDayOfWeek.md); `groupByDate?`: `boolean`; `groupOrientation?`: [`Orientation`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/Orientation.md); `groups?`: `string`[]; `intervalCount?`: `number`; `maxAppointmentsPerCell?`: [`CellAppointmentsLimit`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/CellAppointmentsLimit.md) \| `number`; `name?`: `string`; `offset?`: `number`; `resourceCellComponent?`: `React.ComponentType`\<`any`\>; `resourceCellRender?`: (...`params`) => `React.ReactNode`; `resourceCellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `scrolling?`: [`dxSchedulerScrolling`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/interfaces/dxSchedulerScrolling.md); `startDate?`: `Date` \| `number` \| `string`; `startDayHour?`: `number`; `timeCellComponent?`: `React.ComponentType`\<`any`\>; `timeCellRender?`: (...`params`) => `React.ReactNode`; `timeCellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `type?`: [`ViewType`](../DevExtreme-React-Scheduler-API/namespaces/SchedulerTypes/type-aliases/ViewType.md); \}\>
+
+Defined in: [devextreme-react/src/scheduler.ts:1443](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1443)
+
+
+--- SOURCE: variables/AIOptions.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / AIOptions
+
+# Variable: AIOptions
+
+> `const` **AIOptions**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:180](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L180)
+
+
+--- SOURCE: variables/AppointmentDragging.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / AppointmentDragging
+
+# Variable: AppointmentDragging
+
+> `const` **AppointmentDragging**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:207](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L207)
+
+
+--- SOURCE: variables/AsyncRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / AsyncRule
+
+# Variable: AsyncRule
+
+> `const` **AsyncRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L233)
+
+
+--- SOURCE: variables/ButtonItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ButtonItem
+
+# Variable: ButtonItem
+
+> `const` **ButtonItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:266](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L266)
+
+
+--- SOURCE: variables/ButtonOptions.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ButtonOptions
+
+# Variable: ButtonOptions
+
+> `const` **ButtonOptions**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:314](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L314)
+
+
+--- SOURCE: variables/ColCountByScreen.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ColCountByScreen
+
+# Variable: ColCountByScreen
+
+> `const` **ColCountByScreen**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:337](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L337)
+
+
+--- SOURCE: variables/CompareRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / CompareRule
+
+# Variable: CompareRule
+
+> `const` **CompareRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L363)
+
+
+--- SOURCE: variables/CustomRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / CustomRule
+
+# Variable: CustomRule
+
+> `const` **CustomRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:389](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L389)
+
+
+--- SOURCE: variables/Editing.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Editing
+
+# Variable: Editing
+
+> `const` **Editing**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:417](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L417)
+
+
+--- SOURCE: variables/EmailRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / EmailRule
+
+# Variable: EmailRule
+
+> `const` **EmailRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:441](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L441)
+
+
+--- SOURCE: variables/EmptyItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / EmptyItem
+
+# Variable: EmptyItem
+
+> `const` **EmptyItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:468](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L468)
+
+
+--- SOURCE: variables/Form.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Form
+
+# Variable: Form
+
+> `const` **Form**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:548](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L548)
+
+
+--- SOURCE: variables/GroupItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / GroupItem
+
+# Variable: GroupItem
+
+> `const` **GroupItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:603](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L603)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:741](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L741)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:771](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L771)
+
+
+--- SOURCE: variables/NumericRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / NumericRule
+
+# Variable: NumericRule
+
+> `const` **NumericRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:795](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L795)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:856](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L856)
+
+
+--- SOURCE: variables/OptionsItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / OptionsItem
+
+# Variable: OptionsItem
+
+> `const` **OptionsItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:889](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L889)
+
+
+--- SOURCE: variables/PatternRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / PatternRule
+
+# Variable: PatternRule
+
+> `const` **PatternRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:914](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L914)
+
+
+--- SOURCE: variables/RangeRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / RangeRule
+
+# Variable: RangeRule
+
+> `const` **RangeRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:941](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L941)
+
+
+--- SOURCE: variables/RequiredRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / RequiredRule
+
+# Variable: RequiredRule
+
+> `const` **RequiredRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:965](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L965)
+
+
+--- SOURCE: variables/Resource.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Resource
+
+# Variable: Resource
+
+> `const` **Resource**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:992](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L992)
+
+
+--- SOURCE: variables/Scheduler.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Scheduler
+
+# Variable: Scheduler()
+
+> `const` **Scheduler**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/scheduler.ts:80](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L80)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Scrolling.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Scrolling
+
+# Variable: Scrolling
+
+> `const` **Scrolling**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1011](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1011)
+
+
+--- SOURCE: variables/SimpleItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / SimpleItem
+
+# Variable: SimpleItem
+
+> `const` **SimpleItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1078](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1078)
+
+
+--- SOURCE: variables/StringLengthRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / StringLengthRule
+
+# Variable: StringLengthRule
+
+> `const` **StringLengthRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1105](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1105)
+
+
+--- SOURCE: variables/Tab.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Tab
+
+# Variable: Tab
+
+> `const` **Tab**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1154](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1154)
+
+
+--- SOURCE: variables/TabPanelOptions.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / TabPanelOptions
+
+# Variable: TabPanelOptions
+
+> `const` **TabPanelOptions**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1293](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1293)
+
+
+--- SOURCE: variables/TabPanelOptionsItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / TabPanelOptionsItem
+
+# Variable: TabPanelOptionsItem
+
+> `const` **TabPanelOptionsItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1333](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1333)
+
+
+--- SOURCE: variables/TabbedItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / TabbedItem
+
+# Variable: TabbedItem
+
+> `const` **TabbedItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1203](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1203)
+
+
+--- SOURCE: variables/Toolbar.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / Toolbar
+
+# Variable: Toolbar
+
+> `const` **Toolbar**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1358](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1358)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1405](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1405)
+
+
+--- SOURCE: variables/ValidationRule.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / ValidationRule
+
+# Variable: ValidationRule
+
+> `const` **ValidationRule**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1437](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1437)
+
+
+--- SOURCE: variables/View.md ---
+
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / View
+
+# Variable: View
+
+> `const` **View**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1524](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1524)
+

@@ -1,0 +1,17 @@
+{
+  "entryPoints": ["DevExtreme/packages/devextreme-react/src/index.ts"],
+  "out": "docs-react-final",
+  "name": "DevExtreme React Full API",
+  "includeVersion": true,
+  "excludeExternals": false,
+  "excludeInternal": false,
+  "excludePrivate": false,
+  "excludeProtected": false,
+  "skipErrorChecking": true,
+  "hideGenerator": true,
+  "validation": {
+    "notExported": true,
+    "invalidLink": false
+  }
+}
+

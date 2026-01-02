@@ -1,0 +1,366 @@
+# Button Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Button API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/README.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../globals.md) / ButtonTypes
+
+# ButtonTypes
+
+## Type Aliases
+
+- [ButtonStyle](type-aliases/ButtonStyle.md)
+- [ButtonType](type-aliases/ButtonType.md)
+- [ClickEvent](type-aliases/ClickEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [TemplateData](type-aliases/TemplateData.md)
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/ButtonStyle.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / ButtonStyle
+
+# Type Alias: ButtonStyle
+
+> **ButtonStyle** = `"text"` \| `"outlined"` \| `"contained"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:84
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/ButtonType.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / ButtonType
+
+# Type Alias: ButtonType
+
+> **ButtonType** = `"danger"` \| `"default"` \| `"normal"` \| `"success"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:90
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/ClickEvent.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / ClickEvent
+
+# Type Alias: ClickEvent
+
+> **ClickEvent** = `NativeEventInfo`\<`dxButton`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:42
+
+## Type Declaration
+
+### validationGroup?
+
+> `optional` **validationGroup**: `any`
+
+#### Docid
+
+_ui_button_ClickEvent.validationGroup
+
+## Docid
+
+_ui_button_ClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxButton`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:56
+
+## Docid
+
+_ui_button_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxButton`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:64
+
+## Docid
+
+_ui_button_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxButton`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:72
+
+## Docid
+
+_ui_button_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxButton`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:80
+
+## Docid
+
+_ui_button_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxButtonOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:175
+
+
+--- SOURCE: DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/TemplateData.md ---
+
+[**DevExtreme React Button API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Button API](../../../../globals.md) / [ButtonTypes](../README.md) / TemplateData
+
+# Type Alias: TemplateData
+
+> **TemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:83
+
+## Properties
+
+### icon?
+
+> `readonly` `optional` **icon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:85
+
+***
+
+### text?
+
+> `readonly` `optional` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button.d.ts:84
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Button API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Button API v26.1.0
+
+## Namespaces
+
+- [ButtonTypes](DevExtreme-React-Button-API/namespaces/ButtonTypes/README.md)
+
+## Interfaces
+
+- [ButtonRef](interfaces/ButtonRef.md)
+
+## Type Aliases
+
+- [IButtonOptions](type-aliases/IButtonOptions.md)
+
+## Variables
+
+- [Button](variables/Button.md)
+
+## References
+
+### default
+
+Renames and re-exports [Button](variables/Button.md)
+
+
+--- SOURCE: interfaces/ButtonRef.md ---
+
+[**DevExtreme React Button API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Button API](../globals.md) / ButtonRef
+
+# Interface: ButtonRef
+
+Defined in: [devextreme-react/src/button.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button.ts#L28)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxButton`
+
+Defined in: [devextreme-react/src/button.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button.ts#L29)
+
+#### Returns
+
+`dxButton`
+
+
+--- SOURCE: type-aliases/IButtonOptions.md ---
+
+[**DevExtreme React Button API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Button API](../globals.md) / IButtonOptions
+
+# Type Alias: IButtonOptions
+
+> **IButtonOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Button-API/namespaces/ButtonTypes/type-aliases/Properties.md), `IButtonOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/button.ts:23](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button.ts#L23)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React Button API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Button API](../globals.md) / Button
+
+# Variable: Button()
+
+> `const` **Button**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/button.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button.ts#L32)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

@@ -1,0 +1,19 @@
+# DevExtreme React Documentation for LLMs
+
+DevExtreme React bileşenleri için AI-optimize API dökümantasyonu.
+
+## Temel Kaynaklar
+- [Full API Index](./docs-react-final/index.md)
+
+## Bileşenler (AI Kılavuzları)
+Her bileşen klasörü, modeller için optimize edilmiş bir `llms-full.txt` içerir.
+
+- **Button**: [Özet](./docs-markdown/Button/llms.txt) | [Full API](./docs-markdown/Button/llms-full.txt)
+- **DataGrid**: [Özet](./docs-markdown/DataGrid/llms.txt) | [Full API](./docs-markdown/DataGrid/llms-full.txt)
+- **Scheduler**: [Özet](./docs-markdown/Scheduler/llms.txt) | [Full API](./docs-markdown/Scheduler/llms-full.txt)
+- **TreeList**: [Özet](./docs-markdown/TreeList/llms.txt) | [Full API](./docs-markdown/TreeList/llms-full.txt)
+- **TreeView**: [Özet](./docs-markdown/TreeView/llms.txt) | [Full API](./docs-markdown/TreeView/llms-full.txt)
+
+## Araçlar
+- `generate-doc.js`: Yeni bileşenler için döküman ve AI dosyalarını üretir.
+  Kullanım: `node generate-doc.js <ComponentName>`

@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# DevExtreme Source (Large repo excluded)
+DevExtreme/
+
+# Generated docs (Optional: keep or exclude depending on preference)
+# docs-markdown/
+# docs-react-final/
+
+# Local/System files
+.DS_Store
+npm-debug.log*
+.cursor/
+

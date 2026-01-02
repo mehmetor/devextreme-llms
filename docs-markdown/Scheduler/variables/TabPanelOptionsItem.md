@@ -1,0 +1,11 @@
+[**DevExtreme React Scheduler API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Scheduler API](../globals.md) / TabPanelOptionsItem
+
+# Variable: TabPanelOptionsItem
+
+> `const` **TabPanelOptionsItem**: `any`
+
+Defined in: [devextreme-react/src/scheduler.ts:1333](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scheduler.ts#L1333)

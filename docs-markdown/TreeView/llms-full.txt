@@ -1,0 +1,2570 @@
+# TreeView Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React TreeView API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/README.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../globals.md) / TreeViewTypes
+
+# TreeViewTypes
+
+## Interfaces
+
+- [~~dxTreeViewOptions~~](interfaces/dxTreeViewOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DataStructure](type-aliases/DataStructure.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemCollapsedEvent](type-aliases/ItemCollapsedEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemExpandedEvent](type-aliases/ItemExpandedEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [ItemSelectionChangedEvent](type-aliases/ItemSelectionChangedEvent.md)
+- [Node](type-aliases/Node.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [Scrollable](type-aliases/Scrollable.md)
+- [ScrollDirection](type-aliases/ScrollDirection.md)
+- [SelectAllValueChangedEvent](type-aliases/SelectAllValueChangedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SingleOrMultiple](type-aliases/SingleOrMultiple.md)
+- [TreeViewCheckBoxMode](type-aliases/TreeViewCheckBoxMode.md)
+- [TreeViewExpandEvent](type-aliases/TreeViewExpandEvent.md)
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/interfaces/dxTreeViewOptions.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / dxTreeViewOptions
+
+# ~~Interface: dxTreeViewOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:193
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `Omit`\<`HierarchicalCollectionWidgetOptions`\<`dxTreeView`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>, `"dataSource"`\>.`SearchBoxMixinOptions`
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`Omit.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`Omit.activeStateEnabled`
+
+***
+
+### ~~animationEnabled?~~
+
+> `optional` **animationEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:200
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~collapseIcon?~~
+
+> `optional` **collapseIcon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:386
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+***
+
+### ~~createChildren()?~~
+
+> `optional` **createChildren**: (`parentNode`) => `any`[] \| `PromiseLike`\<`any`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:207
+
+#### Parameters
+
+##### parentNode
+
+[`Node`](../type-aliases/Node.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`any`[] \| `PromiseLike`\<`any`\>
+
+#### Docid
+
+@type_function_param1 parentNode:dxTreeViewNode
+@type_function_return Promise<any>|Array<Object>
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:214
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+***
+
+### ~~dataStructure?~~
+
+> `optional` **dataStructure**: [`DataStructure`](../type-aliases/DataStructure.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:220
+
+#### Docid
+
+#### Default
+
+```ts
+'tree'
+@public
+```
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`Omit.disabled`
+
+***
+
+### ~~disabledExpr?~~
+
+> `optional` **disabledExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:30
+
+#### Docid
+
+#### Default
+
+```ts
+'disabled'
+@public
+```
+
+#### Inherited from
+
+`Omit.disabledExpr`
+
+***
+
+### ~~displayExpr?~~
+
+> `optional` **displayExpr**: `string` \| (`item`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:37
+
+#### Docid
+
+#### Default
+
+```ts
+'text'
+@type_function_param1 item:object
+@public
+```
+
+#### Inherited from
+
+`Omit.displayExpr`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`Omit.elementAttr`
+
+***
+
+### ~~expandAllEnabled?~~
+
+> `optional` **expandAllEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:226
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~expandEvent?~~
+
+> `optional` **expandEvent**: [`TreeViewExpandEvent`](../type-aliases/TreeViewExpandEvent.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:232
+
+#### Docid
+
+#### Default
+
+```ts
+"dblclick"
+@public
+```
+
+***
+
+### ~~expandIcon?~~
+
+> `optional` **expandIcon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:392
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+***
+
+### ~~expandNodesRecursive?~~
+
+> `optional` **expandNodesRecursive**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:238
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:43
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Inherited from
+
+`Omit.focusStateEnabled`
+
+***
+
+### ~~hasItemsExpr?~~
+
+> `optional` **hasItemsExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:251
+
+#### Docid
+
+#### Default
+
+```ts
+'hasItems'
+@public
+```
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`Omit.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`Omit.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:49
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`Omit.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`Omit.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:257
+
+#### Docid
+
+#### Overrides
+
+`Omit.items`
+
+***
+
+### ~~itemsExpr?~~
+
+> `optional` **itemsExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+'items'
+@public
+```
+
+#### Inherited from
+
+`Omit.itemsExpr`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`Omit.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:61
+
+#### Docid
+
+#### Default
+
+```ts
+'id'
+@public
+```
+
+#### Inherited from
+
+`Omit.keyExpr`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`Omit.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`Omit.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`Omit.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`Omit.onInitialized`
+
+***
+
+### ~~onItemClick()?~~
+
+> `optional` **onItemClick**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:266
+
+#### Parameters
+
+##### e
+
+[`ItemClickEvent`](../type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemClickEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`Omit.onItemClick`
+
+***
+
+### ~~onItemCollapsed()?~~
+
+> `optional` **onItemCollapsed**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:274
+
+#### Parameters
+
+##### e
+
+[`ItemCollapsedEvent`](../type-aliases/ItemCollapsedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemCollapsedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:282
+
+#### Parameters
+
+##### e
+
+[`ItemContextMenuEvent`](../type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemContextMenuEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`Omit.onItemContextMenu`
+
+***
+
+### ~~onItemExpanded()?~~
+
+> `optional` **onItemExpanded**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:290
+
+#### Parameters
+
+##### e
+
+[`ItemExpandedEvent`](../type-aliases/ItemExpandedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemExpandedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:298
+
+#### Parameters
+
+##### e
+
+[`ItemHoldEvent`](../type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemHoldEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`Omit.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:306
+
+#### Parameters
+
+##### e
+
+[`ItemRenderedEvent`](../type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemRenderedEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`Omit.onItemRendered`
+
+***
+
+### ~~onItemSelectionChanged()?~~
+
+> `optional` **onItemSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:314
+
+#### Parameters
+
+##### e
+
+[`ItemSelectionChangedEvent`](../type-aliases/ItemSelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:ItemSelectionChangedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`Omit.onOptionChanged`
+
+***
+
+### ~~onSelectAllValueChanged()?~~
+
+> `optional` **onSelectAllValueChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:322
+
+#### Parameters
+
+##### e
+
+[`SelectAllValueChangedEvent`](../type-aliases/SelectAllValueChangedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:SelectAllValueChangedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:331
+
+#### Parameters
+
+##### e
+
+[`SelectionChangedEvent`](../type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/tree_view:SelectionChangedEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`Omit.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`Omit.onSelectionChanging`
+
+***
+
+### ~~rootValue?~~
+
+> `optional` **rootValue**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:344
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`Omit.rtlEnabled`
+
+***
+
+### ~~scrollDirection?~~
+
+> `optional` **scrollDirection**: [`ScrollDirection`](../type-aliases/ScrollDirection.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:350
+
+#### Docid
+
+#### Default
+
+```ts
+"vertical"
+@public
+```
+
+***
+
+### ~~searchEditorOptions?~~
+
+> `optional` **searchEditorOptions**: `Properties`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchEditorOptions`
+
+***
+
+### ~~searchEnabled?~~
+
+> `optional` **searchEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchEnabled`
+
+***
+
+### ~~searchExpr?~~
+
+> `optional` **searchExpr**: `string` \| `Function` \| (`string` \| `Function`)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:42
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchExpr`
+
+***
+
+### ~~searchMode?~~
+
+> `optional` **searchMode**: `SearchMode`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:48
+
+#### Docid
+
+#### Default
+
+```ts
+'contains'
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchMode`
+
+***
+
+### ~~searchTimeout?~~
+
+> `optional` **searchTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:54
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchTimeout`
+
+***
+
+### ~~searchValue?~~
+
+> `optional` **searchValue**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:60
+
+#### Docid
+
+#### Default
+
+```ts
+""
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchValue`
+
+***
+
+### ~~selectAllText?~~
+
+> `optional` **selectAllText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:356
+
+#### Docid
+
+#### Default
+
+```ts
+"Select All"
+@public
+```
+
+***
+
+### ~~selectByClick?~~
+
+> `optional` **selectByClick**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:362
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~selectedExpr?~~
+
+> `optional` **selectedExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:67
+
+#### Docid
+
+#### Default
+
+```ts
+'selected'
+@public
+```
+
+#### Inherited from
+
+`Omit.selectedExpr`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`Omit.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`Omit.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`Omit.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`Omit.selectedItems`
+
+***
+
+### ~~selectionMode?~~
+
+> `optional` **selectionMode**: [`SingleOrMultiple`](../type-aliases/SingleOrMultiple.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:374
+
+#### Docid
+
+#### Default
+
+```ts
+"multiple"
+@public
+```
+
+***
+
+### ~~selectNodesRecursive?~~
+
+> `optional` **selectNodesRecursive**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:368
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~showCheckBoxesMode?~~
+
+> `optional` **showCheckBoxesMode**: [`TreeViewCheckBoxMode`](../type-aliases/TreeViewCheckBoxMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:380
+
+#### Docid
+
+#### Default
+
+```ts
+'none'
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`Omit.tabIndex`
+
+***
+
+### ~~useNativeScrolling?~~
+
+> `optional` **useNativeScrolling**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:405
+
+#### Docid
+
+#### Default
+
+```ts
+true
+```
+
+#### Default
+
+```ts
+false &for(desktop except Mac)
+@public
+```
+
+***
+
+### ~~virtualModeEnabled?~~
+
+> `optional` **virtualModeEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:398
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`Omit.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`Omit.width`
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:86
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/DataStructure.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / DataStructure
+
+# Type Alias: DataStructure
+
+> **DataStructure** = `"plain"` \| `"tree"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:186
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:94
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:102
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Item.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxTreeViewItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:583
+
+**`Namespace`**
+
+DevExpress.ui.dxTreeView
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:110
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemCollapsedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemCollapsedEvent
+
+# Type Alias: ItemCollapsedEvent\<TItem, TKey\>
+
+> **ItemCollapsedEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:118
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemCollapsedEvent
+
+## Inherits
+
+NativeEventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:126
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemExpandedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemExpandedEvent
+
+# Type Alias: ItemExpandedEvent\<TItem, TKey\>
+
+> **ItemExpandedEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:134
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemExpandedEvent
+
+## Inherits
+
+NativeEventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:142
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:150
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemSelectionChangedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ItemSelectionChangedEvent
+
+# Type Alias: ItemSelectionChangedEvent\<TItem, TKey\>
+
+> **ItemSelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:158
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_ItemSelectionChangedEvent
+
+## Inherits
+
+EventInfo,_ui_tree_view_ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Node.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / Node
+
+# Type Alias: Node\<TItem, TKey\>
+
+> **Node**\<`TItem`, `TKey`\> = `dxTreeViewNode`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:637
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+dxTreeViewNode
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:166
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxTreeViewOptions`](../interfaces/dxTreeViewOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:714
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ScrollDirection.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / ScrollDirection
+
+# Type Alias: ScrollDirection
+
+> **ScrollDirection** = `"both"` \| `"horizontal"` \| `"vertical"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:629
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Scrollable.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / Scrollable
+
+# Type Alias: Scrollable
+
+> **Scrollable** = `Omit`\<`dxScrollable`, `"_templateManager"` \| `"_cancelOptionChange"` \| `"_getTemplate"` \| `"_invalidate"` \| `"_refresh"` \| `"_notifyOptionChanged"` \| `"_createElement"`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:692
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/SelectAllValueChangedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / SelectAllValueChangedEvent
+
+# Type Alias: SelectAllValueChangedEvent\<TItem, TKey\>
+
+> **SelectAllValueChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:174
+
+## Type Declaration
+
+### value?
+
+> `readonly` `optional` **value**: `boolean`
+
+#### Docid
+
+_ui_tree_view_SelectAllValueChangedEvent.value
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_SelectAllValueChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxTreeView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:185
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_tree_view_SelectionChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/SingleOrMultiple.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / SingleOrMultiple
+
+# Type Alias: SingleOrMultiple
+
+> **SingleOrMultiple** = `"single"` \| `"multiple"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:671
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/TreeViewCheckBoxMode.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / TreeViewCheckBoxMode
+
+# Type Alias: TreeViewCheckBoxMode
+
+> **TreeViewCheckBoxMode** = `"none"` \| `"normal"` \| `"selectAll"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:76
+
+
+--- SOURCE: DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/TreeViewExpandEvent.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeView API](../../../../globals.md) / [TreeViewTypes](../README.md) / TreeViewExpandEvent
+
+# Type Alias: TreeViewExpandEvent
+
+> **TreeViewExpandEvent** = `"dblclick"` \| `"click"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:78
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React TreeView API v26.1.0
+
+## Namespaces
+
+- [TreeViewTypes](DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/README.md)
+
+## Interfaces
+
+- [TreeViewRef](interfaces/TreeViewRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [ISearchEditorOptionsProps](type-aliases/ISearchEditorOptionsProps.md)
+- [ITreeViewOptions](type-aliases/ITreeViewOptions.md)
+
+## Variables
+
+- [Button](variables/Button.md)
+- [Item](variables/Item.md)
+- [Options](variables/Options.md)
+- [SearchEditorOptions](variables/SearchEditorOptions.md)
+- [TreeView](variables/TreeView.md)
+
+## References
+
+### default
+
+Renames and re-exports [TreeView](variables/TreeView.md)
+
+
+--- SOURCE: interfaces/TreeViewRef.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / TreeViewRef
+
+# Interface: TreeViewRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/tree-view.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L43)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTreeView`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/tree-view.ts:44](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L44)
+
+#### Returns
+
+`dxTreeView`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:695
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:698
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:699
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:700
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:701
+
+***
+
+### ItemCollapsedEvent
+
+> **ItemCollapsedEvent**: [`ItemCollapsedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemCollapsedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:702
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:703
+
+***
+
+### ItemExpandedEvent
+
+> **ItemExpandedEvent**: [`ItemExpandedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemExpandedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:704
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:705
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:706
+
+***
+
+### ItemSelectionChangedEvent
+
+> **ItemSelectionChangedEvent**: [`ItemSelectionChangedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/ItemSelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:707
+
+***
+
+### Node
+
+> **Node**: [`Node`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Node.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:697
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:708
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:696
+
+***
+
+### SelectAllValueChangedEvent
+
+> **SelectAllValueChangedEvent**: [`SelectAllValueChangedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/SelectAllValueChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:709
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tree\_view.d.ts:710
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/tree-view.ts:99](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L99)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `expanded?`: `boolean`; `hasItems?`: `boolean`; `html?`: `string`; `icon?`: `string`; `id?`: `number` \| `string`; `items?`: `dxTreeViewItem`[]; `parentId?`: `number` \| `string`; `render?`: (...`params`) => `React.ReactNode`; `selected?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/tree-view.ts:124](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L124)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/tree-view.ts:164](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L164)
+
+
+--- SOURCE: type-aliases/ISearchEditorOptionsProps.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / ISearchEditorOptionsProps
+
+# Type Alias: ISearchEditorOptionsProps
+
+> **ISearchEditorOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `buttons?`: (`string` \| `TextBoxPredefinedButton` \| `TextEditorButton`)[]; `defaultValue?`: `string`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `inputAttr?`: `any`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `label?`: `string`; `labelMode?`: `LabelMode`; `mask?`: `string`; `maskChar?`: `string`; `maskInvalidMessage?`: `string`; `maskRules?`: `any`; `maxLength?`: `number` \| `string`; `mode?`: `TextBoxType`; `name?`: `string`; `onChange?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onCopy?`: (`e`) => `void`; `onCut?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onEnterKey?`: (`e`) => `void`; `onFocusIn?`: (`e`) => `void`; `onFocusOut?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onInput?`: (`e`) => `void`; `onKeyDown?`: (`e`) => `void`; `onKeyUp?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPaste?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `placeholder?`: `string`; `readOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `showClearButton?`: `boolean`; `showMaskMode?`: `MaskMode`; `spellcheck?`: `boolean`; `stylingMode?`: `EditorStyle`; `tabIndex?`: `number`; `text?`: `string`; `useMaskedValue?`: `boolean`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationMessageMode?`: `ValidationMessageMode`; `validationMessagePosition?`: `Position`; `validationStatus?`: `ValidationStatus`; `value?`: `string`; `valueChangeEvent?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/tree-view.ts:212](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L212)
+
+
+--- SOURCE: type-aliases/ITreeViewOptions.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / ITreeViewOptions
+
+# Type Alias: ITreeViewOptions\<TItem, TKey\>
+
+> **ITreeViewOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-TreeView-API/namespaces/TreeViewTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `ITreeViewOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/tree-view.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L35)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/tree-view.ts:117](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L117)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/tree-view.ts:158](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L158)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/tree-view.ts:206](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L206)
+
+
+--- SOURCE: variables/SearchEditorOptions.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / SearchEditorOptions
+
+# Variable: SearchEditorOptions
+
+> `const` **SearchEditorOptions**: `any`
+
+Defined in: [devextreme-react/src/tree-view.ts:286](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L286)
+
+
+--- SOURCE: variables/TreeView.md ---
+
+[**DevExtreme React TreeView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeView API](../globals.md) / TreeView
+
+# Variable: TreeView()
+
+> `const` **TreeView**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/tree-view.ts:47](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-view.ts#L47)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
