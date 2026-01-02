@@ -44,17 +44,17 @@ node generate-all-docs.js
 
 Sistem, AI asistanlarının bileşenleri en iyi şekilde anlayabilmesi için üç katmanlı bir yapı kullanır:
 
-1.  **Kök `llms.txt`**: Mevcut tüm bileşenlerin listesi ve döküman linkleri.
-2.  **Bileşene Özel `llms.txt`**: Bileşenin dizin yapısı ve özet bilgisi.
-3.  **Bileşene Özel `llms-full.txt`**: **[En Önemli]** Bileşenin tüm API dökümantasyonunun (interfaces, types, variables) tek bir dosyada birleştirilmiş hali. AI asistanınıza bu dosyayı vermeniz, bileşeni tam olarak tanımasını sağlar.
+1.  **Ana `llms.txt`**: Mevcut tüm platformların (React, Angular vb.) ve bileşenlerin listesi.
+2.  **Bileşene Özel `llms.txt`**: (Örn: `react/DataGrid/llms.txt`) Bileşenin dizin yapısı ve özet bilgisi.
+3.  **Bileşene Özel `llms-full.txt`**: (Örn: `react/DataGrid/llms-full.txt`) **[En Önemli]** Bileşenin tüm API dökümantasyonunun tek bir dosyada birleştirilmiş hali.
 
 ## 📁 Dizin Yapısı
 
 - `DevExtreme/`: DevExtreme monorepo (kaynak kodlar).
-- `docs-markdown/`: Üretilen Markdown dökümanları ve AI dosyaları.
+- `react/`: Üretilen React Markdown dökümanları ve AI dosyaları.
 - `docs-react-final/`: TypeDoc tarafından üretilen genel API dökümü.
 - `generate-doc.js`: Ana otomasyon betiği.
-- `llms.txt`: AI haritası.
+- `llms.txt`: Tüm platformları kapsayan ana AI haritası.
 
 ## 🛠️ Araçlar
 

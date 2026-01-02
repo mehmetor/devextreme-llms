@@ -24,7 +24,7 @@ if (!fs.existsSync(repoRoot)) {
 }
 
 const entryPoint = path.join(repoRoot, 'packages/devextreme-react/src', `${kebabCase}.ts`);
-const outDir = path.join(__dirname, 'docs-markdown', componentName);
+const outDir = path.join(__dirname, 'react', componentName);
 
 // Giriş dosyası kontrolü
 if (!fs.existsSync(entryPoint)) {
@@ -32,8 +32,8 @@ if (!fs.existsSync(entryPoint)) {
     process.exit(1);
 }
 
-if (!fs.existsSync(path.join(__dirname, 'docs-markdown'))) {
-    fs.mkdirSync(path.join(__dirname, 'docs-markdown'));
+if (!fs.existsSync(path.join(__dirname, 'react'))) {
+    fs.mkdirSync(path.join(__dirname, 'react'));
 }
 
 console.log(`${componentName} için döküman üretiliyor...`);
@@ -129,37 +129,36 @@ Bu dizin ${name} bileşeni için AI-optimize dökümantasyon içerir.
 
 function updateRootLlms() {
     const rootLlmsPath = path.join(__dirname, 'llms.txt');
-    const docsDir = path.join(__dirname, 'docs-markdown');
     
-    if (!fs.existsSync(docsDir)) return;
+    let content = `# DevExtreme LLM Hub
 
-    const components = fs.readdirSync(docsDir).filter(f => 
-        fs.statSync(path.join(docsDir, f)).isDirectory()
-    );
+DevExtreme bileşenleri için AI-optimize (Cursor, Claude, Windsurf vb.) dökümantasyon merkezi.
 
-    let content = `# DevExtreme React Documentation for LLMs
-
-DevExtreme React bileşenleri için AI-optimize API dökümantasyonu.
-
-## Temel Kaynaklar
-- [Full API Index](./docs-react-final/index.md)
-
-## Bileşenler (AI Kılavuzları)
-Her bileşen klasörü, modeller için optimize edilmiş bir \`llms-full.txt\` içerir.
+## ⚛️ React
+DevExtreme React bileşenleri için AI kılavuzları.
 
 `;
 
-    components.sort().forEach(comp => {
-        content += `- **${comp}**: [Özet](./docs-markdown/${comp}/llms.txt) | [Full API](./docs-markdown/${comp}/llms-full.txt)\n`;
-    });
+    const reactDir = path.join(__dirname, 'react');
+    if (fs.existsSync(reactDir)) {
+        const components = fs.readdirSync(reactDir).filter(f => 
+            fs.statSync(path.join(reactDir, f)).isDirectory()
+        );
+
+        components.sort().forEach(comp => {
+            content += `- **${comp}**: [Özet](./react/${comp}/llms.txt) | [Full API](./react/${comp}/llms-full.txt)\n`;
+        });
+    }
 
     content += `
-## Araçlar
+## 🛠️ Araçlar
 - \`generate-doc.js\`: Yeni bileşenler için döküman ve AI dosyalarını üretir.
-  Kullanım: \`node generate-doc.js <ComponentName>\`
+- \`generate-all-docs.js\`: Tüm bileşenleri otomatik tarar ve üretir.
+
+---
+*Gelecekte Angular ve Vue dökümanları da buraya eklenecektir.*
 `;
 
     fs.writeFileSync(rootLlmsPath, content);
     console.log(`- Root llms.txt güncellendi.`);
 }
-
