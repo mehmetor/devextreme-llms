@@ -2,13 +2,28 @@
 
 This project generates AI-optimized documentation for DevExtreme components, designed to be easily consumed by AI assistants like Cursor, Claude, and Windsurf.
 
-## 📋 Prerequisites
+## 🌟 How to Use with AI Tools (Cursor, Claude, Windsurf)
+
+You can use these generated documentations directly in your AI assistant to get accurate code suggestions for DevExtreme components.
+
+### 1. Using with Cursor
+1. Open **Cursor Settings** (`Cmd + Shift + J`).
+2. Go to **Features > Docs**.
+3. Click **"+ Add new doc"**.
+4. **Name:** `DevExtreme`
+5. **URL:** `https://raw.githubusercontent.com/mehmetor/devextreme-llms/main/llms.txt`
+6. Now you can use `@DevExtreme` in Chat or Ctrl+K to ask questions about any component.
+
+### 2. Manual Reference
+If you are using tools like Claude or ChatGPT, you can copy the content of the `llms-full.txt` file for the specific component you are working with (e.g., [DataGrid Full API](./react/DataGrid/llms-full.txt)) and paste it into your prompt.
+
+## 📋 Prerequisites (For Documentation Generation)
 
 This tool requires the **DevExtreme source code** to generate documentation.
 1. Clone the [DevExtreme GitHub](https://github.com/DevExpress/DevExtreme) repository to your machine.
 2. Ensure the repo is available in the root of this project as `DevExtreme/` or as a symbolic link (symlink).
 
-## 🚀 Quick Start
+## 🚀 Quick Start (For Developers)
 
 ### 1. Install Dependencies
 ```bash
