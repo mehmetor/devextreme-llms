@@ -1,0 +1,1232 @@
+# TagBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React TagBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/README.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../globals.md) / TagBoxTypes
+
+# TagBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CustomItemCreatingEvent](type-aliases/CustomItemCreatingEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropDownButtonTemplateData](type-aliases/DropDownButtonTemplateData.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [MultiTagPreparingEvent](type-aliases/MultiTagPreparingEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectAllValueChangedEvent](type-aliases/SelectAllValueChangedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxTagBox`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:52
+
+## Docid
+
+_ui_tag_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxTagBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:60
+
+## Docid
+
+_ui_tag_box_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxTagBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:68
+
+## Docid
+
+_ui_tag_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/CustomItemCreatingEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / CustomItemCreatingEvent
+
+# Type Alias: CustomItemCreatingEvent
+
+> **CustomItemCreatingEvent** = `EventInfo`\<`dxTagBox`\> & `CustomItemCreatingInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:76
+
+## Docid
+
+_ui_tag_box_CustomItemCreatingEvent
+
+## Inherits
+
+EventInfo,CustomItemCreatingInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxTagBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:84
+
+## Docid
+
+_ui_tag_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/DropDownButtonTemplateData.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / DropDownButtonTemplateData
+
+# Type Alias: DropDownButtonTemplateData
+
+> **DropDownButtonTemplateData** = `DropDownButtonTemplateDataModel`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:215
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxTagBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:92
+
+## Docid
+
+_ui_tag_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxTagBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:100
+
+## Docid
+
+_ui_tag_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxTagBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:108
+
+## Docid
+
+_ui_tag_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxTagBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:116
+
+## Docid
+
+_ui_tag_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxTagBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:124
+
+## Docid
+
+_ui_tag_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `NativeEventInfo`\<`dxTagBox`\> & `ItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:132
+
+## Docid
+
+_ui_tag_box_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxTagBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:140
+
+## Docid
+
+_ui_tag_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxTagBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:143
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxTagBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:151
+
+## Docid
+
+_ui_tag_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/MultiTagPreparingEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / MultiTagPreparingEvent
+
+# Type Alias: MultiTagPreparingEvent
+
+> **MultiTagPreparingEvent** = `Cancelable` & `EventInfo`\<`dxTagBox`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:159
+
+## Type Declaration
+
+### multiTagElement
+
+> `readonly` **multiTagElement**: `DxElement`
+
+#### Docid
+
+_ui_tag_box_MultiTagPreparingEvent.multiTagElement
+
+### selectedItems?
+
+> `readonly` `optional` **selectedItems**: (`string` \| `number` \| `any`)[]
+
+#### Docid
+
+_ui_tag_box_MultiTagPreparingEvent.selectedItems
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+_ui_tag_box_MultiTagPreparingEvent.text
+
+## Docid
+
+_ui_tag_box_MultiTagPreparingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxTagBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:177
+
+## Docid
+
+_ui_tag_box_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxTagBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:185
+
+## Docid
+
+_ui_tag_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxTagBoxOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:340
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/SelectAllValueChangedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / SelectAllValueChangedEvent
+
+# Type Alias: SelectAllValueChangedEvent
+
+> **SelectAllValueChangedEvent** = `EventInfo`\<`dxTagBox`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:193
+
+## Type Declaration
+
+### value
+
+> `readonly` **value**: `boolean`
+
+#### Docid
+
+_ui_tag_box_SelectAllValueChangedEvent.value
+
+## Docid
+
+_ui_tag_box_SelectAllValueChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxTagBox`\> & `SelectionChangeInfo`\<`string` \| `number` \| `any`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:204
+
+## Docid
+
+_ui_tag_box_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TagBox API](../../../../globals.md) / [TagBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxTagBox`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tag\_box.d.ts:212
+
+## Docid
+
+_ui_tag_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React TagBox API v26.1.0
+
+## Namespaces
+
+- [TagBoxTypes](DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/README.md)
+
+## Interfaces
+
+- [TagBoxRef](interfaces/TagBoxRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFieldAddonsProps](type-aliases/IFieldAddonsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [ITagBoxOptions](type-aliases/ITagBoxOptions.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Button](variables/Button.md)
+- [Collision](variables/Collision.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [FieldAddons](variables/FieldAddons.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [Item](variables/Item.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Options](variables/Options.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [TagBox](variables/TagBox.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [TagBox](variables/TagBox.md)
+
+
+--- SOURCE: interfaces/TagBoxRef.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / TagBoxRef
+
+# Interface: TagBoxRef
+
+Defined in: [devextreme-react/src/tag-box.ts:67](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L67)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTagBox`
+
+Defined in: [devextreme-react/src/tag-box.ts:68](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L68)
+
+#### Returns
+
+`dxTagBox`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L146)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:169](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L169)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:188](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L188)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:207](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L207)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:231](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L231)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `dragAndResizeArea?`: `any` \| `string`; `dragEnabled?`: `boolean`; `dragOutsideBoundary?`: `boolean`; `enableBodyScroll?`: `boolean`; `focusStateEnabled?`: `boolean`; `fullScreen?`: `boolean`; `height?`: `number` \| `string`; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onResize?`: (`e`) => `void`; `onResizeEnd?`: (`e`) => `void`; `onResizeStart?`: (`e`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `resizeEnabled?`: `boolean`; `restorePosition?`: `boolean`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showTitle?`: `boolean`; `tabIndex?`: `number`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:250](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L250)
+
+
+--- SOURCE: type-aliases/IFieldAddonsProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IFieldAddonsProps
+
+# Type Alias: IFieldAddonsProps
+
+> **IFieldAddonsProps** = `React.PropsWithChildren`\<\{ `afterComponent?`: `React.ComponentType`\<`any`\>; `afterRender?`: (...`params`) => `React.ReactNode`; `afterTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; `beforeComponent?`: `React.ComponentType`\<`any`\>; `beforeRender?`: (...`params`) => `React.ReactNode`; `beforeTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:350](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L350)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:383](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L383)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:408](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L408)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:439](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L439)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:469](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L469)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:488](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L488)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:507](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L507)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:557](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L557)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:603](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L603)
+
+
+--- SOURCE: type-aliases/ITagBoxOptions.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / ITagBoxOptions
+
+# Type Alias: ITagBoxOptions
+
+> **ITagBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-TagBox-API/namespaces/TagBoxTypes/type-aliases/Properties.md), `ITagBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/tag-box.ts:50](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L50)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:635](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L635)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/tag-box.ts:660](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L660)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:163](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L163)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:182](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L182)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:201](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L201)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:225](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L225)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:244](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L244)
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:344](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L344)
+
+
+--- SOURCE: variables/FieldAddons.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / FieldAddons
+
+# Variable: FieldAddons
+
+> `const` **FieldAddons**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:376](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L376)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:402](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L402)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:433](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L433)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:463](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L463)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:482](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L482)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:501](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L501)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:549](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L549)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:597](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L597)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:628](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L628)
+
+
+--- SOURCE: variables/TagBox.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / TagBox
+
+# Variable: TagBox()
+
+> `const` **TagBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/tag-box.ts:71](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L71)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:654](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L654)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React TagBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TagBox API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/tag-box.ts:698](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tag-box.ts#L698)
+

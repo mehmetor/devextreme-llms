@@ -1,0 +1,422 @@
+# Calendar Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Calendar API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/README.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../globals.md) / CalendarTypes
+
+# CalendarTypes
+
+## Type Aliases
+
+- [CalendarSelectionMode](type-aliases/CalendarSelectionMode.md)
+- [CalendarZoomLevel](type-aliases/CalendarZoomLevel.md)
+- [CellTemplateData](type-aliases/CellTemplateData.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DateLike](type-aliases/DateLike.md)
+- [DisabledDate](type-aliases/DisabledDate.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [FirstDayOfWeek](type-aliases/FirstDayOfWeek.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+- [WeekNumberRule](type-aliases/WeekNumberRule.md)
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/CalendarSelectionMode.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / CalendarSelectionMode
+
+# Type Alias: CalendarSelectionMode
+
+> **CalendarSelectionMode** = `"single"` \| `"multiple"` \| `"range"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:48
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/CalendarZoomLevel.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / CalendarZoomLevel
+
+# Type Alias: CalendarZoomLevel
+
+> **CalendarZoomLevel** = `"century"` \| `"decade"` \| `"month"` \| `"year"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:45
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/CellTemplateData.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / CellTemplateData
+
+# Type Alias: CellTemplateData
+
+> **CellTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:89
+
+## Properties
+
+### date?
+
+> `readonly` `optional` **date**: `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:90
+
+***
+
+### text?
+
+> `readonly` `optional` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:92
+
+***
+
+### view
+
+> `readonly` **view**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:91
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxCalendar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:54
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/DateLike.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / DateLike
+
+# Type Alias: DateLike
+
+> **DateLike** = `Date` \| `number` \| `string` \| `null`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:198
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/DisabledDate.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / DisabledDate
+
+# Type Alias: DisabledDate
+
+> **DisabledDate** = `ComponentDisabledDate`\<`dxCalendar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:100
+
+## Docid
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxCalendar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:62
+
+## Docid
+
+_ui_calendar_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/FirstDayOfWeek.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / FirstDayOfWeek
+
+# Type Alias: FirstDayOfWeek
+
+> **FirstDayOfWeek** = `0` \| `1` \| `2` \| `3` \| `4` \| `5` \| `6`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:273
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxCalendar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:70
+
+## Docid
+
+_ui_calendar_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxCalendar`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:78
+
+## Docid
+
+_ui_calendar_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxCalendarOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:254
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxCalendar`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:86
+
+## Docid
+
+_ui_calendar_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/WeekNumberRule.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Calendar API](../../../../globals.md) / [CalendarTypes](../README.md) / WeekNumberRule
+
+# Type Alias: WeekNumberRule
+
+> **WeekNumberRule** = `"auto"` \| `"firstDay"` \| `"fullWeek"` \| `"firstFourDays"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/calendar.d.ts:51
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Calendar API v26.1.0
+
+## Namespaces
+
+- [CalendarTypes](DevExtreme-React-Calendar-API/namespaces/CalendarTypes/README.md)
+
+## Interfaces
+
+- [CalendarRef](interfaces/CalendarRef.md)
+
+## Type Aliases
+
+- [ICalendarOptions](type-aliases/ICalendarOptions.md)
+
+## Variables
+
+- [Calendar](variables/Calendar.md)
+
+## References
+
+### default
+
+Renames and re-exports [Calendar](variables/Calendar.md)
+
+
+--- SOURCE: interfaces/CalendarRef.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Calendar API](../globals.md) / CalendarRef
+
+# Interface: CalendarRef
+
+Defined in: [devextreme-react/src/calendar.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/calendar.ts#L31)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxCalendar`
+
+Defined in: [devextreme-react/src/calendar.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/calendar.ts#L32)
+
+#### Returns
+
+`dxCalendar`
+
+
+--- SOURCE: type-aliases/ICalendarOptions.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Calendar API](../globals.md) / ICalendarOptions
+
+# Type Alias: ICalendarOptions
+
+> **ICalendarOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Calendar-API/namespaces/CalendarTypes/type-aliases/Properties.md), `ICalendarOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/calendar.ts:22](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/calendar.ts#L22)
+
+
+--- SOURCE: variables/Calendar.md ---
+
+[**DevExtreme React Calendar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Calendar API](../globals.md) / Calendar
+
+# Variable: Calendar()
+
+> `const` **Calendar**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/calendar.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/calendar.ts#L35)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

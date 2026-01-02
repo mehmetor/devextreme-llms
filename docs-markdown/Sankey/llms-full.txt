@@ -1,0 +1,1342 @@
+# Sankey Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Sankey API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/README.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../globals.md) / SankeyTypes
+
+# SankeyTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [HatchDirection](type-aliases/HatchDirection.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LinkClickEvent](type-aliases/LinkClickEvent.md)
+- [LinkHoverEvent](type-aliases/LinkHoverEvent.md)
+- [NodeClickEvent](type-aliases/NodeClickEvent.md)
+- [NodeHoverEvent](type-aliases/NodeHoverEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PaletteExtensionMode](type-aliases/PaletteExtensionMode.md)
+- [Properties](type-aliases/Properties.md)
+- [SankeyColorMode](type-aliases/SankeyColorMode.md)
+- [TextOverflow](type-aliases/TextOverflow.md)
+- [Tooltip](type-aliases/Tooltip.md)
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSankey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:60
+
+## Docid
+
+_viz_sankey_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxSankey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:68
+
+## Docid
+
+_viz_sankey_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxSankey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:76
+
+## Docid
+
+_viz_sankey_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxSankey`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:84
+
+## Docid
+
+_viz_sankey_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxSankey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:92
+
+## Docid
+
+_viz_sankey_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/HatchDirection.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / HatchDirection
+
+# Type Alias: HatchDirection
+
+> **HatchDirection** = `"left"` \| `"none"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:72
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxSankey`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:100
+
+## Docid
+
+_viz_sankey_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSankey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:108
+
+## Docid
+
+_viz_sankey_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/LinkClickEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / LinkClickEvent
+
+# Type Alias: LinkClickEvent
+
+> **LinkClickEvent** = `NativeEventInfo`\<`dxSankey`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:116
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `dxSankeyLink`
+
+#### Docid
+
+_viz_sankey_LinkClickEvent.target
+
+## Docid
+
+_viz_sankey_LinkClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/LinkHoverEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / LinkHoverEvent
+
+# Type Alias: LinkHoverEvent
+
+> **LinkHoverEvent** = `EventInfo`\<`dxSankey`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:126
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `dxSankeyLink`
+
+#### Docid
+
+_viz_sankey_LinkHoverEvent.target
+
+## Docid
+
+_viz_sankey_LinkHoverEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/NodeClickEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / NodeClickEvent
+
+# Type Alias: NodeClickEvent
+
+> **NodeClickEvent** = `NativeEventInfo`\<`dxSankey`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:136
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `dxSankeyNode`
+
+#### Docid
+
+_viz_sankey_NodeClickEvent.target
+
+## Docid
+
+_viz_sankey_NodeClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/NodeHoverEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / NodeHoverEvent
+
+# Type Alias: NodeHoverEvent
+
+> **NodeHoverEvent** = `EventInfo`\<`dxSankey`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:146
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `dxSankeyNode`
+
+#### Docid
+
+_viz_sankey_NodeHoverEvent.target
+
+## Docid
+
+_viz_sankey_NodeHoverEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSankey`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:157
+
+## Docid
+
+_viz_sankey_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/PaletteExtensionMode.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / PaletteExtensionMode
+
+# Type Alias: PaletteExtensionMode
+
+> **PaletteExtensionMode** = `"alternate"` \| `"blend"` \| `"extrapolate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:120
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSankeyOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:762
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/SankeyColorMode.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / SankeyColorMode
+
+# Type Alias: SankeyColorMode
+
+> **SankeyColorMode** = `"none"` \| `"source"` \| `"target"` \| `"gradient"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:52
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/TextOverflow.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / TextOverflow
+
+# Type Alias: TextOverflow
+
+> **TextOverflow** = `"ellipsis"` \| `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:190
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sankey API](../../../../globals.md) / [SankeyTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `BaseWidgetTooltip` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sankey.d.ts:588
+
+## Type Declaration
+
+### customizeLinkTooltip()?
+
+> `optional` **customizeLinkTooltip**: (`info`) => `any`
+
+#### Parameters
+
+##### info
+
+###### source?
+
+`string`
+
+###### target?
+
+`string`
+
+###### weight?
+
+`number`
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxSankeyOptions.tooltip.customizeLinkTooltip
+
+#### Default
+
+```ts
+undefined
+@type_function_return object
+@public
+```
+
+### customizeNodeTooltip()?
+
+> `optional` **customizeNodeTooltip**: (`info`) => `any`
+
+#### Parameters
+
+##### info
+
+###### label?
+
+`string`
+
+###### title?
+
+`string`
+
+###### weightIn?
+
+`number`
+
+###### weightOut?
+
+`number`
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxSankeyOptions.tooltip.customizeNodeTooltip
+
+#### Default
+
+```ts
+undefined
+@type_function_param1_field title:string:deprecated(label)
+@type_function_return object
+@public
+```
+
+### enabled?
+
+> `optional` **enabled**: `boolean`
+
+#### Docid
+
+dxSankeyOptions.tooltip.enabled
+
+#### Default
+
+```ts
+true
+@public
+```
+
+### linkTooltipTemplate?
+
+> `optional` **linkTooltipTemplate**: `template` \| (`info`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxSankeyOptions.tooltip.linkTooltipTemplate
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### nodeTooltipTemplate?
+
+> `optional` **nodeTooltipTemplate**: `template` \| (`info`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxSankeyOptions.tooltip.nodeTooltipTemplate
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxSankeyTooltip
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Sankey API v26.1.0
+
+## Namespaces
+
+- [SankeyTypes](DevExtreme-React-Sankey-API/namespaces/SankeyTypes/README.md)
+
+## Interfaces
+
+- [SankeyRef](interfaces/SankeyRef.md)
+
+## Type Aliases
+
+- [IAdaptiveLayoutProps](type-aliases/IAdaptiveLayoutProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IHatchingProps](type-aliases/IHatchingProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILinkProps](type-aliases/ILinkProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [INodeProps](type-aliases/INodeProps.md)
+- [ISankeyborderProps](type-aliases/ISankeyborderProps.md)
+- [ISankeyOptions](type-aliases/ISankeyOptions.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [AdaptiveLayout](variables/AdaptiveLayout.md)
+- [Border](variables/Border.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Hatching](variables/Hatching.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Label](variables/Label.md)
+- [Link](variables/Link.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [Node](variables/Node.md)
+- [Sankey](variables/Sankey.md)
+- [Sankeyborder](variables/Sankeyborder.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+
+## References
+
+### default
+
+Renames and re-exports [Sankey](variables/Sankey.md)
+
+
+--- SOURCE: interfaces/SankeyRef.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / SankeyRef
+
+# Interface: SankeyRef
+
+Defined in: [devextreme-react/src/sankey.ts:37](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L37)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSankey`
+
+Defined in: [devextreme-react/src/sankey.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L38)
+
+#### Returns
+
+`dxSankey`
+
+
+--- SOURCE: type-aliases/IAdaptiveLayoutProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IAdaptiveLayoutProps
+
+# Type Alias: IAdaptiveLayoutProps
+
+> **IAdaptiveLayoutProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `keepLabels?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:92](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L92)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:116](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L116)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:138](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L138)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:166](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L166)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:188](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L188)
+
+
+--- SOURCE: type-aliases/IHatchingProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IHatchingProps
+
+# Type Alias: IHatchingProps
+
+> **IHatchingProps** = `React.PropsWithChildren`\<\{ `direction?`: [`HatchDirection`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L211)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L233)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`itemInfo`) => `string`; `font?`: `ChartsFont`; `horizontalOffset?`: `number`; `overlappingBehavior?`: [`TextOverflow`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/TextOverflow.md); `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `useNodeColors?`: `boolean`; `verticalOffset?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:268](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L268)
+
+
+--- SOURCE: type-aliases/ILinkProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ILinkProps
+
+# Type Alias: ILinkProps
+
+> **ILinkProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `colorMode?`: [`SankeyColorMode`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/SankeyColorMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `opacity?`: `number`; \}; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:310](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L310)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:355](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L355)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:386](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L386)
+
+
+--- SOURCE: type-aliases/INodeProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / INodeProps
+
+# Type Alias: INodeProps
+
+> **INodeProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `opacity?`: `number`; \}; `opacity?`: `number`; `padding?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:407](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L407)
+
+
+--- SOURCE: type-aliases/ISankeyOptions.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ISankeyOptions
+
+# Type Alias: ISankeyOptions
+
+> **ISankeyOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/Properties.md), `ISankeyOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/sankey.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L32)
+
+
+--- SOURCE: type-aliases/ISankeyborderProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ISankeyborderProps
+
+# Type Alias: ISankeyborderProps
+
+> **ISankeyborderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:456](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L456)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:477](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L477)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:499](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L499)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/TextOverflow.md); `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:518](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L518)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/TextOverflow.md); `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Sankey-API/namespaces/SankeyTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:543](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L543)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:651](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L651)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `cornerRadius?`: `number`; `customizeLinkTooltip?`: (`info`) => `Record`\<`string`, `any`\>; `customizeNodeTooltip?`: (`info`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `linkTooltipComponent?`: `React.ComponentType`\<`any`\>; `linkTooltipRender?`: (...`params`) => `React.ReactNode`; `linkTooltipTemplate?`: (`info`, `element`) => `string` \| `any` \| `template`; `nodeTooltipComponent?`: `React.ComponentType`\<`any`\>; `nodeTooltipRender?`: (...`params`) => `React.ReactNode`; `nodeTooltipTemplate?`: (`info`, `element`) => `string` \| `any` \| `template`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sankey.ts:585](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L585)
+
+
+--- SOURCE: variables/AdaptiveLayout.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / AdaptiveLayout
+
+# Variable: AdaptiveLayout
+
+> `const` **AdaptiveLayout**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:106](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L106)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:132](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L132)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:156](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L156)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:182](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L182)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:205](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L205)
+
+
+--- SOURCE: variables/Hatching.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Hatching
+
+# Variable: Hatching
+
+> `const` **Hatching**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:226](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L226)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:262](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L262)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:304](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L304)
+
+
+--- SOURCE: variables/Link.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Link
+
+# Variable: Link
+
+> `const` **Link**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:349](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L349)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:379](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L379)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:401](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L401)
+
+
+--- SOURCE: variables/Node.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Node
+
+# Variable: Node
+
+> `const` **Node**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:447](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L447)
+
+
+--- SOURCE: variables/Sankey.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Sankey
+
+# Variable: Sankey()
+
+> `const` **Sankey**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/sankey.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L41)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Sankeyborder.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Sankeyborder
+
+# Variable: Sankeyborder
+
+> `const` **Sankeyborder**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:470](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L470)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:493](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L493)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:512](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L512)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:537](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L537)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:579](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L579)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:645](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L645)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React Sankey API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sankey API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/sankey.ts:667](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sankey.ts#L667)
+

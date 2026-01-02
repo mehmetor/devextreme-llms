@@ -1,0 +1,1092 @@
+# ColorBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ColorBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/README.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../globals.md) / ColorBoxTypes
+
+# ColorBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropDownButtonTemplateData](type-aliases/DropDownButtonTemplateData.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxColorBox`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:45
+
+## Docid
+
+_ui_color_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxColorBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:53
+
+## Docid
+
+_ui_color_box_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxColorBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:61
+
+## Docid
+
+_ui_color_box_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxColorBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:69
+
+## Docid
+
+_ui_color_box_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxColorBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:77
+
+## Docid
+
+_ui_color_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/DropDownButtonTemplateData.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / DropDownButtonTemplateData
+
+# Type Alias: DropDownButtonTemplateData
+
+> **DropDownButtonTemplateData** = `DropDownButtonTemplateDataModel`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:171
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxColorBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:85
+
+## Docid
+
+_ui_color_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxColorBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:93
+
+## Docid
+
+_ui_color_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxColorBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:101
+
+## Docid
+
+_ui_color_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxColorBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:109
+
+## Docid
+
+_ui_color_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxColorBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:117
+
+## Docid
+
+_ui_color_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxColorBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:125
+
+## Docid
+
+_ui_color_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxColorBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:128
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxColorBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:136
+
+## Docid
+
+_ui_color_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxColorBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:144
+
+## Docid
+
+_ui_color_box_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxColorBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:152
+
+## Docid
+
+_ui_color_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxColorBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:160
+
+## Docid
+
+_ui_color_box_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxColorBoxOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:246
+
+
+--- SOURCE: DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../../../../globals.md) / [ColorBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxColorBox`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `UIEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/color\_box.d.ts:168
+
+## Docid
+
+_ui_color_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ColorBox API v26.1.0
+
+## Namespaces
+
+- [ColorBoxTypes](DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/README.md)
+
+## Interfaces
+
+- [ColorBoxRef](interfaces/ColorBoxRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IColorBoxOptions](type-aliases/IColorBoxOptions.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFieldAddonsProps](type-aliases/IFieldAddonsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Button](variables/Button.md)
+- [Collision](variables/Collision.md)
+- [ColorBox](variables/ColorBox.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [FieldAddons](variables/FieldAddons.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Options](variables/Options.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [ColorBox](variables/ColorBox.md)
+
+
+--- SOURCE: interfaces/ColorBoxRef.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / ColorBoxRef
+
+# Interface: ColorBoxRef
+
+Defined in: [devextreme-react/src/color-box.ts:59](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L59)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxColorBox`
+
+Defined in: [devextreme-react/src/color-box.ts:60](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L60)
+
+#### Returns
+
+`dxColorBox`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:122](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L122)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:145](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L145)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:164](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L164)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:183](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L183)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:207](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L207)
+
+
+--- SOURCE: type-aliases/IColorBoxOptions.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IColorBoxOptions
+
+# Type Alias: IColorBoxOptions
+
+> **IColorBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ColorBox-API/namespaces/ColorBoxTypes/type-aliases/Properties.md), `IColorBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/color-box.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L48)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `dragAndResizeArea?`: `any` \| `string`; `dragEnabled?`: `boolean`; `dragOutsideBoundary?`: `boolean`; `enableBodyScroll?`: `boolean`; `focusStateEnabled?`: `boolean`; `fullScreen?`: `boolean`; `height?`: `number` \| `string`; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onResize?`: (`e`) => `void`; `onResizeEnd?`: (`e`) => `void`; `onResizeStart?`: (`e`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `resizeEnabled?`: `boolean`; `restorePosition?`: `boolean`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showTitle?`: `boolean`; `tabIndex?`: `number`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:226](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L226)
+
+
+--- SOURCE: type-aliases/IFieldAddonsProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IFieldAddonsProps
+
+# Type Alias: IFieldAddonsProps
+
+> **IFieldAddonsProps** = `React.PropsWithChildren`\<\{ `afterComponent?`: `React.ComponentType`\<`any`\>; `afterRender?`: (...`params`) => `React.ReactNode`; `afterTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; `beforeComponent?`: `React.ComponentType`\<`any`\>; `beforeRender?`: (...`params`) => `React.ReactNode`; `beforeTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:326](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L326)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:359](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L359)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:384](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L384)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:415](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L415)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:434](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L434)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:453](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L453)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:503](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L503)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:549](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L549)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:581](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L581)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/color-box.ts:606](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L606)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:139](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L139)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:158](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L158)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:177](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L177)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:201](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L201)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:220](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L220)
+
+
+--- SOURCE: variables/ColorBox.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / ColorBox
+
+# Variable: ColorBox()
+
+> `const` **ColorBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/color-box.ts:63](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L63)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:320](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L320)
+
+
+--- SOURCE: variables/FieldAddons.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / FieldAddons
+
+# Variable: FieldAddons
+
+> `const` **FieldAddons**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:352](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L352)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:378](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L378)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:409](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L409)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:428](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L428)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:447](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L447)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:495](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L495)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:543](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L543)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:574](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L574)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:600](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L600)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React ColorBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ColorBox API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/color-box.ts:644](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/color-box.ts#L644)
+

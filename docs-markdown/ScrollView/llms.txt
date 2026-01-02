@@ -1,0 +1,12 @@
+# ScrollView Documentation Map
+    
+Bu dizin ScrollView bileşeni için AI-optimize dökümantasyon içerir.
+
+## Ana Dosyalar
+- [Full API (Tek Dosya)](./llms-full.txt): AI modelleri için önerilen tüm API içeriği.
+- [README](./README.md): Bileşene genel bakış.
+
+## Dizin Yapısı
+- `interfaces/`: Props ve konfigürasyon arayüzleri.
+- `type-aliases/`: Tip tanımlamaları.
+- `variables/`: Sabitler ve olay işleyiciler.

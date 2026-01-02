@@ -1,0 +1,304 @@
+# SpeedDialAction Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React SpeedDialAction API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/README.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../globals.md) / SpeedDialActionTypes
+
+# SpeedDialActionTypes
+
+## Type Aliases
+
+- [ClickEvent](type-aliases/ClickEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/ClickEvent.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / ClickEvent
+
+# Type Alias: ClickEvent
+
+> **ClickEvent** = `NativeEventInfo`\<`dxSpeedDialAction`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:30
+
+## Type Declaration
+
+### actionElement?
+
+> `optional` **actionElement**: `DxElement`
+
+#### Docid
+
+_ui_speed_dial_action_ClickEvent.actionElement
+
+## Docid
+
+_ui_speed_dial_action_ClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxSpeedDialAction`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:41
+
+## Type Declaration
+
+### actionElement?
+
+> `optional` **actionElement**: `DxElement`
+
+#### Docid
+
+_ui_speed_dial_action_ContentReadyEvent.actionElement
+
+## Docid
+
+_ui_speed_dial_action_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSpeedDialAction`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:52
+
+## Docid
+
+_ui_speed_dial_action_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSpeedDialAction`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:60
+
+## Docid
+
+_ui_speed_dial_action_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSpeedDialAction`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:68
+
+## Docid
+
+_ui_speed_dial_action_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../../../../globals.md) / [SpeedDialActionTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSpeedDialActionOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speed\_dial\_action.d.ts:124
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React SpeedDialAction API v26.1.0
+
+## Namespaces
+
+- [SpeedDialActionTypes](DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/README.md)
+
+## Interfaces
+
+- [SpeedDialActionRef](interfaces/SpeedDialActionRef.md)
+
+## Type Aliases
+
+- [ISpeedDialActionOptions](type-aliases/ISpeedDialActionOptions.md)
+
+## Variables
+
+- [SpeedDialAction](variables/SpeedDialAction.md)
+
+## References
+
+### default
+
+Renames and re-exports [SpeedDialAction](variables/SpeedDialAction.md)
+
+
+--- SOURCE: interfaces/SpeedDialActionRef.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../globals.md) / SpeedDialActionRef
+
+# Interface: SpeedDialActionRef
+
+Defined in: [devextreme-react/src/speed-dial-action.ts:25](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speed-dial-action.ts#L25)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSpeedDialAction`
+
+Defined in: [devextreme-react/src/speed-dial-action.ts:26](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speed-dial-action.ts#L26)
+
+#### Returns
+
+`dxSpeedDialAction`
+
+
+--- SOURCE: type-aliases/ISpeedDialActionOptions.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../globals.md) / ISpeedDialActionOptions
+
+# Type Alias: ISpeedDialActionOptions
+
+> **ISpeedDialActionOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-SpeedDialAction-API/namespaces/SpeedDialActionTypes/type-aliases/Properties.md), `ISpeedDialActionOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/speed-dial-action.ts:23](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speed-dial-action.ts#L23)
+
+
+--- SOURCE: variables/SpeedDialAction.md ---
+
+[**DevExtreme React SpeedDialAction API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeedDialAction API](../globals.md) / SpeedDialAction
+
+# Variable: SpeedDialAction()
+
+> `const` **SpeedDialAction**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/speed-dial-action.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speed-dial-action.ts#L29)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

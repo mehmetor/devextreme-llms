@@ -1,0 +1,1589 @@
+# MultiView Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React MultiView API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/README.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../globals.md) / MultiViewTypes
+
+# MultiViewTypes
+
+## Interfaces
+
+- [~~dxMultiViewOptions~~](interfaces/dxMultiViewOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/interfaces/dxMultiViewOptions.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / dxMultiViewOptions
+
+# ~~Interface: dxMultiViewOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:106
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `dxMultiViewBaseOptions`\<`dxMultiView`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.activeStateEnabled`
+
+***
+
+### ~~animationEnabled?~~
+
+> `optional` **animationEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:126
+
+#### Docid
+
+dxMultiViewOptions.animationEnabled
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.animationEnabled`
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:133
+
+#### Docid
+
+dxMultiViewOptions.dataSource
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.dataSource`
+
+***
+
+### ~~deferRendering?~~
+
+> `optional` **deferRendering**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:139
+
+#### Docid
+
+dxMultiViewOptions.deferRendering
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.deferRendering`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:145
+
+#### Docid
+
+dxMultiViewOptions.focusStateEnabled
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:152
+
+#### Docid
+
+dxMultiViewOptions.items
+
+#### Fires
+
+dxMultiViewOptions.onOptionChanged
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.itemTemplate`
+
+***
+
+### ~~loop?~~
+
+> `optional` **loop**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:158
+
+#### Docid
+
+dxMultiViewOptions.loop
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.loop`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.onSelectionChanging`
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:164
+
+#### Docid
+
+dxMultiViewOptions.selectedIndex
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.selectedItems`
+
+***
+
+### ~~swipeEnabled?~~
+
+> `optional` **swipeEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:170
+
+#### Docid
+
+dxMultiViewOptions.swipeEnabled
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.swipeEnabled`
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMultiViewBaseOptions.width`
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:34
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:42
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:50
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/Item.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxMultiViewItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:188
+
+**`Namespace`**
+
+DevExpress.ui.dxMultiView
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:58
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:66
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:74
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:82
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:90
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxMultiViewOptions`](../interfaces/dxMultiViewOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:214
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React MultiView API](../../../../globals.md) / [MultiViewTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxMultiView`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:98
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_multi_view_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React MultiView API v26.1.0
+
+## Namespaces
+
+- [MultiViewTypes](DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/README.md)
+
+## Interfaces
+
+- [MultiViewRef](interfaces/MultiViewRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMultiViewOptions](type-aliases/IMultiViewOptions.md)
+
+## Variables
+
+- [Item](variables/Item.md)
+- [MultiView](variables/MultiView.md)
+
+## References
+
+### default
+
+Renames and re-exports [MultiView](variables/MultiView.md)
+
+
+--- SOURCE: interfaces/MultiViewRef.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / MultiViewRef
+
+# Interface: MultiViewRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/multi-view.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L42)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxMultiView`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/multi-view.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L43)
+
+#### Returns
+
+`dxMultiView`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:197
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:202
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:203
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:204
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:205
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:206
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:207
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:208
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:209
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:201
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/multi\_view.d.ts:210
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/multi-view.ts:99](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L99)
+
+
+--- SOURCE: type-aliases/IMultiViewOptions.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / IMultiViewOptions
+
+# Type Alias: IMultiViewOptions\<TItem, TKey\>
+
+> **IMultiViewOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-MultiView-API/namespaces/MultiViewTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IMultiViewOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/multi-view.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L30)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/multi-view.ts:123](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L123)
+
+
+--- SOURCE: variables/MultiView.md ---
+
+[**DevExtreme React MultiView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React MultiView API](../globals.md) / MultiView
+
+# Variable: MultiView()
+
+> `const` **MultiView**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/multi-view.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/multi-view.ts#L46)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

@@ -1,0 +1,1414 @@
+# TreeMap Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React TreeMap API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/README.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../globals.md) / TreeMapTypes
+
+# TreeMapTypes
+
+## Type Aliases
+
+- [ClickEvent](type-aliases/ClickEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [DrillEvent](type-aliases/DrillEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [HoverChangedEvent](type-aliases/HoverChangedEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [NodesInitializedEvent](type-aliases/NodesInitializedEvent.md)
+- [NodesRenderingEvent](type-aliases/NodesRenderingEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PaletteExtensionMode](type-aliases/PaletteExtensionMode.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [TextOverflow](type-aliases/TextOverflow.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [TreeMapColorizerType](type-aliases/TreeMapColorizerType.md)
+- [TreeMapLayoutAlgorithm](type-aliases/TreeMapLayoutAlgorithm.md)
+- [TreeMapLayoutDirection](type-aliases/TreeMapLayoutDirection.md)
+- [WordWrap](type-aliases/WordWrap.md)
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/ClickEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / ClickEvent
+
+# Type Alias: ClickEvent
+
+> **ClickEvent** = `NativeEventInfo`\<`dxTreeMap`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:74
+
+## Type Declaration
+
+### node
+
+> `readonly` **node**: `dxTreeMapNode`
+
+#### Docid
+
+_viz_tree_map_ClickEvent.node
+
+## Docid
+
+_viz_tree_map_ClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxTreeMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:85
+
+## Docid
+
+_viz_tree_map_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxTreeMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:93
+
+## Docid
+
+_viz_tree_map_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/DrillEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / DrillEvent
+
+# Type Alias: DrillEvent
+
+> **DrillEvent** = `EventInfo`\<`dxTreeMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:101
+
+## Type Declaration
+
+### node
+
+> `readonly` **node**: `dxTreeMapNode`
+
+#### Docid
+
+_viz_tree_map_DrillEvent.node
+
+## Docid
+
+_viz_tree_map_DrillEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxTreeMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:112
+
+## Docid
+
+_viz_tree_map_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxTreeMap`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:120
+
+## Docid
+
+_viz_tree_map_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxTreeMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:128
+
+## Docid
+
+_viz_tree_map_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/HoverChangedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / HoverChangedEvent
+
+# Type Alias: HoverChangedEvent
+
+> **HoverChangedEvent** = `EventInfo`\<`dxTreeMap`\> & `InteractionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:136
+
+## Docid
+
+_viz_tree_map_HoverChangedEvent
+
+## Inherits
+
+EventInfo,InteractionInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxTreeMap`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:144
+
+## Docid
+
+_viz_tree_map_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxTreeMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:152
+
+## Docid
+
+_viz_tree_map_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/NodesInitializedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / NodesInitializedEvent
+
+# Type Alias: NodesInitializedEvent
+
+> **NodesInitializedEvent** = `EventInfo`\<`dxTreeMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:160
+
+## Type Declaration
+
+### root
+
+> `readonly` **root**: `dxTreeMapNode`
+
+#### Docid
+
+_viz_tree_map_NodesInitializedEvent.root
+
+## Docid
+
+_viz_tree_map_NodesInitializedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/NodesRenderingEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / NodesRenderingEvent
+
+# Type Alias: NodesRenderingEvent
+
+> **NodesRenderingEvent** = `EventInfo`\<`dxTreeMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:171
+
+## Type Declaration
+
+### node
+
+> `readonly` **node**: `dxTreeMapNode`
+
+#### Docid
+
+_viz_tree_map_NodesRenderingEvent.node
+
+## Docid
+
+_viz_tree_map_NodesRenderingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxTreeMap`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:182
+
+## Docid
+
+_viz_tree_map_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/PaletteExtensionMode.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / PaletteExtensionMode
+
+# Type Alias: PaletteExtensionMode
+
+> **PaletteExtensionMode** = `"alternate"` \| `"blend"` \| `"extrapolate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:120
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxTreeMapOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:790
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxTreeMap`\> & `InteractionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:190
+
+## Docid
+
+_viz_tree_map_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,InteractionInfo
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / TextOverflow
+
+# Type Alias: TextOverflow
+
+> **TextOverflow** = `"ellipsis"` \| `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:190
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `BaseWidgetTooltip` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:601
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`info`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxTreeMapOptions.tooltip.contentTemplate
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`info`) => `any`
+
+#### Parameters
+
+##### info
+
+###### node?
+
+`dxTreeMapNode`
+
+###### value?
+
+`number`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxTreeMapOptions.tooltip.customizeTooltip
+
+#### Default
+
+```ts
+undefined
+@type_function_return object
+@public
+```
+
+## Docid
+
+dxTreeMapTooltip
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TreeMapColorizerType.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / TreeMapColorizerType
+
+# Type Alias: TreeMapColorizerType
+
+> **TreeMapColorizerType** = `"discrete"` \| `"gradient"` \| `"none"` \| `"range"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:53
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TreeMapLayoutAlgorithm.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / TreeMapLayoutAlgorithm
+
+# Type Alias: TreeMapLayoutAlgorithm
+
+> **TreeMapLayoutAlgorithm** = `"sliceanddice"` \| `"squarified"` \| `"strip"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:55
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TreeMapLayoutDirection.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / TreeMapLayoutDirection
+
+# Type Alias: TreeMapLayoutDirection
+
+> **TreeMapLayoutDirection** = `"leftBottomRightTop"` \| `"leftTopRightBottom"` \| `"rightBottomLeftTop"` \| `"rightTopLeftBottom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/tree\_map.d.ts:57
+
+
+--- SOURCE: DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../../../../globals.md) / [TreeMapTypes](../README.md) / WordWrap
+
+# Type Alias: WordWrap
+
+> **WordWrap** = `"normal"` \| `"breakWord"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:292
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React TreeMap API v26.1.0
+
+## Namespaces
+
+- [TreeMapTypes](DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/README.md)
+
+## Interfaces
+
+- [TreeMapRef](interfaces/TreeMapRef.md)
+
+## Type Aliases
+
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IColorizerProps](type-aliases/IColorizerProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGroupLabelProps](type-aliases/IGroupLabelProps.md)
+- [IGroupProps](type-aliases/IGroupProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [ISelectionStyleProps](type-aliases/ISelectionStyleProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITileLabelProps](type-aliases/ITileLabelProps.md)
+- [ITileProps](type-aliases/ITileProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+- [ITreeMapborderProps](type-aliases/ITreeMapborderProps.md)
+- [ITreeMapOptions](type-aliases/ITreeMapOptions.md)
+
+## Variables
+
+- [Border](variables/Border.md)
+- [Colorizer](variables/Colorizer.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Group](variables/Group.md)
+- [GroupLabel](variables/GroupLabel.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Label](variables/Label.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [SelectionStyle](variables/SelectionStyle.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [Tile](variables/Tile.md)
+- [TileLabel](variables/TileLabel.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+- [TreeMap](variables/TreeMap.md)
+- [TreeMapborder](variables/TreeMapborder.md)
+
+## References
+
+### default
+
+Renames and re-exports [TreeMap](variables/TreeMap.md)
+
+
+--- SOURCE: interfaces/TreeMapRef.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / TreeMapRef
+
+# Interface: TreeMapRef
+
+Defined in: [devextreme-react/src/tree-map.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L39)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTreeMap`
+
+Defined in: [devextreme-react/src/tree-map.ts:40](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L40)
+
+#### Returns
+
+`dxTreeMap`
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:96](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L96)
+
+
+--- SOURCE: type-aliases/IColorizerProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IColorizerProps
+
+# Type Alias: IColorizerProps
+
+> **IColorizerProps** = `React.PropsWithChildren`\<\{ `colorCodeField?`: `string`; `colorizeGroups?`: `boolean`; `palette?`: `string`[] \| [`Palette`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/Palette.md); `paletteExtensionMode?`: [`PaletteExtensionMode`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/PaletteExtensionMode.md); `range?`: `number`[]; `type?`: [`TreeMapColorizerType`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TreeMapColorizerType.md); \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L118)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:141](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L141)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:170](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L170)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:192](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L192)
+
+
+--- SOURCE: type-aliases/IGroupLabelProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IGroupLabelProps
+
+# Type Alias: IGroupLabelProps
+
+> **IGroupLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:267](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L267)
+
+
+--- SOURCE: type-aliases/IGroupProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IGroupProps
+
+# Type Alias: IGroupProps
+
+> **IGroupProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; `headerHeight?`: `number`; `hoverEnabled?`: `boolean`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}; `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; \}; `padding?`: `number`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:215](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L215)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:291](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L291)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:318](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L318)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:342](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L342)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:372](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L372)
+
+
+--- SOURCE: type-aliases/ISelectionStyleProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ISelectionStyleProps
+
+# Type Alias: ISelectionStyleProps
+
+> **ISelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:394](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L394)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:420](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L420)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:442](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L442)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:461](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L461)
+
+
+--- SOURCE: type-aliases/ITileLabelProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITileLabelProps
+
+# Type Alias: ITileLabelProps
+
+> **ITileLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:536](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L536)
+
+
+--- SOURCE: type-aliases/ITileProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITileProps
+
+# Type Alias: ITileProps
+
+> **ITileProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}; `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `width?`: `number`; \}; `color?`: `string`; \}; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:486](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L486)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:560](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L560)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:660](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L660)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`info`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`info`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:602](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L602)
+
+
+--- SOURCE: type-aliases/ITreeMapOptions.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITreeMapOptions
+
+# Type Alias: ITreeMapOptions
+
+> **ITreeMapOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-TreeMap-API/namespaces/TreeMapTypes/type-aliases/Properties.md), `ITreeMapOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/tree-map.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L34)
+
+
+--- SOURCE: type-aliases/ITreeMapborderProps.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / ITreeMapborderProps
+
+# Type Alias: ITreeMapborderProps
+
+> **ITreeMapborderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tree-map.ts:685](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L685)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L112)
+
+
+--- SOURCE: variables/Colorizer.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Colorizer
+
+# Variable: Colorizer
+
+> `const` **Colorizer**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:135](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L135)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L159)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:186](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L186)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L209)
+
+
+--- SOURCE: variables/Group.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Group
+
+# Variable: Group
+
+> `const` **Group**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:261](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L261)
+
+
+--- SOURCE: variables/GroupLabel.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / GroupLabel
+
+# Variable: GroupLabel
+
+> `const` **GroupLabel**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:284](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L284)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:311](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L311)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:336](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L336)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:366](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L366)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:387](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L387)
+
+
+--- SOURCE: variables/SelectionStyle.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / SelectionStyle
+
+# Variable: SelectionStyle
+
+> `const` **SelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:414](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L414)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:436](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L436)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:455](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L455)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:480](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L480)
+
+
+--- SOURCE: variables/Tile.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Tile
+
+# Variable: Tile
+
+> `const` **Tile**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:530](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L530)
+
+
+--- SOURCE: variables/TileLabel.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / TileLabel
+
+# Variable: TileLabel
+
+> `const` **TileLabel**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:554](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L554)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:596](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L596)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:654](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L654)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:676](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L676)
+
+
+--- SOURCE: variables/TreeMap.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / TreeMap
+
+# Variable: TreeMap()
+
+> `const` **TreeMap**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/tree-map.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L43)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/TreeMapborder.md ---
+
+[**DevExtreme React TreeMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TreeMap API](../globals.md) / TreeMapborder
+
+# Variable: TreeMapborder
+
+> `const` **TreeMapborder**: `any`
+
+Defined in: [devextreme-react/src/tree-map.ts:698](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tree-map.ts#L698)
+

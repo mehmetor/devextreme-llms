@@ -1,0 +1,420 @@
+# Slider Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Slider API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/README.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../globals.md) / SliderTypes
+
+# SliderTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [TooltipShowMode](type-aliases/TooltipShowMode.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+- [VerticalEdge](type-aliases/VerticalEdge.md)
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:46
+
+## Docid
+
+_ui_slider_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:54
+
+## Docid
+
+_ui_slider_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:62
+
+## Docid
+
+_ui_slider_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSlider`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:70
+
+## Docid
+
+_ui_slider_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSliderOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:229
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/TooltipShowMode.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / TooltipShowMode
+
+# Type Alias: TooltipShowMode
+
+> **TooltipShowMode** = `"always"` \| `"onHover"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:820
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxSlider`, `InteractionEvent` \| `UIEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/slider.d.ts:78
+
+## Docid
+
+_ui_slider_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/VerticalEdge.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Slider API](../../../../globals.md) / [SliderTypes](../README.md) / VerticalEdge
+
+# Type Alias: VerticalEdge
+
+> **VerticalEdge** = `"bottom"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:870
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Slider API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Slider API v26.1.0
+
+## Namespaces
+
+- [SliderTypes](DevExtreme-React-Slider-API/namespaces/SliderTypes/README.md)
+
+## Interfaces
+
+- [SliderRef](interfaces/SliderRef.md)
+
+## Type Aliases
+
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ISliderOptions](type-aliases/ISliderOptions.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [Format](variables/Format.md)
+- [Label](variables/Label.md)
+- [Slider](variables/Slider.md)
+- [Tooltip](variables/Tooltip.md)
+
+## References
+
+### default
+
+Renames and re-exports [Slider](variables/Slider.md)
+
+
+--- SOURCE: interfaces/SliderRef.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / SliderRef
+
+# Interface: SliderRef
+
+Defined in: [devextreme-react/src/slider.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L31)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSlider`
+
+Defined in: [devextreme-react/src/slider.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L32)
+
+#### Returns
+
+`dxSlider`
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/slider.ts:79](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L79)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `format?`: `LocalizationFormat`; `position?`: [`VerticalEdge`](../DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/VerticalEdge.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/slider.ts:102](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L102)
+
+
+--- SOURCE: type-aliases/ISliderOptions.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / ISliderOptions
+
+# Type Alias: ISliderOptions
+
+> **ISliderOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/Properties.md), `ISliderOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/slider.ts:26](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L26)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `format?`: `LocalizationFormat`; `position?`: [`VerticalEdge`](../DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/VerticalEdge.md); `showMode?`: [`TooltipShowMode`](../DevExtreme-React-Slider-API/namespaces/SliderTypes/type-aliases/TooltipShowMode.md); \}\>
+
+Defined in: [devextreme-react/src/slider.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L125)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/slider.ts:96](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L96)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/slider.ts:119](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L119)
+
+
+--- SOURCE: variables/Slider.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / Slider
+
+# Variable: Slider()
+
+> `const` **Slider**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/slider.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L35)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Slider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Slider API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/slider.ts:143](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/slider.ts#L143)
+

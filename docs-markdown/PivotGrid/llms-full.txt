@@ -1,0 +1,1140 @@
+# PivotGrid Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React PivotGrid API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/README.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../globals.md) / PivotGridTypes
+
+# PivotGridTypes
+
+## Type Aliases
+
+- [ApplyChangesMode](type-aliases/ApplyChangesMode.md)
+- [Cell](type-aliases/Cell.md)
+- [CellClickEvent](type-aliases/CellClickEvent.md)
+- [CellPreparedEvent](type-aliases/CellPreparedEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextMenuPreparingEvent](type-aliases/ContextMenuPreparingEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FieldChooserLayout](type-aliases/FieldChooserLayout.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Mode](type-aliases/Mode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PivotGridDataFieldArea](type-aliases/PivotGridDataFieldArea.md)
+- [PivotGridRowHeaderLayout](type-aliases/PivotGridRowHeaderLayout.md)
+- [PivotGridTotalDisplayMode](type-aliases/PivotGridTotalDisplayMode.md)
+- [Properties](type-aliases/Properties.md)
+- [ScrollMode](type-aliases/ScrollMode.md)
+- [StateStoreType](type-aliases/StateStoreType.md)
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ApplyChangesMode.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / ApplyChangesMode
+
+# Type Alias: ApplyChangesMode
+
+> **ApplyChangesMode** = `"instantly"` \| `"onDemand"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/grids.d.ts:140
+
+**`Namespace`**
+
+DevExpress.common.grids
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/Cell.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / Cell
+
+# Type Alias: Cell
+
+> **Cell** = `dxPivotGridPivotGridCell`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:760
+
+**`Namespace`**
+
+DevExpress.ui.dxPivotGrid
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/CellClickEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / CellClickEvent
+
+# Type Alias: CellClickEvent
+
+> **CellClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxPivotGrid`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:66
+
+## Type Declaration
+
+### area?
+
+> `readonly` `optional` **area**: `string`
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.area
+
+### cell?
+
+> `readonly` `optional` **cell**: [`Cell`](Cell.md)
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.cell
+
+### cellElement?
+
+> `readonly` `optional` **cellElement**: `DxElement`
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.cellElement
+
+### columnFields?
+
+> `readonly` `optional` **columnFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.columnFields
+
+### columnIndex?
+
+> `readonly` `optional` **columnIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.columnIndex
+
+### dataFields?
+
+> `readonly` `optional` **dataFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.dataFields
+
+### rowFields?
+
+> `readonly` `optional` **rowFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.rowFields
+
+### rowIndex?
+
+> `readonly` `optional` **rowIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_CellClickEvent.rowIndex
+
+## Docid
+
+_ui_pivot_grid_CellClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/CellPreparedEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / CellPreparedEvent
+
+# Type Alias: CellPreparedEvent
+
+> **CellPreparedEvent** = `EventInfo`\<`dxPivotGrid`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:103
+
+## Type Declaration
+
+### area?
+
+> `readonly` `optional` **area**: `string`
+
+#### Docid
+
+_ui_pivot_grid_CellPreparedEvent.area
+
+### cell?
+
+> `readonly` `optional` **cell**: [`Cell`](Cell.md)
+
+#### Docid
+
+_ui_pivot_grid_CellPreparedEvent.cell
+
+### cellElement?
+
+> `readonly` `optional` **cellElement**: `DxElement`
+
+#### Docid
+
+_ui_pivot_grid_CellPreparedEvent.cellElement
+
+### columnIndex?
+
+> `readonly` `optional` **columnIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_CellPreparedEvent.columnIndex
+
+### rowIndex?
+
+> `readonly` `optional` **rowIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_CellPreparedEvent.rowIndex
+
+## Docid
+
+_ui_pivot_grid_CellPreparedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxPivotGrid`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:125
+
+## Docid
+
+_ui_pivot_grid_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ContextMenuPreparingEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / ContextMenuPreparingEvent
+
+# Type Alias: ContextMenuPreparingEvent
+
+> **ContextMenuPreparingEvent** = `EventInfo`\<`dxPivotGrid`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:133
+
+## Type Declaration
+
+### area?
+
+> `readonly` `optional` **area**: `string`
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.area
+
+### cell?
+
+> `readonly` `optional` **cell**: [`Cell`](Cell.md)
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.cell
+
+### cellElement?
+
+> `readonly` `optional` **cellElement**: `DxElement`
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.cellElement
+
+### columnFields?
+
+> `readonly` `optional` **columnFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.columnFields
+
+### columnIndex?
+
+> `readonly` `optional` **columnIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.columnIndex
+
+### dataFields?
+
+> `readonly` `optional` **dataFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.dataFields
+
+### field?
+
+> `readonly` `optional` **field**: `Field`
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.field
+
+### items?
+
+> `optional` **items**: `any`[]
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.items
+
+### rowFields?
+
+> `readonly` `optional` **rowFields**: `Field`[]
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.rowFields
+
+### rowIndex?
+
+> `readonly` `optional` **rowIndex**: `number`
+
+#### Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent.rowIndex
+
+## Docid
+
+_ui_pivot_grid_ContextMenuPreparingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxPivotGrid`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:180
+
+## Docid
+
+_ui_pivot_grid_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `Cancelable` & `EventInfo`\<`dxPivotGrid`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:188
+
+## Type Declaration
+
+### fileName?
+
+> `optional` **fileName**: `string`
+
+#### Docid
+
+_ui_pivot_grid_ExportingEvent.fileName
+
+## Docid
+
+_ui_pivot_grid_ExportingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/FieldChooserLayout.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / FieldChooserLayout
+
+# Type Alias: FieldChooserLayout
+
+> **FieldChooserLayout** = `0` \| `1` \| `2`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:267
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxPivotGrid`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:199
+
+## Docid
+
+_ui_pivot_grid_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/Mode.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / Mode
+
+# Type Alias: Mode
+
+> **Mode** = `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:452
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxPivotGrid`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:207
+
+## Docid
+
+_ui_pivot_grid_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/PivotGridDataFieldArea.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / PivotGridDataFieldArea
+
+# Type Alias: PivotGridDataFieldArea
+
+> **PivotGridDataFieldArea** = `"column"` \| `"row"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:54
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/PivotGridRowHeaderLayout.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / PivotGridRowHeaderLayout
+
+# Type Alias: PivotGridRowHeaderLayout
+
+> **PivotGridRowHeaderLayout** = `"standard"` \| `"tree"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:56
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/PivotGridTotalDisplayMode.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / PivotGridTotalDisplayMode
+
+# Type Alias: PivotGridTotalDisplayMode
+
+> **PivotGridTotalDisplayMode** = `"both"` \| `"columns"` \| `"none"` \| `"rows"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:58
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxPivotGridOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pivot\_grid.d.ts:822
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ScrollMode.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / ScrollMode
+
+# Type Alias: ScrollMode
+
+> **ScrollMode** = `"standard"` \| `"virtual"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:635
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/StateStoreType.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../../../../globals.md) / [PivotGridTypes](../README.md) / StateStoreType
+
+# Type Alias: StateStoreType
+
+> **StateStoreType** = `"custom"` \| `"localStorage"` \| `"sessionStorage"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/grids.d.ts:3283
+
+**`Namespace`**
+
+DevExpress.common.grids
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React PivotGrid API v26.1.0
+
+## Namespaces
+
+- [PivotGridTypes](DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/README.md)
+
+## Interfaces
+
+- [PivotGridRef](interfaces/PivotGridRef.md)
+
+## Type Aliases
+
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFieldChooserProps](type-aliases/IFieldChooserProps.md)
+- [IFieldChooserTextsProps](type-aliases/IFieldChooserTextsProps.md)
+- [IFieldPanelProps](type-aliases/IFieldPanelProps.md)
+- [IFieldPanelTextsProps](type-aliases/IFieldPanelTextsProps.md)
+- [IHeaderFilterProps](type-aliases/IHeaderFilterProps.md)
+- [IHeaderFilterTextsProps](type-aliases/IHeaderFilterTextsProps.md)
+- [ILoadPanelProps](type-aliases/ILoadPanelProps.md)
+- [IPivotGridOptions](type-aliases/IPivotGridOptions.md)
+- [IPivotGridTextsProps](type-aliases/IPivotGridTextsProps.md)
+- [IScrollingProps](type-aliases/IScrollingProps.md)
+- [ISearchProps](type-aliases/ISearchProps.md)
+- [IStateStoringProps](type-aliases/IStateStoringProps.md)
+- [ITextsProps](type-aliases/ITextsProps.md)
+
+## Variables
+
+- [Export](variables/Export.md)
+- [FieldChooser](variables/FieldChooser.md)
+- [FieldChooserTexts](variables/FieldChooserTexts.md)
+- [FieldPanel](variables/FieldPanel.md)
+- [FieldPanelTexts](variables/FieldPanelTexts.md)
+- [HeaderFilter](variables/HeaderFilter.md)
+- [HeaderFilterTexts](variables/HeaderFilterTexts.md)
+- [LoadPanel](variables/LoadPanel.md)
+- [PivotGrid](variables/PivotGrid.md)
+- [PivotGridTexts](variables/PivotGridTexts.md)
+- [Scrolling](variables/Scrolling.md)
+- [Search](variables/Search.md)
+- [StateStoring](variables/StateStoring.md)
+- [Texts](variables/Texts.md)
+
+## References
+
+### default
+
+Renames and re-exports [PivotGrid](variables/PivotGrid.md)
+
+
+--- SOURCE: interfaces/PivotGridRef.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / PivotGridRef
+
+# Interface: PivotGridRef
+
+Defined in: [devextreme-react/src/pivot-grid.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L31)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPivotGrid`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L32)
+
+#### Returns
+
+`dxPivotGrid`
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:78](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L78)
+
+
+--- SOURCE: type-aliases/IFieldChooserProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IFieldChooserProps
+
+# Type Alias: IFieldChooserProps
+
+> **IFieldChooserProps** = `React.PropsWithChildren`\<\{ `allowSearch?`: `boolean`; `applyChangesMode?`: [`ApplyChangesMode`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ApplyChangesMode.md); `enabled?`: `boolean`; `height?`: `number`; `layout?`: [`FieldChooserLayout`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/FieldChooserLayout.md); `searchTimeout?`: `number`; `texts?`: `Record`\<`string`, `any`\> \| \{ `allFields?`: `string`; `columnFields?`: `string`; `dataFields?`: `string`; `filterFields?`: `string`; `rowFields?`: `string`; \}; `title?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:96](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L96)
+
+
+--- SOURCE: type-aliases/IFieldChooserTextsProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IFieldChooserTextsProps
+
+# Type Alias: IFieldChooserTextsProps
+
+> **IFieldChooserTextsProps** = `React.PropsWithChildren`\<\{ `allFields?`: `string`; `columnFields?`: `string`; `dataFields?`: `string`; `filterFields?`: `string`; `rowFields?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:132](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L132)
+
+
+--- SOURCE: type-aliases/IFieldPanelProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IFieldPanelProps
+
+# Type Alias: IFieldPanelProps
+
+> **IFieldPanelProps** = `React.PropsWithChildren`\<\{ `allowFieldDragging?`: `boolean`; `showColumnFields?`: `boolean`; `showDataFields?`: `boolean`; `showFilterFields?`: `boolean`; `showRowFields?`: `boolean`; `texts?`: `Record`\<`string`, `any`\> \| \{ `columnFieldArea?`: `string`; `dataFieldArea?`: `string`; `filterFieldArea?`: `string`; `rowFieldArea?`: `string`; \}; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:154](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L154)
+
+
+--- SOURCE: type-aliases/IFieldPanelTextsProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IFieldPanelTextsProps
+
+# Type Alias: IFieldPanelTextsProps
+
+> **IFieldPanelTextsProps** = `React.PropsWithChildren`\<\{ `columnFieldArea?`: `string`; `dataFieldArea?`: `string`; `filterFieldArea?`: `string`; `rowFieldArea?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L187)
+
+
+--- SOURCE: type-aliases/IHeaderFilterProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IHeaderFilterProps
+
+# Type Alias: IHeaderFilterProps
+
+> **IHeaderFilterProps** = `React.PropsWithChildren`\<\{ `allowSearch?`: `boolean`; `allowSelectAll?`: `boolean`; `height?`: `number`; `search?`: `HeaderFilterSearchConfig`; `searchTimeout?`: `number`; `showRelevantValues?`: `boolean`; `texts?`: `Record`\<`string`, `any`\> \| \{ `cancel?`: `string`; `emptyValue?`: `string`; `ok?`: `string`; \}; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:208](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L208)
+
+
+--- SOURCE: type-aliases/IHeaderFilterTextsProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IHeaderFilterTextsProps
+
+# Type Alias: IHeaderFilterTextsProps
+
+> **IHeaderFilterTextsProps** = `React.PropsWithChildren`\<\{ `cancel?`: `string`; `emptyValue?`: `string`; `ok?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:242](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L242)
+
+
+--- SOURCE: type-aliases/ILoadPanelProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / ILoadPanelProps
+
+# Type Alias: ILoadPanelProps
+
+> **ILoadPanelProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `height?`: `number`; `indicatorSrc?`: `string`; `shading?`: `boolean`; `shadingColor?`: `string`; `showIndicator?`: `boolean`; `showPane?`: `boolean`; `text?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:262](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L262)
+
+
+--- SOURCE: type-aliases/IPivotGridOptions.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IPivotGridOptions
+
+# Type Alias: IPivotGridOptions
+
+> **IPivotGridOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/Properties.md), `IPivotGridOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L29)
+
+
+--- SOURCE: type-aliases/IPivotGridTextsProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IPivotGridTextsProps
+
+# Type Alias: IPivotGridTextsProps
+
+> **IPivotGridTextsProps** = `React.PropsWithChildren`\<\{ `collapseAll?`: `string`; `dataNotAvailable?`: `string`; `expandAll?`: `string`; `exportToExcel?`: `string`; `grandTotal?`: `string`; `noData?`: `string`; `removeAllSorting?`: `string`; `showFieldChooser?`: `string`; `sortColumnBySummary?`: `string`; `sortRowBySummary?`: `string`; `total?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:288](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L288)
+
+
+--- SOURCE: type-aliases/IScrollingProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IScrollingProps
+
+# Type Alias: IScrollingProps
+
+> **IScrollingProps** = `React.PropsWithChildren`\<\{ `mode?`: [`ScrollMode`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/ScrollMode.md); `useNative?`: `boolean` \| [`Mode`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/Mode.md); \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:316](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L316)
+
+
+--- SOURCE: type-aliases/ISearchProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / ISearchProps
+
+# Type Alias: ISearchProps
+
+> **ISearchProps** = `React.PropsWithChildren`\<\{ `editorOptions?`: `any`; `enabled?`: `boolean`; `mode?`: `SearchMode`; `timeout?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:335](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L335)
+
+
+--- SOURCE: type-aliases/IStateStoringProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / IStateStoringProps
+
+# Type Alias: IStateStoringProps
+
+> **IStateStoringProps** = `React.PropsWithChildren`\<\{ `customLoad?`: () => `any`; `customSave?`: (`state`) => `void`; `enabled?`: `boolean`; `savingTimeout?`: `number`; `storageKey?`: `string`; `type?`: [`StateStoreType`](../DevExtreme-React-PivotGrid-API/namespaces/PivotGridTypes/type-aliases/StateStoreType.md); \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L356)
+
+
+--- SOURCE: type-aliases/ITextsProps.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / ITextsProps
+
+# Type Alias: ITextsProps
+
+> **ITextsProps** = `React.PropsWithChildren`\<\{ `allFields?`: `string`; `cancel?`: `string`; `collapseAll?`: `string`; `columnFieldArea?`: `string`; `columnFields?`: `string`; `dataFieldArea?`: `string`; `dataFields?`: `string`; `dataNotAvailable?`: `string`; `emptyValue?`: `string`; `expandAll?`: `string`; `exportToExcel?`: `string`; `filterFieldArea?`: `string`; `filterFields?`: `string`; `grandTotal?`: `string`; `noData?`: `string`; `ok?`: `string`; `removeAllSorting?`: `string`; `rowFieldArea?`: `string`; `rowFields?`: `string`; `showFieldChooser?`: `string`; `sortColumnBySummary?`: `string`; `sortRowBySummary?`: `string`; `total?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L382)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:90](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L90)
+
+
+--- SOURCE: variables/FieldChooser.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / FieldChooser
+
+# Variable: FieldChooser
+
+> `const` **FieldChooser**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:126](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L126)
+
+
+--- SOURCE: variables/FieldChooserTexts.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / FieldChooserTexts
+
+# Variable: FieldChooserTexts
+
+> `const` **FieldChooserTexts**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L148)
+
+
+--- SOURCE: variables/FieldPanel.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / FieldPanel
+
+# Variable: FieldPanel
+
+> `const` **FieldPanel**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:181](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L181)
+
+
+--- SOURCE: variables/FieldPanelTexts.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / FieldPanelTexts
+
+# Variable: FieldPanelTexts
+
+> `const` **FieldPanelTexts**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:202](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L202)
+
+
+--- SOURCE: variables/HeaderFilter.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / HeaderFilter
+
+# Variable: HeaderFilter
+
+> `const` **HeaderFilter**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:236](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L236)
+
+
+--- SOURCE: variables/HeaderFilterTexts.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / HeaderFilterTexts
+
+# Variable: HeaderFilterTexts
+
+> `const` **HeaderFilterTexts**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:256](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L256)
+
+
+--- SOURCE: variables/LoadPanel.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / LoadPanel
+
+# Variable: LoadPanel
+
+> `const` **LoadPanel**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:282](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L282)
+
+
+--- SOURCE: variables/PivotGrid.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / PivotGrid
+
+# Variable: PivotGrid()
+
+> `const` **PivotGrid**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/pivot-grid.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L35)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/PivotGridTexts.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / PivotGridTexts
+
+# Variable: PivotGridTexts
+
+> `const` **PivotGridTexts**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:310](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L310)
+
+
+--- SOURCE: variables/Scrolling.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / Scrolling
+
+# Variable: Scrolling
+
+> `const` **Scrolling**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:329](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L329)
+
+
+--- SOURCE: variables/Search.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / Search
+
+# Variable: Search
+
+> `const` **Search**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:350](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L350)
+
+
+--- SOURCE: variables/StateStoring.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / StateStoring
+
+# Variable: StateStoring
+
+> `const` **StateStoring**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:373](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L373)
+
+
+--- SOURCE: variables/Texts.md ---
+
+[**DevExtreme React PivotGrid API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PivotGrid API](../globals.md) / Texts
+
+# Variable: Texts
+
+> `const` **Texts**: `any`
+
+Defined in: [devextreme-react/src/pivot-grid.ts:416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pivot-grid.ts#L416)
+

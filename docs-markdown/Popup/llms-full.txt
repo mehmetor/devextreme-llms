@@ -1,0 +1,1081 @@
+# Popup Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Popup API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/README.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../globals.md) / PopupTypes
+
+# PopupTypes
+
+## Interfaces
+
+- [ToolbarItem](interfaces/ToolbarItem.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PositionAlignment](type-aliases/PositionAlignment.md)
+- [Properties](type-aliases/Properties.md)
+- [ResizeEndEvent](type-aliases/ResizeEndEvent.md)
+- [ResizeEvent](type-aliases/ResizeEvent.md)
+- [ResizeStartEvent](type-aliases/ResizeStartEvent.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+- [TitleRenderedEvent](type-aliases/TitleRenderedEvent.md)
+- [ToolbarItemLocation](type-aliases/ToolbarItemLocation.md)
+- [ToolbarItemWidget](type-aliases/ToolbarItemWidget.md)
+- [ToolbarLocation](type-aliases/ToolbarLocation.md)
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/interfaces/ToolbarItem.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ToolbarItem
+
+# Interface: ToolbarItem
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:288
+
+**`Namespace`**
+
+## Docid
+
+dxPopupToolbarItem
+
+## Inherits
+
+dxToolbarItem
+ DevExpress.ui.dxPopup
+
+## Extends
+
+- `Item`
+
+## Properties
+
+### cssClass?
+
+> `optional` **cssClass**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:177
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.cssClass`
+
+***
+
+### disabled?
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:219
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.disabled`
+
+***
+
+### html?
+
+> `optional` **html**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:224
+
+#### Docid
+
+#### Inherited from
+
+`dxToolbarItem.html`
+
+***
+
+### locateInMenu?
+
+> `optional` **locateInMenu**: `LocateInMenuMode`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:183
+
+#### Docid
+
+#### Default
+
+```ts
+'never'
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.locateInMenu`
+
+***
+
+### location?
+
+> `optional` **location**: [`ToolbarItemLocation`](../type-aliases/ToolbarItemLocation.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:189
+
+#### Docid
+
+#### Default
+
+```ts
+'center'
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.location`
+
+***
+
+### menuItemTemplate?
+
+> `optional` **menuItemTemplate**: `template` \| () => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:195
+
+#### Docid
+
+@type_function_return string|Element|jQuery
+
+#### Inherited from
+
+`dxToolbarItem.menuItemTemplate`
+
+***
+
+### options?
+
+> `optional` **options**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:200
+
+#### Docid
+
+#### Inherited from
+
+`dxToolbarItem.options`
+
+***
+
+### showText?
+
+> `optional` **showText**: `ShowTextMode`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:206
+
+#### Docid
+
+#### Default
+
+```ts
+'always'
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.showText`
+
+***
+
+### template?
+
+> `optional` **template**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:230
+
+#### Docid
+
+@type_function_return string|Element|jQuery
+
+#### Inherited from
+
+`dxToolbarItem.template`
+
+***
+
+### text?
+
+> `optional` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:235
+
+#### Docid
+
+#### Inherited from
+
+`dxToolbarItem.text`
+
+***
+
+### toolbar?
+
+> `optional` **toolbar**: [`ToolbarLocation`](../type-aliases/ToolbarLocation.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:294
+
+#### Docid
+
+dxPopupToolbarItem.toolbar
+
+#### Default
+
+```ts
+'top'
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:241
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxToolbarItem.visible`
+
+***
+
+### widget?
+
+> `optional` **widget**: [`ToolbarItemWidget`](../type-aliases/ToolbarItemWidget.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:211
+
+#### Docid
+
+#### Inherited from
+
+`dxToolbarItem.widget`
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:65
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:68
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent
+
+> **HiddenEvent** = `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:74
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent
+
+> **HidingEvent** = `Cancelable` & `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:71
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:77
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxPopup`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:92
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/PositionAlignment.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / PositionAlignment
+
+# Type Alias: PositionAlignment
+
+> **PositionAlignment** = `"bottom"` \| `"center"` \| `"left"` \| `"left bottom"` \| `"left top"` \| `"right"` \| `"right bottom"` \| `"right top"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:541
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxPopupOptions`\<`PopupInstance`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:309
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ResizeEndEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ResizeEndEvent
+
+# Type Alias: ResizeEndEvent
+
+> **ResizeEndEvent** = `NativeEventInfo`\<`dxPopup`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:89
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ResizeEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ResizeEvent
+
+# Type Alias: ResizeEvent
+
+> **ResizeEvent** = `NativeEventInfo`\<`dxPopup`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:83
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ResizeStartEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ResizeStartEvent
+
+# Type Alias: ResizeStartEvent
+
+> **ResizeStartEvent** = `NativeEventInfo`\<`dxPopup`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:86
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent
+
+> **ShowingEvent** = `Cancelable` & `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:95
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent
+
+> **ShownEvent** = `EventInfo`\<`dxPopup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:80
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/TitleRenderedEvent.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / TitleRenderedEvent
+
+# Type Alias: TitleRenderedEvent
+
+> **TitleRenderedEvent** = `EventInfo`\<`dxPopup`\> & `TitleRenderedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:98
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarItemLocation.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ToolbarItemLocation
+
+# Type Alias: ToolbarItemLocation
+
+> **ToolbarItemLocation** = `"after"` \| `"before"` \| `"center"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:814
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarItemWidget.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ToolbarItemWidget
+
+# Type Alias: ToolbarItemWidget
+
+> **ToolbarItemWidget** = `"dxAutocomplete"` \| `"dxButton"` \| `"dxButtonGroup"` \| `"dxCheckBox"` \| `"dxDateBox"` \| `"dxDropDownButton"` \| `"dxMenu"` \| `"dxSelectBox"` \| `"dxSwitch"` \| `"dxTabs"` \| `"dxTextBox"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:808
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarLocation.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popup API](../../../../globals.md) / [PopupTypes](../README.md) / ToolbarLocation
+
+# Type Alias: ToolbarLocation
+
+> **ToolbarLocation** = `"bottom"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popup.d.ts:62
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Popup API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Popup API v26.1.0
+
+## Namespaces
+
+- [PopupTypes](DevExtreme-React-Popup-API/namespaces/PopupTypes/README.md)
+
+## Interfaces
+
+- [PopupRef](interfaces/PopupRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPopupOptions](type-aliases/IPopupOptions.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Popup](variables/Popup.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [Popup](variables/Popup.md)
+
+
+--- SOURCE: interfaces/PopupRef.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / PopupRef
+
+# Interface: PopupRef
+
+Defined in: [devextreme-react/src/popup.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L32)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPopup`
+
+Defined in: [devextreme-react/src/popup.ts:33](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L33)
+
+#### Returns
+
+`dxPopup`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:98](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L98)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:121](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L121)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:140](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L140)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L159)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:179](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L179)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:204](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L204)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:235](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L235)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:254](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L254)
+
+
+--- SOURCE: type-aliases/IPopupOptions.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IPopupOptions
+
+# Type Alias: IPopupOptions
+
+> **IPopupOptions** = `React.PropsWithChildren`\<[`Properties`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/Properties.md) & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/popup.ts:17](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L17)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| [`PositionAlignment`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/PositionAlignment.md) \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| [`PositionAlignment`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/PositionAlignment.md) \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:275](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L275)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:321](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L321)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popup.ts:353](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L353)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarItemLocation.md); `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: [`ToolbarLocation`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarLocation.md); `visible?`: `boolean`; `widget?`: [`ToolbarItemWidget`](../DevExtreme-React-Popup-API/namespaces/PopupTypes/type-aliases/ToolbarItemWidget.md); \}\>
+
+Defined in: [devextreme-react/src/popup.ts:378](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L378)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:115](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L115)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:134](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L134)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:153](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L153)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:172](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L172)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:198](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L198)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:229](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L229)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:248](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L248)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:267](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L267)
+
+
+--- SOURCE: variables/Popup.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Popup
+
+# Variable: Popup()
+
+> `const` **Popup**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/popup.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L36)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:315](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L315)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:346](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L346)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:372](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L372)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Popup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popup API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/popup.ts:416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popup.ts#L416)
+

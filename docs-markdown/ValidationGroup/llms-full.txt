@@ -1,0 +1,272 @@
+# ValidationGroup Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ValidationGroup API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/README.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../globals.md) / ValidationGroupTypes
+
+# ValidationGroupTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValidationResult](type-aliases/ValidationResult.md)
+- [ValidationStatus](type-aliases/ValidationStatus.md)
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxValidationGroup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validation\_group.d.ts:46
+
+## Docid
+
+_ui_validation_group_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxValidationGroup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validation\_group.d.ts:54
+
+## Docid
+
+_ui_validation_group_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxValidationGroup`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validation\_group.d.ts:62
+
+## Docid
+
+_ui_validation_group_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxValidationGroupOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validation\_group.d.ts:133
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/ValidationResult.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / ValidationResult
+
+# Type Alias: ValidationResult
+
+> **ValidationResult** = `dxValidationGroupResult`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validation\_group.d.ts:95
+
+
+--- SOURCE: DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/ValidationStatus.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../../../../globals.md) / [ValidationGroupTypes](../README.md) / ValidationStatus
+
+# Type Alias: ValidationStatus
+
+> **ValidationStatus** = `"valid"` \| `"invalid"` \| `"pending"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:858
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ValidationGroup API v26.1.0
+
+## Namespaces
+
+- [ValidationGroupTypes](DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/README.md)
+
+## Interfaces
+
+- [ValidationGroupRef](interfaces/ValidationGroupRef.md)
+
+## Type Aliases
+
+- [IValidationGroupOptions](type-aliases/IValidationGroupOptions.md)
+
+## Variables
+
+- [ValidationGroup](variables/ValidationGroup.md)
+
+## References
+
+### default
+
+Renames and re-exports [ValidationGroup](variables/ValidationGroup.md)
+
+
+--- SOURCE: interfaces/ValidationGroupRef.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../globals.md) / ValidationGroupRef
+
+# Interface: ValidationGroupRef
+
+Defined in: [devextreme-react/src/validation-group.ts:23](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validation-group.ts#L23)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxValidationGroup`
+
+Defined in: [devextreme-react/src/validation-group.ts:24](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validation-group.ts#L24)
+
+#### Returns
+
+`dxValidationGroup`
+
+
+--- SOURCE: type-aliases/IValidationGroupOptions.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../globals.md) / IValidationGroupOptions
+
+# Type Alias: IValidationGroupOptions
+
+> **IValidationGroupOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ValidationGroup-API/namespaces/ValidationGroupTypes/type-aliases/Properties.md), `IValidationGroupOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/validation-group.ts:21](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validation-group.ts#L21)
+
+
+--- SOURCE: variables/ValidationGroup.md ---
+
+[**DevExtreme React ValidationGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ValidationGroup API](../globals.md) / ValidationGroup
+
+# Variable: ValidationGroup()
+
+> `const` **ValidationGroup**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/validation-group.ts:27](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validation-group.ts#L27)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

@@ -1,0 +1,2247 @@
+# Chat Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Chat API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/README.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../globals.md) / ChatTypes
+
+# ChatTypes
+
+## Interfaces
+
+- [~~dxChatOptions~~](interfaces/dxChatOptions.md)
+
+## Type Aliases
+
+- [Alert](type-aliases/Alert.md)
+- [Attachment](type-aliases/Attachment.md)
+- [AttachmentDownloadClickEvent](type-aliases/AttachmentDownloadClickEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EmptyViewTemplateData](type-aliases/EmptyViewTemplateData.md)
+- [ImageMessage](type-aliases/ImageMessage.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Message](type-aliases/Message.md)
+- [MessageDeletedEvent](type-aliases/MessageDeletedEvent.md)
+- [MessageDeletingEvent](type-aliases/MessageDeletingEvent.md)
+- [MessageEditCanceledEvent](type-aliases/MessageEditCanceledEvent.md)
+- [MessageEditingStartEvent](type-aliases/MessageEditingStartEvent.md)
+- [MessageEnteredEvent](type-aliases/MessageEnteredEvent.md)
+- [MessageTemplateData](type-aliases/MessageTemplateData.md)
+- [MessageUpdatedEvent](type-aliases/MessageUpdatedEvent.md)
+- [MessageUpdatingEvent](type-aliases/MessageUpdatingEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [TextMessage](type-aliases/TextMessage.md)
+- [TypingEndEvent](type-aliases/TypingEndEvent.md)
+- [TypingStartEvent](type-aliases/TypingStartEvent.md)
+- [User](type-aliases/User.md)
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/interfaces/dxChatOptions.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / dxChatOptions
+
+# ~~Interface: dxChatOptions~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:355
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `WidgetOptions`\<`dxChat`\>
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:361
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`WidgetOptions.activeStateEnabled`
+
+***
+
+### ~~alerts?~~
+
+> `optional` **alerts**: [`Alert`](../type-aliases/Alert.md)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:442
+
+#### Docid
+
+#### Default
+
+```ts
+[]
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<[`Message`](../type-aliases/Message.md)\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:424
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+***
+
+### ~~dayHeaderFormat?~~
+
+> `optional` **dayHeaderFormat**: `Format`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:430
+
+#### Docid
+
+#### Default
+
+```ts
+'shortdate'
+@public
+```
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.disabled`
+
+***
+
+### ~~editing?~~
+
+> `optional` **editing**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:397
+
+#### ~~allowDeleting?~~
+
+> `optional` **allowDeleting**: `boolean` \| (`options`) => `boolean`
+
+##### Docid
+
+##### Default
+
+```ts
+false
+@public
+```
+
+#### ~~allowUpdating?~~
+
+> `optional` **allowUpdating**: `boolean` \| (`options`) => `boolean`
+
+##### Docid
+
+##### Default
+
+```ts
+false
+@public
+```
+
+#### Docid
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.elementAttr`
+
+***
+
+### ~~emptyViewTemplate?~~
+
+> `optional` **emptyViewTemplate**: `template` \| (`data`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:417
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_return string|Element|jQuery
+@public
+```
+
+***
+
+### ~~fileUploaderOptions?~~
+
+> `optional` **fileUploaderOptions**: `Omit`\<`FileUploaderOptions`, `"dialogTrigger"` \| `"showFileList"` \| `"uploadMode"` \| `"value"`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:368
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:374
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`WidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:380
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`WidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: [`Message`](../type-aliases/Message.md)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:392
+
+#### Docid
+
+#### Fires
+
+dxChatOptions.onOptionChanged
+
+***
+
+### ~~messageTemplate?~~
+
+> `optional` **messageTemplate**: `template` \| (`data`, `messageBubbleElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:449
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_return string|Element|jQuery
+@public
+```
+
+***
+
+### ~~messageTimestampFormat?~~
+
+> `optional` **messageTimestampFormat**: `Format`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:455
+
+#### Docid
+
+#### Default
+
+```ts
+'shorttime'
+@public
+```
+
+***
+
+### ~~onAttachmentDownloadClick()?~~
+
+> `optional` **onAttachmentDownloadClick**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:493
+
+#### Parameters
+
+##### e
+
+[`AttachmentDownloadClickEvent`](../type-aliases/AttachmentDownloadClickEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:AttachmentDownloadClickEvent}
+```
+
+#### Action
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxChat`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxChat`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onInitialized`
+
+***
+
+### ~~onMessageDeleted()?~~
+
+> `optional` **onMessageDeleted**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:533
+
+#### Parameters
+
+##### e
+
+[`MessageDeletedEvent`](../type-aliases/MessageDeletedEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageDeletedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageDeleting()?~~
+
+> `optional` **onMessageDeleting**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:525
+
+#### Parameters
+
+##### e
+
+[`MessageDeletingEvent`](../type-aliases/MessageDeletingEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageDeletingEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageEditCanceled()?~~
+
+> `optional` **onMessageEditCanceled**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:549
+
+#### Parameters
+
+##### e
+
+[`MessageEditCanceledEvent`](../type-aliases/MessageEditCanceledEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageEditCanceledEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageEditingStart()?~~
+
+> `optional` **onMessageEditingStart**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:541
+
+#### Parameters
+
+##### e
+
+[`MessageEditingStartEvent`](../type-aliases/MessageEditingStartEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageEditingStartEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageEntered()?~~
+
+> `optional` **onMessageEntered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:501
+
+#### Parameters
+
+##### e
+
+[`MessageEnteredEvent`](../type-aliases/MessageEnteredEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageEnteredEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageUpdated()?~~
+
+> `optional` **onMessageUpdated**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:565
+
+#### Parameters
+
+##### e
+
+[`MessageUpdatedEvent`](../type-aliases/MessageUpdatedEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageUpdatedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onMessageUpdating()?~~
+
+> `optional` **onMessageUpdating**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:557
+
+#### Parameters
+
+##### e
+
+[`MessageUpdatingEvent`](../type-aliases/MessageUpdatingEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:MessageUpdatingEvent}
+```
+
+#### Action
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxChat`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onOptionChanged`
+
+***
+
+### ~~onTypingEnd()?~~
+
+> `optional` **onTypingEnd**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:517
+
+#### Parameters
+
+##### e
+
+[`TypingEndEvent`](../type-aliases/TypingEndEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:TypingEndEvent}
+```
+
+#### Action
+
+***
+
+### ~~onTypingStart()?~~
+
+> `optional` **onTypingStart**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:509
+
+#### Parameters
+
+##### e
+
+[`TypingStartEvent`](../type-aliases/TypingStartEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/chat:TypingStartEvent}
+```
+
+#### Action
+
+***
+
+### ~~reloadOnChange?~~
+
+> `optional` **reloadOnChange**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:436
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.rtlEnabled`
+
+***
+
+### ~~showAvatar?~~
+
+> `optional` **showAvatar**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:479
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~showDayHeaders?~~
+
+> `optional` **showDayHeaders**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:467
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~showMessageTimestamp?~~
+
+> `optional` **showMessageTimestamp**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:485
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~showUserName?~~
+
+> `optional` **showUserName**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:473
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.tabIndex`
+
+***
+
+### ~~typingUsers?~~
+
+> `optional` **typingUsers**: [`User`](../type-aliases/User.md)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:461
+
+#### Docid
+
+#### Default
+
+```ts
+[]
+@public
+```
+
+***
+
+### ~~user?~~
+
+> `optional` **user**: [`User`](../type-aliases/User.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:386
+
+#### Docid
+
+#### Default
+
+```ts
+{ id: new Guid().toString() }
+@public
+```
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Alert.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / Alert
+
+# Type Alias: Alert
+
+> **Alert** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:209
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Properties
+
+### id?
+
+> `optional` **id**: `number` \| `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:214
+
+#### Docid
+
+***
+
+### message?
+
+> `optional` **message**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:219
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Attachment.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / Attachment
+
+# Type Alias: Attachment
+
+> **Attachment** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:227
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Indexable
+
+\[`key`: `string`\]: `any`
+
+## Properties
+
+### name
+
+> **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:232
+
+#### Docid
+
+***
+
+### size
+
+> **size**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:237
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/AttachmentDownloadClickEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / AttachmentDownloadClickEvent
+
+# Type Alias: AttachmentDownloadClickEvent
+
+> **AttachmentDownloadClickEvent** = `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:171
+
+## Type Declaration
+
+### attachment?
+
+> `readonly` `optional` **attachment**: [`Attachment`](Attachment.md)
+
+#### Docid
+
+_ui_chat_AttachmentDownloadClickEvent.attachment
+
+## Docid
+
+_ui_chat_AttachmentDownloadClickEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxChat`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:44
+
+## Docid
+
+_ui_chat_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/EmptyViewTemplateData.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / EmptyViewTemplateData
+
+# Type Alias: EmptyViewTemplateData
+
+> **EmptyViewTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:341
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxChat`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:342
+
+***
+
+### texts
+
+> `readonly` **texts**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:343
+
+#### message
+
+> `readonly` **message**: `string`
+
+#### prompt
+
+> `readonly` **prompt**: `string`
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/ImageMessage.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / ImageMessage
+
+# Type Alias: ImageMessage
+
+> **ImageMessage** = `MessageBase` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:313
+
+**`Namespace`**
+
+## Type Declaration
+
+### alt?
+
+> `optional` **alt**: `string`
+
+#### Docid
+
+### src?
+
+> `optional` **src**: `string`
+
+#### Docid
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Inherits
+
+MessageBase
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxChat`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:52
+
+## Docid
+
+_ui_chat_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Message.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / Message
+
+# Type Alias: Message
+
+> **Message** = [`TextMessage`](TextMessage.md) \| [`ImageMessage`](ImageMessage.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:332
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Inherits
+
+TextMessage,ImageMessage
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageDeletedEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageDeletedEvent
+
+# Type Alias: MessageDeletedEvent
+
+> **MessageDeletedEvent** = `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:112
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageDeletedEvent.message
+
+## Docid
+
+_ui_chat_MessageDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageDeletingEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageDeletingEvent
+
+# Type Alias: MessageDeletingEvent
+
+> **MessageDeletingEvent** = `AsyncCancelable` & `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:101
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageDeletingEvent.message
+
+## Docid
+
+_ui_chat_MessageDeletingEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageEditCanceledEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageEditCanceledEvent
+
+# Type Alias: MessageEditCanceledEvent
+
+> **MessageEditCanceledEvent** = `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:134
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageEditCanceledEvent.message
+
+## Docid
+
+_ui_chat_MessageEditCanceledEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageEditingStartEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageEditingStartEvent
+
+# Type Alias: MessageEditingStartEvent
+
+> **MessageEditingStartEvent** = `AsyncCancelable` & `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:123
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageEditingStartEvent.message
+
+## Docid
+
+_ui_chat_MessageEditingStartEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageEnteredEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageEnteredEvent
+
+# Type Alias: MessageEnteredEvent
+
+> **MessageEnteredEvent** = `NativeEventInfo`\<`dxChat`, `InteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:68
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageEnteredEvent.message
+
+## Docid
+
+_ui_chat_MessageEnteredEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageTemplateData.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageTemplateData
+
+# Type Alias: MessageTemplateData
+
+> **MessageTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:335
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxChat`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:336
+
+***
+
+### message?
+
+> `readonly` `optional` **message**: [`Message`](Message.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:337
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageUpdatedEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageUpdatedEvent
+
+# Type Alias: MessageUpdatedEvent
+
+> **MessageUpdatedEvent** = `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:158
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageUpdatedEvent.message
+
+### text
+
+> `readonly` **text**: `string`
+
+#### Docid
+
+_ui_chat_MessageUpdatedEvent.text
+
+## Docid
+
+_ui_chat_MessageUpdatedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/MessageUpdatingEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / MessageUpdatingEvent
+
+# Type Alias: MessageUpdatingEvent
+
+> **MessageUpdatingEvent** = `AsyncCancelable` & `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:145
+
+## Type Declaration
+
+### message
+
+> `readonly` **message**: [`Message`](Message.md)
+
+#### Docid
+
+_ui_chat_MessageUpdatingEvent.message
+
+### text
+
+> `readonly` **text**: `string`
+
+#### Docid
+
+_ui_chat_MessageUpdatingEvent.text
+
+## Docid
+
+_ui_chat_MessageUpdatingEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxChat`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:60
+
+## Docid
+
+_ui_chat_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = [`dxChatOptions`](../interfaces/dxChatOptions.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:594
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/TextMessage.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / TextMessage
+
+# Type Alias: TextMessage
+
+> **TextMessage** = `MessageBase` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:286
+
+**`Namespace`**
+
+## Type Declaration
+
+### attachments?
+
+> `optional` **attachments**: [`Attachment`](Attachment.md)[]
+
+#### Docid
+
+### isEdited?
+
+> `optional` **isEdited**: `boolean`
+
+#### Docid
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Inherits
+
+MessageBase
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/TypingEndEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / TypingEndEvent
+
+# Type Alias: TypingEndEvent
+
+> **TypingEndEvent** = `EventInfo`\<`dxChat`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:90
+
+## Type Declaration
+
+### user
+
+> `readonly` **user**: [`User`](User.md)
+
+#### Docid
+
+_ui_chat_TypingEndEvent.user
+
+## Docid
+
+_ui_chat_TypingEndEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/TypingStartEvent.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / TypingStartEvent
+
+# Type Alias: TypingStartEvent
+
+> **TypingStartEvent** = `NativeEventInfo`\<`dxChat`, `UIEvent` & `object`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:79
+
+## Type Declaration
+
+### user?
+
+> `readonly` `optional` **user**: [`User`](User.md)
+
+#### Docid
+
+_ui_chat_TypingStartEvent.user
+
+## Docid
+
+_ui_chat_TypingStartEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/User.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Chat API](../../../../globals.md) / [ChatTypes](../README.md) / User
+
+# Type Alias: User
+
+> **User** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:181
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxChat
+
+## Properties
+
+### avatarAlt?
+
+> `optional` **avatarAlt**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:201
+
+#### Docid
+
+***
+
+### avatarUrl?
+
+> `optional` **avatarUrl**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:196
+
+#### Docid
+
+***
+
+### id?
+
+> `optional` **id**: `number` \| `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:186
+
+#### Docid
+
+***
+
+### name?
+
+> `optional` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/chat.d.ts:191
+
+#### Docid
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Chat API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Chat API v26.1.0
+
+## Namespaces
+
+- [ChatTypes](DevExtreme-React-Chat-API/namespaces/ChatTypes/README.md)
+
+## Interfaces
+
+- [ChatRef](interfaces/ChatRef.md)
+
+## Type Aliases
+
+- [IAlertProps](type-aliases/IAlertProps.md)
+- [IAttachmentProps](type-aliases/IAttachmentProps.md)
+- [IAuthorProps](type-aliases/IAuthorProps.md)
+- [IChatOptions](type-aliases/IChatOptions.md)
+- [IDayHeaderFormatProps](type-aliases/IDayHeaderFormatProps.md)
+- [IEditingProps](type-aliases/IEditingProps.md)
+- [IFileUploaderOptionsProps](type-aliases/IFileUploaderOptionsProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMessageTimestampFormatProps](type-aliases/IMessageTimestampFormatProps.md)
+- [ITypingUserProps](type-aliases/ITypingUserProps.md)
+- [IUserProps](type-aliases/IUserProps.md)
+
+## Variables
+
+- [Alert](variables/Alert.md)
+- [Attachment](variables/Attachment.md)
+- [Author](variables/Author.md)
+- [Chat](variables/Chat.md)
+- [DayHeaderFormat](variables/DayHeaderFormat.md)
+- [Editing](variables/Editing.md)
+- [FileUploaderOptions](variables/FileUploaderOptions.md)
+- [Item](variables/Item.md)
+- [MessageTimestampFormat](variables/MessageTimestampFormat.md)
+- [TypingUser](variables/TypingUser.md)
+- [User](variables/User.md)
+
+## References
+
+### default
+
+Renames and re-exports [Chat](variables/Chat.md)
+
+
+--- SOURCE: interfaces/ChatRef.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / ChatRef
+
+# Interface: ChatRef
+
+Defined in: [devextreme-react/src/chat.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L45)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxChat`
+
+Defined in: [devextreme-react/src/chat.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L46)
+
+#### Returns
+
+`dxChat`
+
+
+--- SOURCE: type-aliases/IAlertProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IAlertProps
+
+# Type Alias: IAlertProps
+
+> **IAlertProps** = `React.PropsWithChildren`\<\{ `id?`: `number` \| `string`; `message?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L112)
+
+
+--- SOURCE: type-aliases/IAttachmentProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IAttachmentProps
+
+# Type Alias: IAttachmentProps
+
+> **IAttachmentProps** = `React.PropsWithChildren`\<\{ `name?`: `string`; `size?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:132](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L132)
+
+
+--- SOURCE: type-aliases/IAuthorProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IAuthorProps
+
+# Type Alias: IAuthorProps
+
+> **IAuthorProps** = `React.PropsWithChildren`\<\{ `avatarAlt?`: `string`; `avatarUrl?`: `string`; `id?`: `number` \| `string`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:152](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L152)
+
+
+--- SOURCE: type-aliases/IChatOptions.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IChatOptions
+
+# Type Alias: IChatOptions
+
+> **IChatOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Properties.md), `IChatOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/chat.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L36)
+
+
+--- SOURCE: type-aliases/IDayHeaderFormatProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IDayHeaderFormatProps
+
+# Type Alias: IDayHeaderFormatProps
+
+> **IDayHeaderFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `Format` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:173](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L173)
+
+
+--- SOURCE: type-aliases/IEditingProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IEditingProps
+
+# Type Alias: IEditingProps
+
+> **IEditingProps** = `React.PropsWithChildren`\<\{ `allowDeleting?`: `boolean` \| (`options`) => `boolean`; `allowUpdating?`: `boolean` \| (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:196](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L196)
+
+
+--- SOURCE: type-aliases/IFileUploaderOptionsProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IFileUploaderOptionsProps
+
+# Type Alias: IFileUploaderOptionsProps
+
+> **IFileUploaderOptionsProps** = `React.PropsWithChildren`\<\{ `abortUpload?`: (`file`, `uploadInfo?`) => `any`; `accept?`: `string`; `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `allowCanceling?`: `boolean`; `allowedFileExtensions?`: `string`[]; `chunkSize?`: `number`; `defaultValue?`: `any`[]; `dialogTrigger?`: `any` \| `string`; `disabled?`: `boolean`; `dropZone?`: `any` \| `string`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `inputAttr?`: `any`; `invalidFileExtensionMessage?`: `string`; `invalidMaxFileSizeMessage?`: `string`; `invalidMinFileSizeMessage?`: `string`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `labelText?`: `string`; `maxFileSize?`: `number`; `minFileSize?`: `number`; `multiple?`: `boolean`; `name?`: `string`; `onBeforeSend?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onDropZoneEnter?`: (`e`) => `void`; `onDropZoneLeave?`: (`e`) => `void`; `onFilesUploaded?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onProgress?`: (`e`) => `void`; `onUploadAborted?`: (`e`) => `void`; `onUploaded?`: (`e`) => `void`; `onUploadError?`: (`e`) => `void`; `onUploadStarted?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `progress?`: `number`; `readOnly?`: `boolean`; `readyToUploadMessage?`: `string`; `rtlEnabled?`: `boolean`; `selectButtonText?`: `string`; `showFileList?`: `boolean`; `tabIndex?`: `number`; `uploadAbortedMessage?`: `string`; `uploadButtonText?`: `string`; `uploadChunk?`: (`file`, `uploadInfo`) => `any`; `uploadCustomData?`: `any`; `uploadedMessage?`: `string`; `uploadFailedMessage?`: `string`; `uploadFile?`: (`file`, `progressCallback`) => `any`; `uploadHeaders?`: `any`; `uploadMethod?`: `UploadHttpMethod`; `uploadMode?`: `FileUploadMode`; `uploadUrl?`: `string`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationStatus?`: `ValidationStatus`; `value?`: `any`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:215](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L215)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `alt?`: `string`; `attachments?`: [`Attachment`](../DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/Attachment.md)[]; `author?`: [`User`](../DevExtreme-React-Chat-API/namespaces/ChatTypes/type-aliases/User.md); `id?`: `number` \| `string`; `isDeleted?`: `boolean`; `isEdited?`: `boolean`; `src?`: `string`; `text?`: `string`; `timestamp?`: `Date` \| `number` \| `string`; `type?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:301](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L301)
+
+
+--- SOURCE: type-aliases/IMessageTimestampFormatProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IMessageTimestampFormatProps
+
+# Type Alias: IMessageTimestampFormatProps
+
+> **IMessageTimestampFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `Format` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:333](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L333)
+
+
+--- SOURCE: type-aliases/ITypingUserProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / ITypingUserProps
+
+# Type Alias: ITypingUserProps
+
+> **ITypingUserProps** = `React.PropsWithChildren`\<\{ `avatarAlt?`: `string`; `avatarUrl?`: `string`; `id?`: `number` \| `string`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L356)
+
+
+--- SOURCE: type-aliases/IUserProps.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / IUserProps
+
+# Type Alias: IUserProps
+
+> **IUserProps** = `React.PropsWithChildren`\<\{ `avatarAlt?`: `string`; `avatarUrl?`: `string`; `id?`: `number` \| `string`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/chat.ts:378](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L378)
+
+
+--- SOURCE: variables/Alert.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Alert
+
+# Variable: Alert
+
+> `const` **Alert**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:126](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L126)
+
+
+--- SOURCE: variables/Attachment.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Attachment
+
+# Variable: Attachment
+
+> `const` **Attachment**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L146)
+
+
+--- SOURCE: variables/Author.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Author
+
+# Variable: Author
+
+> `const` **Author**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:167](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L167)
+
+
+--- SOURCE: variables/Chat.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Chat
+
+# Variable: Chat()
+
+> `const` **Chat**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/chat.ts:49](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L49)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/DayHeaderFormat.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / DayHeaderFormat
+
+# Variable: DayHeaderFormat
+
+> `const` **DayHeaderFormat**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:190](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L190)
+
+
+--- SOURCE: variables/Editing.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Editing
+
+# Variable: Editing
+
+> `const` **Editing**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L209)
+
+
+--- SOURCE: variables/FileUploaderOptions.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / FileUploaderOptions
+
+# Variable: FileUploaderOptions
+
+> `const` **FileUploaderOptions**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:295](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L295)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:327](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L327)
+
+
+--- SOURCE: variables/MessageTimestampFormat.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / MessageTimestampFormat
+
+# Variable: MessageTimestampFormat
+
+> `const` **MessageTimestampFormat**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:350](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L350)
+
+
+--- SOURCE: variables/TypingUser.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / TypingUser
+
+# Variable: TypingUser
+
+> `const` **TypingUser**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:372](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L372)
+
+
+--- SOURCE: variables/User.md ---
+
+[**DevExtreme React Chat API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Chat API](../globals.md) / User
+
+# Variable: User
+
+> `const` **User**: `any`
+
+Defined in: [devextreme-react/src/chat.ts:393](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/chat.ts#L393)
+

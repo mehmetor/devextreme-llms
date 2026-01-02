@@ -1,0 +1,1059 @@
+# Sortable Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Sortable API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/README.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../globals.md) / SortableTypes
+
+# SortableTypes
+
+## Interfaces
+
+- [AddEvent](interfaces/AddEvent.md)
+- [DragTemplateData](interfaces/DragTemplateData.md)
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DragChangeEvent](type-aliases/DragChangeEvent.md)
+- [DragEndEvent](type-aliases/DragEndEvent.md)
+- [DragHighlight](type-aliases/DragHighlight.md)
+- [DragMoveEvent](type-aliases/DragMoveEvent.md)
+- [DragStartEvent](type-aliases/DragStartEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Orientation](type-aliases/Orientation.md)
+- [Properties](type-aliases/Properties.md)
+- [RemoveEvent](type-aliases/RemoveEvent.md)
+- [ReorderEvent](type-aliases/ReorderEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/interfaces/AddEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / AddEvent
+
+# Interface: AddEvent
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:47
+
+## Docid
+
+_ui_sortable_AddEvent
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxSortable`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:49
+
+#### Docid
+
+_ui_sortable_AddEvent.component
+
+***
+
+### dropInsideItem
+
+> `readonly` **dropInsideItem**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:79
+
+#### Docid
+
+_ui_sortable_AddEvent.dropInsideItem
+
+***
+
+### element
+
+> `readonly` **element**: `HTMLElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:51
+
+#### Docid
+
+_ui_sortable_AddEvent.element
+
+***
+
+### event
+
+> `readonly` **event**: `DxEvent`\<`PointerInteractionEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:61
+
+#### Docid
+
+_ui_sortable_AddEvent.event
+
+***
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:71
+
+#### Docid
+
+_ui_sortable_AddEvent.fromComponent
+
+***
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:75
+
+#### Docid
+
+_ui_sortable_AddEvent.fromData
+
+***
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:67
+
+#### Docid
+
+_ui_sortable_AddEvent.fromIndex
+
+***
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:63
+
+#### Docid
+
+_ui_sortable_AddEvent.itemData
+
+***
+
+### itemElement
+
+> `readonly` **itemElement**: `HTMLElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:65
+
+#### Docid
+
+_ui_sortable_AddEvent.itemElement
+
+***
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:73
+
+#### Docid
+
+_ui_sortable_AddEvent.toComponent
+
+***
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:77
+
+#### Docid
+
+_ui_sortable_AddEvent.toData
+
+***
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:69
+
+#### Docid
+
+_ui_sortable_AddEvent.toIndex
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/interfaces/DragTemplateData.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragTemplateData
+
+# Interface: DragTemplateData
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:262
+
+## Properties
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:265
+
+***
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:263
+
+***
+
+### itemElement
+
+> `readonly` **itemElement**: `HTMLElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:264
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSortable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:88
+
+## Docid
+
+_ui_sortable_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DragChangeEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragChangeEvent
+
+# Type Alias: DragChangeEvent
+
+> **DragChangeEvent** = `Cancelable` & `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:96
+
+## Type Declaration
+
+### dropInsideItem?
+
+> `readonly` `optional` **dropInsideItem**: `boolean`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.dropInsideItem
+
+### fromComponent?
+
+> `readonly` `optional` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.fromData
+
+### fromIndex?
+
+> `readonly` `optional` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.fromIndex
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.itemElement
+
+### toComponent?
+
+> `readonly` `optional` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.toData
+
+### toIndex?
+
+> `readonly` `optional` **toIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragChangeEvent.toIndex
+
+## Docid
+
+_ui_sortable_DragChangeEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DragEndEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragEndEvent
+
+# Type Alias: DragEndEvent
+
+> **DragEndEvent** = `Cancelable` & `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:123
+
+## Type Declaration
+
+### dropInsideItem
+
+> `readonly` **dropInsideItem**: `boolean`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.dropInsideItem
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.fromData
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.fromIndex
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.itemElement
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.toData
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragEndEvent.toIndex
+
+## Docid
+
+_ui_sortable_DragEndEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DragHighlight.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragHighlight
+
+# Type Alias: DragHighlight
+
+> **DragHighlight** = `"push"` \| `"indicate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:222
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DragMoveEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragMoveEvent
+
+# Type Alias: DragMoveEvent
+
+> **DragMoveEvent** = `Cancelable` & `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:150
+
+## Type Declaration
+
+### dropInsideItem
+
+> `readonly` **dropInsideItem**: `boolean`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.dropInsideItem
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.fromData
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.fromIndex
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.itemElement
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.toData
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragMoveEvent.toIndex
+
+## Docid
+
+_ui_sortable_DragMoveEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/DragStartEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / DragStartEvent
+
+# Type Alias: DragStartEvent
+
+> **DragStartEvent** = `Cancelable` & `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:177
+
+## Type Declaration
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_DragStartEvent.fromData
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_DragStartEvent.fromIndex
+
+### itemData?
+
+> `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_DragStartEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_DragStartEvent.itemElement
+
+## Docid
+
+_ui_sortable_DragStartEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSortable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:194
+
+## Docid
+
+_ui_sortable_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSortable`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:202
+
+## Docid
+
+_ui_sortable_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/Orientation.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / Orientation
+
+# Type Alias: Orientation
+
+> **Orientation** = `"horizontal"` \| `"vertical"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:485
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSortableOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:392
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/RemoveEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / RemoveEvent
+
+# Type Alias: RemoveEvent
+
+> **RemoveEvent** = `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:210
+
+## Type Declaration
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.fromData
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.fromIndex
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.itemElement
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.toData
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+#### Docid
+
+_ui_sortable_RemoveEvent.toIndex
+
+## Docid
+
+_ui_sortable_RemoveEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/ReorderEvent.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sortable API](../../../../globals.md) / [SortableTypes](../README.md) / ReorderEvent
+
+# Type Alias: ReorderEvent
+
+> **ReorderEvent** = `NativeEventInfo`\<`dxSortable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/sortable.d.ts:235
+
+## Type Declaration
+
+### dropInsideItem
+
+> `readonly` **dropInsideItem**: `boolean`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.dropInsideItem
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.fromData
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.fromIndex
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.itemElement
+
+### promise?
+
+> `optional` **promise**: `PromiseLike`\<`void`\>
+
+#### Docid
+
+_ui_sortable_ReorderEvent.promise
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.toData
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+#### Docid
+
+_ui_sortable_ReorderEvent.toIndex
+
+## Docid
+
+_ui_sortable_ReorderEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Sortable API v26.1.0
+
+## Namespaces
+
+- [SortableTypes](DevExtreme-React-Sortable-API/namespaces/SortableTypes/README.md)
+
+## Interfaces
+
+- [SortableRef](interfaces/SortableRef.md)
+
+## Type Aliases
+
+- [ICursorOffsetProps](type-aliases/ICursorOffsetProps.md)
+- [ISortableOptions](type-aliases/ISortableOptions.md)
+
+## Variables
+
+- [CursorOffset](variables/CursorOffset.md)
+- [Sortable](variables/Sortable.md)
+
+## References
+
+### default
+
+Renames and re-exports [Sortable](variables/Sortable.md)
+
+
+--- SOURCE: interfaces/SortableRef.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sortable API](../globals.md) / SortableRef
+
+# Interface: SortableRef
+
+Defined in: [devextreme-react/src/sortable.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L34)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSortable`
+
+Defined in: [devextreme-react/src/sortable.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L35)
+
+#### Returns
+
+`dxSortable`
+
+
+--- SOURCE: type-aliases/ICursorOffsetProps.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sortable API](../globals.md) / ICursorOffsetProps
+
+# Type Alias: ICursorOffsetProps
+
+> **ICursorOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sortable.ts:82](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L82)
+
+
+--- SOURCE: type-aliases/ISortableOptions.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sortable API](../globals.md) / ISortableOptions
+
+# Type Alias: ISortableOptions
+
+> **ISortableOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Sortable-API/namespaces/SortableTypes/type-aliases/Properties.md), `ISortableOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/sortable.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L29)
+
+
+--- SOURCE: variables/CursorOffset.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sortable API](../globals.md) / CursorOffset
+
+# Variable: CursorOffset
+
+> `const` **CursorOffset**: `any`
+
+Defined in: [devextreme-react/src/sortable.ts:95](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L95)
+
+
+--- SOURCE: variables/Sortable.md ---
+
+[**DevExtreme React Sortable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sortable API](../globals.md) / Sortable
+
+# Variable: Sortable()
+
+> `const` **Sortable**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/sortable.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sortable.ts#L38)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

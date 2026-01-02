@@ -1,0 +1,324 @@
+# Resizable Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Resizable API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/README.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../globals.md) / ResizableTypes
+
+# ResizableTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ResizeEndEvent](type-aliases/ResizeEndEvent.md)
+- [ResizeEvent](type-aliases/ResizeEvent.md)
+- [ResizeHandle](type-aliases/ResizeHandle.md)
+- [ResizeStartEvent](type-aliases/ResizeStartEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxResizable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:41
+
+## Docid
+
+_ui_resizable_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxResizable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:49
+
+## Docid
+
+_ui_resizable_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxResizable`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:57
+
+## Docid
+
+_ui_resizable_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxResizableOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:178
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/ResizeEndEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / ResizeEndEvent
+
+# Type Alias: ResizeEndEvent
+
+> **ResizeEndEvent** = `NativeEventInfo`\<`dxResizable`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:81
+
+## Docid
+
+_ui_resizable_ResizeEndEvent
+
+## Inherits
+
+NativeEventInfo,ResizeInfo
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/ResizeEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / ResizeEvent
+
+# Type Alias: ResizeEvent
+
+> **ResizeEvent** = `NativeEventInfo`\<`dxResizable`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:65
+
+## Docid
+
+_ui_resizable_ResizeEvent
+
+## Inherits
+
+NativeEventInfo,ResizeInfo
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/ResizeHandle.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / ResizeHandle
+
+# Type Alias: ResizeHandle
+
+> **ResizeHandle** = `"bottom"` \| `"left"` \| `"right"` \| `"top"` \| `"all"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:22
+
+
+--- SOURCE: DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/ResizeStartEvent.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Resizable API](../../../../globals.md) / [ResizableTypes](../README.md) / ResizeStartEvent
+
+# Type Alias: ResizeStartEvent
+
+> **ResizeStartEvent** = `NativeEventInfo`\<`dxResizable`, `MouseEvent` \| `TouchEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/resizable.d.ts:73
+
+## Docid
+
+_ui_resizable_ResizeStartEvent
+
+## Inherits
+
+NativeEventInfo,ResizeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Resizable API v26.1.0
+
+## Namespaces
+
+- [ResizableTypes](DevExtreme-React-Resizable-API/namespaces/ResizableTypes/README.md)
+
+## Interfaces
+
+- [ResizableRef](interfaces/ResizableRef.md)
+
+## Type Aliases
+
+- [IResizableOptions](type-aliases/IResizableOptions.md)
+
+## Variables
+
+- [Resizable](variables/Resizable.md)
+
+## References
+
+### default
+
+Renames and re-exports [Resizable](variables/Resizable.md)
+
+
+--- SOURCE: interfaces/ResizableRef.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Resizable API](../globals.md) / ResizableRef
+
+# Interface: ResizableRef
+
+Defined in: [devextreme-react/src/resizable.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/resizable.ts#L31)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxResizable`
+
+Defined in: [devextreme-react/src/resizable.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/resizable.ts#L32)
+
+#### Returns
+
+`dxResizable`
+
+
+--- SOURCE: type-aliases/IResizableOptions.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Resizable API](../globals.md) / IResizableOptions
+
+# Type Alias: IResizableOptions
+
+> **IResizableOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Resizable-API/namespaces/ResizableTypes/type-aliases/Properties.md), `IResizableOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/resizable.ts:24](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/resizable.ts#L24)
+
+
+--- SOURCE: variables/Resizable.md ---
+
+[**DevExtreme React Resizable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Resizable API](../globals.md) / Resizable
+
+# Variable: Resizable()
+
+> `const` **Resizable**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/resizable.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/resizable.ts#L35)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

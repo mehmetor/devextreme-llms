@@ -1,0 +1,1480 @@
+# DateRangeBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React DateRangeBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/README.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../globals.md) / DateRangeBoxTypes
+
+# DateRangeBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DateLike](type-aliases/DateLike.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropDownButtonTemplateData](type-aliases/DropDownButtonTemplateData.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:45
+
+## Docid
+
+_ui_date_range_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:53
+
+## Docid
+
+_ui_date_range_box_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:61
+
+## Docid
+
+_ui_date_range_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:69
+
+## Docid
+
+_ui_date_range_box_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:77
+
+## Docid
+
+_ui_date_range_box_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/DateLike.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / DateLike
+
+# Type Alias: DateLike
+
+> **DateLike** = `Date` \| `number` \| `string` \| `null`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:198
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:85
+
+## Docid
+
+_ui_date_range_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/DropDownButtonTemplateData.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / DropDownButtonTemplateData
+
+# Type Alias: DropDownButtonTemplateData
+
+> **DropDownButtonTemplateData** = `DropDownButtonTemplateDataModel`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:179
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:93
+
+## Docid
+
+_ui_date_range_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:101
+
+## Docid
+
+_ui_date_range_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:109
+
+## Docid
+
+_ui_date_range_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:117
+
+## Docid
+
+_ui_date_range_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:125
+
+## Docid
+
+_ui_date_range_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:133
+
+## Docid
+
+_ui_date_range_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:136
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:144
+
+## Docid
+
+_ui_date_range_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxDateRangeBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:152
+
+## Docid
+
+_ui_date_range_box_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxDateRangeBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:160
+
+## Docid
+
+_ui_date_range_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:168
+
+## Docid
+
+_ui_date_range_box_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `Omit`\<`DateBoxBaseOptions`\<`dxDateRangeBox`\>, `"inputAttr"` \| `"label"` \| `"maxLength"` \| `"name"` \| `"placeholder"` \| `"text"`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:186
+
+## Type Declaration
+
+### disableOutOfRangeSelection?
+
+> `optional` **disableOutOfRangeSelection**: `boolean`
+
+#### Docid
+
+dxDateRangeBoxOptions.disableOutOfRangeSelection
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### endDate?
+
+> `optional` **endDate**: [`DateLike`](DateLike.md)
+
+#### Docid
+
+dxDateRangeBoxOptions.endDate
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Fires
+
+dxDateRangeBoxOptions.onOptionChanged
+
+### endDateInputAttr?
+
+> `optional` **endDateInputAttr**: `any`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDateInputAttr
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+### endDateLabel?
+
+> `optional` **endDateLabel**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDateLabel
+
+#### Default
+
+```ts
+"End Date"
+@public
+```
+
+### endDateName?
+
+> `optional` **endDateName**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDateName
+
+#### Default
+
+```ts
+""
+@public
+```
+
+### endDateOutOfRangeMessage?
+
+> `optional` **endDateOutOfRangeMessage**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDateOutOfRangeMessage
+
+#### Default
+
+```ts
+"End date is out of range"
+@public
+```
+
+### endDatePlaceholder?
+
+> `optional` **endDatePlaceholder**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDatePlaceholder
+
+#### Default
+
+```ts
+""
+@public
+```
+
+### endDateText?
+
+> `readonly` `optional` **endDateText**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.endDateText
+
+### invalidEndDateMessage?
+
+> `optional` **invalidEndDateMessage**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.invalidEndDateMessage
+
+#### Default
+
+```ts
+"End value must be a date"
+@public
+```
+
+### invalidStartDateMessage?
+
+> `optional` **invalidStartDateMessage**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.invalidStartDateMessage
+
+#### Default
+
+```ts
+"Start value must be a date"
+@public
+```
+
+### multiView?
+
+> `optional` **multiView**: `boolean`
+
+#### Docid
+
+dxDateRangeBoxOptions.multiView
+
+#### Default
+
+```ts
+true
+```
+
+#### Default
+
+```ts
+false &for(iOS)
+```
+
+#### Default
+
+```ts
+false &for(Android)
+@public
+```
+
+### openOnFieldClick?
+
+> `optional` **openOnFieldClick**: `boolean`
+
+#### Docid
+
+dxDateRangeBoxOptions.openOnFieldClick
+
+#### Default
+
+```ts
+true
+@public
+```
+
+### startDate?
+
+> `optional` **startDate**: [`DateLike`](DateLike.md)
+
+#### Docid
+
+dxDateRangeBoxOptions.startDate
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Fires
+
+dxDateRangeBoxOptions.onOptionChanged
+
+### startDateInputAttr?
+
+> `optional` **startDateInputAttr**: `any`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDateInputAttr
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+### startDateLabel?
+
+> `optional` **startDateLabel**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDateLabel
+
+#### Default
+
+```ts
+"Start Date"
+@public
+```
+
+### startDateName?
+
+> `optional` **startDateName**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDateName
+
+#### Default
+
+```ts
+""
+@public
+```
+
+### startDateOutOfRangeMessage?
+
+> `optional` **startDateOutOfRangeMessage**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDateOutOfRangeMessage
+
+#### Default
+
+```ts
+"Start date is out of range"
+@public
+```
+
+### startDatePlaceholder?
+
+> `optional` **startDatePlaceholder**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDatePlaceholder
+
+#### Default
+
+```ts
+""
+@public
+```
+
+### startDateText?
+
+> `readonly` `optional` **startDateText**: `string`
+
+#### Docid
+
+dxDateRangeBoxOptions.startDateText
+
+### value?
+
+> `optional` **value**: [`DateLike`](DateLike.md)[]
+
+#### Docid
+
+dxDateRangeBoxOptions.value
+
+#### Default
+
+```ts
+[null,null]
+@public
+```
+
+## Docid
+
+dxDateRangeBoxOptions
+
+
+--- SOURCE: DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../../../../globals.md) / [DateRangeBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxDateRangeBox`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/date\_range\_box.d.ts:176
+
+## Docid
+
+_ui_date_range_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React DateRangeBox API v26.1.0
+
+## Namespaces
+
+- [DateRangeBoxTypes](DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/README.md)
+
+## Interfaces
+
+- [DateRangeBoxRef](interfaces/DateRangeBoxRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICalendarOptionsProps](type-aliases/ICalendarOptionsProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IDateRangeBoxOptions](type-aliases/IDateRangeBoxOptions.md)
+- [IDisplayFormatProps](type-aliases/IDisplayFormatProps.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Button](variables/Button.md)
+- [CalendarOptions](variables/CalendarOptions.md)
+- [Collision](variables/Collision.md)
+- [DateRangeBox](variables/DateRangeBox.md)
+- [DisplayFormat](variables/DisplayFormat.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Options](variables/Options.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [DateRangeBox](variables/DateRangeBox.md)
+
+
+--- SOURCE: interfaces/DateRangeBoxRef.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / DateRangeBoxRef
+
+# Interface: DateRangeBoxRef
+
+Defined in: [devextreme-react/src/date-range-box.ts:63](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L63)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxDateRangeBox`
+
+Defined in: [devextreme-react/src/date-range-box.ts:64](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L64)
+
+#### Returns
+
+`dxDateRangeBox`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:124](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L124)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:147](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L147)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:166](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L166)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:185](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L185)
+
+
+--- SOURCE: type-aliases/ICalendarOptionsProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / ICalendarOptionsProps
+
+# Type Alias: ICalendarOptionsProps
+
+> **ICalendarOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `cellComponent?`: `React.ComponentType`\<`any`\>; `cellRender?`: (...`params`) => `React.ReactNode`; `cellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `dateSerializationFormat?`: `string`; `defaultValue?`: (`Date` \| `null` \| `number` \| `string`)[] \| `Date` \| `null` \| `number` \| `string`; `defaultZoomLevel?`: `CalendarZoomLevel`; `disabled?`: `boolean`; `disabledDates?`: `Date`[] \| (`data`) => `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `firstDayOfWeek?`: `FirstDayOfWeek`; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `max?`: `Date` \| `null` \| `number` \| `string`; `maxZoomLevel?`: `CalendarZoomLevel`; `min?`: `Date` \| `null` \| `number` \| `string`; `minZoomLevel?`: `CalendarZoomLevel`; `name?`: `string`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `onZoomLevelChange?`: (`value`) => `void`; `readOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `selectionMode?`: `CalendarSelectionMode`; `selectWeekOnClick?`: `boolean`; `showTodayButton?`: `boolean`; `showWeekNumbers?`: `boolean`; `tabIndex?`: `number`; `todayButtonText?`: `string`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationMessageMode?`: `ValidationMessageMode`; `validationMessagePosition?`: `CommonPosition`; `validationStatus?`: `ValidationStatus`; `value?`: (`Date` \| `null` \| `number` \| `string`)[] \| `Date` \| `null` \| `number` \| `string`; `visible?`: `boolean`; `weekNumberRule?`: `WeekNumberRule`; `width?`: `number` \| `string`; `zoomLevel?`: `CalendarZoomLevel`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L209)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:282](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L282)
+
+
+--- SOURCE: type-aliases/IDateRangeBoxOptions.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IDateRangeBoxOptions
+
+# Type Alias: IDateRangeBoxOptions
+
+> **IDateRangeBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-DateRangeBox-API/namespaces/DateRangeBoxTypes/type-aliases/Properties.md), `IDateRangeBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:50](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L50)
+
+
+--- SOURCE: type-aliases/IDisplayFormatProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IDisplayFormatProps
+
+# Type Alias: IDisplayFormatProps
+
+> **IDisplayFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `Format` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:301](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L301)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `dragAndResizeArea?`: `any` \| `string`; `dragEnabled?`: `boolean`; `dragOutsideBoundary?`: `boolean`; `enableBodyScroll?`: `boolean`; `focusStateEnabled?`: `boolean`; `fullScreen?`: `boolean`; `height?`: `number` \| `string`; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onResize?`: (`e`) => `void`; `onResizeEnd?`: (`e`) => `void`; `onResizeStart?`: (`e`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `resizeEnabled?`: `boolean`; `restorePosition?`: `boolean`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showTitle?`: `boolean`; `tabIndex?`: `number`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:324](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L324)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:425](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L425)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:450](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L450)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:481](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L481)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:500](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L500)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:519](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L519)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:569](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L569)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:615](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L615)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:647](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L647)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:672](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L672)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:141](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L141)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:160](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L160)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:179](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L179)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:203](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L203)
+
+
+--- SOURCE: variables/CalendarOptions.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / CalendarOptions
+
+# Variable: CalendarOptions
+
+> `const` **CalendarOptions**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:276](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L276)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:295](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L295)
+
+
+--- SOURCE: variables/DateRangeBox.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / DateRangeBox
+
+# Variable: DateRangeBox()
+
+> `const` **DateRangeBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:67](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L67)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/DisplayFormat.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / DisplayFormat
+
+# Variable: DisplayFormat
+
+> `const` **DisplayFormat**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:318](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L318)
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:418](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L418)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:444](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L444)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:475](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L475)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:494](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L494)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:513](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L513)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:561](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L561)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:609](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L609)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:640](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L640)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:666](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L666)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/date-range-box.ts:710](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L710)
+

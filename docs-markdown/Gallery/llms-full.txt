@@ -1,0 +1,1690 @@
+# Gallery Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Gallery API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/README.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../globals.md) / GalleryTypes
+
+# GalleryTypes
+
+## Interfaces
+
+- [~~dxGalleryOptions~~](interfaces/dxGalleryOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/interfaces/dxGalleryOptions.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / dxGalleryOptions
+
+# ~~Interface: dxGalleryOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:109
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxGallery`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~animationDuration?~~
+
+> `optional` **animationDuration**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:118
+
+#### Docid
+
+#### Default
+
+```ts
+400
+@public
+```
+
+***
+
+### ~~animationEnabled?~~
+
+> `optional` **animationEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:124
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:131
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:137
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~indicatorEnabled?~~
+
+> `optional` **indicatorEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:143
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~initialItemWidth?~~
+
+> `optional` **initialItemWidth**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:149
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:156
+
+#### Docid
+
+#### Fires
+
+dxGalleryOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~loop?~~
+
+> `optional` **loop**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:162
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:167
+
+#### Docid
+
+#### Overrides
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:173
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~showIndicator?~~
+
+> `optional` **showIndicator**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~showNavButtons?~~
+
+> `optional` **showNavButtons**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:185
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~slideshowDelay?~~
+
+> `optional` **slideshowDelay**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:191
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+***
+
+### ~~stretchImages?~~
+
+> `optional` **stretchImages**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:197
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~swipeEnabled?~~
+
+> `optional` **swipeEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:203
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+***
+
+### ~~wrapAround?~~
+
+> `optional` **wrapAround**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:209
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:37
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:45
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:53
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxGalleryItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:249
+
+**`Namespace`**
+
+DevExpress.ui.dxGallery
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:61
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:69
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxGallery`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:77
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:85
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:93
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxGalleryOptions`](../interfaces/dxGalleryOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:286
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gallery API](../../../../globals.md) / [GalleryTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxGallery`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:101
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_gallery_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Gallery API v26.1.0
+
+## Namespaces
+
+- [GalleryTypes](DevExtreme-React-Gallery-API/namespaces/GalleryTypes/README.md)
+
+## Interfaces
+
+- [GalleryRef](interfaces/GalleryRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IGalleryOptions](type-aliases/IGalleryOptions.md)
+- [IItemProps](type-aliases/IItemProps.md)
+
+## Variables
+
+- [Gallery](variables/Gallery.md)
+- [Item](variables/Item.md)
+
+## References
+
+### default
+
+Renames and re-exports [Gallery](variables/Gallery.md)
+
+
+--- SOURCE: interfaces/GalleryRef.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / GalleryRef
+
+# Interface: GalleryRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/gallery.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L42)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxGallery`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/gallery.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L43)
+
+#### Returns
+
+`dxGallery`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:269
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:274
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:275
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:276
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:277
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:278
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:279
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:280
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:281
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:273
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gallery.d.ts:282
+
+
+--- SOURCE: type-aliases/IGalleryOptions.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / IGalleryOptions
+
+# Type Alias: IGalleryOptions\<TItem, TKey\>
+
+> **IGalleryOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Gallery-API/namespaces/GalleryTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IGalleryOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/gallery.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L30)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `imageAlt?`: `string`; `imageSrc?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/gallery.ts:99](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L99)
+
+
+--- SOURCE: variables/Gallery.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / Gallery
+
+# Variable: Gallery()
+
+> `const` **Gallery**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/gallery.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L46)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Gallery API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gallery API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/gallery.ts:124](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gallery.ts#L124)
+

@@ -1,0 +1,2506 @@
+# RangeSelector Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React RangeSelector API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/README.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../globals.md) / RangeSelectorTypes
+
+# RangeSelectorTypes
+
+## Type Aliases
+
+- [AxisScale](type-aliases/AxisScale.md)
+- [BackgroundImageLocation](type-aliases/BackgroundImageLocation.md)
+- [ChartAxisScale](type-aliases/ChartAxisScale.md)
+- [ChartsDataType](type-aliases/ChartsDataType.md)
+- [DiscreteAxisDivisionMode](type-aliases/DiscreteAxisDivisionMode.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LabelOverlap](type-aliases/LabelOverlap.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PaletteExtensionMode](type-aliases/PaletteExtensionMode.md)
+- [Properties](type-aliases/Properties.md)
+- [ScaleBreakLineStyle](type-aliases/ScaleBreakLineStyle.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+- [VisualRangeUpdateMode](type-aliases/VisualRangeUpdateMode.md)
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/AxisScale.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / AxisScale
+
+# Type Alias: AxisScale
+
+> **AxisScale** = `"continuous"` \| `"discrete"` \| `"logarithmic"` \| `"semidiscrete"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:67
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/BackgroundImageLocation.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / BackgroundImageLocation
+
+# Type Alias: BackgroundImageLocation
+
+> **BackgroundImageLocation** = `"center"` \| `"centerBottom"` \| `"centerTop"` \| `"full"` \| `"leftBottom"` \| `"leftCenter"` \| `"leftTop"` \| `"rightBottom"` \| `"rightCenter"` \| `"rightTop"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:65
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartAxisScale.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ChartAxisScale
+
+# Type Alias: ChartAxisScale
+
+> **ChartAxisScale** = `"continuous"` \| `"logarithmic"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:69
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartsDataType.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ChartsDataType
+
+# Type Alias: ChartsDataType
+
+> **ChartsDataType** = `"datetime"` \| `"numeric"` \| `"string"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:54
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/DiscreteAxisDivisionMode.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / DiscreteAxisDivisionMode
+
+# Type Alias: DiscreteAxisDivisionMode
+
+> **DiscreteAxisDivisionMode** = `"betweenLabels"` \| `"crossLabels"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:66
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxRangeSelector`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:77
+
+## Docid
+
+_viz_range_selector_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxRangeSelector`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:85
+
+## Docid
+
+_viz_range_selector_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxRangeSelector`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:93
+
+## Docid
+
+_viz_range_selector_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxRangeSelector`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:101
+
+## Docid
+
+_viz_range_selector_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxRangeSelector`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:109
+
+## Docid
+
+_viz_range_selector_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxRangeSelector`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:117
+
+## Docid
+
+_viz_range_selector_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxRangeSelector`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:125
+
+## Docid
+
+_viz_range_selector_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/LabelOverlap.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / LabelOverlap
+
+# Type Alias: LabelOverlap
+
+> **LabelOverlap** = `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:78
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxRangeSelector`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:133
+
+## Docid
+
+_viz_range_selector_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/PaletteExtensionMode.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / PaletteExtensionMode
+
+# Type Alias: PaletteExtensionMode
+
+> **PaletteExtensionMode** = `"alternate"` \| `"blend"` \| `"extrapolate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:120
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxRangeSelectorOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:830
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ScaleBreakLineStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ScaleBreakLineStyle
+
+# Type Alias: ScaleBreakLineStyle
+
+> **ScaleBreakLineStyle** = `"straight"` \| `"waved"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:166
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxRangeSelector`, `MouseEvent` \| `TouchEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/range\_selector.d.ts:141
+
+## Type Declaration
+
+### previousValue
+
+> `readonly` **previousValue**: (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+_viz_range_selector_ValueChangedEvent.previousValue
+
+### value
+
+> `readonly` **value**: (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+_viz_range_selector_ValueChangedEvent.value
+
+## Docid
+
+_viz_range_selector_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/VisualRangeUpdateMode.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../../../../globals.md) / [RangeSelectorTypes](../README.md) / VisualRangeUpdateMode
+
+# Type Alias: VisualRangeUpdateMode
+
+> **VisualRangeUpdateMode** = `"auto"` \| `"keep"` \| `"reset"` \| `"shift"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:280
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React RangeSelector API v26.1.0
+
+## Namespaces
+
+- [RangeSelectorTypes](DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/README.md)
+
+## Interfaces
+
+- [RangeSelectorRef](interfaces/RangeSelectorRef.md)
+
+## Type Aliases
+
+- [IAggregationIntervalProps](type-aliases/IAggregationIntervalProps.md)
+- [IAggregationProps](type-aliases/IAggregationProps.md)
+- [IArgumentFormatProps](type-aliases/IArgumentFormatProps.md)
+- [IBackgroundImageProps](type-aliases/IBackgroundImageProps.md)
+- [IBackgroundProps](type-aliases/IBackgroundProps.md)
+- [IBehaviorProps](type-aliases/IBehaviorProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IBreakProps](type-aliases/IBreakProps.md)
+- [IBreakStyleProps](type-aliases/IBreakStyleProps.md)
+- [IChartProps](type-aliases/IChartProps.md)
+- [IColorProps](type-aliases/IColorProps.md)
+- [ICommonSeriesSettingsHoverStyleProps](type-aliases/ICommonSeriesSettingsHoverStyleProps.md)
+- [ICommonSeriesSettingsLabelProps](type-aliases/ICommonSeriesSettingsLabelProps.md)
+- [ICommonSeriesSettingsProps](type-aliases/ICommonSeriesSettingsProps.md)
+- [ICommonSeriesSettingsSelectionStyleProps](type-aliases/ICommonSeriesSettingsSelectionStyleProps.md)
+- [IConnectorProps](type-aliases/IConnectorProps.md)
+- [IDataPrepareSettingsProps](type-aliases/IDataPrepareSettingsProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IHatchingProps](type-aliases/IHatchingProps.md)
+- [IHeightProps](type-aliases/IHeightProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [IImageProps](type-aliases/IImageProps.md)
+- [IIndentProps](type-aliases/IIndentProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILengthProps](type-aliases/ILengthProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IMarkerLabelProps](type-aliases/IMarkerLabelProps.md)
+- [IMarkerProps](type-aliases/IMarkerProps.md)
+- [IMaxRangeProps](type-aliases/IMaxRangeProps.md)
+- [IMinorTickIntervalProps](type-aliases/IMinorTickIntervalProps.md)
+- [IMinorTickProps](type-aliases/IMinorTickProps.md)
+- [IMinRangeProps](type-aliases/IMinRangeProps.md)
+- [IPointBorderProps](type-aliases/IPointBorderProps.md)
+- [IPointHoverStyleProps](type-aliases/IPointHoverStyleProps.md)
+- [IPointImageProps](type-aliases/IPointImageProps.md)
+- [IPointProps](type-aliases/IPointProps.md)
+- [IPointSelectionStyleProps](type-aliases/IPointSelectionStyleProps.md)
+- [IRangeSelectorOptions](type-aliases/IRangeSelectorOptions.md)
+- [IReductionProps](type-aliases/IReductionProps.md)
+- [IScaleLabelProps](type-aliases/IScaleLabelProps.md)
+- [IScaleProps](type-aliases/IScaleProps.md)
+- [ISelectionStyleProps](type-aliases/ISelectionStyleProps.md)
+- [ISeriesBorderProps](type-aliases/ISeriesBorderProps.md)
+- [ISeriesProps](type-aliases/ISeriesProps.md)
+- [ISeriesTemplateProps](type-aliases/ISeriesTemplateProps.md)
+- [IShutterProps](type-aliases/IShutterProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISliderHandleProps](type-aliases/ISliderHandleProps.md)
+- [ISliderMarkerProps](type-aliases/ISliderMarkerProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITickIntervalProps](type-aliases/ITickIntervalProps.md)
+- [ITickProps](type-aliases/ITickProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [IUrlProps](type-aliases/IUrlProps.md)
+- [IValueAxisProps](type-aliases/IValueAxisProps.md)
+- [IValueErrorBarProps](type-aliases/IValueErrorBarProps.md)
+- [IValueProps](type-aliases/IValueProps.md)
+- [IWidthProps](type-aliases/IWidthProps.md)
+
+## Variables
+
+- [Aggregation](variables/Aggregation.md)
+- [AggregationInterval](variables/AggregationInterval.md)
+- [ArgumentFormat](variables/ArgumentFormat.md)
+- [Background](variables/Background.md)
+- [BackgroundImage](variables/BackgroundImage.md)
+- [Behavior](variables/Behavior.md)
+- [Border](variables/Border.md)
+- [Break](variables/Break.md)
+- [BreakStyle](variables/BreakStyle.md)
+- [Chart](variables/Chart.md)
+- [Color](variables/Color.md)
+- [CommonSeriesSettings](variables/CommonSeriesSettings.md)
+- [CommonSeriesSettingsHoverStyle](variables/CommonSeriesSettingsHoverStyle.md)
+- [CommonSeriesSettingsLabel](variables/CommonSeriesSettingsLabel.md)
+- [CommonSeriesSettingsSelectionStyle](variables/CommonSeriesSettingsSelectionStyle.md)
+- [Connector](variables/Connector.md)
+- [DataPrepareSettings](variables/DataPrepareSettings.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Hatching](variables/Hatching.md)
+- [Height](variables/Height.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Image](variables/Image.md)
+- [Indent](variables/Indent.md)
+- [Label](variables/Label.md)
+- [Length](variables/Length.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [Marker](variables/Marker.md)
+- [MarkerLabel](variables/MarkerLabel.md)
+- [MaxRange](variables/MaxRange.md)
+- [MinorTick](variables/MinorTick.md)
+- [MinorTickInterval](variables/MinorTickInterval.md)
+- [MinRange](variables/MinRange.md)
+- [Point](variables/Point.md)
+- [PointBorder](variables/PointBorder.md)
+- [PointHoverStyle](variables/PointHoverStyle.md)
+- [PointImage](variables/PointImage.md)
+- [PointSelectionStyle](variables/PointSelectionStyle.md)
+- [RangeSelector](variables/RangeSelector.md)
+- [Reduction](variables/Reduction.md)
+- [Scale](variables/Scale.md)
+- [ScaleLabel](variables/ScaleLabel.md)
+- [SelectionStyle](variables/SelectionStyle.md)
+- [Series](variables/Series.md)
+- [SeriesBorder](variables/SeriesBorder.md)
+- [SeriesTemplate](variables/SeriesTemplate.md)
+- [Shutter](variables/Shutter.md)
+- [Size](variables/Size.md)
+- [SliderHandle](variables/SliderHandle.md)
+- [SliderMarker](variables/SliderMarker.md)
+- [Subtitle](variables/Subtitle.md)
+- [Tick](variables/Tick.md)
+- [TickInterval](variables/TickInterval.md)
+- [Title](variables/Title.md)
+- [Url](variables/Url.md)
+- [Value](variables/Value.md)
+- [ValueAxis](variables/ValueAxis.md)
+- [ValueErrorBar](variables/ValueErrorBar.md)
+- [Width](variables/Width.md)
+
+## References
+
+### default
+
+Renames and re-exports [RangeSelector](variables/RangeSelector.md)
+
+
+--- SOURCE: interfaces/RangeSelectorRef.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / RangeSelectorRef
+
+# Interface: RangeSelectorRef
+
+Defined in: [devextreme-react/src/range-selector.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L42)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxRangeSelector`
+
+Defined in: [devextreme-react/src/range-selector.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L43)
+
+#### Returns
+
+`dxRangeSelector`
+
+
+--- SOURCE: type-aliases/IAggregationIntervalProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IAggregationIntervalProps
+
+# Type Alias: IAggregationIntervalProps
+
+> **IAggregationIntervalProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:123](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L123)
+
+
+--- SOURCE: type-aliases/IAggregationProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IAggregationProps
+
+# Type Alias: IAggregationProps
+
+> **IAggregationProps** = `React.PropsWithChildren`\<\{ `calculate?`: (`aggregationInfo`, `series`) => `Record`\<`string`, `any`\> \| `Record`\<`string`, `any`\>[]; `enabled?`: `boolean`; `method?`: `ChartSeriesAggregationMethod`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:103](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L103)
+
+
+--- SOURCE: type-aliases/IArgumentFormatProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IArgumentFormatProps
+
+# Type Alias: IArgumentFormatProps
+
+> **IArgumentFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:149](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L149)
+
+
+--- SOURCE: type-aliases/IBackgroundImageProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBackgroundImageProps
+
+# Type Alias: IBackgroundImageProps
+
+> **IBackgroundImageProps** = `React.PropsWithChildren`\<\{ `location?`: [`BackgroundImageLocation`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/BackgroundImageLocation.md); `url?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:199](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L199)
+
+
+--- SOURCE: type-aliases/IBackgroundProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBackgroundProps
+
+# Type Alias: IBackgroundProps
+
+> **IBackgroundProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `image?`: `Record`\<`string`, `any`\> \| \{ `location?`: [`BackgroundImageLocation`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/BackgroundImageLocation.md); `url?`: `string`; \}; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:172](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L172)
+
+
+--- SOURCE: type-aliases/IBehaviorProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBehaviorProps
+
+# Type Alias: IBehaviorProps
+
+> **IBehaviorProps** = `React.PropsWithChildren`\<\{ `allowSlidersSwap?`: `boolean`; `animationEnabled?`: `boolean`; `manualRangeSelectionEnabled?`: `boolean`; `moveSelectedRangeByClick?`: `boolean`; `snapToTicks?`: `boolean`; `valueChangeMode?`: `SliderValueChangeMode`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:218](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L218)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:246](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L246)
+
+
+--- SOURCE: type-aliases/IBreakProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBreakProps
+
+# Type Alias: IBreakProps
+
+> **IBreakProps** = `React.PropsWithChildren`\<\{ `endValue?`: `Date` \| `number` \| `string`; `startValue?`: `Date` \| `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:267](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L267)
+
+
+--- SOURCE: type-aliases/IBreakStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IBreakStyleProps
+
+# Type Alias: IBreakStyleProps
+
+> **IBreakStyleProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `line?`: [`ScaleBreakLineStyle`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ScaleBreakLineStyle.md); `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:287](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L287)
+
+
+--- SOURCE: type-aliases/IChartProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IChartProps
+
+# Type Alias: IChartProps
+
+> **IChartProps** = `React.PropsWithChildren`\<\{ `barGroupPadding?`: `number`; `barGroupWidth?`: `number`; `bottomIndent?`: `number`; `commonSeriesSettings?`: `dxChartCommonSeriesSettings`; `dataPrepareSettings?`: `Record`\<`string`, `any`\> \| \{ `checkTypeForAllData?`: `boolean`; `convertToAxisDataType?`: `boolean`; `sortingMethod?`: `boolean` \| (`a`, `b`) => `number`; \}; `maxBubbleSize?`: `number`; `minBubbleSize?`: `number`; `negativesAsZeroes?`: `boolean`; `palette?`: `string`[] \| [`Palette`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/Palette.md); `paletteExtensionMode?`: [`PaletteExtensionMode`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/PaletteExtensionMode.md); `series?`: `ChartSeries`[] \| `ChartSeries`; `seriesTemplate?`: `Record`\<`string`, `any`\> \| \{ `customizeSeries?`: (`seriesName`) => `ChartSeries`; `nameField?`: `string`; \}; `topIndent?`: `number`; `valueAxis?`: `Record`\<`string`, `any`\> \| \{ `inverted?`: `boolean`; `logarithmBase?`: `number`; `max?`: `number`; `min?`: `number`; `type?`: [`ChartAxisScale`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartAxisScale.md); `valueType?`: [`ChartsDataType`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartsDataType.md); \}; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:307](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L307)
+
+
+--- SOURCE: type-aliases/IColorProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IColorProps
+
+# Type Alias: IColorProps
+
+> **IColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L363)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsHoverStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ICommonSeriesSettingsHoverStyleProps
+
+# Type Alias: ICommonSeriesSettingsHoverStyleProps
+
+> **ICommonSeriesSettingsHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:601](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L601)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsLabelProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ICommonSeriesSettingsLabelProps
+
+# Type Alias: ICommonSeriesSettingsLabelProps
+
+> **ICommonSeriesSettingsLabelProps** = `React.PropsWithChildren`\<\{ `alignment?`: `HorizontalAlignment`; `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `horizontalOffset?`: `number`; `position?`: `RelativePosition`; `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `verticalOffset?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:641](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L641)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ICommonSeriesSettingsProps
+
+# Type Alias: ICommonSeriesSettingsProps
+
+> **ICommonSeriesSettingsProps** = `React.PropsWithChildren`\<\{ `aggregation?`: `Record`\<`string`, `any`\> \| \{ `calculate?`: (`aggregationInfo`, `series`) => `Record`\<`string`, `any`\> \| `Record`\<`string`, `any`\>[]; `enabled?`: `boolean`; `method?`: `ChartSeriesAggregationMethod`; \}; `area?`: `any`; `argumentField?`: `string`; `axis?`: `string`; `bar?`: `any`; `barOverlapGroup?`: `string`; `barPadding?`: `number`; `barWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `bubble?`: `any`; `candlestick?`: `any`; `closeValueField?`: `string`; `color?`: `ChartsColor` \| `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `fullstackedarea?`: `any`; `fullstackedbar?`: `any`; `fullstackedline?`: `any`; `fullstackedspline?`: `any`; `fullstackedsplinearea?`: `any`; `highValueField?`: `string`; `hoverMode?`: `SeriesHoverMode`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `ignoreEmptyPoints?`: `boolean`; `innerColor?`: `string`; `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: `HorizontalAlignment`; `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `horizontalOffset?`: `number`; `position?`: `RelativePosition`; `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `verticalOffset?`: `number`; `visible?`: `boolean`; \}; `line?`: `any`; `lowValueField?`: `string`; `maxLabelCount?`: `number`; `minBarSize?`: `number`; `opacity?`: `number`; `openValueField?`: `string`; `pane?`: `string`; `point?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: `PointInteractionMode`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; `url?`: `Record`\<`string`, `any`\> \| `string` \| \{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}; `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; \}; `selectionMode?`: `PointInteractionMode`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: `PointSymbol`; `visible?`: `boolean`; \}; `rangearea?`: `any`; `rangebar?`: `any`; `rangeValue1Field?`: `string`; `rangeValue2Field?`: `string`; `reduction?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `level?`: `FinancialChartReductionLevel`; \}; `scatter?`: `any`; `selectionMode?`: `SeriesSelectionMode`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `showInLegend?`: `boolean`; `sizeField?`: `string`; `spline?`: `any`; `splinearea?`: `any`; `stack?`: `string`; `stackedarea?`: `any`; `stackedbar?`: `any`; `stackedline?`: `any`; `stackedspline?`: `any`; `stackedsplinearea?`: `any`; `steparea?`: `any`; `stepline?`: `any`; `stock?`: `any`; `tagField?`: `string`; `type?`: `SeriesType`; `valueErrorBar?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `displayMode?`: `ValueErrorBarDisplayMode`; `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: `ValueErrorBarType`; `value?`: `number`; \}; `valueField?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L382)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsSelectionStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ICommonSeriesSettingsSelectionStyleProps
+
+# Type Alias: ICommonSeriesSettingsSelectionStyleProps
+
+> **ICommonSeriesSettingsSelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:691](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L691)
+
+
+--- SOURCE: type-aliases/IConnectorProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IConnectorProps
+
+# Type Alias: IConnectorProps
+
+> **IConnectorProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:730](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L730)
+
+
+--- SOURCE: type-aliases/IDataPrepareSettingsProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IDataPrepareSettingsProps
+
+# Type Alias: IDataPrepareSettingsProps
+
+> **IDataPrepareSettingsProps** = `React.PropsWithChildren`\<\{ `checkTypeForAllData?`: `boolean`; `convertToAxisDataType?`: `boolean`; `sortingMethod?`: `boolean` \| (`a`, `b`) => `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:750](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L750)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:770](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L770)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:799](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L799)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:824](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L824)
+
+
+--- SOURCE: type-aliases/IHatchingProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IHatchingProps
+
+# Type Alias: IHatchingProps
+
+> **IHatchingProps** = `React.PropsWithChildren`\<\{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:848](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L848)
+
+
+--- SOURCE: type-aliases/IHeightProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IHeightProps
+
+# Type Alias: IHeightProps
+
+> **IHeightProps** = `React.PropsWithChildren`\<\{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:869](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L869)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `size?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:890](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L890)
+
+
+--- SOURCE: type-aliases/IImageProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IImageProps
+
+# Type Alias: IImageProps
+
+> **IImageProps** = `React.PropsWithChildren`\<\{ `height?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; `location?`: [`BackgroundImageLocation`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/BackgroundImageLocation.md); `url?`: `string` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}; `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:932](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L932)
+
+
+--- SOURCE: type-aliases/IIndentProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IIndentProps
+
+# Type Alias: IIndentProps
+
+> **IIndentProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `right?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:967](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L967)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `alignment?`: `HorizontalAlignment`; `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `horizontalOffset?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/LabelOverlap.md); `position?`: `RelativePosition`; `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `topIndent?`: `number`; `verticalOffset?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:989](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L989)
+
+
+--- SOURCE: type-aliases/ILengthProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ILengthProps
+
+# Type Alias: ILengthProps
+
+> **ILengthProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1040](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1040)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1066](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1066)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1097](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1097)
+
+
+--- SOURCE: type-aliases/IMarkerLabelProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMarkerLabelProps
+
+# Type Alias: IMarkerLabelProps
+
+> **IMarkerLabelProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`markerValue`) => `string`; `format?`: `LocalizationFormat`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1148)
+
+
+--- SOURCE: type-aliases/IMarkerProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMarkerProps
+
+# Type Alias: IMarkerProps
+
+> **IMarkerProps** = `React.PropsWithChildren`\<\{ `label?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`markerValue`) => `string`; `format?`: `LocalizationFormat`; \}; `separatorHeight?`: `number`; `textLeftIndent?`: `number`; `textTopIndent?`: `number`; `topIndent?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1118)
+
+
+--- SOURCE: type-aliases/IMaxRangeProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMaxRangeProps
+
+# Type Alias: IMaxRangeProps
+
+> **IMaxRangeProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1170](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1170)
+
+
+--- SOURCE: type-aliases/IMinRangeProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMinRangeProps
+
+# Type Alias: IMinRangeProps
+
+> **IMinRangeProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1243](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1243)
+
+
+--- SOURCE: type-aliases/IMinorTickIntervalProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMinorTickIntervalProps
+
+# Type Alias: IMinorTickIntervalProps
+
+> **IMinorTickIntervalProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1217](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1217)
+
+
+--- SOURCE: type-aliases/IMinorTickProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IMinorTickProps
+
+# Type Alias: IMinorTickProps
+
+> **IMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1196](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1196)
+
+
+--- SOURCE: type-aliases/IPointBorderProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IPointBorderProps
+
+# Type Alias: IPointBorderProps
+
+> **IPointBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1339](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1339)
+
+
+--- SOURCE: type-aliases/IPointHoverStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IPointHoverStyleProps
+
+# Type Alias: IPointHoverStyleProps
+
+> **IPointHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1359](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1359)
+
+
+--- SOURCE: type-aliases/IPointImageProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IPointImageProps
+
+# Type Alias: IPointImageProps
+
+> **IPointImageProps** = `React.PropsWithChildren`\<\{ `height?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; `url?`: `Record`\<`string`, `any`\> \| `string` \| \{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}; `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1388](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1388)
+
+
+--- SOURCE: type-aliases/IPointProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IPointProps
+
+# Type Alias: IPointProps
+
+> **IPointProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: `PointInteractionMode`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; `url?`: `Record`\<`string`, `any`\> \| `string` \| \{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}; `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; \}; `selectionMode?`: `PointInteractionMode`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: `PointSymbol`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1270](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1270)
+
+
+--- SOURCE: type-aliases/IPointSelectionStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IPointSelectionStyleProps
+
+# Type Alias: IPointSelectionStyleProps
+
+> **IPointSelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1422](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1422)
+
+
+--- SOURCE: type-aliases/IRangeSelectorOptions.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IRangeSelectorOptions
+
+# Type Alias: IRangeSelectorOptions
+
+> **IRangeSelectorOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/Properties.md), `IRangeSelectorOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/range-selector.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L35)
+
+
+--- SOURCE: type-aliases/IReductionProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IReductionProps
+
+# Type Alias: IReductionProps
+
+> **IReductionProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `level?`: `FinancialChartReductionLevel`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1452](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1452)
+
+
+--- SOURCE: type-aliases/IScaleLabelProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IScaleLabelProps
+
+# Type Alias: IScaleLabelProps
+
+> **IScaleLabelProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/LabelOverlap.md); `topIndent?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1614](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1614)
+
+
+--- SOURCE: type-aliases/IScaleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IScaleProps
+
+# Type Alias: IScaleProps
+
+> **IScaleProps** = `React.PropsWithChildren`\<\{ `aggregationGroupWidth?`: `number`; `aggregationInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `allowDecimals?`: `boolean`; `breaks?`: `ScaleBreak`[] \| `object`[]; `breakStyle?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `line?`: [`ScaleBreakLineStyle`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ScaleBreakLineStyle.md); `width?`: `number`; \}; `categories?`: (`Date` \| `number` \| `string`)[]; `discreteAxisDivisionMode?`: [`DiscreteAxisDivisionMode`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/DiscreteAxisDivisionMode.md); `endOnTick?`: `boolean`; `endValue?`: `Date` \| `number` \| `string`; `holidays?`: (`Date` \| `string`)[] \| `number`[]; `label?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/LabelOverlap.md); `topIndent?`: `number`; `visible?`: `boolean`; \}; `linearThreshold?`: `number`; `logarithmBase?`: `number`; `marker?`: `Record`\<`string`, `any`\> \| \{ `label?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`markerValue`) => `string`; `format?`: `LocalizationFormat`; \}; `separatorHeight?`: `number`; `textLeftIndent?`: `number`; `textTopIndent?`: `number`; `topIndent?`: `number`; `visible?`: `boolean`; \}; `maxRange?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTickCount?`: `number`; `minorTickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `minRange?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `placeholderHeight?`: `number`; `showCustomBoundaryTicks?`: `boolean`; `singleWorkdays?`: (`Date` \| `string`)[] \| `number`[]; `startValue?`: `Date` \| `number` \| `string`; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `width?`: `number`; \}; `tickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `type?`: [`AxisScale`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/AxisScale.md); `valueType?`: [`ChartsDataType`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartsDataType.md); `workdaysOnly?`: `boolean`; `workWeek?`: `number`[]; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1471](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1471)
+
+
+--- SOURCE: type-aliases/ISelectionStyleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISelectionStyleProps
+
+# Type Alias: ISelectionStyleProps
+
+> **ISelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `size?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1643](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1643)
+
+
+--- SOURCE: type-aliases/ISeriesBorderProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISeriesBorderProps
+
+# Type Alias: ISeriesBorderProps
+
+> **ISeriesBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1886](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1886)
+
+
+--- SOURCE: type-aliases/ISeriesProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISeriesProps
+
+# Type Alias: ISeriesProps
+
+> **ISeriesProps** = `React.PropsWithChildren`\<\{ `aggregation?`: `Record`\<`string`, `any`\> \| \{ `calculate?`: (`aggregationInfo`, `series`) => `Record`\<`string`, `any`\> \| `Record`\<`string`, `any`\>[]; `enabled?`: `boolean`; `method?`: `ChartSeriesAggregationMethod`; \}; `argumentField?`: `string`; `axis?`: `string`; `barOverlapGroup?`: `string`; `barPadding?`: `number`; `barWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `closeValueField?`: `string`; `color?`: `ChartsColor` \| `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `highValueField?`: `string`; `hoverMode?`: `SeriesHoverMode`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `ignoreEmptyPoints?`: `boolean`; `innerColor?`: `string`; `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: `HorizontalAlignment`; `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `horizontalOffset?`: `number`; `position?`: `RelativePosition`; `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `verticalOffset?`: `number`; `visible?`: `boolean`; \}; `lowValueField?`: `string`; `maxLabelCount?`: `number`; `minBarSize?`: `number`; `name?`: `string`; `opacity?`: `number`; `openValueField?`: `string`; `pane?`: `string`; `point?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: `PointInteractionMode`; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; `url?`: `Record`\<`string`, `any`\> \| `string` \| \{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}; `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}; \}; `selectionMode?`: `PointInteractionMode`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: `PointSymbol`; `visible?`: `boolean`; \}; `rangeValue1Field?`: `string`; `rangeValue2Field?`: `string`; `reduction?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `level?`: `FinancialChartReductionLevel`; \}; `selectionMode?`: `SeriesSelectionMode`; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: `DashStyle`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: `HatchDirection`; `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `showInLegend?`: `boolean`; `sizeField?`: `string`; `stack?`: `string`; `tag?`: `any`; `tagField?`: `string`; `type?`: `SeriesType`; `valueErrorBar?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `displayMode?`: `ValueErrorBarDisplayMode`; `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: `ValueErrorBarType`; `value?`: `number`; \}; `valueField?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1684](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1684)
+
+
+--- SOURCE: type-aliases/ISeriesTemplateProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISeriesTemplateProps
+
+# Type Alias: ISeriesTemplateProps
+
+> **ISeriesTemplateProps** = `React.PropsWithChildren`\<\{ `customizeSeries?`: (`seriesName`) => `ChartSeries`; `nameField?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1907](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1907)
+
+
+--- SOURCE: type-aliases/IShutterProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IShutterProps
+
+# Type Alias: IShutterProps
+
+> **IShutterProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1926](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1926)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1945](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1945)
+
+
+--- SOURCE: type-aliases/ISliderHandleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISliderHandleProps
+
+# Type Alias: ISliderHandleProps
+
+> **ISliderHandleProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1964](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1964)
+
+
+--- SOURCE: type-aliases/ISliderMarkerProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISliderMarkerProps
+
+# Type Alias: ISliderMarkerProps
+
+> **ISliderMarkerProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `invalidRangeColor?`: `string`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `placeholderHeight?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:1984](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1984)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2014](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2014)
+
+
+--- SOURCE: type-aliases/ITickIntervalProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ITickIntervalProps
+
+# Type Alias: ITickIntervalProps
+
+> **ITickIntervalProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2059](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2059)
+
+
+--- SOURCE: type-aliases/ITickProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ITickProps
+
+# Type Alias: ITickProps
+
+> **ITickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2039](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2039)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2085](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2085)
+
+
+--- SOURCE: type-aliases/IUrlProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IUrlProps
+
+# Type Alias: IUrlProps
+
+> **IUrlProps** = `React.PropsWithChildren`\<\{ `rangeMaxPoint?`: `string`; `rangeMinPoint?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2127](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2127)
+
+
+--- SOURCE: type-aliases/IValueAxisProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IValueAxisProps
+
+# Type Alias: IValueAxisProps
+
+> **IValueAxisProps** = `React.PropsWithChildren`\<\{ `inverted?`: `boolean`; `logarithmBase?`: `number`; `max?`: `number`; `min?`: `number`; `type?`: [`ChartAxisScale`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartAxisScale.md); `valueType?`: [`ChartsDataType`](../DevExtreme-React-RangeSelector-API/namespaces/RangeSelectorTypes/type-aliases/ChartsDataType.md); \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2187)
+
+
+--- SOURCE: type-aliases/IValueErrorBarProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IValueErrorBarProps
+
+# Type Alias: IValueErrorBarProps
+
+> **IValueErrorBarProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `displayMode?`: `ValueErrorBarDisplayMode`; `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: `ValueErrorBarType`; `value?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2211)
+
+
+--- SOURCE: type-aliases/IValueProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IValueProps
+
+# Type Alias: IValueProps
+
+> **IValueProps** = `React.PropsWithChildren`\<\{ `defaultEndValue?`: `Date` \| `number` \| `string`; `defaultStartValue?`: `Date` \| `number` \| `string`; `endValue?`: `Date` \| `number` \| `string`; `length?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `onEndValueChange?`: (`value`) => `void`; `onStartValueChange?`: (`value`) => `void`; `startValue?`: `Date` \| `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2146)
+
+
+--- SOURCE: type-aliases/IWidthProps.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / IWidthProps
+
+# Type Alias: IWidthProps
+
+> **IWidthProps** = `React.PropsWithChildren`\<\{ `rangeMaxPoint?`: `number`; `rangeMinPoint?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/range-selector.ts:2237](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2237)
+
+
+--- SOURCE: variables/Aggregation.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Aggregation
+
+# Variable: Aggregation
+
+> `const` **Aggregation**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:117](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L117)
+
+
+--- SOURCE: variables/AggregationInterval.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / AggregationInterval
+
+# Variable: AggregationInterval
+
+> `const` **AggregationInterval**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:143](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L143)
+
+
+--- SOURCE: variables/ArgumentFormat.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ArgumentFormat
+
+# Variable: ArgumentFormat
+
+> `const` **ArgumentFormat**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:166](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L166)
+
+
+--- SOURCE: variables/Background.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Background
+
+# Variable: Background
+
+> `const` **Background**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L193)
+
+
+--- SOURCE: variables/BackgroundImage.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / BackgroundImage
+
+# Variable: BackgroundImage
+
+> `const` **BackgroundImage**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:212](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L212)
+
+
+--- SOURCE: variables/Behavior.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Behavior
+
+# Variable: Behavior
+
+> `const` **Behavior**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:235](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L235)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:261](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L261)
+
+
+--- SOURCE: variables/Break.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Break
+
+# Variable: Break
+
+> `const` **Break**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:281](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L281)
+
+
+--- SOURCE: variables/BreakStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / BreakStyle
+
+# Variable: BreakStyle
+
+> `const` **BreakStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:301](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L301)
+
+
+--- SOURCE: variables/Chart.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Chart
+
+# Variable: Chart
+
+> `const` **Chart**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:353](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L353)
+
+
+--- SOURCE: variables/Color.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Color
+
+# Variable: Color
+
+> `const` **Color**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:376](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L376)
+
+
+--- SOURCE: variables/CommonSeriesSettings.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / CommonSeriesSettings
+
+# Variable: CommonSeriesSettings
+
+> `const` **CommonSeriesSettings**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:594](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L594)
+
+
+--- SOURCE: variables/CommonSeriesSettingsHoverStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / CommonSeriesSettingsHoverStyle
+
+# Variable: CommonSeriesSettingsHoverStyle
+
+> `const` **CommonSeriesSettingsHoverStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:634](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L634)
+
+
+--- SOURCE: variables/CommonSeriesSettingsLabel.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / CommonSeriesSettingsLabel
+
+# Variable: CommonSeriesSettingsLabel
+
+> `const` **CommonSeriesSettingsLabel**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:684](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L684)
+
+
+--- SOURCE: variables/CommonSeriesSettingsSelectionStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / CommonSeriesSettingsSelectionStyle
+
+# Variable: CommonSeriesSettingsSelectionStyle
+
+> `const` **CommonSeriesSettingsSelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:724](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L724)
+
+
+--- SOURCE: variables/Connector.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Connector
+
+# Variable: Connector
+
+> `const` **Connector**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:744](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L744)
+
+
+--- SOURCE: variables/DataPrepareSettings.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / DataPrepareSettings
+
+# Variable: DataPrepareSettings
+
+> `const` **DataPrepareSettings**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:764](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L764)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:788](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L788)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:815](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L815)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:841](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L841)
+
+
+--- SOURCE: variables/Hatching.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Hatching
+
+# Variable: Hatching
+
+> `const` **Hatching**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:863](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L863)
+
+
+--- SOURCE: variables/Height.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Height
+
+# Variable: Height
+
+> `const` **Height**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:882](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L882)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:925](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L925)
+
+
+--- SOURCE: variables/Image.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Image
+
+# Variable: Image
+
+> `const` **Image**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:961](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L961)
+
+
+--- SOURCE: variables/Indent.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Indent
+
+# Variable: Indent
+
+> `const` **Indent**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:980](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L980)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1034](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1034)
+
+
+--- SOURCE: variables/Length.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Length
+
+# Variable: Length
+
+> `const` **Length**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1060](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1060)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1090](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1090)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1112)
+
+
+--- SOURCE: variables/Marker.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Marker
+
+# Variable: Marker
+
+> `const` **Marker**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1142](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1142)
+
+
+--- SOURCE: variables/MarkerLabel.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / MarkerLabel
+
+# Variable: MarkerLabel
+
+> `const` **MarkerLabel**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1164](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1164)
+
+
+--- SOURCE: variables/MaxRange.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / MaxRange
+
+# Variable: MaxRange
+
+> `const` **MaxRange**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1190](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1190)
+
+
+--- SOURCE: variables/MinRange.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / MinRange
+
+# Variable: MinRange
+
+> `const` **MinRange**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1263](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1263)
+
+
+--- SOURCE: variables/MinorTick.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / MinorTick
+
+# Variable: MinorTick
+
+> `const` **MinorTick**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1211)
+
+
+--- SOURCE: variables/MinorTickInterval.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / MinorTickInterval
+
+# Variable: MinorTickInterval
+
+> `const` **MinorTickInterval**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1237](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1237)
+
+
+--- SOURCE: variables/Point.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Point
+
+# Variable: Point
+
+> `const` **Point**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1331](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1331)
+
+
+--- SOURCE: variables/PointBorder.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / PointBorder
+
+# Variable: PointBorder
+
+> `const` **PointBorder**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1353](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1353)
+
+
+--- SOURCE: variables/PointHoverStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / PointHoverStyle
+
+# Variable: PointHoverStyle
+
+> `const` **PointHoverStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1382)
+
+
+--- SOURCE: variables/PointImage.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / PointImage
+
+# Variable: PointImage
+
+> `const` **PointImage**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1416)
+
+
+--- SOURCE: variables/PointSelectionStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / PointSelectionStyle
+
+# Variable: PointSelectionStyle
+
+> `const` **PointSelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1445](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1445)
+
+
+--- SOURCE: variables/RangeSelector.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / RangeSelector
+
+# Variable: RangeSelector()
+
+> `const` **RangeSelector**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/range-selector.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L46)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Reduction.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Reduction
+
+# Variable: Reduction
+
+> `const` **Reduction**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1465](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1465)
+
+
+--- SOURCE: variables/Scale.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Scale
+
+# Variable: Scale
+
+> `const` **Scale**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1608](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1608)
+
+
+--- SOURCE: variables/ScaleLabel.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ScaleLabel
+
+# Variable: ScaleLabel
+
+> `const` **ScaleLabel**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1635](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1635)
+
+
+--- SOURCE: variables/SelectionStyle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / SelectionStyle
+
+# Variable: SelectionStyle
+
+> `const` **SelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1678](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1678)
+
+
+--- SOURCE: variables/Series.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Series
+
+# Variable: Series
+
+> `const` **Series**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1876](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1876)
+
+
+--- SOURCE: variables/SeriesBorder.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / SeriesBorder
+
+# Variable: SeriesBorder
+
+> `const` **SeriesBorder**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1901](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1901)
+
+
+--- SOURCE: variables/SeriesTemplate.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / SeriesTemplate
+
+# Variable: SeriesTemplate
+
+> `const` **SeriesTemplate**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1920](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1920)
+
+
+--- SOURCE: variables/Shutter.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Shutter
+
+# Variable: Shutter
+
+> `const` **Shutter**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1939](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1939)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1958](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1958)
+
+
+--- SOURCE: variables/SliderHandle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / SliderHandle
+
+# Variable: SliderHandle
+
+> `const` **SliderHandle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:1978](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L1978)
+
+
+--- SOURCE: variables/SliderMarker.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / SliderMarker
+
+# Variable: SliderMarker
+
+> `const` **SliderMarker**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2008](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2008)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2033](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2033)
+
+
+--- SOURCE: variables/Tick.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Tick
+
+# Variable: Tick
+
+> `const` **Tick**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2053](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2053)
+
+
+--- SOURCE: variables/TickInterval.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / TickInterval
+
+# Variable: TickInterval
+
+> `const` **TickInterval**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2079](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2079)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2121](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2121)
+
+
+--- SOURCE: variables/Url.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Url
+
+# Variable: Url
+
+> `const` **Url**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2140](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2140)
+
+
+--- SOURCE: variables/Value.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Value
+
+# Variable: Value
+
+> `const` **Value**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2181](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2181)
+
+
+--- SOURCE: variables/ValueAxis.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ValueAxis
+
+# Variable: ValueAxis
+
+> `const` **ValueAxis**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2204](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2204)
+
+
+--- SOURCE: variables/ValueErrorBar.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / ValueErrorBar
+
+# Variable: ValueErrorBar
+
+> `const` **ValueErrorBar**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2231](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2231)
+
+
+--- SOURCE: variables/Width.md ---
+
+[**DevExtreme React RangeSelector API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSelector API](../globals.md) / Width
+
+# Variable: Width
+
+> `const` **Width**: `any`
+
+Defined in: [devextreme-react/src/range-selector.ts:2250](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-selector.ts#L2250)
+

@@ -1,0 +1,284 @@
+# CheckBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React CheckBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/README.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../globals.md) / CheckBoxTypes
+
+# CheckBoxTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxCheckBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:28
+
+## Docid
+
+_ui_check_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxCheckBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:36
+
+## Docid
+
+_ui_check_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxCheckBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:44
+
+## Docid
+
+_ui_check_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxCheckBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:52
+
+## Docid
+
+_ui_check_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxCheckBoxOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:141
+
+
+--- SOURCE: DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../../../../globals.md) / [CheckBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxCheckBox`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/check\_box.d.ts:60
+
+## Docid
+
+_ui_check_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React CheckBox API v26.1.0
+
+## Namespaces
+
+- [CheckBoxTypes](DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/README.md)
+
+## Interfaces
+
+- [CheckBoxRef](interfaces/CheckBoxRef.md)
+
+## Type Aliases
+
+- [ICheckBoxOptions](type-aliases/ICheckBoxOptions.md)
+
+## Variables
+
+- [CheckBox](variables/CheckBox.md)
+
+## References
+
+### default
+
+Renames and re-exports [CheckBox](variables/CheckBox.md)
+
+
+--- SOURCE: interfaces/CheckBoxRef.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../globals.md) / CheckBoxRef
+
+# Interface: CheckBoxRef
+
+Defined in: [devextreme-react/src/check-box.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/check-box.ts#L28)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxCheckBox`
+
+Defined in: [devextreme-react/src/check-box.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/check-box.ts#L29)
+
+#### Returns
+
+`dxCheckBox`
+
+
+--- SOURCE: type-aliases/ICheckBoxOptions.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../globals.md) / ICheckBoxOptions
+
+# Type Alias: ICheckBoxOptions
+
+> **ICheckBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-CheckBox-API/namespaces/CheckBoxTypes/type-aliases/Properties.md), `ICheckBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/check-box.ts:23](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/check-box.ts#L23)
+
+
+--- SOURCE: variables/CheckBox.md ---
+
+[**DevExtreme React CheckBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CheckBox API](../globals.md) / CheckBox
+
+# Variable: CheckBox()
+
+> `const` **CheckBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/check-box.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/check-box.ts#L32)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

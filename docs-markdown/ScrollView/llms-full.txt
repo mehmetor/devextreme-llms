@@ -1,0 +1,332 @@
+# ScrollView Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ScrollView API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/README.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../globals.md) / ScrollViewTypes
+
+# ScrollViewTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [PullDownEvent](type-aliases/PullDownEvent.md)
+- [ReachBottomEvent](type-aliases/ReachBottomEvent.md)
+- [ScrollEvent](type-aliases/ScrollEvent.md)
+- [UpdatedEvent](type-aliases/UpdatedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:30
+
+## Docid
+
+_ui_scroll_view_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:38
+
+## Docid
+
+_ui_scroll_view_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxScrollView`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:46
+
+## Docid
+
+_ui_scroll_view_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxScrollViewOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:159
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/PullDownEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / PullDownEvent
+
+# Type Alias: PullDownEvent
+
+> **PullDownEvent** = `EventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:54
+
+## Docid
+
+_ui_scroll_view_PullDownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/ReachBottomEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / ReachBottomEvent
+
+# Type Alias: ReachBottomEvent
+
+> **ReachBottomEvent** = `EventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:62
+
+## Docid
+
+_ui_scroll_view_ReachBottomEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/ScrollEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / ScrollEvent
+
+# Type Alias: ScrollEvent
+
+> **ScrollEvent** = `ScrollEventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:70
+
+## Docid
+
+_ui_scroll_view_ScrollEvent
+
+## Inherits
+
+ScrollEventInfo
+
+
+--- SOURCE: DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/UpdatedEvent.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../../../../globals.md) / [ScrollViewTypes](../README.md) / UpdatedEvent
+
+# Type Alias: UpdatedEvent
+
+> **UpdatedEvent** = `ScrollEventInfo`\<`dxScrollView`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/scroll\_view.d.ts:78
+
+## Docid
+
+_ui_scroll_view_UpdatedEvent
+
+## Inherits
+
+ScrollEventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ScrollView API v26.1.0
+
+## Namespaces
+
+- [ScrollViewTypes](DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/README.md)
+
+## Interfaces
+
+- [ScrollViewRef](interfaces/ScrollViewRef.md)
+
+## Type Aliases
+
+- [IScrollViewOptions](type-aliases/IScrollViewOptions.md)
+
+## Variables
+
+- [ScrollView](variables/ScrollView.md)
+
+## References
+
+### default
+
+Renames and re-exports [ScrollView](variables/ScrollView.md)
+
+
+--- SOURCE: interfaces/ScrollViewRef.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../globals.md) / ScrollViewRef
+
+# Interface: ScrollViewRef
+
+Defined in: [devextreme-react/src/scroll-view.ts:27](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scroll-view.ts#L27)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxScrollView`
+
+Defined in: [devextreme-react/src/scroll-view.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scroll-view.ts#L28)
+
+#### Returns
+
+`dxScrollView`
+
+
+--- SOURCE: type-aliases/IScrollViewOptions.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../globals.md) / IScrollViewOptions
+
+# Type Alias: IScrollViewOptions
+
+> **IScrollViewOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ScrollView-API/namespaces/ScrollViewTypes/type-aliases/Properties.md), `IScrollViewOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/scroll-view.ts:25](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scroll-view.ts#L25)
+
+
+--- SOURCE: variables/ScrollView.md ---
+
+[**DevExtreme React ScrollView API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ScrollView API](../globals.md) / ScrollView
+
+# Variable: ScrollView()
+
+> `const` **ScrollView**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/scroll-view.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/scroll-view.ts#L31)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

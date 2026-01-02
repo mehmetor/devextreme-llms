@@ -1,0 +1,828 @@
+# Popover Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Popover API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/README.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../globals.md) / PopoverTypes
+
+# PopoverTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+- [TitleRenderedEvent](type-aliases/TitleRenderedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:48
+
+## Docid
+
+_ui_popover_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:56
+
+## Docid
+
+_ui_popover_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent
+
+> **HiddenEvent** = `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:72
+
+## Docid
+
+_ui_popover_HiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent
+
+> **HidingEvent** = `AsyncCancelable` & `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:64
+
+## Docid
+
+_ui_popover_HidingEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:80
+
+## Docid
+
+_ui_popover_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxPopover`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:88
+
+## Docid
+
+_ui_popover_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxPopoverOptions`\<`PopoverInstance`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:251
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent
+
+> **ShowingEvent** = `Cancelable` & `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:96
+
+## Docid
+
+_ui_popover_ShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent
+
+> **ShownEvent** = `EventInfo`\<`dxPopover`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:104
+
+## Docid
+
+_ui_popover_ShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/TitleRenderedEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Popover API](../../../../globals.md) / [PopoverTypes](../README.md) / TitleRenderedEvent
+
+# Type Alias: TitleRenderedEvent
+
+> **TitleRenderedEvent** = `EventInfo`\<`dxPopover`\> & `TitleRenderedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/popover.d.ts:112
+
+## Docid
+
+_ui_popover_TitleRenderedEvent
+
+## Inherits
+
+EventInfo,TitleRenderedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Popover API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Popover API v26.1.0
+
+## Namespaces
+
+- [PopoverTypes](DevExtreme-React-Popover-API/namespaces/PopoverTypes/README.md)
+
+## Interfaces
+
+- [PopoverRef](interfaces/PopoverRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideEventProps](type-aliases/IHideEventProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPopoverOptions](type-aliases/IPopoverOptions.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowEventProps](type-aliases/IShowEventProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [HideEvent](variables/HideEvent.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Popover](variables/Popover.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [ShowEvent](variables/ShowEvent.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [Popover](variables/Popover.md)
+
+
+--- SOURCE: interfaces/PopoverRef.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / PopoverRef
+
+# Interface: PopoverRef
+
+Defined in: [devextreme-react/src/popover.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L48)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPopover`
+
+Defined in: [devextreme-react/src/popover.ts:49](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L49)
+
+#### Returns
+
+`dxPopover`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:116](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L116)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:139](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L139)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:158](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L158)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:177](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L177)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:197](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L197)
+
+
+--- SOURCE: type-aliases/IHideEventProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IHideEventProps
+
+# Type Alias: IHideEventProps
+
+> **IHideEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:253](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L253)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:222](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L222)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:272](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L272)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:291](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L291)
+
+
+--- SOURCE: type-aliases/IPopoverOptions.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IPopoverOptions
+
+# Type Alias: IPopoverOptions
+
+> **IPopoverOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Popover-API/namespaces/PopoverTypes/type-aliases/Properties.md), `IPopoverOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/popover.ts:33](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L33)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:312](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L312)
+
+
+--- SOURCE: type-aliases/IShowEventProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IShowEventProps
+
+# Type Alias: IShowEventProps
+
+> **IShowEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:389](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L389)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:358](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L358)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:409](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L409)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/popover.ts:434](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L434)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:133](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L133)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:152](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L152)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:171](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L171)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:190](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L190)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:216](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L216)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:247](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L247)
+
+
+--- SOURCE: variables/HideEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / HideEvent
+
+# Variable: HideEvent
+
+> `const` **HideEvent**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:266](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L266)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:285](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L285)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:304](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L304)
+
+
+--- SOURCE: variables/Popover.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Popover
+
+# Variable: Popover()
+
+> `const` **Popover**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/popover.ts:52](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L52)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:352](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L352)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:383](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L383)
+
+
+--- SOURCE: variables/ShowEvent.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / ShowEvent
+
+# Variable: ShowEvent
+
+> `const` **ShowEvent**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:402](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L402)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:428](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L428)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Popover API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Popover API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/popover.ts:472](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/popover.ts#L472)
+

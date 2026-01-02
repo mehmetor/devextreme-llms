@@ -1,0 +1,1353 @@
+# CircularGauge Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React CircularGauge API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/README.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../globals.md) / CircularGaugeTypes
+
+# CircularGaugeTypes
+
+## Type Aliases
+
+- [CircularGaugeElementOrientation](type-aliases/CircularGaugeElementOrientation.md)
+- [CircularGaugeLabelOverlap](type-aliases/CircularGaugeLabelOverlap.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [RangeContainer](type-aliases/RangeContainer.md)
+- [Scale](type-aliases/Scale.md)
+- [ScaleLabel](type-aliases/ScaleLabel.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeElementOrientation.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / CircularGaugeElementOrientation
+
+# Type Alias: CircularGaugeElementOrientation
+
+> **CircularGaugeElementOrientation** = `"center"` \| `"inside"` \| `"outside"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:40
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeLabelOverlap.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / CircularGaugeLabelOverlap
+
+# Type Alias: CircularGaugeLabelOverlap
+
+> **CircularGaugeLabelOverlap** = `"first"` \| `"last"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:42
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxCircularGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:50
+
+## Docid
+
+_viz_circular_gauge_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxCircularGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:58
+
+## Docid
+
+_viz_circular_gauge_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxCircularGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:66
+
+## Docid
+
+_viz_circular_gauge_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxCircularGauge`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:74
+
+## Docid
+
+_viz_circular_gauge_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxCircularGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:82
+
+## Docid
+
+_viz_circular_gauge_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxCircularGauge`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:90
+
+## Docid
+
+_viz_circular_gauge_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxCircularGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:98
+
+## Docid
+
+_viz_circular_gauge_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxCircularGauge`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:106
+
+## Docid
+
+_viz_circular_gauge_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxCircularGaugeOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:241
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/RangeContainer.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / RangeContainer
+
+# Type Alias: RangeContainer
+
+> **RangeContainer** = `BaseGaugeRangeContainer` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:182
+
+## Type Declaration
+
+### orientation?
+
+> `optional` **orientation**: [`CircularGaugeElementOrientation`](CircularGaugeElementOrientation.md)
+
+#### Docid
+
+dxCircularGaugeOptions.rangeContainer.orientation
+
+#### Default
+
+```ts
+'outside'
+@public
+```
+
+### width?
+
+> `optional` **width**: `number`
+
+#### Docid
+
+dxCircularGaugeOptions.rangeContainer.width
+
+#### Default
+
+```ts
+5
+@public
+```
+
+## Docid
+
+dxCircularGaugeRangeContainer
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/Scale.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / Scale
+
+# Type Alias: Scale
+
+> **Scale** = `BaseGaugeScale` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:200
+
+## Type Declaration
+
+### label?
+
+> `optional` **label**: [`ScaleLabel`](ScaleLabel.md)
+
+#### Docid
+
+dxCircularGaugeOptions.scale.label
+
+### orientation?
+
+> `optional` **orientation**: [`CircularGaugeElementOrientation`](CircularGaugeElementOrientation.md)
+
+#### Docid
+
+dxCircularGaugeOptions.scale.orientation
+
+#### Default
+
+```ts
+'outside'
+@public
+```
+
+## Docid
+
+dxCircularGaugeScale
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/ScaleLabel.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / ScaleLabel
+
+# Type Alias: ScaleLabel
+
+> **ScaleLabel** = `BaseGaugeScaleLabel` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:218
+
+## Type Declaration
+
+### hideFirstOrLast?
+
+> `optional` **hideFirstOrLast**: [`CircularGaugeLabelOverlap`](CircularGaugeLabelOverlap.md)
+
+#### Docid
+
+dxCircularGaugeOptions.scale.label.hideFirstOrLast
+
+#### Default
+
+```ts
+'last'
+@public
+```
+
+### indentFromTick?
+
+> `optional` **indentFromTick**: `number`
+
+#### Docid
+
+dxCircularGaugeOptions.scale.label.indentFromTick
+
+#### Default
+
+```ts
+10
+@public
+```
+
+## Docid
+
+dxCircularGaugeScaleLabel
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxCircularGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:114
+
+## Docid
+
+_viz_circular_gauge_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_base_gauge_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../../../../globals.md) / [CircularGaugeTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxCircularGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/circular\_gauge.d.ts:122
+
+## Docid
+
+_viz_circular_gauge_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_base_gauge_TooltipInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React CircularGauge API v26.1.0
+
+## Namespaces
+
+- [CircularGaugeTypes](DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/README.md)
+
+## Interfaces
+
+- [CircularGaugeRef](interfaces/CircularGaugeRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IBackgroundColorProps](type-aliases/IBackgroundColorProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [ICircularGaugeOptions](type-aliases/ICircularGaugeOptions.md)
+- [IColorProps](type-aliases/IColorProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGeometryProps](type-aliases/IGeometryProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IMinorTickProps](type-aliases/IMinorTickProps.md)
+- [IRangeContainerProps](type-aliases/IRangeContainerProps.md)
+- [IRangeProps](type-aliases/IRangeProps.md)
+- [IScaleProps](type-aliases/IScaleProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ISubvalueIndicatorProps](type-aliases/ISubvalueIndicatorProps.md)
+- [ITextProps](type-aliases/ITextProps.md)
+- [ITickProps](type-aliases/ITickProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+- [IValueIndicatorProps](type-aliases/IValueIndicatorProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [BackgroundColor](variables/BackgroundColor.md)
+- [Border](variables/Border.md)
+- [CircularGauge](variables/CircularGauge.md)
+- [Color](variables/Color.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Geometry](variables/Geometry.md)
+- [Label](variables/Label.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [MinorTick](variables/MinorTick.md)
+- [Range](variables/Range.md)
+- [RangeContainer](variables/RangeContainer.md)
+- [Scale](variables/Scale.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [SubvalueIndicator](variables/SubvalueIndicator.md)
+- [Text](variables/Text.md)
+- [Tick](variables/Tick.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [ValueIndicator](variables/ValueIndicator.md)
+
+## References
+
+### default
+
+Renames and re-exports [CircularGauge](variables/CircularGauge.md)
+
+
+--- SOURCE: interfaces/CircularGaugeRef.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / CircularGaugeRef
+
+# Interface: CircularGaugeRef
+
+Defined in: [devextreme-react/src/circular-gauge.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L43)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxCircularGauge`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:44](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L44)
+
+#### Returns
+
+`dxCircularGauge`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `duration?`: `number`; `easing?`: `AnimationEaseMode`; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:111](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L111)
+
+
+--- SOURCE: type-aliases/IBackgroundColorProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IBackgroundColorProps
+
+# Type Alias: IBackgroundColorProps
+
+> **IBackgroundColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:131](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L131)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:150](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L150)
+
+
+--- SOURCE: type-aliases/ICircularGaugeOptions.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ICircularGaugeOptions
+
+# Type Alias: ICircularGaugeOptions
+
+> **ICircularGaugeOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/Properties.md), `ICircularGaugeOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L32)
+
+
+--- SOURCE: type-aliases/IColorProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IColorProps
+
+# Type Alias: IColorProps
+
+> **IColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:174](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L174)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L193)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:222](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L222)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:246](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L246)
+
+
+--- SOURCE: type-aliases/IGeometryProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IGeometryProps
+
+# Type Alias: IGeometryProps
+
+> **IGeometryProps** = `React.PropsWithChildren`\<\{ `endAngle?`: `number`; `startAngle?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:269](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L269)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `hideFirstOrLast?`: [`CircularGaugeLabelOverlap`](../DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeLabelOverlap.md); `indentFromTick?`: `number`; `overlappingBehavior?`: `LabelOverlap`; `useRangeColors?`: `boolean`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:288](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L288)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:317](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L317)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:347](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L347)
+
+
+--- SOURCE: type-aliases/IMinorTickProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IMinorTickProps
+
+# Type Alias: IMinorTickProps
+
+> **IMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:368](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L368)
+
+
+--- SOURCE: type-aliases/IRangeContainerProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IRangeContainerProps
+
+# Type Alias: IRangeContainerProps
+
+> **IRangeContainerProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `ChartsColor` \| `string`; `offset?`: `number`; `orientation?`: [`CircularGaugeElementOrientation`](../DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeElementOrientation.md); `palette?`: `string`[] \| `Palette`; `paletteExtensionMode?`: `PaletteExtensionMode`; `ranges?`: `Record`\<`string`, `any`\>[] \| `object`[]; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:414](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L414)
+
+
+--- SOURCE: type-aliases/IRangeProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IRangeProps
+
+# Type Alias: IRangeProps
+
+> **IRangeProps** = `React.PropsWithChildren`\<\{ `color?`: `ChartsColor` \| `string`; `endValue?`: `number`; `startValue?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:390](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L390)
+
+
+--- SOURCE: type-aliases/IScaleProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IScaleProps
+
+# Type Alias: IScaleProps
+
+> **IScaleProps** = `React.PropsWithChildren`\<\{ `allowDecimals?`: `boolean`; `customMinorTicks?`: `number`[]; `customTicks?`: `number`[]; `endValue?`: `number`; `label?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `hideFirstOrLast?`: [`CircularGaugeLabelOverlap`](../DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeLabelOverlap.md); `indentFromTick?`: `number`; `overlappingBehavior?`: `LabelOverlap`; `useRangeColors?`: `boolean`; `visible?`: `boolean`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTickInterval?`: `number`; `orientation?`: [`CircularGaugeElementOrientation`](../DevExtreme-React-CircularGauge-API/namespaces/CircularGaugeTypes/type-aliases/CircularGaugeElementOrientation.md); `scaleDivisionFactor?`: `number`; `startValue?`: `number`; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `tickInterval?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:446](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L446)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:501](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L501)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:523](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L523)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:542](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L542)
+
+
+--- SOURCE: type-aliases/ISubvalueIndicatorProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ISubvalueIndicatorProps
+
+# Type Alias: ISubvalueIndicatorProps
+
+> **ISubvalueIndicatorProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `backgroundColor?`: `string`; `baseValue?`: `number`; `beginAdaptingAtRadius?`: `number`; `color?`: `ChartsColor` \| `string`; `horizontalOrientation?`: `HorizontalEdge`; `indentFromCenter?`: `number`; `length?`: `number`; `offset?`: `number`; `palette?`: `string`[] \| `Palette`; `secondColor?`: `string`; `secondFraction?`: `number`; `size?`: `number`; `spindleGapSize?`: `number`; `spindleSize?`: `number`; `text?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}; `type?`: `"circle"` \| `"rangeBar"` \| `"rectangle"` \| `"rectangleNeedle"` \| `"rhombus"` \| `"textCloud"` \| `"triangleMarker"` \| `"triangleNeedle"` \| `"twoColorNeedle"`; `verticalOrientation?`: `VerticalEdge`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:567](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L567)
+
+
+--- SOURCE: type-aliases/ITextProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ITextProps
+
+# Type Alias: ITextProps
+
+> **ITextProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:613](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L613)
+
+
+--- SOURCE: type-aliases/ITickProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ITickProps
+
+# Type Alias: ITickProps
+
+> **ITickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:638](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L638)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:660](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L660)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`scaleValue`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`scaleValue`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:702](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L702)
+
+
+--- SOURCE: type-aliases/IValueIndicatorProps.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / IValueIndicatorProps
+
+# Type Alias: IValueIndicatorProps
+
+> **IValueIndicatorProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `backgroundColor?`: `string`; `baseValue?`: `number`; `beginAdaptingAtRadius?`: `number`; `color?`: `ChartsColor` \| `string`; `horizontalOrientation?`: `HorizontalEdge`; `indentFromCenter?`: `number`; `length?`: `number`; `offset?`: `number`; `palette?`: `string`[] \| `Palette`; `secondColor?`: `string`; `secondFraction?`: `number`; `size?`: `number`; `spindleGapSize?`: `number`; `spindleSize?`: `number`; `text?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}; `type?`: `"circle"` \| `"rangeBar"` \| `"rectangle"` \| `"rectangleNeedle"` \| `"rhombus"` \| `"textCloud"` \| `"triangleMarker"` \| `"triangleNeedle"` \| `"twoColorNeedle"`; `verticalOrientation?`: `VerticalEdge`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:760](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L760)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L125)
+
+
+--- SOURCE: variables/BackgroundColor.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / BackgroundColor
+
+# Variable: BackgroundColor
+
+> `const` **BackgroundColor**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:144](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L144)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:166](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L166)
+
+
+--- SOURCE: variables/CircularGauge.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / CircularGauge
+
+# Variable: CircularGauge()
+
+> `const` **CircularGauge**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/circular-gauge.ts:47](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L47)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Color.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Color
+
+# Variable: Color
+
+> `const` **Color**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L187)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L211)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:238](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L238)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:263](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L263)
+
+
+--- SOURCE: variables/Geometry.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Geometry
+
+# Variable: Geometry
+
+> `const` **Geometry**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:282](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L282)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:311](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L311)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:340](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L340)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:362](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L362)
+
+
+--- SOURCE: variables/MinorTick.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / MinorTick
+
+# Variable: MinorTick
+
+> `const` **MinorTick**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:384](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L384)
+
+
+--- SOURCE: variables/Range.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Range
+
+# Variable: Range
+
+> `const` **Range**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:408](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L408)
+
+
+--- SOURCE: variables/RangeContainer.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / RangeContainer
+
+# Variable: RangeContainer
+
+> `const` **RangeContainer**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:440](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L440)
+
+
+--- SOURCE: variables/Scale.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Scale
+
+# Variable: Scale
+
+> `const` **Scale**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:495](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L495)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:517](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L517)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:536](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L536)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:561](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L561)
+
+
+--- SOURCE: variables/SubvalueIndicator.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / SubvalueIndicator
+
+# Variable: SubvalueIndicator
+
+> `const` **SubvalueIndicator**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:606](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L606)
+
+
+--- SOURCE: variables/Text.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Text
+
+# Variable: Text
+
+> `const` **Text**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:632](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L632)
+
+
+--- SOURCE: variables/Tick.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Tick
+
+# Variable: Tick
+
+> `const` **Tick**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:654](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L654)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:696](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L696)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:754](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L754)
+
+
+--- SOURCE: variables/ValueIndicator.md ---
+
+[**DevExtreme React CircularGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React CircularGauge API](../globals.md) / ValueIndicator
+
+# Variable: ValueIndicator
+
+> `const` **ValueIndicator**: `any`
+
+Defined in: [devextreme-react/src/circular-gauge.ts:799](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/circular-gauge.ts#L799)
+

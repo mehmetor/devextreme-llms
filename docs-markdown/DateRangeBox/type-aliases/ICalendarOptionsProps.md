@@ -1,0 +1,11 @@
+[**DevExtreme React DateRangeBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DateRangeBox API](../globals.md) / ICalendarOptionsProps
+
+# Type Alias: ICalendarOptionsProps
+
+> **ICalendarOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `cellComponent?`: `React.ComponentType`\<`any`\>; `cellRender?`: (...`params`) => `React.ReactNode`; `cellTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `dateSerializationFormat?`: `string`; `defaultValue?`: (`Date` \| `null` \| `number` \| `string`)[] \| `Date` \| `null` \| `number` \| `string`; `defaultZoomLevel?`: `CalendarZoomLevel`; `disabled?`: `boolean`; `disabledDates?`: `Date`[] \| (`data`) => `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `firstDayOfWeek?`: `FirstDayOfWeek`; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `max?`: `Date` \| `null` \| `number` \| `string`; `maxZoomLevel?`: `CalendarZoomLevel`; `min?`: `Date` \| `null` \| `number` \| `string`; `minZoomLevel?`: `CalendarZoomLevel`; `name?`: `string`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `onZoomLevelChange?`: (`value`) => `void`; `readOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `selectionMode?`: `CalendarSelectionMode`; `selectWeekOnClick?`: `boolean`; `showTodayButton?`: `boolean`; `showWeekNumbers?`: `boolean`; `tabIndex?`: `number`; `todayButtonText?`: `string`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationMessageMode?`: `ValidationMessageMode`; `validationMessagePosition?`: `CommonPosition`; `validationStatus?`: `ValidationStatus`; `value?`: (`Date` \| `null` \| `number` \| `string`)[] \| `Date` \| `null` \| `number` \| `string`; `visible?`: `boolean`; `weekNumberRule?`: `WeekNumberRule`; `width?`: `number` \| `string`; `zoomLevel?`: `CalendarZoomLevel`; \}\>
+
+Defined in: [devextreme-react/src/date-range-box.ts:209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/date-range-box.ts#L209)

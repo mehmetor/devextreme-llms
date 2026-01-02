@@ -1,0 +1,724 @@
+# Toast Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Toast API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/README.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../globals.md) / ToastTypes
+
+# ToastTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+- [ToastType](type-aliases/ToastType.md)
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:37
+
+## Docid
+
+_ui_toast_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:45
+
+## Docid
+
+_ui_toast_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent
+
+> **HiddenEvent** = `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:61
+
+## Docid
+
+_ui_toast_HiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent
+
+> **HidingEvent** = `Cancelable` & `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:53
+
+## Docid
+
+_ui_toast_HidingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:69
+
+## Docid
+
+_ui_toast_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxToast`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:77
+
+## Docid
+
+_ui_toast_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxToastOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:217
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent
+
+> **ShowingEvent** = `Cancelable` & `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:85
+
+## Docid
+
+_ui_toast_ShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent
+
+> **ShownEvent** = `EventInfo`\<`dxToast`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:93
+
+## Docid
+
+_ui_toast_ShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/ToastType.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Toast API](../../../../globals.md) / [ToastTypes](../README.md) / ToastType
+
+# Type Alias: ToastType
+
+> **ToastType** = `"custom"` \| `"error"` \| `"info"` \| `"success"` \| `"warning"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toast.d.ts:29
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Toast API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Toast API v26.1.0
+
+## Namespaces
+
+- [ToastTypes](DevExtreme-React-Toast-API/namespaces/ToastTypes/README.md)
+
+## Interfaces
+
+- [ToastRef](interfaces/ToastRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToastOptions](type-aliases/IToastOptions.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [Toast](variables/Toast.md)
+
+## References
+
+### default
+
+Renames and re-exports [Toast](variables/Toast.md)
+
+
+--- SOURCE: interfaces/ToastRef.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / ToastRef
+
+# Interface: ToastRef
+
+Defined in: [devextreme-react/src/toast.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L38)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxToast`
+
+Defined in: [devextreme-react/src/toast.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L39)
+
+#### Returns
+
+`dxToast`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:96](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L96)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:119](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L119)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:138](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L138)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:157](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L157)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:177](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L177)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:202](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L202)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L233)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:252](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L252)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:273](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L273)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:319](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L319)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/toast.ts:351](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L351)
+
+
+--- SOURCE: type-aliases/IToastOptions.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / IToastOptions
+
+# Type Alias: IToastOptions
+
+> **IToastOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Toast-API/namespaces/ToastTypes/type-aliases/Properties.md), `IToastOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/toast.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L29)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:113](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L113)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:132](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L132)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:151](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L151)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:170](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L170)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:196](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L196)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:227](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L227)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:246](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L246)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:265](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L265)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:313](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L313)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:344](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L344)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/toast.ts:370](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L370)
+
+
+--- SOURCE: variables/Toast.md ---
+
+[**DevExtreme React Toast API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Toast API](../globals.md) / Toast
+
+# Variable: Toast()
+
+> `const` **Toast**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/toast.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/toast.ts#L42)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

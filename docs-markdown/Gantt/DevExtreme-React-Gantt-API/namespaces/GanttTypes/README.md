@@ -1,0 +1,50 @@
+[**DevExtreme React Gantt API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../globals.md) / GanttTypes
+
+# GanttTypes
+
+## Type Aliases
+
+- [Column](type-aliases/Column.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextMenuItem](type-aliases/ContextMenuItem.md)
+- [ContextMenuPreparingEvent](type-aliases/ContextMenuPreparingEvent.md)
+- [CustomCommandEvent](type-aliases/CustomCommandEvent.md)
+- [DependencyDeletedEvent](type-aliases/DependencyDeletedEvent.md)
+- [DependencyDeletingEvent](type-aliases/DependencyDeletingEvent.md)
+- [DependencyInsertedEvent](type-aliases/DependencyInsertedEvent.md)
+- [DependencyInsertingEvent](type-aliases/DependencyInsertingEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [GanttPredefinedContextMenuItem](type-aliases/GanttPredefinedContextMenuItem.md)
+- [GanttPredefinedToolbarItem](type-aliases/GanttPredefinedToolbarItem.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [ProgressTooltipTemplateData](type-aliases/ProgressTooltipTemplateData.md)
+- [Properties](type-aliases/Properties.md)
+- [ResourceAssignedEvent](type-aliases/ResourceAssignedEvent.md)
+- [ResourceAssigningEvent](type-aliases/ResourceAssigningEvent.md)
+- [ResourceDeletedEvent](type-aliases/ResourceDeletedEvent.md)
+- [ResourceDeletingEvent](type-aliases/ResourceDeletingEvent.md)
+- [ResourceInsertedEvent](type-aliases/ResourceInsertedEvent.md)
+- [ResourceInsertingEvent](type-aliases/ResourceInsertingEvent.md)
+- [ResourceManagerDialogShowingEvent](type-aliases/ResourceManagerDialogShowingEvent.md)
+- [ResourceUnassignedEvent](type-aliases/ResourceUnassignedEvent.md)
+- [ResourceUnassigningEvent](type-aliases/ResourceUnassigningEvent.md)
+- [ScaleCellPreparedEvent](type-aliases/ScaleCellPreparedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [TaskClickEvent](type-aliases/TaskClickEvent.md)
+- [TaskContentTemplateData](type-aliases/TaskContentTemplateData.md)
+- [TaskDblClickEvent](type-aliases/TaskDblClickEvent.md)
+- [TaskDeletedEvent](type-aliases/TaskDeletedEvent.md)
+- [TaskDeletingEvent](type-aliases/TaskDeletingEvent.md)
+- [TaskEditDialogShowingEvent](type-aliases/TaskEditDialogShowingEvent.md)
+- [TaskInsertedEvent](type-aliases/TaskInsertedEvent.md)
+- [TaskInsertingEvent](type-aliases/TaskInsertingEvent.md)
+- [TaskMovingEvent](type-aliases/TaskMovingEvent.md)
+- [TaskUpdatedEvent](type-aliases/TaskUpdatedEvent.md)
+- [TaskUpdatingEvent](type-aliases/TaskUpdatingEvent.md)
+- [TimeTooltipTemplateData](type-aliases/TimeTooltipTemplateData.md)
+- [ToolbarItem](type-aliases/ToolbarItem.md)

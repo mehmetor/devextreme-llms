@@ -1,0 +1,620 @@
+# TextBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React TextBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/README.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../globals.md) / TextBoxTypes
+
+# TextBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [TextBoxType](type-aliases/TextBoxType.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxTextBox`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:35
+
+## Docid
+
+_ui_text_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxTextBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:43
+
+## Docid
+
+_ui_text_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxTextBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:51
+
+## Docid
+
+_ui_text_box_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxTextBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:59
+
+## Docid
+
+_ui_text_box_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxTextBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:67
+
+## Docid
+
+_ui_text_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxTextBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:75
+
+## Docid
+
+_ui_text_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxTextBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:83
+
+## Docid
+
+_ui_text_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxTextBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:91
+
+## Docid
+
+_ui_text_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxTextBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:99
+
+## Docid
+
+_ui_text_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxTextBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:107
+
+## Docid
+
+_ui_text_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxTextBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:115
+
+## Docid
+
+_ui_text_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxTextBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:118
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxTextBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:126
+
+## Docid
+
+_ui_text_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxTextBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:134
+
+## Docid
+
+_ui_text_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxTextBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:142
+
+## Docid
+
+_ui_text_box_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxTextBoxOptions`\<`TextBoxInstance`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:199
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/TextBoxType.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / TextBoxType
+
+# Type Alias: TextBoxType
+
+> **TextBoxType** = `"email"` \| `"password"` \| `"search"` \| `"tel"` \| `"text"` \| `"url"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:27
+
+
+--- SOURCE: DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextBox API](../../../../globals.md) / [TextBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxTextBox`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_box.d.ts:150
+
+## Docid
+
+_ui_text_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React TextBox API v26.1.0
+
+## Namespaces
+
+- [TextBoxTypes](DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/README.md)
+
+## Interfaces
+
+- [TextBoxRef](interfaces/TextBoxRef.md)
+
+## Type Aliases
+
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [ITextBoxOptions](type-aliases/ITextBoxOptions.md)
+
+## Variables
+
+- [Button](variables/Button.md)
+- [Options](variables/Options.md)
+- [TextBox](variables/TextBox.md)
+
+## References
+
+### default
+
+Renames and re-exports [TextBox](variables/TextBox.md)
+
+
+--- SOURCE: interfaces/TextBoxRef.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / TextBoxRef
+
+# Interface: TextBoxRef
+
+Defined in: [devextreme-react/src/text-box.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTextBox`
+
+Defined in: [devextreme-react/src/text-box.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L42)
+
+#### Returns
+
+`dxTextBox`
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/text-box.ts:87](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L87)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/text-box.ts:111](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L111)
+
+
+--- SOURCE: type-aliases/ITextBoxOptions.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / ITextBoxOptions
+
+# Type Alias: ITextBoxOptions
+
+> **ITextBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-TextBox-API/namespaces/TextBoxTypes/type-aliases/Properties.md), `ITextBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/text-box.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L36)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/text-box.ts:105](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L105)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/text-box.ts:153](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L153)
+
+
+--- SOURCE: variables/TextBox.md ---
+
+[**DevExtreme React TextBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextBox API](../globals.md) / TextBox
+
+# Variable: TextBox()
+
+> `const` **TextBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/text-box.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-box.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

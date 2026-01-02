@@ -1,0 +1,818 @@
+# Pagination Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Pagination API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Pagination-API/namespaces/PaginationTypes/README.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Pagination API](../../../globals.md) / PaginationTypes
+
+# PaginationTypes
+
+## Interfaces
+
+- [~~dxPaginationOptions~~](interfaces/dxPaginationOptions.md)
+
+## Type Aliases
+
+- [DisplayMode](type-aliases/DisplayMode.md)
+- [PageSize](type-aliases/PageSize.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-Pagination-API/namespaces/PaginationTypes/interfaces/dxPaginationOptions.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Pagination API](../../../../globals.md) / [PaginationTypes](../README.md) / dxPaginationOptions
+
+# ~~Interface: dxPaginationOptions~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:75
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Inherits
+
+PagerBase
+
+## Extends
+
+- `PagerBase`.`WidgetOptions`\<`dxPagination`\>
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.activeStateEnabled`
+
+***
+
+### ~~allowedPageSizes?~~
+
+> `optional` **allowedPageSizes**: [`PageSize`](../type-aliases/PageSize.md)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:101
+
+#### Docid
+
+#### Default
+
+```ts
+[5, 10]
+```
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.disabled`
+
+***
+
+### ~~displayMode?~~
+
+> `optional` **displayMode**: [`DisplayMode`](../type-aliases/DisplayMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:30
+
+#### Docid
+
+#### Default
+
+```ts
+"adaptive"
+```
+
+#### Inherited from
+
+`PagerBase.displayMode`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:47
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~infoText?~~
+
+> `optional` **infoText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:36
+
+#### Docid
+
+#### Default
+
+```ts
+"Page {0} of {1} ({2} items)"
+```
+
+#### Inherited from
+
+`PagerBase.infoText`
+
+***
+
+### ~~itemCount?~~
+
+> `optional` **itemCount**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:94
+
+#### Docid
+
+#### Default
+
+```ts
+1
+```
+
+***
+
+### ~~label?~~
+
+> `optional` **label**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:60
+
+#### Docid
+
+#### Default
+
+```ts
+"Page Navigation"
+```
+
+#### Inherited from
+
+`PagerBase.label`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxPagination`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxPagination`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onInitialized`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxPagination`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onOptionChanged`
+
+***
+
+### ~~pageIndex?~~
+
+> `optional` **pageIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:81
+
+#### Docid
+
+#### Fires
+
+Properties.onOptionChanged
+
+#### Default
+
+```ts
+1
+```
+
+***
+
+### ~~pageSize?~~
+
+> `optional` **pageSize**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:88
+
+#### Docid
+
+#### Fires
+
+Properties.onOptionChanged
+
+#### Default
+
+```ts
+5
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.rtlEnabled`
+
+***
+
+### ~~showInfo?~~
+
+> `optional` **showInfo**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:42
+
+#### Docid
+
+#### Default
+
+```ts
+false
+```
+
+#### Inherited from
+
+`PagerBase.showInfo`
+
+***
+
+### ~~showNavigationButtons?~~
+
+> `optional` **showNavigationButtons**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:48
+
+#### Docid
+
+#### Default
+
+```ts
+false
+```
+
+#### Inherited from
+
+`PagerBase.showNavigationButtons`
+
+***
+
+### ~~showPageSizeSelector?~~
+
+> `optional` **showPageSizeSelector**: `boolean` \| `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:54
+
+#### Docid
+
+#### Default
+
+```ts
+"auto"
+```
+
+#### Inherited from
+
+`PagerBase.showPageSizeSelector`
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Pagination-API/namespaces/PaginationTypes/type-aliases/DisplayMode.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Pagination API](../../../../globals.md) / [PaginationTypes](../README.md) / DisplayMode
+
+# Type Alias: DisplayMode
+
+> **DisplayMode** = `"adaptive"` \| `"compact"` \| `"full"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:876
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Pagination-API/namespaces/PaginationTypes/type-aliases/PageSize.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Pagination API](../../../../globals.md) / [PaginationTypes](../README.md) / PageSize
+
+# Type Alias: PageSize
+
+> **PageSize** = `number` \| `"all"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:66
+
+
+--- SOURCE: DevExtreme-React-Pagination-API/namespaces/PaginationTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Pagination API](../../../../globals.md) / [PaginationTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = [`dxPaginationOptions`](../interfaces/dxPaginationOptions.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/pagination.d.ts:123
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Pagination API v26.1.0
+
+## Namespaces
+
+- [PaginationTypes](DevExtreme-React-Pagination-API/namespaces/PaginationTypes/README.md)
+
+## Interfaces
+
+- [PaginationRef](interfaces/PaginationRef.md)
+
+## Type Aliases
+
+- [IPaginationOptions](type-aliases/IPaginationOptions.md)
+
+## Variables
+
+- [Pagination](variables/Pagination.md)
+
+## References
+
+### default
+
+Renames and re-exports [Pagination](variables/Pagination.md)
+
+
+--- SOURCE: interfaces/PaginationRef.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Pagination API](../globals.md) / PaginationRef
+
+# Interface: PaginationRef
+
+Defined in: [devextreme-react/src/pagination.ts:17](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pagination.ts#L17)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPagination`
+
+Defined in: [devextreme-react/src/pagination.ts:18](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pagination.ts#L18)
+
+#### Returns
+
+`dxPagination`
+
+
+--- SOURCE: type-aliases/IPaginationOptions.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Pagination API](../globals.md) / IPaginationOptions
+
+# Type Alias: IPaginationOptions
+
+> **IPaginationOptions** = `React.PropsWithChildren`\<[`Properties`](../DevExtreme-React-Pagination-API/namespaces/PaginationTypes/type-aliases/Properties.md) & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/pagination.ts:10](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pagination.ts#L10)
+
+
+--- SOURCE: variables/Pagination.md ---
+
+[**DevExtreme React Pagination API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Pagination API](../globals.md) / Pagination
+
+# Variable: Pagination()
+
+> `const` **Pagination**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/pagination.ts:21](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pagination.ts#L21)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

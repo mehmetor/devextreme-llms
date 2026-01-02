@@ -1,0 +1,308 @@
+# ProgressBar Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ProgressBar API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/README.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../globals.md) / ProgressBarTypes
+
+# ProgressBarTypes
+
+## Type Aliases
+
+- [CompleteEvent](type-aliases/CompleteEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/CompleteEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / CompleteEvent
+
+# Type Alias: CompleteEvent
+
+> **CompleteEvent** = `NativeEventInfo`\<`dxProgressBar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:30
+
+## Docid
+
+_ui_progress_bar_CompleteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxProgressBar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:38
+
+## Docid
+
+_ui_progress_bar_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxProgressBar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:46
+
+## Docid
+
+_ui_progress_bar_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxProgressBar`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:54
+
+## Docid
+
+_ui_progress_bar_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxProgressBar`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:62
+
+## Docid
+
+_ui_progress_bar_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxProgressBarOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:122
+
+
+--- SOURCE: DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../../../../globals.md) / [ProgressBarTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxProgressBar`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/progress\_bar.d.ts:70
+
+## Docid
+
+_ui_progress_bar_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ProgressBar API v26.1.0
+
+## Namespaces
+
+- [ProgressBarTypes](DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/README.md)
+
+## Interfaces
+
+- [ProgressBarRef](interfaces/ProgressBarRef.md)
+
+## Type Aliases
+
+- [IProgressBarOptions](type-aliases/IProgressBarOptions.md)
+
+## Variables
+
+- [ProgressBar](variables/ProgressBar.md)
+
+## References
+
+### default
+
+Renames and re-exports [ProgressBar](variables/ProgressBar.md)
+
+
+--- SOURCE: interfaces/ProgressBarRef.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../globals.md) / ProgressBarRef
+
+# Interface: ProgressBarRef
+
+Defined in: [devextreme-react/src/progress-bar.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/progress-bar.ts#L29)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxProgressBar`
+
+Defined in: [devextreme-react/src/progress-bar.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/progress-bar.ts#L30)
+
+#### Returns
+
+`dxProgressBar`
+
+
+--- SOURCE: type-aliases/IProgressBarOptions.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../globals.md) / IProgressBarOptions
+
+# Type Alias: IProgressBarOptions
+
+> **IProgressBarOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ProgressBar-API/namespaces/ProgressBarTypes/type-aliases/Properties.md), `IProgressBarOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/progress-bar.ts:24](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/progress-bar.ts#L24)
+
+
+--- SOURCE: variables/ProgressBar.md ---
+
+[**DevExtreme React ProgressBar API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ProgressBar API](../globals.md) / ProgressBar
+
+# Variable: ProgressBar()
+
+> `const` **ProgressBar**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/progress-bar.ts:33](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/progress-bar.ts#L33)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

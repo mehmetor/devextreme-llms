@@ -1,0 +1,718 @@
+# Validator Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Validator API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/README.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../globals.md) / ValidatorTypes
+
+# ValidatorTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValidatedEvent](type-aliases/ValidatedEvent.md)
+- [ValidationResult](type-aliases/ValidationResult.md)
+- [ValidationStatus](type-aliases/ValidationStatus.md)
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxValidator`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:39
+
+## Docid
+
+_ui_validator_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxValidator`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:47
+
+## Docid
+
+_ui_validator_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxValidator`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:55
+
+## Docid
+
+_ui_validator_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxValidatorOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:229
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/ValidatedEvent.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / ValidatedEvent
+
+# Type Alias: ValidatedEvent
+
+> **ValidatedEvent** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:62
+
+## Docid
+
+_ui_validator_ValidatedEvent
+
+## Properties
+
+### brokenRule?
+
+> `optional` **brokenRule**: `ValidationRule`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:75
+
+#### Docid
+
+_ui_validator_ValidatedEvent.brokenRule
+
+***
+
+### brokenRules?
+
+> `optional` **brokenRules**: `ValidationRule`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:77
+
+#### Docid
+
+_ui_validator_ValidatedEvent.brokenRules
+
+***
+
+### isValid?
+
+> `optional` **isValid**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:66
+
+#### Docid
+
+_ui_validator_ValidatedEvent.isValid
+
+***
+
+### name?
+
+> `optional` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:64
+
+#### Docid
+
+_ui_validator_ValidatedEvent.name
+
+***
+
+### status?
+
+> `optional` **status**: [`ValidationStatus`](ValidationStatus.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:79
+
+#### Docid
+
+_ui_validator_ValidatedEvent.status
+
+***
+
+### validationRules?
+
+> `optional` **validationRules**: `ValidationRule`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:73
+
+#### Docid
+
+_ui_validator_ValidatedEvent.validationRules
+
+***
+
+### value?
+
+> `optional` **value**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:71
+
+#### Docid
+
+_ui_validator_ValidatedEvent.value
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/ValidationResult.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / ValidationResult
+
+# Type Alias: ValidationResult
+
+> **ValidationResult** = `dxValidatorResult`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/validator.d.ts:173
+
+
+--- SOURCE: DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/ValidationStatus.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Validator API](../../../../globals.md) / [ValidatorTypes](../README.md) / ValidationStatus
+
+# Type Alias: ValidationStatus
+
+> **ValidationStatus** = `"valid"` \| `"invalid"` \| `"pending"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:858
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Validator API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Validator API v26.1.0
+
+## Namespaces
+
+- [ValidatorTypes](DevExtreme-React-Validator-API/namespaces/ValidatorTypes/README.md)
+
+## Interfaces
+
+- [ValidatorRef](interfaces/ValidatorRef.md)
+
+## Type Aliases
+
+- [IAdapterProps](type-aliases/IAdapterProps.md)
+- [IAsyncRuleProps](type-aliases/IAsyncRuleProps.md)
+- [ICompareRuleProps](type-aliases/ICompareRuleProps.md)
+- [ICustomRuleProps](type-aliases/ICustomRuleProps.md)
+- [IEmailRuleProps](type-aliases/IEmailRuleProps.md)
+- [INumericRuleProps](type-aliases/INumericRuleProps.md)
+- [IPatternRuleProps](type-aliases/IPatternRuleProps.md)
+- [IRangeRuleProps](type-aliases/IRangeRuleProps.md)
+- [IRequiredRuleProps](type-aliases/IRequiredRuleProps.md)
+- [IStringLengthRuleProps](type-aliases/IStringLengthRuleProps.md)
+- [IValidationRuleProps](type-aliases/IValidationRuleProps.md)
+- [IValidatorOptions](type-aliases/IValidatorOptions.md)
+
+## Variables
+
+- [Adapter](variables/Adapter.md)
+- [AsyncRule](variables/AsyncRule.md)
+- [CompareRule](variables/CompareRule.md)
+- [CustomRule](variables/CustomRule.md)
+- [EmailRule](variables/EmailRule.md)
+- [NumericRule](variables/NumericRule.md)
+- [PatternRule](variables/PatternRule.md)
+- [RangeRule](variables/RangeRule.md)
+- [RequiredRule](variables/RequiredRule.md)
+- [StringLengthRule](variables/StringLengthRule.md)
+- [ValidationRule](variables/ValidationRule.md)
+- [Validator](variables/Validator.md)
+
+## References
+
+### default
+
+Renames and re-exports [Validator](variables/Validator.md)
+
+
+--- SOURCE: interfaces/ValidatorRef.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / ValidatorRef
+
+# Interface: ValidatorRef
+
+Defined in: [devextreme-react/src/validator.ts:27](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L27)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxValidator`
+
+Defined in: [devextreme-react/src/validator.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L28)
+
+#### Returns
+
+`dxValidator`
+
+
+--- SOURCE: type-aliases/IAdapterProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IAdapterProps
+
+# Type Alias: IAdapterProps
+
+> **IAdapterProps** = `React.PropsWithChildren`\<\{ `applyValidationResults?`: () => `void`; `bypass?`: () => `void`; `focus?`: () => `void`; `getValue?`: () => `void`; `reset?`: () => `void`; `validationRequestsCallbacks?`: () => `void`[]; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:80](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L80)
+
+
+--- SOURCE: type-aliases/IAsyncRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IAsyncRuleProps
+
+# Type Alias: IAsyncRuleProps
+
+> **IAsyncRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:103](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L103)
+
+
+--- SOURCE: type-aliases/ICompareRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / ICompareRuleProps
+
+# Type Alias: ICompareRuleProps
+
+> **ICompareRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:129](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L129)
+
+
+--- SOURCE: type-aliases/ICustomRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / ICustomRuleProps
+
+# Type Alias: ICustomRuleProps
+
+> **ICustomRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:155](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L155)
+
+
+--- SOURCE: type-aliases/IEmailRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IEmailRuleProps
+
+# Type Alias: IEmailRuleProps
+
+> **IEmailRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:181](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L181)
+
+
+--- SOURCE: type-aliases/INumericRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / INumericRuleProps
+
+# Type Alias: INumericRuleProps
+
+> **INumericRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:205](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L205)
+
+
+--- SOURCE: type-aliases/IPatternRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IPatternRuleProps
+
+# Type Alias: IPatternRuleProps
+
+> **IPatternRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `pattern?`: `RegExp` \| `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:229](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L229)
+
+
+--- SOURCE: type-aliases/IRangeRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IRangeRuleProps
+
+# Type Alias: IRangeRuleProps
+
+> **IRangeRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:254](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L254)
+
+
+--- SOURCE: type-aliases/IRequiredRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IRequiredRuleProps
+
+# Type Alias: IRequiredRuleProps
+
+> **IRequiredRuleProps** = `React.PropsWithChildren`\<\{ `message?`: `string`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:281](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L281)
+
+
+--- SOURCE: type-aliases/IStringLengthRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IStringLengthRuleProps
+
+# Type Alias: IStringLengthRuleProps
+
+> **IStringLengthRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `number`; `message?`: `string`; `min?`: `number`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:305](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L305)
+
+
+--- SOURCE: type-aliases/IValidationRuleProps.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IValidationRuleProps
+
+# Type Alias: IValidationRuleProps
+
+> **IValidationRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `pattern?`: `RegExp` \| `string`; `reevaluate?`: `boolean`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/validator.ts:332](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L332)
+
+
+--- SOURCE: type-aliases/IValidatorOptions.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / IValidatorOptions
+
+# Type Alias: IValidatorOptions
+
+> **IValidatorOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Validator-API/namespaces/ValidatorTypes/type-aliases/Properties.md), `IValidatorOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/validator.ts:25](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L25)
+
+
+--- SOURCE: variables/Adapter.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / Adapter
+
+# Variable: Adapter
+
+> `const` **Adapter**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:97](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L97)
+
+
+--- SOURCE: variables/AsyncRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / AsyncRule
+
+# Variable: AsyncRule
+
+> `const` **AsyncRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:123](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L123)
+
+
+--- SOURCE: variables/CompareRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / CompareRule
+
+# Variable: CompareRule
+
+> `const` **CompareRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:149](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L149)
+
+
+--- SOURCE: variables/CustomRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / CustomRule
+
+# Variable: CustomRule
+
+> `const` **CustomRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:175](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L175)
+
+
+--- SOURCE: variables/EmailRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / EmailRule
+
+# Variable: EmailRule
+
+> `const` **EmailRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:199](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L199)
+
+
+--- SOURCE: variables/NumericRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / NumericRule
+
+# Variable: NumericRule
+
+> `const` **NumericRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:223](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L223)
+
+
+--- SOURCE: variables/PatternRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / PatternRule
+
+# Variable: PatternRule
+
+> `const` **PatternRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:248](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L248)
+
+
+--- SOURCE: variables/RangeRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / RangeRule
+
+# Variable: RangeRule
+
+> `const` **RangeRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:275](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L275)
+
+
+--- SOURCE: variables/RequiredRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / RequiredRule
+
+# Variable: RequiredRule
+
+> `const` **RequiredRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:299](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L299)
+
+
+--- SOURCE: variables/StringLengthRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / StringLengthRule
+
+# Variable: StringLengthRule
+
+> `const` **StringLengthRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:326](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L326)
+
+
+--- SOURCE: variables/ValidationRule.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / ValidationRule
+
+# Variable: ValidationRule
+
+> `const` **ValidationRule**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:358](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L358)
+
+
+--- SOURCE: variables/Validator.md ---
+
+[**DevExtreme React Validator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Validator API](../globals.md) / Validator
+
+# Variable: Validator
+
+> `const` **Validator**: `any`
+
+Defined in: [devextreme-react/src/validator.ts:73](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/validator.ts#L73)
+

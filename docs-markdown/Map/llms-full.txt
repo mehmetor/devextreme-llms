@@ -1,0 +1,785 @@
+# Map Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Map API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/README.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../globals.md) / MapTypes
+
+# MapTypes
+
+## Interfaces
+
+- [MapLocation](interfaces/MapLocation.md)
+
+## Type Aliases
+
+- [ClickEvent](type-aliases/ClickEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [MapProvider](type-aliases/MapProvider.md)
+- [MapType](type-aliases/MapType.md)
+- [MarkerAddedEvent](type-aliases/MarkerAddedEvent.md)
+- [MarkerRemovedEvent](type-aliases/MarkerRemovedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ReadyEvent](type-aliases/ReadyEvent.md)
+- [RouteAddedEvent](type-aliases/RouteAddedEvent.md)
+- [RouteMode](type-aliases/RouteMode.md)
+- [RouteRemovedEvent](type-aliases/RouteRemovedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/interfaces/MapLocation.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / MapLocation
+
+# Interface: MapLocation
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:151
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui
+
+## Properties
+
+### lat
+
+> **lat**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:157
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+***
+
+### lng
+
+> **lng**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:163
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/ClickEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / ClickEvent
+
+# Type Alias: ClickEvent
+
+> **ClickEvent** = `NativeEventInfo`\<`dxMap`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:37
+
+## Type Declaration
+
+### location
+
+> **location**: [`MapLocation`](../interfaces/MapLocation.md)
+
+#### Docid
+
+_ui_map_ClickEvent.location
+
+## Docid
+
+_ui_map_ClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:48
+
+## Docid
+
+_ui_map_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:56
+
+## Docid
+
+_ui_map_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/MapProvider.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / MapProvider
+
+# Type Alias: MapProvider
+
+> **MapProvider** = `"azure"` \| `"bing"` \| `"google"` \| `"googleStatic"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:25
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/MapType.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / MapType
+
+# Type Alias: MapType
+
+> **MapType** = `"hybrid"` \| `"roadmap"` \| `"satellite"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:29
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/MarkerAddedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / MarkerAddedEvent
+
+# Type Alias: MarkerAddedEvent
+
+> **MarkerAddedEvent** = `EventInfo`\<`dxMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:64
+
+## Type Declaration
+
+### options
+
+> `readonly` **options**: `any`
+
+#### Docid
+
+_ui_map_MarkerAddedEvent.options
+
+### originalMarker
+
+> **originalMarker**: `any`
+
+#### Docid
+
+_ui_map_MarkerAddedEvent.originalMarker
+
+## Docid
+
+_ui_map_MarkerAddedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/MarkerRemovedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / MarkerRemovedEvent
+
+# Type Alias: MarkerRemovedEvent
+
+> **MarkerRemovedEvent** = `EventInfo`\<`dxMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:83
+
+## Type Declaration
+
+### options?
+
+> `readonly` `optional` **options**: `any`
+
+#### Docid
+
+_ui_map_MarkerRemovedEvent.options
+
+## Docid
+
+_ui_map_MarkerRemovedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxMap`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:97
+
+## Docid
+
+_ui_map_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxMapOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:444
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/ReadyEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / ReadyEvent
+
+# Type Alias: ReadyEvent
+
+> **ReadyEvent** = `EventInfo`\<`dxMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:105
+
+## Type Declaration
+
+### originalMap
+
+> **originalMap**: `any`
+
+#### Docid
+
+_ui_map_ReadyEvent.originalMap
+
+## Docid
+
+_ui_map_ReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/RouteAddedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / RouteAddedEvent
+
+# Type Alias: RouteAddedEvent
+
+> **RouteAddedEvent** = `EventInfo`\<`dxMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:119
+
+## Type Declaration
+
+### options
+
+> `readonly` **options**: `any`
+
+#### Docid
+
+_ui_map_RouteAddedEvent.options
+
+### originalRoute
+
+> **originalRoute**: `any`
+
+#### Docid
+
+_ui_map_RouteAddedEvent.originalRoute
+
+## Docid
+
+_ui_map_RouteAddedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/RouteMode.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / RouteMode
+
+# Type Alias: RouteMode
+
+> **RouteMode** = `"driving"` \| `"walking"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:27
+
+
+--- SOURCE: DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/RouteRemovedEvent.md ---
+
+[**DevExtreme React Map API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Map API](../../../../globals.md) / [MapTypes](../README.md) / RouteRemovedEvent
+
+# Type Alias: RouteRemovedEvent
+
+> **RouteRemovedEvent** = `EventInfo`\<`dxMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/map.d.ts:138
+
+## Type Declaration
+
+### options?
+
+> `readonly` `optional` **options**: `any`
+
+#### Docid
+
+_ui_map_RouteRemovedEvent.options
+
+## Docid
+
+_ui_map_RouteRemovedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Map API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Map API v26.1.0
+
+## Namespaces
+
+- [MapTypes](DevExtreme-React-Map-API/namespaces/MapTypes/README.md)
+
+## Interfaces
+
+- [MapRef](interfaces/MapRef.md)
+
+## Type Aliases
+
+- [IApiKeyProps](type-aliases/IApiKeyProps.md)
+- [ICenterProps](type-aliases/ICenterProps.md)
+- [ILocationProps](type-aliases/ILocationProps.md)
+- [IMapOptions](type-aliases/IMapOptions.md)
+- [IMarkerProps](type-aliases/IMarkerProps.md)
+- [IProviderConfigProps](type-aliases/IProviderConfigProps.md)
+- [IRouteProps](type-aliases/IRouteProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [ApiKey](variables/ApiKey.md)
+- [Center](variables/Center.md)
+- [Location](variables/Location.md)
+- [Map](variables/Map.md)
+- [Marker](variables/Marker.md)
+- [ProviderConfig](variables/ProviderConfig.md)
+- [Route](variables/Route.md)
+- [Tooltip](variables/Tooltip.md)
+
+## References
+
+### default
+
+Renames and re-exports [Map](variables/Map.md)
+
+
+--- SOURCE: interfaces/MapRef.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / MapRef
+
+# Interface: MapRef
+
+Defined in: [devextreme-react/src/map.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L39)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxMap`
+
+Defined in: [devextreme-react/src/map.ts:40](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L40)
+
+#### Returns
+
+`dxMap`
+
+
+--- SOURCE: type-aliases/IApiKeyProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / IApiKeyProps
+
+# Type Alias: IApiKeyProps
+
+> **IApiKeyProps** = `React.PropsWithChildren`\<\{ `azure?`: `string`; `bing?`: `string`; `google?`: `string`; `googleStatic?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:92](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L92)
+
+
+--- SOURCE: type-aliases/ICenterProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / ICenterProps
+
+# Type Alias: ICenterProps
+
+> **ICenterProps** = `React.PropsWithChildren`\<\{ `lat?`: `number`; `lng?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:113](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L113)
+
+
+--- SOURCE: type-aliases/ILocationProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / ILocationProps
+
+# Type Alias: ILocationProps
+
+> **ILocationProps** = `React.PropsWithChildren`\<\{ `lat?`: `number`; `lng?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:133](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L133)
+
+
+--- SOURCE: type-aliases/IMapOptions.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / IMapOptions
+
+# Type Alias: IMapOptions
+
+> **IMapOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/Properties.md), `IMapOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/map.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L28)
+
+
+--- SOURCE: type-aliases/IMarkerProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / IMarkerProps
+
+# Type Alias: IMarkerProps
+
+> **IMarkerProps** = `React.PropsWithChildren`\<\{ `iconSrc?`: `string`; `location?`: `number`[] \| `Record`\<`string`, `any`\> \| `string` \| `object`[]; `onClick?`: () => `void`; `tooltip?`: `Record`\<`string`, `any`\> \| `string` \| \{ `isShown?`: `boolean`; `text?`: `string`; \}; \}\>
+
+Defined in: [devextreme-react/src/map.ts:152](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L152)
+
+
+--- SOURCE: type-aliases/IProviderConfigProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / IProviderConfigProps
+
+# Type Alias: IProviderConfigProps
+
+> **IProviderConfigProps** = `React.PropsWithChildren`\<\{ `mapId?`: `string`; `useAdvancedMarkers?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:184](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L184)
+
+
+--- SOURCE: type-aliases/IRouteProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / IRouteProps
+
+# Type Alias: IRouteProps
+
+> **IRouteProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `locations?`: `Record`\<`string`, `any`\>[] \| `object`[]; `mode?`: [`RouteMode`](../DevExtreme-React-Map-API/namespaces/MapTypes/type-aliases/RouteMode.md) \| `string`; `opacity?`: `number`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:203](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L203)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `isShown?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/map.ts:232](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L232)
+
+
+--- SOURCE: variables/ApiKey.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / ApiKey
+
+# Variable: ApiKey
+
+> `const` **ApiKey**: `any`
+
+Defined in: [devextreme-react/src/map.ts:107](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L107)
+
+
+--- SOURCE: variables/Center.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Center
+
+# Variable: Center
+
+> `const` **Center**: `any`
+
+Defined in: [devextreme-react/src/map.ts:126](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L126)
+
+
+--- SOURCE: variables/Location.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Location
+
+# Variable: Location
+
+> `const` **Location**: `any`
+
+Defined in: [devextreme-react/src/map.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L146)
+
+
+--- SOURCE: variables/Map.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Map
+
+# Variable: Map()
+
+> `const` **Map**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/map.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L43)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Marker.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Marker
+
+# Variable: Marker
+
+> `const` **Marker**: `any`
+
+Defined in: [devextreme-react/src/map.ts:178](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L178)
+
+
+--- SOURCE: variables/ProviderConfig.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / ProviderConfig
+
+# Variable: ProviderConfig
+
+> `const` **ProviderConfig**: `any`
+
+Defined in: [devextreme-react/src/map.ts:197](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L197)
+
+
+--- SOURCE: variables/Route.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Route
+
+# Variable: Route
+
+> `const` **Route**: `any`
+
+Defined in: [devextreme-react/src/map.ts:226](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L226)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Map API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Map API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/map.ts:245](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/map.ts#L245)
+

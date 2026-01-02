@@ -1,0 +1,1020 @@
+# Lookup Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Lookup API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/README.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../globals.md) / LookupTypes
+
+# LookupTypes
+
+## Type Aliases
+
+- [ApplyValueMode](type-aliases/ApplyValueMode.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PageLoadingEvent](type-aliases/PageLoadingEvent.md)
+- [PageLoadMode](type-aliases/PageLoadMode.md)
+- [Properties](type-aliases/Properties.md)
+- [PullRefreshEvent](type-aliases/PullRefreshEvent.md)
+- [ScrollEvent](type-aliases/ScrollEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [TitleRenderedEvent](type-aliases/TitleRenderedEvent.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ApplyValueMode.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ApplyValueMode
+
+# Type Alias: ApplyValueMode
+
+> **ApplyValueMode** = `"instantly"` \| `"useButtons"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:32
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:60
+
+## Docid
+
+_ui_lookup_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:68
+
+## Docid
+
+_ui_lookup_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:76
+
+## Docid
+
+_ui_lookup_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:84
+
+## Docid
+
+_ui_lookup_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `NativeEventInfo`\<`dxLookup`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:92
+
+## Docid
+
+_ui_lookup_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:100
+
+## Docid
+
+_ui_lookup_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxLookup`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:108
+
+## Docid
+
+_ui_lookup_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/PageLoadMode.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / PageLoadMode
+
+# Type Alias: PageLoadMode
+
+> **PageLoadMode** = `"nextButton"` \| `"scrollBottom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:491
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/PageLoadingEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / PageLoadingEvent
+
+# Type Alias: PageLoadingEvent
+
+> **PageLoadingEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:116
+
+## Docid
+
+_ui_lookup_PageLoadingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxLookupOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:372
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/PullRefreshEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / PullRefreshEvent
+
+# Type Alias: PullRefreshEvent
+
+> **PullRefreshEvent** = `EventInfo`\<`dxLookup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:124
+
+## Docid
+
+_ui_lookup_PullRefreshEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ScrollEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ScrollEvent
+
+# Type Alias: ScrollEvent
+
+> **ScrollEvent** = `NativeEventInfo`\<`dxLookup`, `MouseEvent` \| `Event`\> & `ScrollInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:132
+
+## Docid
+
+_ui_lookup_ScrollEvent
+
+## Inherits
+
+NativeEventInfo,ScrollInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxLookup`\> & `SelectionChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:140
+
+## Docid
+
+_ui_lookup_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,_ui_drop_down_editor_ui_drop_down_list_SelectionChangedInfo
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/TitleRenderedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / TitleRenderedEvent
+
+# Type Alias: TitleRenderedEvent
+
+> **TitleRenderedEvent** = `EventInfo`\<`dxLookup`\> & `TitleRenderedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:143
+
+
+--- SOURCE: DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Lookup API](../../../../globals.md) / [LookupTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxLookup`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/lookup.d.ts:151
+
+## Docid
+
+_ui_lookup_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Lookup API v26.1.0
+
+## Namespaces
+
+- [LookupTypes](DevExtreme-React-Lookup-API/namespaces/LookupTypes/README.md)
+
+## Interfaces
+
+- [LookupRef](interfaces/LookupRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideEventProps](type-aliases/IHideEventProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ILookupOptions](type-aliases/ILookupOptions.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowEventProps](type-aliases/IShowEventProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [HideEvent](variables/HideEvent.md)
+- [Item](variables/Item.md)
+- [Lookup](variables/Lookup.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [ShowEvent](variables/ShowEvent.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [Lookup](variables/Lookup.md)
+
+
+--- SOURCE: interfaces/LookupRef.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / LookupRef
+
+# Interface: LookupRef
+
+Defined in: [devextreme-react/src/lookup.ts:50](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L50)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxLookup`
+
+Defined in: [devextreme-react/src/lookup.ts:51](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L51)
+
+#### Returns
+
+`dxLookup`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:117](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L117)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:140](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L140)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L159)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:178](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L178)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: `CommonPosition` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `enableBodyScroll?`: `boolean`; `height?`: `number` \| `string`; `hideEvent?`: `Record`\<`string`, `any`\> \| `string` \| \{ `delay?`: `number`; `name?`: `string`; \}; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: `CommonPosition` \| `PositionConfig`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showEvent?`: `Record`\<`string`, `any`\> \| `string` \| \{ `delay?`: `number`; `name?`: `string`; \}; `showTitle?`: `boolean`; `target?`: `any` \| `string`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:197](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L197)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:297](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L297)
+
+
+--- SOURCE: type-aliases/IHideEventProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IHideEventProps
+
+# Type Alias: IHideEventProps
+
+> **IHideEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:353](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L353)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:322](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L322)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:372](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L372)
+
+
+--- SOURCE: type-aliases/ILookupOptions.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / ILookupOptions
+
+# Type Alias: ILookupOptions
+
+> **ILookupOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Lookup-API/namespaces/LookupTypes/type-aliases/Properties.md), `ILookupOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/lookup.ts:37](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L37)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:402](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L402)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:421](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L421)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:442](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L442)
+
+
+--- SOURCE: type-aliases/IShowEventProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IShowEventProps
+
+# Type Alias: IShowEventProps
+
+> **IShowEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:519](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L519)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:488](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L488)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:539](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L539)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/lookup.ts:564](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L564)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:134](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L134)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:153](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L153)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:172](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L172)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:191](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L191)
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:290](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L290)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:316](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L316)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:347](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L347)
+
+
+--- SOURCE: variables/HideEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / HideEvent
+
+# Variable: HideEvent
+
+> `const` **HideEvent**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:366](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L366)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:396](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L396)
+
+
+--- SOURCE: variables/Lookup.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Lookup
+
+# Variable: Lookup()
+
+> `const` **Lookup**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/lookup.ts:54](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L54)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:415](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L415)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:434](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L434)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:482](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L482)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:513](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L513)
+
+
+--- SOURCE: variables/ShowEvent.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / ShowEvent
+
+# Variable: ShowEvent
+
+> `const` **ShowEvent**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:532](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L532)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:558](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L558)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Lookup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Lookup API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/lookup.ts:602](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/lookup.ts#L602)
+

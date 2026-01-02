@@ -1,0 +1,742 @@
+# FileUploader Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React FileUploader API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/README.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../globals.md) / FileUploaderTypes
+
+# FileUploaderTypes
+
+## Type Aliases
+
+- [BeforeSendEvent](type-aliases/BeforeSendEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropZoneEnterEvent](type-aliases/DropZoneEnterEvent.md)
+- [DropZoneLeaveEvent](type-aliases/DropZoneLeaveEvent.md)
+- [FilesUploadedEvent](type-aliases/FilesUploadedEvent.md)
+- [FileUploadMode](type-aliases/FileUploadMode.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [ProgressEvent](type-aliases/ProgressEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [UploadAbortedEvent](type-aliases/UploadAbortedEvent.md)
+- [UploadedEvent](type-aliases/UploadedEvent.md)
+- [UploadErrorEvent](type-aliases/UploadErrorEvent.md)
+- [UploadHttpMethod](type-aliases/UploadHttpMethod.md)
+- [UploadStartedEvent](type-aliases/UploadStartedEvent.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/BeforeSendEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / BeforeSendEvent
+
+# Type Alias: BeforeSendEvent
+
+> **BeforeSendEvent** = `EventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:38
+
+## Type Declaration
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_BeforeSendEvent.file
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_BeforeSendEvent.request
+
+### uploadInfo?
+
+> `readonly` `optional` **uploadInfo**: `UploadInfo`
+
+#### Docid
+
+_ui_file_uploader_BeforeSendEvent.uploadInfo
+
+## Docid
+
+_ui_file_uploader_BeforeSendEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxFileUploader`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:53
+
+## Docid
+
+_ui_file_uploader_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxFileUploader`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:61
+
+## Docid
+
+_ui_file_uploader_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/DropZoneEnterEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / DropZoneEnterEvent
+
+# Type Alias: DropZoneEnterEvent
+
+> **DropZoneEnterEvent** = `NativeEventInfo`\<`dxFileUploader`, `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:69
+
+## Type Declaration
+
+### dropZoneElement
+
+> `readonly` **dropZoneElement**: `DxElement`
+
+#### Docid
+
+_ui_file_uploader_DropZoneEnterEvent.dropZoneElement
+
+## Docid
+
+_ui_file_uploader_DropZoneEnterEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/DropZoneLeaveEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / DropZoneLeaveEvent
+
+# Type Alias: DropZoneLeaveEvent
+
+> **DropZoneLeaveEvent** = `NativeEventInfo`\<`dxFileUploader`, `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:80
+
+## Type Declaration
+
+### dropZoneElement
+
+> `readonly` **dropZoneElement**: `DxElement`
+
+#### Docid
+
+_ui_file_uploader_DropZoneLeaveEvent.dropZoneElement
+
+## Docid
+
+_ui_file_uploader_DropZoneLeaveEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/FileUploadMode.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / FileUploadMode
+
+# Type Alias: FileUploadMode
+
+> **FileUploadMode** = `"instantly"` \| `"useButtons"` \| `"useForm"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:28
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/FilesUploadedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / FilesUploadedEvent
+
+# Type Alias: FilesUploadedEvent
+
+> **FilesUploadedEvent** = `EventInfo`\<`dxFileUploader`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:91
+
+## Docid
+
+_ui_file_uploader_FilesUploadedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxFileUploader`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:99
+
+## Docid
+
+_ui_file_uploader_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxFileUploader`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:107
+
+## Docid
+
+_ui_file_uploader_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/ProgressEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / ProgressEvent
+
+# Type Alias: ProgressEvent
+
+> **ProgressEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:115
+
+## Type Declaration
+
+### bytesLoaded
+
+> `readonly` **bytesLoaded**: `number`
+
+#### Docid
+
+_ui_file_uploader_ProgressEvent.bytesLoaded
+
+### bytesTotal
+
+> `readonly` **bytesTotal**: `number`
+
+#### Docid
+
+_ui_file_uploader_ProgressEvent.bytesTotal
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_ProgressEvent.file
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_ProgressEvent.request
+
+### segmentSize
+
+> `readonly` **segmentSize**: `number`
+
+#### Docid
+
+_ui_file_uploader_ProgressEvent.segmentSize
+
+## Docid
+
+_ui_file_uploader_ProgressEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxFileUploaderOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:565
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/UploadAbortedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / UploadAbortedEvent
+
+# Type Alias: UploadAbortedEvent
+
+> **UploadAbortedEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:134
+
+## Type Declaration
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_UploadAbortedEvent.file
+
+### message
+
+> **message**: `string`
+
+#### Docid
+
+_ui_file_uploader_UploadAbortedEvent.message
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_UploadAbortedEvent.request
+
+## Docid
+
+_ui_file_uploader_UploadAbortedEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/UploadErrorEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / UploadErrorEvent
+
+# Type Alias: UploadErrorEvent
+
+> **UploadErrorEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:164
+
+## Type Declaration
+
+### error
+
+> `readonly` **error**: `any`
+
+#### Docid
+
+_ui_file_uploader_UploadErrorEvent.error
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_UploadErrorEvent.file
+
+### message
+
+> **message**: `string`
+
+#### Docid
+
+_ui_file_uploader_UploadErrorEvent.message
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_UploadErrorEvent.request
+
+## Docid
+
+_ui_file_uploader_UploadErrorEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/UploadHttpMethod.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / UploadHttpMethod
+
+# Type Alias: UploadHttpMethod
+
+> **UploadHttpMethod** = `"POST"` \| `"PUT"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:30
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/UploadStartedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / UploadStartedEvent
+
+# Type Alias: UploadStartedEvent
+
+> **UploadStartedEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:181
+
+## Type Declaration
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_UploadStartedEvent.file
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_UploadStartedEvent.request
+
+## Docid
+
+_ui_file_uploader_UploadStartedEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/UploadedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / UploadedEvent
+
+# Type Alias: UploadedEvent
+
+> **UploadedEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:149
+
+## Type Declaration
+
+### file
+
+> `readonly` **file**: `File`
+
+#### Docid
+
+_ui_file_uploader_UploadedEvent.file
+
+### message
+
+> **message**: `string`
+
+#### Docid
+
+_ui_file_uploader_UploadedEvent.message
+
+### request
+
+> `readonly` **request**: `XMLHttpRequest`
+
+#### Docid
+
+_ui_file_uploader_UploadedEvent.request
+
+## Docid
+
+_ui_file_uploader_UploadedEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../../../../globals.md) / [FileUploaderTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxFileUploader`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_uploader.d.ts:194
+
+## Type Declaration
+
+### previousValue?
+
+> `readonly` `optional` **previousValue**: `File`[]
+
+#### Docid
+
+_ui_file_uploader_ValueChangedEvent.previousValue
+
+### value?
+
+> `readonly` `optional` **value**: `File`[]
+
+#### Docid
+
+_ui_file_uploader_ValueChangedEvent.value
+
+## Docid
+
+_ui_file_uploader_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React FileUploader API v26.1.0
+
+## Namespaces
+
+- [FileUploaderTypes](DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/README.md)
+
+## Interfaces
+
+- [FileUploaderRef](interfaces/FileUploaderRef.md)
+
+## Type Aliases
+
+- [IFileUploaderOptions](type-aliases/IFileUploaderOptions.md)
+
+## Variables
+
+- [FileUploader](variables/FileUploader.md)
+
+## References
+
+### default
+
+Renames and re-exports [FileUploader](variables/FileUploader.md)
+
+
+--- SOURCE: interfaces/FileUploaderRef.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../globals.md) / FileUploaderRef
+
+# Interface: FileUploaderRef
+
+Defined in: [devextreme-react/src/file-uploader.ts:37](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-uploader.ts#L37)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxFileUploader`
+
+Defined in: [devextreme-react/src/file-uploader.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-uploader.ts#L38)
+
+#### Returns
+
+`dxFileUploader`
+
+
+--- SOURCE: type-aliases/IFileUploaderOptions.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../globals.md) / IFileUploaderOptions
+
+# Type Alias: IFileUploaderOptions
+
+> **IFileUploaderOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-FileUploader-API/namespaces/FileUploaderTypes/type-aliases/Properties.md), `IFileUploaderOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/file-uploader.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-uploader.ts#L32)
+
+
+--- SOURCE: variables/FileUploader.md ---
+
+[**DevExtreme React FileUploader API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileUploader API](../globals.md) / FileUploader
+
+# Variable: FileUploader()
+
+> `const` **FileUploader**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/file-uploader.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-uploader.ts#L41)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

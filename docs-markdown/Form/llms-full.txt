@@ -1,0 +1,1546 @@
+# Form Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Form API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/README.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../globals.md) / FormTypes
+
+# FormTypes
+
+## Type Aliases
+
+- [AIResult](type-aliases/AIResult.md)
+- [ButtonItem](type-aliases/ButtonItem.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EditorEnterKeyEvent](type-aliases/EditorEnterKeyEvent.md)
+- [EmptyItem](type-aliases/EmptyItem.md)
+- [FieldDataChangedEvent](type-aliases/FieldDataChangedEvent.md)
+- [FormItemComponent](type-aliases/FormItemComponent.md)
+- [FormItemType](type-aliases/FormItemType.md)
+- [FormLabelMode](type-aliases/FormLabelMode.md)
+- [FormPredefinedButtonItem](type-aliases/FormPredefinedButtonItem.md)
+- [GroupCaptionTemplateData](type-aliases/GroupCaptionTemplateData.md)
+- [GroupItem](type-aliases/GroupItem.md)
+- [GroupItemTemplateData](type-aliases/GroupItemTemplateData.md)
+- [HorizontalAlignment](type-aliases/HorizontalAlignment.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [LabelLocation](type-aliases/LabelLocation.md)
+- [Mode](type-aliases/Mode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SimpleItem](type-aliases/SimpleItem.md)
+- [SimpleItemLabelTemplateData](type-aliases/SimpleItemLabelTemplateData.md)
+- [SimpleItemTemplateData](type-aliases/SimpleItemTemplateData.md)
+- [SmartPastedEvent](type-aliases/SmartPastedEvent.md)
+- [SmartPastingEvent](type-aliases/SmartPastingEvent.md)
+- [TabbedItem](type-aliases/TabbedItem.md)
+- [VerticalAlignment](type-aliases/VerticalAlignment.md)
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/AIResult.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / AIResult
+
+# Type Alias: AIResult
+
+> **AIResult** = `Record`\<`string`, `SmartPasteResultFieldType`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:78
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/ButtonItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / ButtonItem
+
+# Type Alias: ButtonItem
+
+> **ButtonItem** = `dxFormButtonItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:480
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxForm`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:98
+
+## Docid
+
+_ui_form_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxForm`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:106
+
+## Docid
+
+_ui_form_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/EditorEnterKeyEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / EditorEnterKeyEvent
+
+# Type Alias: EditorEnterKeyEvent
+
+> **EditorEnterKeyEvent** = `EventInfo`\<`dxForm`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:114
+
+## Type Declaration
+
+### dataField?
+
+> `readonly` `optional` **dataField**: `string`
+
+#### Docid
+
+_ui_form_EditorEnterKeyEvent.dataField
+
+## Docid
+
+_ui_form_EditorEnterKeyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/EmptyItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / EmptyItem
+
+# Type Alias: EmptyItem
+
+> **EmptyItem** = `dxFormEmptyItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:547
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FieldDataChangedEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / FieldDataChangedEvent
+
+# Type Alias: FieldDataChangedEvent
+
+> **FieldDataChangedEvent** = `EventInfo`\<`dxForm`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:125
+
+## Type Declaration
+
+### dataField?
+
+> `readonly` `optional` **dataField**: `string`
+
+#### Docid
+
+_ui_form_FieldDataChangedEvent.dataField
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+#### Docid
+
+_ui_form_FieldDataChangedEvent.value
+
+## Docid
+
+_ui_form_FieldDataChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemComponent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / FormItemComponent
+
+# Type Alias: FormItemComponent
+
+> **FormItemComponent** = `"dxAutocomplete"` \| `"dxCalendar"` \| `"dxCheckBox"` \| `"dxColorBox"` \| `"dxDateBox"` \| `"dxDateRangeBox"` \| `"dxDropDownBox"` \| `"dxHtmlEditor"` \| `"dxLookup"` \| `"dxNumberBox"` \| `"dxRadioGroup"` \| `"dxRangeSlider"` \| `"dxSelectBox"` \| `"dxSlider"` \| `"dxSwitch"` \| `"dxTagBox"` \| `"dxTextArea"` \| `"dxTextBox"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:67
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / FormItemType
+
+# Type Alias: FormItemType
+
+> **FormItemType** = `"empty"` \| `"group"` \| `"simple"` \| `"tabbed"` \| `"button"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:69
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormLabelMode.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / FormLabelMode
+
+# Type Alias: FormLabelMode
+
+> **FormLabelMode** = `"static"` \| `"floating"` \| `"hidden"` \| `"outside"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:73
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormPredefinedButtonItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / FormPredefinedButtonItem
+
+# Type Alias: FormPredefinedButtonItem
+
+> **FormPredefinedButtonItem** = `"reset"` \| `"submit"` \| `"smartPaste"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:75
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/GroupCaptionTemplateData.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / GroupCaptionTemplateData
+
+# Type Alias: GroupCaptionTemplateData
+
+> **GroupCaptionTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:174
+
+## Properties
+
+### caption?
+
+> `readonly` `optional` **caption**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:175
+
+***
+
+### component
+
+> `readonly` **component**: `dxForm`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:176
+
+***
+
+### name?
+
+> `readonly` `optional` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:177
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/GroupItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / GroupItem
+
+# Type Alias: GroupItem
+
+> **GroupItem** = `dxFormGroupItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:596
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/GroupItemTemplateData.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / GroupItemTemplateData
+
+# Type Alias: GroupItemTemplateData
+
+> **GroupItemTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:168
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxForm`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:169
+
+***
+
+### formData?
+
+> `readonly` `optional` **formData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:170
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / HorizontalAlignment
+
+# Type Alias: HorizontalAlignment
+
+> **HorizontalAlignment** = `"center"` \| `"left"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:428
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxForm`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:141
+
+## Docid
+
+_ui_form_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = [`SimpleItem`](SimpleItem.md) \| [`GroupItem`](GroupItem.md) \| [`TabbedItem`](TabbedItem.md) \| [`EmptyItem`](EmptyItem.md) \| [`ButtonItem`](ButtonItem.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:474
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/LabelLocation.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / LabelLocation
+
+# Type Alias: LabelLocation
+
+> **LabelLocation** = `"left"` \| `"right"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:71
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/Mode.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / Mode
+
+# Type Alias: Mode
+
+> **Mode** = `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:452
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxForm`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:149
+
+## Docid
+
+_ui_form_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxFormOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:954
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/SimpleItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / SimpleItem
+
+# Type Alias: SimpleItem
+
+> **SimpleItem** = `dxFormSimpleItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:692
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/SimpleItemLabelTemplateData.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / SimpleItemLabelTemplateData
+
+# Type Alias: SimpleItemLabelTemplateData
+
+> **SimpleItemLabelTemplateData** = [`SimpleItemTemplateData`](SimpleItemTemplateData.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:190
+
+## Type Declaration
+
+### text
+
+> **text**: `string`
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/SimpleItemTemplateData.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / SimpleItemTemplateData
+
+# Type Alias: SimpleItemTemplateData
+
+> **SimpleItemTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:181
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxForm`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:182
+
+***
+
+### dataField?
+
+> `readonly` `optional` **dataField**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:183
+
+***
+
+### editorOptions?
+
+> `readonly` `optional` **editorOptions**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:184
+
+***
+
+### editorType?
+
+> `readonly` `optional` **editorType**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:185
+
+***
+
+### name?
+
+> `readonly` `optional` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:186
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/SmartPastedEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / SmartPastedEvent
+
+# Type Alias: SmartPastedEvent
+
+> **SmartPastedEvent** = `EventInfo`\<`dxForm`\> & `SmartPasteInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:165
+
+## Docid
+
+_ui_form_SmartPastedEvent
+
+## Inherits
+
+EventInfo,SmartPasteInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/SmartPastingEvent.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / SmartPastingEvent
+
+# Type Alias: SmartPastingEvent
+
+> **SmartPastingEvent** = `EventInfo`\<`dxForm`\> & `AsyncCancelable` & `SmartPasteInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:157
+
+## Docid
+
+_ui_form_SmartPastingEvent
+
+## Inherits
+
+EventInfo,AsyncCancelable,SmartPasteInfo
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/TabbedItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / TabbedItem
+
+# Type Alias: TabbedItem
+
+> **TabbedItem** = `dxFormTabbedItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/form.d.ts:840
+
+**`Namespace`**
+
+DevExpress.ui.dxForm
+
+
+--- SOURCE: DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/VerticalAlignment.md ---
+
+[**DevExtreme React Form API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Form API](../../../../globals.md) / [FormTypes](../README.md) / VerticalAlignment
+
+# Type Alias: VerticalAlignment
+
+> **VerticalAlignment** = `"bottom"` \| `"center"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:864
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Form API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Form API v26.1.0
+
+## Namespaces
+
+- [FormTypes](DevExtreme-React-Form-API/namespaces/FormTypes/README.md)
+
+## Interfaces
+
+- [FormRef](interfaces/FormRef.md)
+
+## Type Aliases
+
+- [IAIOptionsProps](type-aliases/IAIOptionsProps.md)
+- [IAsyncRuleProps](type-aliases/IAsyncRuleProps.md)
+- [IButtonItemProps](type-aliases/IButtonItemProps.md)
+- [IButtonOptionsProps](type-aliases/IButtonOptionsProps.md)
+- [IColCountByScreenProps](type-aliases/IColCountByScreenProps.md)
+- [ICompareRuleProps](type-aliases/ICompareRuleProps.md)
+- [ICustomRuleProps](type-aliases/ICustomRuleProps.md)
+- [IEmailRuleProps](type-aliases/IEmailRuleProps.md)
+- [IEmptyItemProps](type-aliases/IEmptyItemProps.md)
+- [IFormOptions](type-aliases/IFormOptions.md)
+- [IGroupItemProps](type-aliases/IGroupItemProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [INumericRuleProps](type-aliases/INumericRuleProps.md)
+- [IPatternRuleProps](type-aliases/IPatternRuleProps.md)
+- [IRangeRuleProps](type-aliases/IRangeRuleProps.md)
+- [IRequiredRuleProps](type-aliases/IRequiredRuleProps.md)
+- [ISimpleItemProps](type-aliases/ISimpleItemProps.md)
+- [IStringLengthRuleProps](type-aliases/IStringLengthRuleProps.md)
+- [ITabbedItemProps](type-aliases/ITabbedItemProps.md)
+- [ITabPanelOptionsItemProps](type-aliases/ITabPanelOptionsItemProps.md)
+- [ITabPanelOptionsProps](type-aliases/ITabPanelOptionsProps.md)
+- [ITabProps](type-aliases/ITabProps.md)
+- [IValidationRuleProps](type-aliases/IValidationRuleProps.md)
+
+## Variables
+
+- [AIOptions](variables/AIOptions.md)
+- [AsyncRule](variables/AsyncRule.md)
+- [ButtonItem](variables/ButtonItem.md)
+- [ButtonOptions](variables/ButtonOptions.md)
+- [ColCountByScreen](variables/ColCountByScreen.md)
+- [CompareRule](variables/CompareRule.md)
+- [CustomRule](variables/CustomRule.md)
+- [EmailRule](variables/EmailRule.md)
+- [EmptyItem](variables/EmptyItem.md)
+- [Form](variables/Form.md)
+- [GroupItem](variables/GroupItem.md)
+- [Item](variables/Item.md)
+- [Label](variables/Label.md)
+- [NumericRule](variables/NumericRule.md)
+- [PatternRule](variables/PatternRule.md)
+- [RangeRule](variables/RangeRule.md)
+- [RequiredRule](variables/RequiredRule.md)
+- [SimpleItem](variables/SimpleItem.md)
+- [StringLengthRule](variables/StringLengthRule.md)
+- [Tab](variables/Tab.md)
+- [TabbedItem](variables/TabbedItem.md)
+- [TabPanelOptions](variables/TabPanelOptions.md)
+- [TabPanelOptionsItem](variables/TabPanelOptionsItem.md)
+- [ValidationRule](variables/ValidationRule.md)
+
+## References
+
+### default
+
+Renames and re-exports [Form](variables/Form.md)
+
+
+--- SOURCE: interfaces/FormRef.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / FormRef
+
+# Interface: FormRef
+
+Defined in: [devextreme-react/src/form.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxForm`
+
+Defined in: [devextreme-react/src/form.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L42)
+
+#### Returns
+
+`dxForm`
+
+
+--- SOURCE: type-aliases/IAIOptionsProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IAIOptionsProps
+
+# Type Alias: IAIOptionsProps
+
+> **IAIOptionsProps** = `React.PropsWithChildren`\<\{ `disabled?`: `boolean`; `instruction?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:93](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L93)
+
+
+--- SOURCE: type-aliases/IAsyncRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IAsyncRuleProps
+
+# Type Alias: IAsyncRuleProps
+
+> **IAsyncRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L112)
+
+
+--- SOURCE: type-aliases/IButtonItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IButtonItemProps
+
+# Type Alias: IButtonItemProps
+
+> **IButtonItemProps** = `React.PropsWithChildren`\<\{ `buttonOptions?`: `dxButtonOptions`; `colSpan?`: `number`; `cssClass?`: `string`; `horizontalAlignment?`: [`HorizontalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md); `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `name?`: [`FormPredefinedButtonItem`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormPredefinedButtonItem.md) \| `string`; `verticalAlignment?`: [`VerticalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/VerticalAlignment.md); `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:138](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L138)
+
+
+--- SOURCE: type-aliases/IButtonOptionsProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IButtonOptionsProps
+
+# Type Alias: IButtonOptionsProps
+
+> **IButtonOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:171](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L171)
+
+
+--- SOURCE: type-aliases/IColCountByScreenProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IColCountByScreenProps
+
+# Type Alias: IColCountByScreenProps
+
+> **IColCountByScreenProps** = `React.PropsWithChildren`\<\{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:221](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L221)
+
+
+--- SOURCE: type-aliases/ICompareRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ICompareRuleProps
+
+# Type Alias: ICompareRuleProps
+
+> **ICompareRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:242](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L242)
+
+
+--- SOURCE: type-aliases/ICustomRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ICustomRuleProps
+
+# Type Alias: ICustomRuleProps
+
+> **ICustomRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:268](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L268)
+
+
+--- SOURCE: type-aliases/IEmailRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IEmailRuleProps
+
+# Type Alias: IEmailRuleProps
+
+> **IEmailRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:294](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L294)
+
+
+--- SOURCE: type-aliases/IEmptyItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IEmptyItemProps
+
+# Type Alias: IEmptyItemProps
+
+> **IEmptyItemProps** = `React.PropsWithChildren`\<\{ `colSpan?`: `number`; `cssClass?`: `string`; `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `name?`: `string`; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:318](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L318)
+
+
+--- SOURCE: type-aliases/IFormOptions.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IFormOptions
+
+# Type Alias: IFormOptions
+
+> **IFormOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/Properties.md), `IFormOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/form.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L36)
+
+
+--- SOURCE: type-aliases/IGroupItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IGroupItemProps
+
+# Type Alias: IGroupItemProps
+
+> **IGroupItemProps** = `React.PropsWithChildren`\<\{ `alignItemLabels?`: `boolean`; `caption?`: `string`; `captionComponent?`: `React.ComponentType`\<`any`\>; `captionRender?`: (...`params`) => `React.ReactNode`; `captionTemplate?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `name?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:345](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L345)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `aiOptions?`: `Record`\<`string`, `any`\> \| \{ `disabled?`: `boolean`; `instruction?`: `string`; \}; `alignItemLabels?`: `boolean`; `badge?`: `string`; `buttonOptions?`: `dxButtonOptions`; `caption?`: `string`; `captionComponent?`: `React.ComponentType`\<`any`\>; `captionRender?`: (...`params`) => `React.ReactNode`; `captionTemplate?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `dataField?`: `string`; `disabled?`: `boolean`; `editorOptions?`: `any`; `editorType?`: [`FormItemComponent`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemComponent.md); `helpText?`: `string`; `horizontalAlignment?`: [`HorizontalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md); `html?`: `string`; `icon?`: `string`; `isRequired?`: `boolean`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: [`HorizontalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md); `location?`: [`LabelLocation`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/LabelLocation.md); `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}; `name?`: `string` \| [`FormPredefinedButtonItem`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormPredefinedButtonItem.md); `render?`: (...`params`) => `React.ReactNode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabPanelOptions?`: `dxTabPanelOptions`; `tabRender?`: (...`params`) => `React.ReactNode`; `tabs?`: `Record`\<`string`, `any`\>[] \| `object`[]; `tabTemplate?`: () => `string` \| `any` \| `template`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `title?`: `string`; `validationRules?`: `CommonTypes.ValidationRule`[]; `verticalAlignment?`: [`VerticalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/VerticalAlignment.md); `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:401](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L401)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `alignment?`: [`HorizontalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md); `component?`: `React.ComponentType`\<`any`\>; `location?`: [`LabelLocation`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/LabelLocation.md); `render?`: (...`params`) => `React.ReactNode`; `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:520](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L520)
+
+
+--- SOURCE: type-aliases/INumericRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / INumericRuleProps
+
+# Type Alias: INumericRuleProps
+
+> **INumericRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:550](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L550)
+
+
+--- SOURCE: type-aliases/IPatternRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IPatternRuleProps
+
+# Type Alias: IPatternRuleProps
+
+> **IPatternRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `message?`: `string`; `pattern?`: `RegExp` \| `string`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:574](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L574)
+
+
+--- SOURCE: type-aliases/IRangeRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IRangeRuleProps
+
+# Type Alias: IRangeRuleProps
+
+> **IRangeRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `reevaluate?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:599](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L599)
+
+
+--- SOURCE: type-aliases/IRequiredRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IRequiredRuleProps
+
+# Type Alias: IRequiredRuleProps
+
+> **IRequiredRuleProps** = `React.PropsWithChildren`\<\{ `message?`: `string`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:626](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L626)
+
+
+--- SOURCE: type-aliases/ISimpleItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ISimpleItemProps
+
+# Type Alias: ISimpleItemProps
+
+> **ISimpleItemProps** = `React.PropsWithChildren`\<\{ `aiOptions?`: `Record`\<`string`, `any`\> \| \{ `disabled?`: `boolean`; `instruction?`: `string`; \}; `colSpan?`: `number`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `dataField?`: `string`; `editorOptions?`: `any`; `editorType?`: [`FormItemComponent`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemComponent.md); `helpText?`: `string`; `isRequired?`: `boolean`; `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `label?`: `Record`\<`string`, `any`\> \| \{ `alignment?`: [`HorizontalAlignment`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/HorizontalAlignment.md); `location?`: [`LabelLocation`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/LabelLocation.md); `showColon?`: `boolean`; `template?`: (`itemData`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}; `name?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`data`, `itemElement`) => `string` \| `any` \| `template`; `validationRules?`: `CommonTypes.ValidationRule`[]; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:650](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L650)
+
+
+--- SOURCE: type-aliases/IStringLengthRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IStringLengthRuleProps
+
+# Type Alias: IStringLengthRuleProps
+
+> **IStringLengthRuleProps** = `React.PropsWithChildren`\<\{ `ignoreEmptyValue?`: `boolean`; `max?`: `number`; `message?`: `string`; `min?`: `number`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:717](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L717)
+
+
+--- SOURCE: type-aliases/ITabPanelOptionsItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ITabPanelOptionsItemProps
+
+# Type Alias: ITabPanelOptionsItemProps
+
+> **ITabPanelOptionsItemProps** = `React.PropsWithChildren`\<\{ `badge?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabRender?`: (...`params`) => `React.ReactNode`; `tabTemplate?`: () => `string` \| `any` \| `template`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `title?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:932](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L932)
+
+
+--- SOURCE: type-aliases/ITabPanelOptionsProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ITabPanelOptionsProps
+
+# Type Alias: ITabPanelOptionsProps
+
+> **ITabPanelOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `animationEnabled?`: `boolean`; `dataSource?`: (`any` \| `dxTabPanelItem` \| `string`)[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `defaultItems?`: (`any` \| `dxTabPanelItem` \| `string`)[]; `defaultSelectedIndex?`: `number`; `defaultSelectedItem?`: `any`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `iconPosition?`: `TabsIconPosition`; `itemComponent?`: `React.ComponentType`\<`any`\>; `itemHoldTimeout?`: `number`; `itemRender?`: (...`params`) => `React.ReactNode`; `items?`: (`any` \| `dxTabPanelItem` \| `string`)[]; `itemTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `itemTitleComponent?`: `React.ComponentType`\<`any`\>; `itemTitleRender?`: (...`params`) => `React.ReactNode`; `itemTitleTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `keyExpr?`: () => `void` \| `string`; `loop?`: `boolean`; `noDataText?`: `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onItemClick?`: (`e`) => `void`; `onItemContextMenu?`: (`e`) => `void`; `onItemHold?`: (`e`) => `void`; `onItemRendered?`: (`e`) => `void`; `onItemsChange?`: (`value`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onSelectedIndexChange?`: (`value`) => `void`; `onSelectedItemChange?`: (`value`) => `void`; `onSelectionChanged?`: (`e`) => `void`; `onSelectionChanging?`: (`e`) => `void`; `onTitleClick?`: (`e`) => `void`; `onTitleHold?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `repaintChangesOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `scrollByContent?`: `boolean`; `scrollingEnabled?`: `boolean`; `selectedIndex?`: `number`; `selectedItem?`: `any`; `showNavButtons?`: `boolean`; `stylingMode?`: `TabsStyle`; `swipeEnabled?`: `boolean`; `tabIndex?`: `number`; `tabsPosition?`: `Position`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:842](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L842)
+
+
+--- SOURCE: type-aliases/ITabProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ITabProps
+
+# Type Alias: ITabProps
+
+> **ITabProps** = `React.PropsWithChildren`\<\{ `alignItemLabels?`: `boolean`; `badge?`: `string`; `colCount?`: `number`; `colCountByScreen?`: `Record`\<`string`, `any`\> \| \{ `lg?`: `number`; `md?`: `number`; `sm?`: `number`; `xs?`: `number`; \}; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: (`dxFormButtonItem` \| `dxFormEmptyItem` \| `dxFormGroupItem` \| `dxFormSimpleItem` \| `dxFormTabbedItem`)[]; `render?`: (...`params`) => `React.ReactNode`; `tabComponent?`: `React.ComponentType`\<`any`\>; `tabRender?`: (...`params`) => `React.ReactNode`; `tabTemplate?`: (`tabData`, `tabIndex`, `tabElement`) => `any` \| `template`; `template?`: (`tabData`, `tabIndex`, `tabElement`) => `any` \| `template`; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:744](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L744)
+
+
+--- SOURCE: type-aliases/ITabbedItemProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ITabbedItemProps
+
+# Type Alias: ITabbedItemProps
+
+> **ITabbedItemProps** = `React.PropsWithChildren`\<\{ `colSpan?`: `number`; `cssClass?`: `string`; `itemType?`: [`FormItemType`](../DevExtreme-React-Form-API/namespaces/FormTypes/type-aliases/FormItemType.md); `name?`: `string`; `tabPanelOptions?`: `dxTabPanelOptions`; `tabs?`: `Record`\<`string`, `any`\>[] \| `object`[]; `visible?`: `boolean`; `visibleIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:793](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L793)
+
+
+--- SOURCE: type-aliases/IValidationRuleProps.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / IValidationRuleProps
+
+# Type Alias: IValidationRuleProps
+
+> **IValidationRuleProps** = `React.PropsWithChildren`\<\{ `comparisonTarget?`: () => `any`; `comparisonType?`: `ComparisonOperator`; `ignoreEmptyValue?`: `boolean`; `max?`: `Date` \| `number` \| `string`; `message?`: `string`; `min?`: `Date` \| `number` \| `string`; `pattern?`: `RegExp` \| `string`; `reevaluate?`: `boolean`; `trim?`: `boolean`; `type?`: `ValidationRuleType`; `validationCallback?`: (`options`) => `boolean`; \}\>
+
+Defined in: [devextreme-react/src/form.ts:972](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L972)
+
+
+--- SOURCE: variables/AIOptions.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / AIOptions
+
+# Variable: AIOptions
+
+> `const` **AIOptions**: `any`
+
+Defined in: [devextreme-react/src/form.ts:106](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L106)
+
+
+--- SOURCE: variables/AsyncRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / AsyncRule
+
+# Variable: AsyncRule
+
+> `const` **AsyncRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:132](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L132)
+
+
+--- SOURCE: variables/ButtonItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ButtonItem
+
+# Variable: ButtonItem
+
+> `const` **ButtonItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:165](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L165)
+
+
+--- SOURCE: variables/ButtonOptions.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ButtonOptions
+
+# Variable: ButtonOptions
+
+> `const` **ButtonOptions**: `any`
+
+Defined in: [devextreme-react/src/form.ts:213](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L213)
+
+
+--- SOURCE: variables/ColCountByScreen.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ColCountByScreen
+
+# Variable: ColCountByScreen
+
+> `const` **ColCountByScreen**: `any`
+
+Defined in: [devextreme-react/src/form.ts:236](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L236)
+
+
+--- SOURCE: variables/CompareRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / CompareRule
+
+# Variable: CompareRule
+
+> `const` **CompareRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:262](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L262)
+
+
+--- SOURCE: variables/CustomRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / CustomRule
+
+# Variable: CustomRule
+
+> `const` **CustomRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:288](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L288)
+
+
+--- SOURCE: variables/EmailRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / EmailRule
+
+# Variable: EmailRule
+
+> `const` **EmailRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:312](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L312)
+
+
+--- SOURCE: variables/EmptyItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / EmptyItem
+
+# Variable: EmptyItem
+
+> `const` **EmptyItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:339](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L339)
+
+
+--- SOURCE: variables/Form.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / Form
+
+# Variable: Form()
+
+> `const` **Form**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/form.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/GroupItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / GroupItem
+
+# Variable: GroupItem
+
+> `const` **GroupItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:394](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L394)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/form.ts:514](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L514)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/form.ts:544](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L544)
+
+
+--- SOURCE: variables/NumericRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / NumericRule
+
+# Variable: NumericRule
+
+> `const` **NumericRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:568](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L568)
+
+
+--- SOURCE: variables/PatternRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / PatternRule
+
+# Variable: PatternRule
+
+> `const` **PatternRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:593](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L593)
+
+
+--- SOURCE: variables/RangeRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / RangeRule
+
+# Variable: RangeRule
+
+> `const` **RangeRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:620](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L620)
+
+
+--- SOURCE: variables/RequiredRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / RequiredRule
+
+# Variable: RequiredRule
+
+> `const` **RequiredRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:644](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L644)
+
+
+--- SOURCE: variables/SimpleItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / SimpleItem
+
+# Variable: SimpleItem
+
+> `const` **SimpleItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:711](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L711)
+
+
+--- SOURCE: variables/StringLengthRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / StringLengthRule
+
+# Variable: StringLengthRule
+
+> `const` **StringLengthRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:738](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L738)
+
+
+--- SOURCE: variables/Tab.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / Tab
+
+# Variable: Tab
+
+> `const` **Tab**: `any`
+
+Defined in: [devextreme-react/src/form.ts:787](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L787)
+
+
+--- SOURCE: variables/TabPanelOptions.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / TabPanelOptions
+
+# Variable: TabPanelOptions
+
+> `const` **TabPanelOptions**: `any`
+
+Defined in: [devextreme-react/src/form.ts:926](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L926)
+
+
+--- SOURCE: variables/TabPanelOptionsItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / TabPanelOptionsItem
+
+# Variable: TabPanelOptionsItem
+
+> `const` **TabPanelOptionsItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:966](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L966)
+
+
+--- SOURCE: variables/TabbedItem.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / TabbedItem
+
+# Variable: TabbedItem
+
+> `const` **TabbedItem**: `any`
+
+Defined in: [devextreme-react/src/form.ts:836](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L836)
+
+
+--- SOURCE: variables/ValidationRule.md ---
+
+[**DevExtreme React Form API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Form API](../globals.md) / ValidationRule
+
+# Variable: ValidationRule
+
+> `const` **ValidationRule**: `any`
+
+Defined in: [devextreme-react/src/form.ts:998](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/form.ts#L998)
+

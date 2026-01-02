@@ -1,0 +1,1801 @@
+# Diagram Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Diagram API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/README.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../globals.md) / DiagramTypes
+
+# DiagramTypes
+
+## Type Aliases
+
+- [AutoZoomMode](type-aliases/AutoZoomMode.md)
+- [Command](type-aliases/Command.md)
+- [ConnectorLineEnd](type-aliases/ConnectorLineEnd.md)
+- [ConnectorLineType](type-aliases/ConnectorLineType.md)
+- [ConnectorPosition](type-aliases/ConnectorPosition.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CustomCommand](type-aliases/CustomCommand.md)
+- [CustomCommandEvent](type-aliases/CustomCommandEvent.md)
+- [CustomShapeTemplateData](type-aliases/CustomShapeTemplateData.md)
+- [CustomShapeToolboxTemplateData](type-aliases/CustomShapeToolboxTemplateData.md)
+- [DataLayoutType](type-aliases/DataLayoutType.md)
+- [DiagramExportFormat](type-aliases/DiagramExportFormat.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemDblClickEvent](type-aliases/ItemDblClickEvent.md)
+- [ItemType](type-aliases/ItemType.md)
+- [ModelOperation](type-aliases/ModelOperation.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PanelVisibility](type-aliases/PanelVisibility.md)
+- [Properties](type-aliases/Properties.md)
+- [RequestEditOperationEvent](type-aliases/RequestEditOperationEvent.md)
+- [RequestEditOperationReason](type-aliases/RequestEditOperationReason.md)
+- [RequestLayoutUpdateEvent](type-aliases/RequestLayoutUpdateEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [ShapeCategory](type-aliases/ShapeCategory.md)
+- [ShapeType](type-aliases/ShapeType.md)
+- [ToolboxDisplayMode](type-aliases/ToolboxDisplayMode.md)
+- [Units](type-aliases/Units.md)
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/AutoZoomMode.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / AutoZoomMode
+
+# Type Alias: AutoZoomMode
+
+> **AutoZoomMode** = `"fitContent"` \| `"fitWidth"` \| `"disabled"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:36
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / Command
+
+# Type Alias: Command
+
+> **Command** = `"separator"` \| `"exportSvg"` \| `"exportPng"` \| `"exportJpg"` \| `"undo"` \| `"redo"` \| `"cut"` \| `"copy"` \| `"paste"` \| `"selectAll"` \| `"delete"` \| `"fontName"` \| `"fontSize"` \| `"bold"` \| `"italic"` \| `"underline"` \| `"fontColor"` \| `"lineStyle"` \| `"lineWidth"` \| `"lineColor"` \| `"fillColor"` \| `"textAlignLeft"` \| `"textAlignCenter"` \| `"textAlignRight"` \| `"lock"` \| `"unlock"` \| `"sendToBack"` \| `"bringToFront"` \| `"insertShapeImage"` \| `"editShapeImage"` \| `"deleteShapeImage"` \| `"connectorLineType"` \| `"connectorLineStart"` \| `"connectorLineEnd"` \| `"layoutTreeTopToBottom"` \| `"layoutTreeBottomToTop"` \| `"layoutTreeLeftToRight"` \| `"layoutTreeRightToLeft"` \| `"layoutLayeredTopToBottom"` \| `"layoutLayeredBottomToTop"` \| `"layoutLayeredLeftToRight"` \| `"layoutLayeredRightToLeft"` \| `"fullScreen"` \| `"zoomLevel"` \| `"showGrid"` \| `"snapToGrid"` \| `"gridSize"` \| `"units"` \| `"pageSize"` \| `"pageOrientation"` \| `"pageColor"` \| `"simpleView"` \| `"toolbox"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:41
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorLineEnd.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ConnectorLineEnd
+
+# Type Alias: ConnectorLineEnd
+
+> **ConnectorLineEnd** = `"none"` \| `"arrow"` \| `"outlinedTriangle"` \| `"filledTriangle"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:46
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorLineType.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ConnectorLineType
+
+# Type Alias: ConnectorLineType
+
+> **ConnectorLineType** = `"straight"` \| `"orthogonal"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:51
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorPosition.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ConnectorPosition
+
+# Type Alias: ConnectorPosition
+
+> **ConnectorPosition** = `"start"` \| `"end"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:56
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxDiagram`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:114
+
+## Docid
+
+_ui_diagram_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / CustomCommand
+
+# Type Alias: CustomCommand
+
+> **CustomCommand** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1408
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxDiagram
+
+## Properties
+
+### icon?
+
+> `optional` **icon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1423
+
+#### Docid
+
+***
+
+### items?
+
+> `optional` **items**: (`CustomCommand` \| [`Command`](Command.md))[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1428
+
+#### Docid
+
+***
+
+### location?
+
+> `optional` **location**: `ToolbarItemLocation`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1434
+
+#### Docid
+
+#### Default
+
+```ts
+"before"
+@public
+```
+
+***
+
+### name?
+
+> `optional` **name**: `string` \| [`Command`](Command.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1413
+
+#### Docid
+
+***
+
+### text?
+
+> `optional` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1418
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommandEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / CustomCommandEvent
+
+# Type Alias: CustomCommandEvent
+
+> **CustomCommandEvent** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:121
+
+## Docid
+
+_ui_diagram_CustomCommandEvent
+
+## Properties
+
+### component
+
+> `readonly` **component**: `dxDiagram`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:126
+
+#### Docid
+
+_ui_diagram_CustomCommandEvent.component
+
+***
+
+### element
+
+> `readonly` **element**: `DxElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:128
+
+#### Docid
+
+_ui_diagram_CustomCommandEvent.element
+
+***
+
+### name
+
+> `readonly` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:130
+
+#### Docid
+
+_ui_diagram_CustomCommandEvent.name
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomShapeTemplateData.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / CustomShapeTemplateData
+
+# Type Alias: CustomShapeTemplateData
+
+> **CustomShapeTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:233
+
+## Properties
+
+### item
+
+> `readonly` **item**: `dxDiagramShape`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:234
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomShapeToolboxTemplateData.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / CustomShapeToolboxTemplateData
+
+# Type Alias: CustomShapeToolboxTemplateData
+
+> **CustomShapeToolboxTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:238
+
+## Properties
+
+### item
+
+> `readonly` **item**: `dxDiagramShape`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:239
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DataLayoutType.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / DataLayoutType
+
+# Type Alias: DataLayoutType
+
+> **DataLayoutType** = `"auto"` \| `"off"` \| `"tree"` \| `"layered"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:61
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DiagramExportFormat.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / DiagramExportFormat
+
+# Type Alias: DiagramExportFormat
+
+> **DiagramExportFormat** = `"svg"` \| `"png"` \| `"jpg"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:66
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxDiagram`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:139
+
+## Docid
+
+_ui_diagram_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxDiagram`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:147
+
+## Docid
+
+_ui_diagram_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxDiagramItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1301
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+## Docid
+
+dxDiagramItem
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `EventInfo`\<`dxDiagram`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:155
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: [`Item`](Item.md)
+
+#### Docid
+
+_ui_diagram_ItemClickEvent.item
+
+## Docid
+
+_ui_diagram_ItemClickEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ItemDblClickEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ItemDblClickEvent
+
+# Type Alias: ItemDblClickEvent
+
+> **ItemDblClickEvent** = `EventInfo`\<`dxDiagram`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:169
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: [`Item`](Item.md)
+
+#### Docid
+
+_ui_diagram_ItemDblClickEvent.item
+
+## Docid
+
+_ui_diagram_ItemDblClickEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ItemType.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ItemType
+
+# Type Alias: ItemType
+
+> **ItemType** = `"shape"` \| `"connector"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:71
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ModelOperation.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ModelOperation
+
+# Type Alias: ModelOperation
+
+> **ModelOperation** = `"addShape"` \| `"addShapeFromToolbox"` \| `"deleteShape"` \| `"deleteConnector"` \| `"changeConnection"` \| `"changeConnectorPoints"` \| `"beforeChangeShapeText"` \| `"changeShapeText"` \| `"beforeChangeConnectorText"` \| `"changeConnectorText"` \| `"resizeShape"` \| `"moveShape"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:76
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxDiagram`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:183
+
+## Docid
+
+_ui_diagram_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/PanelVisibility.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / PanelVisibility
+
+# Type Alias: PanelVisibility
+
+> **PanelVisibility** = `"auto"` \| `"visible"` \| `"collapsed"` \| `"disabled"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:81
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxDiagramOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:1713
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/RequestEditOperationEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / RequestEditOperationEvent
+
+# Type Alias: RequestEditOperationEvent
+
+> **RequestEditOperationEvent** = `EventInfo`\<`dxDiagram`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:191
+
+## Type Declaration
+
+### allowed?
+
+> `optional` **allowed**: `boolean`
+
+#### Docid
+
+_ui_diagram_RequestEditOperationEvent.allowed
+
+### args
+
+> `readonly` **args**: `dxDiagramAddShapeArgs` \| `dxDiagramAddShapeFromToolboxArgs` \| `dxDiagramDeleteShapeArgs` \| `dxDiagramDeleteConnectorArgs` \| `dxDiagramChangeConnectionArgs` \| `dxDiagramChangeConnectorPointsArgs` \| `dxDiagramBeforeChangeShapeTextArgs` \| `dxDiagramChangeShapeTextArgs` \| `dxDiagramBeforeChangeConnectorTextArgs` \| `dxDiagramChangeConnectorTextArgs` \| `dxDiagramResizeShapeArgs` \| `dxDiagramMoveShapeArgs`
+
+#### Docid
+
+_ui_diagram_RequestEditOperationEvent.args
+
+### operation
+
+> `readonly` **operation**: `"addShape"` \| `"addShapeFromToolbox"` \| `"deleteShape"` \| `"deleteConnector"` \| `"changeConnection"` \| `"changeConnectorPoints"`
+
+#### Docid
+
+_ui_diagram_RequestEditOperationEvent.operation
+
+### reason
+
+> `readonly` **reason**: [`RequestEditOperationReason`](RequestEditOperationReason.md)
+
+#### Docid
+
+_ui_diagram_RequestEditOperationEvent.reason
+
+## Docid
+
+_ui_diagram_RequestEditOperationEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/RequestEditOperationReason.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / RequestEditOperationReason
+
+# Type Alias: RequestEditOperationReason
+
+> **RequestEditOperationReason** = `"checkUIElementAvailability"` \| `"modelModification"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:86
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/RequestLayoutUpdateEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / RequestLayoutUpdateEvent
+
+# Type Alias: RequestLayoutUpdateEvent
+
+> **RequestLayoutUpdateEvent** = `EventInfo`\<`dxDiagram`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:208
+
+## Type Declaration
+
+### allowed?
+
+> `optional` **allowed**: `boolean`
+
+#### Docid
+
+_ui_diagram_RequestLayoutUpdateEvent.allowed
+
+### changes
+
+> `readonly` **changes**: `any`[]
+
+#### Docid
+
+_ui_diagram_RequestLayoutUpdateEvent.changes
+
+## Docid
+
+_ui_diagram_RequestLayoutUpdateEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxDiagram`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:224
+
+## Type Declaration
+
+### items
+
+> `readonly` **items**: [`Item`](Item.md)[]
+
+#### Docid
+
+_ui_diagram_SelectionChangedEvent.items
+
+## Docid
+
+_ui_diagram_SelectionChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeCategory.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ShapeCategory
+
+# Type Alias: ShapeCategory
+
+> **ShapeCategory** = `"general"` \| `"flowchart"` \| `"orgChart"` \| `"containers"` \| `"custom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:91
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeType.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ShapeType
+
+# Type Alias: ShapeType
+
+> **ShapeType** = `"text"` \| `"rectangle"` \| `"ellipse"` \| `"cross"` \| `"triangle"` \| `"diamond"` \| `"heart"` \| `"pentagon"` \| `"hexagon"` \| `"octagon"` \| `"star"` \| `"arrowLeft"` \| `"arrowTop"` \| `"arrowRight"` \| `"arrowBottom"` \| `"arrowNorthSouth"` \| `"arrowEastWest"` \| `"process"` \| `"decision"` \| `"terminator"` \| `"predefinedProcess"` \| `"document"` \| `"multipleDocuments"` \| `"manualInput"` \| `"preparation"` \| `"data"` \| `"database"` \| `"hardDisk"` \| `"internalStorage"` \| `"paperTape"` \| `"manualOperation"` \| `"delay"` \| `"storedData"` \| `"display"` \| `"merge"` \| `"connector"` \| `"or"` \| `"summingJunction"` \| `"verticalContainer"` \| `"horizontalContainer"` \| `"cardWithImageOnLeft"` \| `"cardWithImageOnTop"` \| `"cardWithImageOnRight"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:96
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ToolboxDisplayMode.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / ToolboxDisplayMode
+
+# Type Alias: ToolboxDisplayMode
+
+> **ToolboxDisplayMode** = `"icons"` \| `"texts"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:101
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Units.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Diagram API](../../../../globals.md) / [DiagramTypes](../README.md) / Units
+
+# Type Alias: Units
+
+> **Units** = `"in"` \| `"cm"` \| `"px"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/diagram.d.ts:106
+
+**`Namespace`**
+
+DevExpress.ui.dxDiagram
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Diagram API v26.1.0
+
+## Namespaces
+
+- [DiagramTypes](DevExtreme-React-Diagram-API/namespaces/DiagramTypes/README.md)
+
+## Interfaces
+
+- [DiagramRef](interfaces/DiagramRef.md)
+
+## Type Aliases
+
+- [IAutoLayoutProps](type-aliases/IAutoLayoutProps.md)
+- [ICommandItemProps](type-aliases/ICommandItemProps.md)
+- [ICommandProps](type-aliases/ICommandProps.md)
+- [IConnectionPointProps](type-aliases/IConnectionPointProps.md)
+- [IContextMenuProps](type-aliases/IContextMenuProps.md)
+- [IContextToolboxProps](type-aliases/IContextToolboxProps.md)
+- [ICustomShapeProps](type-aliases/ICustomShapeProps.md)
+- [IDefaultItemPropertiesProps](type-aliases/IDefaultItemPropertiesProps.md)
+- [IDiagramOptions](type-aliases/IDiagramOptions.md)
+- [IEdgesProps](type-aliases/IEdgesProps.md)
+- [IEditingProps](type-aliases/IEditingProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IGridSizeProps](type-aliases/IGridSizeProps.md)
+- [IGroupProps](type-aliases/IGroupProps.md)
+- [IHistoryToolbarProps](type-aliases/IHistoryToolbarProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMainToolbarProps](type-aliases/IMainToolbarProps.md)
+- [INodesProps](type-aliases/INodesProps.md)
+- [IPageSizeItemProps](type-aliases/IPageSizeItemProps.md)
+- [IPageSizeProps](type-aliases/IPageSizeProps.md)
+- [IPropertiesPanelProps](type-aliases/IPropertiesPanelProps.md)
+- [ITabGroupProps](type-aliases/ITabGroupProps.md)
+- [ITabProps](type-aliases/ITabProps.md)
+- [IToolboxGroupProps](type-aliases/IToolboxGroupProps.md)
+- [IToolboxProps](type-aliases/IToolboxProps.md)
+- [IViewToolbarProps](type-aliases/IViewToolbarProps.md)
+- [IZoomLevelProps](type-aliases/IZoomLevelProps.md)
+
+## Variables
+
+- [AutoLayout](variables/AutoLayout.md)
+- [Command](variables/Command.md)
+- [CommandItem](variables/CommandItem.md)
+- [ConnectionPoint](variables/ConnectionPoint.md)
+- [ContextMenu](variables/ContextMenu.md)
+- [ContextToolbox](variables/ContextToolbox.md)
+- [CustomShape](variables/CustomShape.md)
+- [DefaultItemProperties](variables/DefaultItemProperties.md)
+- [Diagram](variables/Diagram.md)
+- [Edges](variables/Edges.md)
+- [Editing](variables/Editing.md)
+- [Export](variables/Export.md)
+- [GridSize](variables/GridSize.md)
+- [Group](variables/Group.md)
+- [HistoryToolbar](variables/HistoryToolbar.md)
+- [Item](variables/Item.md)
+- [MainToolbar](variables/MainToolbar.md)
+- [Nodes](variables/Nodes.md)
+- [PageSize](variables/PageSize.md)
+- [PageSizeItem](variables/PageSizeItem.md)
+- [PropertiesPanel](variables/PropertiesPanel.md)
+- [Tab](variables/Tab.md)
+- [TabGroup](variables/TabGroup.md)
+- [Toolbox](variables/Toolbox.md)
+- [ToolboxGroup](variables/ToolboxGroup.md)
+- [ViewToolbar](variables/ViewToolbar.md)
+- [ZoomLevel](variables/ZoomLevel.md)
+
+## References
+
+### default
+
+Renames and re-exports [Diagram](variables/Diagram.md)
+
+
+--- SOURCE: interfaces/DiagramRef.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / DiagramRef
+
+# Interface: DiagramRef
+
+Defined in: [devextreme-react/src/diagram.ts:47](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L47)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxDiagram`
+
+Defined in: [devextreme-react/src/diagram.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L48)
+
+#### Returns
+
+`dxDiagram`
+
+
+--- SOURCE: type-aliases/IAutoLayoutProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IAutoLayoutProps
+
+# Type Alias: IAutoLayoutProps
+
+> **IAutoLayoutProps** = `React.PropsWithChildren`\<\{ `orientation?`: `Orientation`; `type?`: [`DataLayoutType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DataLayoutType.md); \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:124](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L124)
+
+
+--- SOURCE: type-aliases/ICommandItemProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ICommandItemProps
+
+# Type Alias: ICommandItemProps
+
+> **ICommandItemProps** = `React.PropsWithChildren`\<\{ `icon?`: `string`; `items?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `location?`: `ToolbarItemLocation`; `name?`: [`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| `string`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:174](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L174)
+
+
+--- SOURCE: type-aliases/ICommandProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ICommandProps
+
+# Type Alias: ICommandProps
+
+> **ICommandProps** = `React.PropsWithChildren`\<\{ `icon?`: `string`; `items?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `location?`: `ToolbarItemLocation`; `name?`: [`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| `string`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L148)
+
+
+--- SOURCE: type-aliases/IConnectionPointProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IConnectionPointProps
+
+# Type Alias: IConnectionPointProps
+
+> **IConnectionPointProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:197](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L197)
+
+
+--- SOURCE: type-aliases/IContextMenuProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IContextMenuProps
+
+# Type Alias: IContextMenuProps
+
+> **IContextMenuProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:217](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L217)
+
+
+--- SOURCE: type-aliases/IContextToolboxProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IContextToolboxProps
+
+# Type Alias: IContextToolboxProps
+
+> **IContextToolboxProps** = `React.PropsWithChildren`\<\{ `category?`: [`ShapeCategory`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeCategory.md) \| `string`; `displayMode?`: [`ToolboxDisplayMode`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ToolboxDisplayMode.md); `enabled?`: `boolean`; `shapeIconsPerRow?`: `number`; `shapes?`: [`ShapeType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeType.md)[]; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:239](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L239)
+
+
+--- SOURCE: type-aliases/ICustomShapeProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ICustomShapeProps
+
+# Type Alias: ICustomShapeProps
+
+> **ICustomShapeProps** = `React.PropsWithChildren`\<\{ `allowEditImage?`: `boolean`; `allowEditText?`: `boolean`; `allowResize?`: `boolean`; `backgroundImageHeight?`: `number`; `backgroundImageLeft?`: `number`; `backgroundImageToolboxUrl?`: `string`; `backgroundImageTop?`: `number`; `backgroundImageUrl?`: `string`; `backgroundImageWidth?`: `number`; `baseType?`: [`ShapeType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeType.md) \| `string`; `category?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `connectionPoints?`: `Record`\<`string`, `any`\>[] \| `object`[]; `defaultHeight?`: `number`; `defaultImageUrl?`: `string`; `defaultText?`: `string`; `defaultWidth?`: `number`; `imageHeight?`: `number`; `imageLeft?`: `number`; `imageTop?`: `number`; `imageWidth?`: `number`; `keepRatioOnAutoSize?`: `boolean`; `maxHeight?`: `number`; `maxWidth?`: `number`; `minHeight?`: `number`; `minWidth?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`container`, `data`) => `void` \| `template`; `templateHeight?`: `number`; `templateLeft?`: `number`; `templateTop?`: `number`; `templateWidth?`: `number`; `textHeight?`: `number`; `textLeft?`: `number`; `textTop?`: `number`; `textWidth?`: `number`; `title?`: `string`; `toolboxComponent?`: `React.ComponentType`\<`any`\>; `toolboxRender?`: (...`params`) => `React.ReactNode`; `toolboxTemplate?`: (`container`, `data`) => `void` \| `template`; `toolboxWidthToHeightRatio?`: `number`; `type?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:262](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L262)
+
+
+--- SOURCE: type-aliases/IDefaultItemPropertiesProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IDefaultItemPropertiesProps
+
+# Type Alias: IDefaultItemPropertiesProps
+
+> **IDefaultItemPropertiesProps** = `React.PropsWithChildren`\<\{ `connectorLineEnd?`: [`ConnectorLineEnd`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorLineEnd.md); `connectorLineStart?`: [`ConnectorLineEnd`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorLineEnd.md); `connectorLineType?`: [`ConnectorLineType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ConnectorLineType.md); `shapeMaxHeight?`: `number`; `shapeMaxWidth?`: `number`; `shapeMinHeight?`: `number`; `shapeMinWidth?`: `number`; `style?`: `Record`\<`string`, `any`\>; `textStyle?`: `Record`\<`string`, `any`\>; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:337](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L337)
+
+
+--- SOURCE: type-aliases/IDiagramOptions.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IDiagramOptions
+
+# Type Alias: IDiagramOptions
+
+> **IDiagramOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Properties.md), `IDiagramOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/diagram.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L34)
+
+
+--- SOURCE: type-aliases/IEdgesProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IEdgesProps
+
+# Type Alias: IEdgesProps
+
+> **IEdgesProps** = `React.PropsWithChildren`\<\{ `customDataExpr?`: (`data`, `value`) => `any` \| `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `fromExpr?`: (`data`, `value`) => `any` \| `string`; `fromLineEndExpr?`: (`data`, `value`) => `any` \| `string`; `fromPointIndexExpr?`: (`data`, `value`) => `any` \| `string`; `keyExpr?`: (`data`, `value`) => `any` \| `string`; `lineTypeExpr?`: (`data`, `value`) => `any` \| `string`; `lockedExpr?`: (`data`, `value`) => `any` \| `string`; `pointsExpr?`: (`data`, `value`) => `any` \| `string`; `styleExpr?`: (`data`, `value`) => `any` \| `string`; `textExpr?`: (`data`, `value`) => `any` \| `string`; `textStyleExpr?`: (`data`, `value`) => `any` \| `string`; `toExpr?`: (`data`, `value`) => `any` \| `string`; `toLineEndExpr?`: (`data`, `value`) => `any` \| `string`; `toPointIndexExpr?`: (`data`, `value`) => `any` \| `string`; `zIndexExpr?`: (`data`, `value`) => `any` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L363)
+
+
+--- SOURCE: type-aliases/IEditingProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IEditingProps
+
+# Type Alias: IEditingProps
+
+> **IEditingProps** = `React.PropsWithChildren`\<\{ `allowAddShape?`: `boolean`; `allowChangeConnection?`: `boolean`; `allowChangeConnectorPoints?`: `boolean`; `allowChangeConnectorText?`: `boolean`; `allowChangeShapeText?`: `boolean`; `allowDeleteConnector?`: `boolean`; `allowDeleteShape?`: `boolean`; `allowMoveShape?`: `boolean`; `allowResizeShape?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:396](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L396)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `fileName?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:422](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L422)
+
+
+--- SOURCE: type-aliases/IGridSizeProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IGridSizeProps
+
+# Type Alias: IGridSizeProps
+
+> **IGridSizeProps** = `React.PropsWithChildren`\<\{ `defaultValue?`: `number`; `items?`: `number`[]; `onValueChange?`: (`value`) => `void`; `value?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:440](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L440)
+
+
+--- SOURCE: type-aliases/IGroupProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IGroupProps
+
+# Type Alias: IGroupProps
+
+> **IGroupProps** = `React.PropsWithChildren`\<\{ `category?`: [`ShapeCategory`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeCategory.md) \| `string`; `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `displayMode?`: [`ToolboxDisplayMode`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ToolboxDisplayMode.md); `expanded?`: `boolean`; `shapes?`: [`ShapeType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeType.md)[]; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:465](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L465)
+
+
+--- SOURCE: type-aliases/IHistoryToolbarProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IHistoryToolbarProps
+
+# Type Alias: IHistoryToolbarProps
+
+> **IHistoryToolbarProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:492](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L492)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `icon?`: `string`; `items?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `location?`: `ToolbarItemLocation`; `name?`: [`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| `string`; `text?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:515](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L515)
+
+
+--- SOURCE: type-aliases/IMainToolbarProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IMainToolbarProps
+
+# Type Alias: IMainToolbarProps
+
+> **IMainToolbarProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:540](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L540)
+
+
+--- SOURCE: type-aliases/INodesProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / INodesProps
+
+# Type Alias: INodesProps
+
+> **INodesProps** = `React.PropsWithChildren`\<\{ `autoLayout?`: [`DataLayoutType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DataLayoutType.md) \| `Record`\<`string`, `any`\> \| \{ `orientation?`: `Orientation`; `type?`: [`DataLayoutType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/DataLayoutType.md); \}; `autoSizeEnabled?`: `boolean`; `containerChildrenExpr?`: (`data`, `value`) => `any` \| `string`; `containerKeyExpr?`: (`data`, `value`) => `any` \| `string`; `customDataExpr?`: (`data`, `value`) => `any` \| `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `heightExpr?`: (`data`, `value`) => `any` \| `string`; `imageUrlExpr?`: (`data`, `value`) => `any` \| `string`; `itemsExpr?`: (`data`, `value`) => `any` \| `string`; `keyExpr?`: (`data`, `value`) => `any` \| `string`; `leftExpr?`: (`data`, `value`) => `any` \| `string`; `lockedExpr?`: (`data`, `value`) => `any` \| `string`; `parentKeyExpr?`: (`data`, `value`) => `any` \| `string`; `styleExpr?`: (`data`, `value`) => `any` \| `string`; `textExpr?`: (`data`, `value`) => `any` \| `string`; `textStyleExpr?`: (`data`, `value`) => `any` \| `string`; `topExpr?`: (`data`, `value`) => `any` \| `string`; `typeExpr?`: (`data`, `value`) => `any` \| `string`; `widthExpr?`: (`data`, `value`) => `any` \| `string`; `zIndexExpr?`: (`data`, `value`) => `any` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:562](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L562)
+
+
+--- SOURCE: type-aliases/IPageSizeItemProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IPageSizeItemProps
+
+# Type Alias: IPageSizeItemProps
+
+> **IPageSizeItemProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `text?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:641](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L641)
+
+
+--- SOURCE: type-aliases/IPageSizeProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IPageSizeProps
+
+# Type Alias: IPageSizeProps
+
+> **IPageSizeProps** = `React.PropsWithChildren`\<\{ `defaultHeight?`: `number`; `defaultWidth?`: `number`; `height?`: `number`; `items?`: `Record`\<`string`, `any`\>[] \| `object`[]; `onHeightChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:605](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L605)
+
+
+--- SOURCE: type-aliases/IPropertiesPanelProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IPropertiesPanelProps
+
+# Type Alias: IPropertiesPanelProps
+
+> **IPropertiesPanelProps** = `React.PropsWithChildren`\<\{ `tabs?`: `Record`\<`string`, `any`\>[] \| `object`[]; `visibility?`: [`PanelVisibility`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/PanelVisibility.md); \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:662](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L662)
+
+
+--- SOURCE: type-aliases/ITabGroupProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ITabGroupProps
+
+# Type Alias: ITabGroupProps
+
+> **ITabGroupProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:720](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L720)
+
+
+--- SOURCE: type-aliases/ITabProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ITabProps
+
+# Type Alias: ITabProps
+
+> **ITabProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `groups?`: `Record`\<`string`, `any`\>[] \| `object`[]; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:691](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L691)
+
+
+--- SOURCE: type-aliases/IToolboxGroupProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IToolboxGroupProps
+
+# Type Alias: IToolboxGroupProps
+
+> **IToolboxGroupProps** = `React.PropsWithChildren`\<\{ `category?`: [`ShapeCategory`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeCategory.md) \| `string`; `displayMode?`: [`ToolboxDisplayMode`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ToolboxDisplayMode.md); `expanded?`: `boolean`; `shapes?`: [`ShapeType`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/ShapeType.md)[]; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:775](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L775)
+
+
+--- SOURCE: type-aliases/IToolboxProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IToolboxProps
+
+# Type Alias: IToolboxProps
+
+> **IToolboxProps** = `React.PropsWithChildren`\<\{ `groups?`: `Record`\<`string`, `any`\>[] \| `object`[]; `shapeIconsPerRow?`: `number`; `showSearch?`: `boolean`; `visibility?`: [`PanelVisibility`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/PanelVisibility.md); `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:743](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L743)
+
+
+--- SOURCE: type-aliases/IViewToolbarProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IViewToolbarProps
+
+# Type Alias: IViewToolbarProps
+
+> **IViewToolbarProps** = `React.PropsWithChildren`\<\{ `commands?`: ([`Command`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/Command.md) \| [`CustomCommand`](../DevExtreme-React-Diagram-API/namespaces/DiagramTypes/type-aliases/CustomCommand.md))[]; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:798](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L798)
+
+
+--- SOURCE: type-aliases/IZoomLevelProps.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / IZoomLevelProps
+
+# Type Alias: IZoomLevelProps
+
+> **IZoomLevelProps** = `React.PropsWithChildren`\<\{ `defaultValue?`: `number`; `items?`: `number`[]; `onValueChange?`: (`value`) => `void`; `value?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/diagram.ts:820](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L820)
+
+
+--- SOURCE: variables/AutoLayout.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / AutoLayout
+
+# Variable: AutoLayout
+
+> `const` **AutoLayout**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:137](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L137)
+
+
+--- SOURCE: variables/Command.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Command
+
+# Variable: Command
+
+> `const` **Command**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:168](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L168)
+
+
+--- SOURCE: variables/CommandItem.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / CommandItem
+
+# Variable: CommandItem
+
+> `const` **CommandItem**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:191](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L191)
+
+
+--- SOURCE: variables/ConnectionPoint.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ConnectionPoint
+
+# Variable: ConnectionPoint
+
+> `const` **ConnectionPoint**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L211)
+
+
+--- SOURCE: variables/ContextMenu.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ContextMenu
+
+# Variable: ContextMenu
+
+> `const` **ContextMenu**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L233)
+
+
+--- SOURCE: variables/ContextToolbox.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ContextToolbox
+
+# Variable: ContextToolbox
+
+> `const` **ContextToolbox**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:256](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L256)
+
+
+--- SOURCE: variables/CustomShape.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / CustomShape
+
+# Variable: CustomShape
+
+> `const` **CustomShape**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:331](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L331)
+
+
+--- SOURCE: variables/DefaultItemProperties.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / DefaultItemProperties
+
+# Variable: DefaultItemProperties
+
+> `const` **DefaultItemProperties**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:357](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L357)
+
+
+--- SOURCE: variables/Diagram.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Diagram
+
+# Variable: Diagram()
+
+> `const` **Diagram**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/diagram.ts:51](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L51)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Edges.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Edges
+
+# Variable: Edges
+
+> `const` **Edges**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:390](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L390)
+
+
+--- SOURCE: variables/Editing.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Editing
+
+# Variable: Editing
+
+> `const` **Editing**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L416)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:434](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L434)
+
+
+--- SOURCE: variables/GridSize.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / GridSize
+
+# Variable: GridSize
+
+> `const` **GridSize**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:458](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L458)
+
+
+--- SOURCE: variables/Group.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Group
+
+# Variable: Group
+
+> `const` **Group**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:486](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L486)
+
+
+--- SOURCE: variables/HistoryToolbar.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / HistoryToolbar
+
+# Variable: HistoryToolbar
+
+> `const` **HistoryToolbar**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:508](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L508)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:534](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L534)
+
+
+--- SOURCE: variables/MainToolbar.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / MainToolbar
+
+# Variable: MainToolbar
+
+> `const` **MainToolbar**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:556](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L556)
+
+
+--- SOURCE: variables/Nodes.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Nodes
+
+# Variable: Nodes
+
+> `const` **Nodes**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:599](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L599)
+
+
+--- SOURCE: variables/PageSize.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / PageSize
+
+# Variable: PageSize
+
+> `const` **PageSize**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:635](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L635)
+
+
+--- SOURCE: variables/PageSizeItem.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / PageSizeItem
+
+# Variable: PageSizeItem
+
+> `const` **PageSizeItem**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:656](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L656)
+
+
+--- SOURCE: variables/PropertiesPanel.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / PropertiesPanel
+
+# Variable: PropertiesPanel
+
+> `const` **PropertiesPanel**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:685](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L685)
+
+
+--- SOURCE: variables/Tab.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Tab
+
+# Variable: Tab
+
+> `const` **Tab**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:714](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L714)
+
+
+--- SOURCE: variables/TabGroup.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / TabGroup
+
+# Variable: TabGroup
+
+> `const` **TabGroup**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:737](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L737)
+
+
+--- SOURCE: variables/Toolbox.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / Toolbox
+
+# Variable: Toolbox
+
+> `const` **Toolbox**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:769](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L769)
+
+
+--- SOURCE: variables/ToolboxGroup.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ToolboxGroup
+
+# Variable: ToolboxGroup
+
+> `const` **ToolboxGroup**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:792](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L792)
+
+
+--- SOURCE: variables/ViewToolbar.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ViewToolbar
+
+# Variable: ViewToolbar
+
+> `const` **ViewToolbar**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:814](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L814)
+
+
+--- SOURCE: variables/ZoomLevel.md ---
+
+[**DevExtreme React Diagram API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Diagram API](../globals.md) / ZoomLevel
+
+# Variable: ZoomLevel
+
+> `const` **ZoomLevel**: `any`
+
+Defined in: [devextreme-react/src/diagram.ts:838](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/diagram.ts#L838)
+

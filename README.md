@@ -26,12 +26,18 @@ cd DevExtreme/packages/devextreme-react/npm && npm link
 ```
 
 ### 3. Döküman Üretin
-Herhangi bir bileşen için döküman üretmek için şu komutu kullanın:
+Tek bir bileşen için döküman üretmek için:
 ```bash
 node generate-doc.js <ComponentName>
 
 # Örnek:
 node generate-doc.js DataGrid
+```
+
+### 4. Tüm Bileşenleri Üretin
+Tüm DevExtreme bileşenlerini otomatik olarak tarayıp dökümanlarını üretmek için:
+```bash
+node generate-all-docs.js
 ```
 
 ## 🤖 AI Optimizasyonu

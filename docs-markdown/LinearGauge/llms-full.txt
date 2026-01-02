@@ -1,0 +1,1442 @@
+# LinearGauge Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React LinearGauge API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/README.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../globals.md) / LinearGaugeTypes
+
+# LinearGaugeTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [HorizontalAlignment](type-aliases/HorizontalAlignment.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Orientation](type-aliases/Orientation.md)
+- [Properties](type-aliases/Properties.md)
+- [RangeContainer](type-aliases/RangeContainer.md)
+- [Scale](type-aliases/Scale.md)
+- [ScaleLabel](type-aliases/ScaleLabel.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+- [VerticalAlignment](type-aliases/VerticalAlignment.md)
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxLinearGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:49
+
+## Docid
+
+_viz_linear_gauge_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxLinearGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:57
+
+## Docid
+
+_viz_linear_gauge_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxLinearGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:65
+
+## Docid
+
+_viz_linear_gauge_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxLinearGauge`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:73
+
+## Docid
+
+_viz_linear_gauge_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxLinearGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:81
+
+## Docid
+
+_viz_linear_gauge_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/HorizontalAlignment.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / HorizontalAlignment
+
+# Type Alias: HorizontalAlignment
+
+> **HorizontalAlignment** = `"center"` \| `"left"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:428
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxLinearGauge`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:89
+
+## Docid
+
+_viz_linear_gauge_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxLinearGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:97
+
+## Docid
+
+_viz_linear_gauge_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxLinearGauge`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:105
+
+## Docid
+
+_viz_linear_gauge_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/Orientation.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / Orientation
+
+# Type Alias: Orientation
+
+> **Orientation** = `"horizontal"` \| `"vertical"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:485
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxLinearGaugeOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:250
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/RangeContainer.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / RangeContainer
+
+# Type Alias: RangeContainer
+
+> **RangeContainer** = `BaseGaugeRangeContainer` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:169
+
+## Type Declaration
+
+### horizontalOrientation?
+
+> `optional` **horizontalOrientation**: [`HorizontalAlignment`](HorizontalAlignment.md)
+
+#### Docid
+
+dxLinearGaugeOptions.rangeContainer.horizontalOrientation
+
+#### Default
+
+```ts
+'right'
+@public
+```
+
+### verticalOrientation?
+
+> `optional` **verticalOrientation**: [`VerticalAlignment`](VerticalAlignment.md)
+
+#### Docid
+
+dxLinearGaugeOptions.rangeContainer.verticalOrientation
+
+#### Default
+
+```ts
+'bottom'
+@public
+```
+
+### width?
+
+> `optional` **width**: \{ `end?`: `number`; `start?`: `number`; \} \| `number`
+
+#### Type Declaration
+
+\{ `end?`: `number`; `start?`: `number`; \}
+
+`number`
+
+#### Docid
+
+dxLinearGaugeOptions.rangeContainer.width
+
+## Docid
+
+dxLinearGaugeRangeContainer
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/Scale.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / Scale
+
+# Type Alias: Scale
+
+> **Scale** = `BaseGaugeScale` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:203
+
+## Type Declaration
+
+### horizontalOrientation?
+
+> `optional` **horizontalOrientation**: [`HorizontalAlignment`](HorizontalAlignment.md)
+
+#### Docid
+
+dxLinearGaugeOptions.scale.horizontalOrientation
+
+#### Default
+
+```ts
+'right'
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ScaleLabel`](ScaleLabel.md)
+
+#### Docid
+
+dxLinearGaugeOptions.scale.label
+
+### scaleDivisionFactor?
+
+> `optional` **scaleDivisionFactor**: `number`
+
+#### Docid
+
+dxLinearGaugeOptions.scale.scaleDivisionFactor
+
+#### Default
+
+```ts
+25
+@public
+```
+
+### verticalOrientation?
+
+> `optional` **verticalOrientation**: [`VerticalAlignment`](VerticalAlignment.md)
+
+#### Docid
+
+dxLinearGaugeOptions.scale.verticalOrientation
+
+#### Default
+
+```ts
+'bottom'
+@public
+```
+
+## Docid
+
+dxLinearGaugeScale
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/ScaleLabel.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / ScaleLabel
+
+# Type Alias: ScaleLabel
+
+> **ScaleLabel** = `BaseGaugeScaleLabel` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:233
+
+## Type Declaration
+
+### indentFromTick?
+
+> `optional` **indentFromTick**: `number`
+
+#### Docid
+
+dxLinearGaugeOptions.scale.label.indentFromTick
+
+#### Default
+
+```ts
+-10
+@public
+```
+
+## Docid
+
+dxLinearGaugeScaleLabel
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxLinearGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:113
+
+## Docid
+
+_viz_linear_gauge_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_base_gauge_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxLinearGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/linear\_gauge.d.ts:121
+
+## Docid
+
+_viz_linear_gauge_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_base_gauge_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/VerticalAlignment.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../../../../globals.md) / [LinearGaugeTypes](../README.md) / VerticalAlignment
+
+# Type Alias: VerticalAlignment
+
+> **VerticalAlignment** = `"bottom"` \| `"center"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:864
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React LinearGauge API v26.1.0
+
+## Namespaces
+
+- [LinearGaugeTypes](DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/README.md)
+
+## Interfaces
+
+- [LinearGaugeRef](interfaces/LinearGaugeRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IBackgroundColorProps](type-aliases/IBackgroundColorProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IColorProps](type-aliases/IColorProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGeometryProps](type-aliases/IGeometryProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILinearGaugeOptions](type-aliases/ILinearGaugeOptions.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IMinorTickProps](type-aliases/IMinorTickProps.md)
+- [IRangeContainerProps](type-aliases/IRangeContainerProps.md)
+- [IRangeProps](type-aliases/IRangeProps.md)
+- [IScaleProps](type-aliases/IScaleProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ISubvalueIndicatorProps](type-aliases/ISubvalueIndicatorProps.md)
+- [ITextProps](type-aliases/ITextProps.md)
+- [ITickProps](type-aliases/ITickProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+- [IValueIndicatorProps](type-aliases/IValueIndicatorProps.md)
+- [IWidthProps](type-aliases/IWidthProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [BackgroundColor](variables/BackgroundColor.md)
+- [Border](variables/Border.md)
+- [Color](variables/Color.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Geometry](variables/Geometry.md)
+- [Label](variables/Label.md)
+- [LinearGauge](variables/LinearGauge.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [MinorTick](variables/MinorTick.md)
+- [Range](variables/Range.md)
+- [RangeContainer](variables/RangeContainer.md)
+- [Scale](variables/Scale.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [SubvalueIndicator](variables/SubvalueIndicator.md)
+- [Text](variables/Text.md)
+- [Tick](variables/Tick.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [ValueIndicator](variables/ValueIndicator.md)
+- [Width](variables/Width.md)
+
+## References
+
+### default
+
+Renames and re-exports [LinearGauge](variables/LinearGauge.md)
+
+
+--- SOURCE: interfaces/LinearGaugeRef.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / LinearGaugeRef
+
+# Interface: LinearGaugeRef
+
+Defined in: [devextreme-react/src/linear-gauge.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxLinearGauge`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L42)
+
+#### Returns
+
+`dxLinearGauge`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `duration?`: `number`; `easing?`: `AnimationEaseMode`; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:100](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L100)
+
+
+--- SOURCE: type-aliases/IBackgroundColorProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IBackgroundColorProps
+
+# Type Alias: IBackgroundColorProps
+
+> **IBackgroundColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:120](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L120)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:139](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L139)
+
+
+--- SOURCE: type-aliases/IColorProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IColorProps
+
+# Type Alias: IColorProps
+
+> **IColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:163](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L163)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:182](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L182)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L211)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:235](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L235)
+
+
+--- SOURCE: type-aliases/IGeometryProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IGeometryProps
+
+# Type Alias: IGeometryProps
+
+> **IGeometryProps** = `React.PropsWithChildren`\<\{ `orientation?`: [`Orientation`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/Orientation.md); \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:258](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L258)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromTick?`: `number`; `overlappingBehavior?`: `LabelOverlap`; `useRangeColors?`: `boolean`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:276](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L276)
+
+
+--- SOURCE: type-aliases/ILinearGaugeOptions.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ILinearGaugeOptions
+
+# Type Alias: ILinearGaugeOptions
+
+> **ILinearGaugeOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/Properties.md), `ILinearGaugeOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L32)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:304](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L304)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:334](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L334)
+
+
+--- SOURCE: type-aliases/IMinorTickProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IMinorTickProps
+
+# Type Alias: IMinorTickProps
+
+> **IMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:355](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L355)
+
+
+--- SOURCE: type-aliases/IRangeContainerProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IRangeContainerProps
+
+# Type Alias: IRangeContainerProps
+
+> **IRangeContainerProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `ChartsColor` \| `string`; `horizontalOrientation?`: [`HorizontalAlignment`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/HorizontalAlignment.md); `offset?`: `number`; `palette?`: `string`[] \| `Palette`; `paletteExtensionMode?`: `PaletteExtensionMode`; `ranges?`: `Record`\<`string`, `any`\>[] \| `object`[]; `verticalOrientation?`: [`VerticalAlignment`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/VerticalAlignment.md); `width?`: `number` \| `Record`\<`string`, `any`\> \| \{ `end?`: `number`; `start?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:401](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L401)
+
+
+--- SOURCE: type-aliases/IRangeProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IRangeProps
+
+# Type Alias: IRangeProps
+
+> **IRangeProps** = `React.PropsWithChildren`\<\{ `color?`: `ChartsColor` \| `string`; `endValue?`: `number`; `startValue?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:377](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L377)
+
+
+--- SOURCE: type-aliases/IScaleProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IScaleProps
+
+# Type Alias: IScaleProps
+
+> **IScaleProps** = `React.PropsWithChildren`\<\{ `allowDecimals?`: `boolean`; `customMinorTicks?`: `number`[]; `customTicks?`: `number`[]; `endValue?`: `number`; `horizontalOrientation?`: [`HorizontalAlignment`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/HorizontalAlignment.md); `label?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`scaleValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromTick?`: `number`; `overlappingBehavior?`: `LabelOverlap`; `useRangeColors?`: `boolean`; `visible?`: `boolean`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTickInterval?`: `number`; `scaleDivisionFactor?`: `number`; `startValue?`: `number`; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `tickInterval?`: `number`; `verticalOrientation?`: [`VerticalAlignment`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/VerticalAlignment.md); \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:438](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L438)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:493](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L493)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:515](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L515)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:534](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L534)
+
+
+--- SOURCE: type-aliases/ISubvalueIndicatorProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ISubvalueIndicatorProps
+
+# Type Alias: ISubvalueIndicatorProps
+
+> **ISubvalueIndicatorProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `backgroundColor?`: `string`; `baseValue?`: `number`; `beginAdaptingAtRadius?`: `number`; `color?`: `ChartsColor` \| `string`; `horizontalOrientation?`: `HorizontalEdge`; `indentFromCenter?`: `number`; `length?`: `number`; `offset?`: `number`; `palette?`: `string`[] \| `Palette`; `secondColor?`: `string`; `secondFraction?`: `number`; `size?`: `number`; `spindleGapSize?`: `number`; `spindleSize?`: `number`; `text?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}; `type?`: `"circle"` \| `"rangeBar"` \| `"rectangle"` \| `"rectangleNeedle"` \| `"rhombus"` \| `"textCloud"` \| `"triangleMarker"` \| `"triangleNeedle"` \| `"twoColorNeedle"`; `verticalOrientation?`: `VerticalEdge`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:559](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L559)
+
+
+--- SOURCE: type-aliases/ITextProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ITextProps
+
+# Type Alias: ITextProps
+
+> **ITextProps** = `React.PropsWithChildren`\<\{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:605](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L605)
+
+
+--- SOURCE: type-aliases/ITickProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ITickProps
+
+# Type Alias: ITickProps
+
+> **ITickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:630](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L630)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: [`HorizontalAlignment`](../DevExtreme-React-LinearGauge-API/namespaces/LinearGaugeTypes/type-aliases/HorizontalAlignment.md); `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:652](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L652)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`scaleValue`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`scaleValue`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:694](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L694)
+
+
+--- SOURCE: type-aliases/IValueIndicatorProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IValueIndicatorProps
+
+# Type Alias: IValueIndicatorProps
+
+> **IValueIndicatorProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `backgroundColor?`: `string`; `baseValue?`: `number`; `beginAdaptingAtRadius?`: `number`; `color?`: `ChartsColor` \| `string`; `horizontalOrientation?`: `HorizontalEdge`; `indentFromCenter?`: `number`; `length?`: `number`; `offset?`: `number`; `palette?`: `string`[] \| `Palette`; `secondColor?`: `string`; `secondFraction?`: `number`; `size?`: `number`; `spindleGapSize?`: `number`; `spindleSize?`: `number`; `text?`: `Record`\<`string`, `any`\> \| \{ `customizeText?`: (`indicatedValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; \}; `type?`: `"circle"` \| `"rangeBar"` \| `"rectangle"` \| `"rectangleNeedle"` \| `"rhombus"` \| `"textCloud"` \| `"triangleMarker"` \| `"triangleNeedle"` \| `"twoColorNeedle"`; `verticalOrientation?`: `VerticalEdge`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:752](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L752)
+
+
+--- SOURCE: type-aliases/IWidthProps.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / IWidthProps
+
+# Type Alias: IWidthProps
+
+> **IWidthProps** = `React.PropsWithChildren`\<\{ `end?`: `number`; `start?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:797](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L797)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:114](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L114)
+
+
+--- SOURCE: variables/BackgroundColor.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / BackgroundColor
+
+# Variable: BackgroundColor
+
+> `const` **BackgroundColor**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:133](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L133)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:155](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L155)
+
+
+--- SOURCE: variables/Color.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Color
+
+# Variable: Color
+
+> `const` **Color**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:176](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L176)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:200](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L200)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:227](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L227)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:252](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L252)
+
+
+--- SOURCE: variables/Geometry.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Geometry
+
+# Variable: Geometry
+
+> `const` **Geometry**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:270](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L270)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:298](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L298)
+
+
+--- SOURCE: variables/LinearGauge.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / LinearGauge
+
+# Variable: LinearGauge()
+
+> `const` **LinearGauge**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/linear-gauge.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:327](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L327)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:349](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L349)
+
+
+--- SOURCE: variables/MinorTick.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / MinorTick
+
+# Variable: MinorTick
+
+> `const` **MinorTick**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:371](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L371)
+
+
+--- SOURCE: variables/Range.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Range
+
+# Variable: Range
+
+> `const` **Range**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:395](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L395)
+
+
+--- SOURCE: variables/RangeContainer.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / RangeContainer
+
+# Variable: RangeContainer
+
+> `const` **RangeContainer**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:432](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L432)
+
+
+--- SOURCE: variables/Scale.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Scale
+
+# Variable: Scale
+
+> `const` **Scale**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:487](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L487)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:509](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L509)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:528](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L528)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:553](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L553)
+
+
+--- SOURCE: variables/SubvalueIndicator.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / SubvalueIndicator
+
+# Variable: SubvalueIndicator
+
+> `const` **SubvalueIndicator**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:598](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L598)
+
+
+--- SOURCE: variables/Text.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Text
+
+# Variable: Text
+
+> `const` **Text**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:624](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L624)
+
+
+--- SOURCE: variables/Tick.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Tick
+
+# Variable: Tick
+
+> `const` **Tick**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:646](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L646)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:688](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L688)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:746](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L746)
+
+
+--- SOURCE: variables/ValueIndicator.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / ValueIndicator
+
+# Variable: ValueIndicator
+
+> `const` **ValueIndicator**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:791](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L791)
+
+
+--- SOURCE: variables/Width.md ---
+
+[**DevExtreme React LinearGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LinearGauge API](../globals.md) / Width
+
+# Variable: Width
+
+> `const` **Width**: `any`
+
+Defined in: [devextreme-react/src/linear-gauge.ts:810](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/linear-gauge.ts#L810)
+

@@ -1,0 +1,1522 @@
+# Stepper Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Stepper API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/README.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../globals.md) / StepperTypes
+
+# StepperTypes
+
+## Interfaces
+
+- [~~dxStepperOptions~~](interfaces/dxStepperOptions.md)
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SelectionChangingEvent](type-aliases/SelectionChangingEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/interfaces/dxStepperOptions.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / dxStepperOptions
+
+# ~~Interface: dxStepperOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:103
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxStepper`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:112
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:137
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:118
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:124
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:156
+
+#### Docid
+
+#### Fires
+
+dxStepperOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~linear?~~
+
+> `optional` **linear**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:149
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~orientation?~~
+
+> `optional` **orientation**: `Orientation`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:143
+
+#### Docid
+
+#### Default
+
+```ts
+'horizontal'
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~selectOnFocus?~~
+
+> `optional` **selectOnFocus**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:130
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:39
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:47
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxStepperItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:174
+
+**`Namespace`**
+
+DevExpress.ui.dxStepper
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:55
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxStepper`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:63
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:71
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:79
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxStepperOptions`](../interfaces/dxStepperOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:225
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxStepper`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:95
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/SelectionChangingEvent.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Stepper API](../../../../globals.md) / [StepperTypes](../README.md) / SelectionChangingEvent
+
+# Type Alias: SelectionChangingEvent\<TItem, TKey\>
+
+> **SelectionChangingEvent**\<`TItem`, `TKey`\> = `SelectionChangingEventBase`\<`dxStepper`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:87
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_stepper_SelectionChangingEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Stepper API v26.1.0
+
+## Namespaces
+
+- [StepperTypes](DevExtreme-React-Stepper-API/namespaces/StepperTypes/README.md)
+
+## Interfaces
+
+- [StepperRef](interfaces/StepperRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IStepperOptions](type-aliases/IStepperOptions.md)
+
+## Variables
+
+- [Item](variables/Item.md)
+- [Stepper](variables/Stepper.md)
+
+## References
+
+### default
+
+Renames and re-exports [Stepper](variables/Stepper.md)
+
+
+--- SOURCE: interfaces/StepperRef.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / StepperRef
+
+# Interface: StepperRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/stepper.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L41)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxStepper`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/stepper.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L42)
+
+#### Returns
+
+`dxStepper`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:209
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:214
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:215
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:216
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:217
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:218
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:219
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:213
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:220
+
+***
+
+### SelectionChangingEvent
+
+> **SelectionChangingEvent**: [`SelectionChangingEvent`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/SelectionChangingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/stepper.d.ts:221
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `hint?`: `string`; `icon?`: `string`; `isValid?`: `boolean`; `label?`: `string`; `optional?`: `boolean`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/stepper.ts:98](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L98)
+
+
+--- SOURCE: type-aliases/IStepperOptions.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / IStepperOptions
+
+# Type Alias: IStepperOptions\<TItem, TKey\>
+
+> **IStepperOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Stepper-API/namespaces/StepperTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IStepperOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/stepper.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L29)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/stepper.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L125)
+
+
+--- SOURCE: variables/Stepper.md ---
+
+[**DevExtreme React Stepper API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Stepper API](../globals.md) / Stepper
+
+# Variable: Stepper()
+
+> `const` **Stepper**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/stepper.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/stepper.ts#L45)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

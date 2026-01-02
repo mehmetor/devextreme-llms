@@ -1,0 +1,2228 @@
+# PieChart Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React PieChart API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/README.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../globals.md) / PieChartTypes
+
+# PieChartTypes
+
+## Type Aliases
+
+- [AdaptiveLayout](type-aliases/AdaptiveLayout.md)
+- [ChartsDataType](type-aliases/ChartsDataType.md)
+- [DashStyle](type-aliases/DashStyle.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DoneEvent](type-aliases/DoneEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [HatchDirection](type-aliases/HatchDirection.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LabelPosition](type-aliases/LabelPosition.md)
+- [Legend](type-aliases/Legend.md)
+- [LegendClickEvent](type-aliases/LegendClickEvent.md)
+- [LegendItem](type-aliases/LegendItem.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PieChartAnnotationLocation](type-aliases/PieChartAnnotationLocation.md)
+- [PieChartLegendHoverMode](type-aliases/PieChartLegendHoverMode.md)
+- [PieChartSegmentDirection](type-aliases/PieChartSegmentDirection.md)
+- [PieChartSeriesInteractionMode](type-aliases/PieChartSeriesInteractionMode.md)
+- [PieChartType](type-aliases/PieChartType.md)
+- [PointClickEvent](type-aliases/PointClickEvent.md)
+- [PointHoverChangedEvent](type-aliases/PointHoverChangedEvent.md)
+- [PointInfo](type-aliases/PointInfo.md)
+- [PointSelectionChangedEvent](type-aliases/PointSelectionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ShiftLabelOverlap](type-aliases/ShiftLabelOverlap.md)
+- [SmallValuesGroupingMode](type-aliases/SmallValuesGroupingMode.md)
+- [TextOverflow](type-aliases/TextOverflow.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+- [WordWrap](type-aliases/WordWrap.md)
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/AdaptiveLayout.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / AdaptiveLayout
+
+# Type Alias: AdaptiveLayout
+
+> **AdaptiveLayout** = `BaseChartAdaptiveLayout` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:523
+
+## Type Declaration
+
+### keepLabels?
+
+> `optional` **keepLabels**: `boolean`
+
+#### Docid
+
+dxPieChartOptions.adaptiveLayout.keepLabels
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxPieChartAdaptiveLayout
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ChartsDataType.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / ChartsDataType
+
+# Type Alias: ChartsDataType
+
+> **ChartsDataType** = `"datetime"` \| `"numeric"` \| `"string"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:54
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / DashStyle
+
+# Type Alias: DashStyle
+
+> **DashStyle** = `"dash"` \| `"dot"` \| `"longDash"` \| `"solid"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:60
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:103
+
+## Docid
+
+_viz_pie_chart_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DoneEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / DoneEvent
+
+# Type Alias: DoneEvent
+
+> **DoneEvent** = `EventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:111
+
+## Docid
+
+_viz_pie_chart_DoneEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:119
+
+## Docid
+
+_viz_pie_chart_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:127
+
+## Docid
+
+_viz_pie_chart_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxPieChart`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:135
+
+## Docid
+
+_viz_pie_chart_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:143
+
+## Docid
+
+_viz_pie_chart_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / HatchDirection
+
+# Type Alias: HatchDirection
+
+> **HatchDirection** = `"left"` \| `"none"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:72
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxPieChart`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:151
+
+## Docid
+
+_viz_pie_chart_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxPieChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:159
+
+## Docid
+
+_viz_pie_chart_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LabelPosition.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / LabelPosition
+
+# Type Alias: LabelPosition
+
+> **LabelPosition** = `"columns"` \| `"inside"` \| `"outside"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:90
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/Legend.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / Legend
+
+# Type Alias: Legend
+
+> **Legend** = `BaseChartLegend` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:535
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`pointInfo`) => `string`
+
+#### Parameters
+
+##### pointInfo
+
+###### pointColor?
+
+`string`
+
+###### pointIndex?
+
+`number`
+
+###### pointName?
+
+`any`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPieChartOptions.legend.customizeHint
+
+### customizeItems()?
+
+> `optional` **customizeItems**: (`items`) => [`LegendItem`](LegendItem.md)[]
+
+#### Parameters
+
+##### items
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Returns
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Docid
+
+dxPieChartOptions.legend.customizeItems
+@type_function_param1 items:Array<PieChartLegendItem>
+@type_function_return Array<PieChartLegendItem>
+
+### customizeText()?
+
+> `optional` **customizeText**: (`pointInfo`) => `string`
+
+#### Parameters
+
+##### pointInfo
+
+###### pointColor?
+
+`string`
+
+###### pointIndex?
+
+`number`
+
+###### pointName?
+
+`any`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPieChartOptions.legend.customizeText
+
+#### Not Used In Theme
+
+### hoverMode?
+
+> `optional` **hoverMode**: [`PieChartLegendHoverMode`](PieChartLegendHoverMode.md)
+
+#### Docid
+
+dxPieChartOptions.legend.hoverMode
+
+#### Default
+
+```ts
+'allArgumentPoints'
+@public
+```
+
+### markerTemplate?
+
+> `optional` **markerTemplate**: `template` \| (`legendItem`, `element`) => `string` \| `UserDefinedElement`\<`SVGElement`\>
+
+#### Docid
+
+dxPieChartOptions.legend.markerTemplate
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 legendItem:PieChartLegendItem
+@type_function_return string|SVGElement|jQuery
+@public
+```
+
+## Docid
+
+dxPieChartLegend
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LegendClickEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / LegendClickEvent
+
+# Type Alias: LegendClickEvent
+
+> **LegendClickEvent** = `NativeEventInfo`\<`dxPieChart`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:167
+
+## Type Declaration
+
+### points
+
+> `readonly` **points**: `piePointObject`[]
+
+#### Docid
+
+_viz_pie_chart_LegendClickEvent.points
+
+### target
+
+> `readonly` **target**: `string` \| `number`
+
+#### Docid
+
+_viz_pie_chart_LegendClickEvent.target
+
+## Docid
+
+_viz_pie_chart_LegendClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LegendItem.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / LegendItem
+
+# Type Alias: LegendItem
+
+> **LegendItem** = `PieChartLegendItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:232
+
+**`Namespace`**
+
+## Docid
+
+PieChartLegendItem
+ DevExpress.viz.dxPieChart
+
+## Inherits
+
+BaseLegendItem
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxPieChart`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:183
+
+## Docid
+
+_viz_pie_chart_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartAnnotationLocation.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PieChartAnnotationLocation
+
+# Type Alias: PieChartAnnotationLocation
+
+> **PieChartAnnotationLocation** = `"center"` \| `"edge"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:81
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartLegendHoverMode.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PieChartLegendHoverMode
+
+# Type Alias: PieChartLegendHoverMode
+
+> **PieChartLegendHoverMode** = `"none"` \| `"allArgumentPoints"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:83
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSegmentDirection.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PieChartSegmentDirection
+
+# Type Alias: PieChartSegmentDirection
+
+> **PieChartSegmentDirection** = `"anticlockwise"` \| `"clockwise"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:89
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSeriesInteractionMode.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PieChartSeriesInteractionMode
+
+# Type Alias: PieChartSeriesInteractionMode
+
+> **PieChartSeriesInteractionMode** = `"none"` \| `"onlyPoint"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:91
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartType.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PieChartType
+
+# Type Alias: PieChartType
+
+> **PieChartType** = `"donut"` \| `"doughnut"` \| `"pie"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:93
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PointClickEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PointClickEvent
+
+# Type Alias: PointClickEvent
+
+> **PointClickEvent** = `NativeEventInfo`\<`dxPieChart`, `MouseEvent` \| `PointerEvent`\> & `PointInteractionInfo`\<`piePointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:191
+
+## Docid
+
+_viz_pie_chart_PointClickEvent
+
+## Inherits
+
+NativeEventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PointHoverChangedEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PointHoverChangedEvent
+
+# Type Alias: PointHoverChangedEvent
+
+> **PointHoverChangedEvent** = `EventInfo`\<`dxPieChart`\> & `PointInteractionInfo`\<`piePointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:199
+
+## Docid
+
+_viz_pie_chart_PointHoverChangedEvent
+
+## Inherits
+
+EventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PointInfo.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PointInfo
+
+# Type Alias: PointInfo
+
+> **PointInfo** = `BasePointInfo`\<`piePointObject`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:1030
+
+## Type Declaration
+
+### percent?
+
+> `optional` **percent**: `number`
+
+#### Docid
+
+dxPieChartPointInfo.percent
+
+### percentText?
+
+> `optional` **percentText**: `string`
+
+#### Docid
+
+dxPieChartPointInfo.percentText
+
+### points?
+
+> `optional` **points**: `PointInfo`
+
+#### Docid
+
+dxPieChartPointInfo.points
+
+## Docid
+
+dxPieChartPointInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PointSelectionChangedEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / PointSelectionChangedEvent
+
+# Type Alias: PointSelectionChangedEvent
+
+> **PointSelectionChangedEvent** = `EventInfo`\<`dxPieChart`\> & `PointInteractionInfo`\<`piePointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:207
+
+## Docid
+
+_viz_pie_chart_PointSelectionChangedEvent
+
+## Inherits
+
+EventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxPieChartOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:1055
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ShiftLabelOverlap.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / ShiftLabelOverlap
+
+# Type Alias: ShiftLabelOverlap
+
+> **ShiftLabelOverlap** = `"hide"` \| `"none"` \| `"shift"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:84
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/SmallValuesGroupingMode.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / SmallValuesGroupingMode
+
+# Type Alias: SmallValuesGroupingMode
+
+> **SmallValuesGroupingMode** = `"none"` \| `"smallValueThreshold"` \| `"topN"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:95
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / TextOverflow
+
+# Type Alias: TextOverflow
+
+> **TextOverflow** = `"ellipsis"` \| `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:190
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `Omit`\<`BaseChartTooltip`\<[`PointInfo`](PointInfo.md)\>, `"contentTemplate"` \| `"customizeTooltip"`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:287
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`pointInfo`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxPieChartOptions.tooltip.contentTemplate
+@type_function_param1 pointInfo:dxPieChartPointInfo
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`pointInfo`) => `any`
+
+#### Parameters
+
+##### pointInfo
+
+[`PointInfo`](PointInfo.md)
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxPieChartOptions.tooltip.customizeTooltip
+
+@type_function_param1 pointInfo:dxPieChartPointInfo
+@type_function_return object
+
+#### Default
+
+```ts
+undefined
+```
+
+#### Not Used In Theme
+
+## Docid
+
+dxPieChartTooltip
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxPieChart`\> & `TooltipInfo`\<`piePointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:215
+
+## Docid
+
+_viz_pie_chart_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_chart_components_base_chart_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxPieChart`\> & `TooltipInfo`\<`piePointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/pie\_chart.d.ts:223
+
+## Docid
+
+_viz_pie_chart_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_chart_components_base_chart_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PieChart API](../../../../globals.md) / [PieChartTypes](../README.md) / WordWrap
+
+# Type Alias: WordWrap
+
+> **WordWrap** = `"normal"` \| `"breakWord"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:292
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React PieChart API v26.1.0
+
+## Namespaces
+
+- [PieChartTypes](DevExtreme-React-PieChart-API/namespaces/PieChartTypes/README.md)
+
+## Interfaces
+
+- [PieChartRef](interfaces/PieChartRef.md)
+
+## Type Aliases
+
+- [IAdaptiveLayoutProps](type-aliases/IAdaptiveLayoutProps.md)
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAnnotationBorderProps](type-aliases/IAnnotationBorderProps.md)
+- [IAnnotationProps](type-aliases/IAnnotationProps.md)
+- [IArgumentFormatProps](type-aliases/IArgumentFormatProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IColorProps](type-aliases/IColorProps.md)
+- [ICommonAnnotationSettingsProps](type-aliases/ICommonAnnotationSettingsProps.md)
+- [ICommonSeriesSettingsProps](type-aliases/ICommonSeriesSettingsProps.md)
+- [IConnectorProps](type-aliases/IConnectorProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IHatchingProps](type-aliases/IHatchingProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [IImageProps](type-aliases/IImageProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILegendProps](type-aliases/ILegendProps.md)
+- [ILegendTitleProps](type-aliases/ILegendTitleProps.md)
+- [ILegendTitleSubtitleProps](type-aliases/ILegendTitleSubtitleProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IPieChartOptions](type-aliases/IPieChartOptions.md)
+- [IPieChartTitleProps](type-aliases/IPieChartTitleProps.md)
+- [IPieChartTitleSubtitleProps](type-aliases/IPieChartTitleSubtitleProps.md)
+- [ISelectionStyleProps](type-aliases/ISelectionStyleProps.md)
+- [ISeriesBorderProps](type-aliases/ISeriesBorderProps.md)
+- [ISeriesProps](type-aliases/ISeriesProps.md)
+- [ISeriesTemplateProps](type-aliases/ISeriesTemplateProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISmallValuesGroupingProps](type-aliases/ISmallValuesGroupingProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [AdaptiveLayout](variables/AdaptiveLayout.md)
+- [Animation](variables/Animation.md)
+- [Annotation](variables/Annotation.md)
+- [AnnotationBorder](variables/AnnotationBorder.md)
+- [ArgumentFormat](variables/ArgumentFormat.md)
+- [Border](variables/Border.md)
+- [Color](variables/Color.md)
+- [CommonAnnotationSettings](variables/CommonAnnotationSettings.md)
+- [CommonSeriesSettings](variables/CommonSeriesSettings.md)
+- [Connector](variables/Connector.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Hatching](variables/Hatching.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Image](variables/Image.md)
+- [Label](variables/Label.md)
+- [Legend](variables/Legend.md)
+- [LegendTitle](variables/LegendTitle.md)
+- [LegendTitleSubtitle](variables/LegendTitleSubtitle.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [PieChart](variables/PieChart.md)
+- [PieChartTitle](variables/PieChartTitle.md)
+- [PieChartTitleSubtitle](variables/PieChartTitleSubtitle.md)
+- [SelectionStyle](variables/SelectionStyle.md)
+- [Series](variables/Series.md)
+- [SeriesBorder](variables/SeriesBorder.md)
+- [SeriesTemplate](variables/SeriesTemplate.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [SmallValuesGrouping](variables/SmallValuesGrouping.md)
+- [Subtitle](variables/Subtitle.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+
+## References
+
+### default
+
+Renames and re-exports [PieChart](variables/PieChart.md)
+
+
+--- SOURCE: interfaces/PieChartRef.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / PieChartRef
+
+# Interface: PieChartRef
+
+Defined in: [devextreme-react/src/pie-chart.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L42)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPieChart`
+
+Defined in: [devextreme-react/src/pie-chart.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L43)
+
+#### Returns
+
+`dxPieChart`
+
+
+--- SOURCE: type-aliases/IAdaptiveLayoutProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IAdaptiveLayoutProps
+
+# Type Alias: IAdaptiveLayoutProps
+
+> **IAdaptiveLayoutProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `keepLabels?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:111](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L111)
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `duration?`: `number`; `easing?`: `AnimationEaseMode`; `enabled?`: `boolean`; `maxPointCountSupported?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:131](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L131)
+
+
+--- SOURCE: type-aliases/IAnnotationBorderProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IAnnotationBorderProps
+
+# Type Alias: IAnnotationBorderProps
+
+> **IAnnotationBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:240](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L240)
+
+
+--- SOURCE: type-aliases/IAnnotationProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IAnnotationProps
+
+# Type Alias: IAnnotationProps
+
+> **IAnnotationProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `argument?`: `Date` \| `number` \| `string`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `location?`: [`PieChartAnnotationLocation`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartAnnotationLocation.md); `name?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `series?`: `string`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `width?`: `number`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:152](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L152)
+
+
+--- SOURCE: type-aliases/IArgumentFormatProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IArgumentFormatProps
+
+# Type Alias: IArgumentFormatProps
+
+> **IArgumentFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:264](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L264)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:295](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L295)
+
+
+--- SOURCE: type-aliases/IColorProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IColorProps
+
+# Type Alias: IColorProps
+
+> **IColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:321](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L321)
+
+
+--- SOURCE: type-aliases/ICommonAnnotationSettingsProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ICommonAnnotationSettingsProps
+
+# Type Alias: ICommonAnnotationSettingsProps
+
+> **ICommonAnnotationSettingsProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `argument?`: `Date` \| `number` \| `string`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `location?`: [`PieChartAnnotationLocation`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartAnnotationLocation.md); `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `series?`: `string`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `width?`: `number`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:340](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L340)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ICommonSeriesSettingsProps
+
+# Type Alias: ICommonSeriesSettingsProps
+
+> **ICommonSeriesSettingsProps** = `React.PropsWithChildren`\<\{ `argumentField?`: `string`; `argumentType?`: [`ChartsDataType`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ChartsDataType.md); `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: [`PieChartSeriesInteractionMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSeriesInteractionMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}; `label?`: `Record`\<`string`, `any`\> \| \{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`LabelPosition`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LabelPosition.md); `radialOffset?`: `number`; `rotationAngle?`: `number`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}; `maxLabelCount?`: `number`; `minSegmentSize?`: `number`; `selectionMode?`: [`PieChartSeriesInteractionMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSeriesInteractionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}; `smallValuesGrouping?`: `Record`\<`string`, `any`\> \| \{ `groupName?`: `string`; `mode?`: [`SmallValuesGroupingMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/SmallValuesGroupingMode.md); `threshold?`: `number`; `topCount?`: `number`; \}; `tagField?`: `string`; `valueField?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:424](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L424)
+
+
+--- SOURCE: type-aliases/IConnectorProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IConnectorProps
+
+# Type Alias: IConnectorProps
+
+> **IConnectorProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:528](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L528)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:548](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L548)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:581](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L581)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:604](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L604)
+
+
+--- SOURCE: type-aliases/IHatchingProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IHatchingProps
+
+# Type Alias: IHatchingProps
+
+> **IHatchingProps** = `React.PropsWithChildren`\<\{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:628](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L628)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:650](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L650)
+
+
+--- SOURCE: type-aliases/IImageProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IImageProps
+
+# Type Alias: IImageProps
+
+> **IImageProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:688](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L688)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`LabelPosition`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LabelPosition.md); `radialOffset?`: `number`; `rotationAngle?`: `number`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:709](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L709)
+
+
+--- SOURCE: type-aliases/ILegendProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`pointInfo`) => `string`; `customizeItems?`: (`items`) => `PieChartLegendItem`[]; `customizeText?`: (`pointInfo`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `hoverMode?`: [`PieChartLegendHoverMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartLegendHoverMode.md); `itemsAlignment?`: `HorizontalAlignment`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}; `verticalAlignment?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:757](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L757)
+
+
+--- SOURCE: type-aliases/ILegendTitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILegendTitleProps
+
+# Type Alias: ILegendTitleProps
+
+> **ILegendTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:841](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L841)
+
+
+--- SOURCE: type-aliases/ILegendTitleSubtitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILegendTitleSubtitleProps
+
+# Type Alias: ILegendTitleSubtitleProps
+
+> **ILegendTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:880](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L880)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:903](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L903)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:936](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L936)
+
+
+--- SOURCE: type-aliases/IPieChartOptions.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IPieChartOptions
+
+# Type Alias: IPieChartOptions
+
+> **IPieChartOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/Properties.md), `IPieChartOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L35)
+
+
+--- SOURCE: type-aliases/IPieChartTitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IPieChartTitleProps
+
+# Type Alias: IPieChartTitleProps
+
+> **IPieChartTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:957](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L957)
+
+
+--- SOURCE: type-aliases/IPieChartTitleSubtitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IPieChartTitleSubtitleProps
+
+# Type Alias: IPieChartTitleSubtitleProps
+
+> **IPieChartTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1000](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1000)
+
+
+--- SOURCE: type-aliases/ISelectionStyleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISelectionStyleProps
+
+# Type Alias: ISelectionStyleProps
+
+> **ISelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1026](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1026)
+
+
+--- SOURCE: type-aliases/ISeriesBorderProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISeriesBorderProps
+
+# Type Alias: ISeriesBorderProps
+
+> **ISeriesBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1174](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1174)
+
+
+--- SOURCE: type-aliases/ISeriesProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISeriesProps
+
+# Type Alias: ISeriesProps
+
+> **ISeriesProps** = `React.PropsWithChildren`\<\{ `argumentField?`: `string`; `argumentType?`: [`ChartsDataType`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/ChartsDataType.md); `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: [`PieChartSeriesInteractionMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSeriesInteractionMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}; `label?`: `Record`\<`string`, `any`\> \| \{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`LabelPosition`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/LabelPosition.md); `radialOffset?`: `number`; `rotationAngle?`: `number`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}; `maxLabelCount?`: `number`; `minSegmentSize?`: `number`; `name?`: `string`; `selectionMode?`: [`PieChartSeriesInteractionMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartSeriesInteractionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; \}; `smallValuesGrouping?`: `Record`\<`string`, `any`\> \| \{ `groupName?`: `string`; `mode?`: [`SmallValuesGroupingMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/SmallValuesGroupingMode.md); `threshold?`: `number`; `topCount?`: `number`; \}; `tag?`: `any`; `tagField?`: `string`; `valueField?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1063](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1063)
+
+
+--- SOURCE: type-aliases/ISeriesTemplateProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISeriesTemplateProps
+
+# Type Alias: ISeriesTemplateProps
+
+> **ISeriesTemplateProps** = `React.PropsWithChildren`\<\{ `customizeSeries?`: (`seriesName`) => `PieChartSeries`; `nameField?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1195](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1195)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1216](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1216)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1238](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1238)
+
+
+--- SOURCE: type-aliases/ISmallValuesGroupingProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISmallValuesGroupingProps
+
+# Type Alias: ISmallValuesGroupingProps
+
+> **ISmallValuesGroupingProps** = `React.PropsWithChildren`\<\{ `groupName?`: `string`; `mode?`: [`SmallValuesGroupingMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/SmallValuesGroupingMode.md); `threshold?`: `number`; `topCount?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1258](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1258)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1280](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1280)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| `number` \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1306](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1306)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1411](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1411)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `argumentFormat?`: `LocalizationFormat`; `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`pointInfo`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`pointInfo`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `shared?`: `boolean`; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:1349](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1349)
+
+
+--- SOURCE: variables/AdaptiveLayout.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / AdaptiveLayout
+
+# Variable: AdaptiveLayout
+
+> `const` **AdaptiveLayout**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L125)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L146)
+
+
+--- SOURCE: variables/Annotation.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Annotation
+
+# Variable: Annotation
+
+> `const` **Annotation**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:232](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L232)
+
+
+--- SOURCE: variables/AnnotationBorder.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / AnnotationBorder
+
+# Variable: AnnotationBorder
+
+> `const` **AnnotationBorder**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:257](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L257)
+
+
+--- SOURCE: variables/ArgumentFormat.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ArgumentFormat
+
+# Variable: ArgumentFormat
+
+> `const` **ArgumentFormat**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:281](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L281)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:312](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L312)
+
+
+--- SOURCE: variables/Color.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Color
+
+# Variable: Color
+
+> `const` **Color**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:334](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L334)
+
+
+--- SOURCE: variables/CommonAnnotationSettings.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / CommonAnnotationSettings
+
+# Variable: CommonAnnotationSettings
+
+> `const` **CommonAnnotationSettings**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:418](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L418)
+
+
+--- SOURCE: variables/CommonSeriesSettings.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / CommonSeriesSettings
+
+# Variable: CommonSeriesSettings
+
+> `const` **CommonSeriesSettings**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:522](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L522)
+
+
+--- SOURCE: variables/Connector.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Connector
+
+# Variable: Connector
+
+> `const` **Connector**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:542](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L542)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:566](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L566)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:597](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L597)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:621](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L621)
+
+
+--- SOURCE: variables/Hatching.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Hatching
+
+# Variable: Hatching
+
+> `const` **Hatching**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:643](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L643)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:681](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L681)
+
+
+--- SOURCE: variables/Image.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Image
+
+# Variable: Image
+
+> `const` **Image**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:702](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L702)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:751](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L751)
+
+
+--- SOURCE: variables/Legend.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Legend
+
+# Variable: Legend
+
+> `const` **Legend**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:835](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L835)
+
+
+--- SOURCE: variables/LegendTitle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / LegendTitle
+
+# Variable: LegendTitle
+
+> `const` **LegendTitle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:874](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L874)
+
+
+--- SOURCE: variables/LegendTitleSubtitle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / LegendTitleSubtitle
+
+# Variable: LegendTitleSubtitle
+
+> `const` **LegendTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:897](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L897)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:927](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L927)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:951](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L951)
+
+
+--- SOURCE: variables/PieChart.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / PieChart
+
+# Variable: PieChart()
+
+> `const` **PieChart**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L46)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/PieChartTitle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / PieChartTitle
+
+# Variable: PieChartTitle
+
+> `const` **PieChartTitle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:994](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L994)
+
+
+--- SOURCE: variables/PieChartTitleSubtitle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / PieChartTitleSubtitle
+
+# Variable: PieChartTitleSubtitle
+
+> `const` **PieChartTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1019](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1019)
+
+
+--- SOURCE: variables/SelectionStyle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / SelectionStyle
+
+# Variable: SelectionStyle
+
+> `const` **SelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1057](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1057)
+
+
+--- SOURCE: variables/Series.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Series
+
+# Variable: Series
+
+> `const` **Series**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1164](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1164)
+
+
+--- SOURCE: variables/SeriesBorder.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / SeriesBorder
+
+# Variable: SeriesBorder
+
+> `const` **SeriesBorder**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1189](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1189)
+
+
+--- SOURCE: variables/SeriesTemplate.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / SeriesTemplate
+
+# Variable: SeriesTemplate
+
+> `const` **SeriesTemplate**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1208](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1208)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1232](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1232)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1251](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1251)
+
+
+--- SOURCE: variables/SmallValuesGrouping.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / SmallValuesGrouping
+
+# Variable: SmallValuesGrouping
+
+> `const` **SmallValuesGrouping**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1273](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1273)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1299](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1299)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1343](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1343)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1405](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1405)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/pie-chart.ts:1427](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L1427)
+

@@ -1,0 +1,1124 @@
+# DropDownBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React DropDownBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/README.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../globals.md) / DropDownBoxTypes
+
+# DropDownBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [ContentTemplateData](type-aliases/ContentTemplateData.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropDownButtonTemplateData](type-aliases/DropDownButtonTemplateData.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxDropDownBox`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:50
+
+## Docid
+
+_ui_drop_down_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxDropDownBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:58
+
+## Docid
+
+_ui_drop_down_box_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/ContentTemplateData.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / ContentTemplateData
+
+# Type Alias: ContentTemplateData
+
+> **ContentTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:176
+
+## Properties
+
+### component
+
+> **component**: `dxDropDownBox`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:177
+
+***
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:178
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxDropDownBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:66
+
+## Docid
+
+_ui_drop_down_box_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxDropDownBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:74
+
+## Docid
+
+_ui_drop_down_box_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxDropDownBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:82
+
+## Docid
+
+_ui_drop_down_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/DropDownButtonTemplateData.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / DropDownButtonTemplateData
+
+# Type Alias: DropDownButtonTemplateData
+
+> **DropDownButtonTemplateData** = `DropDownButtonTemplateDataModel`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:182
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxDropDownBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:90
+
+## Docid
+
+_ui_drop_down_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxDropDownBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:98
+
+## Docid
+
+_ui_drop_down_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxDropDownBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:106
+
+## Docid
+
+_ui_drop_down_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxDropDownBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:114
+
+## Docid
+
+_ui_drop_down_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxDropDownBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:122
+
+## Docid
+
+_ui_drop_down_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxDropDownBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:130
+
+## Docid
+
+_ui_drop_down_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxDropDownBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:133
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxDropDownBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:141
+
+## Docid
+
+_ui_drop_down_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxDropDownBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:149
+
+## Docid
+
+_ui_drop_down_box_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxDropDownBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:157
+
+## Docid
+
+_ui_drop_down_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxDropDownBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:165
+
+## Docid
+
+_ui_drop_down_box_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxDropDownBoxOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:262
+
+
+--- SOURCE: DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../../../../globals.md) / [DropDownBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxDropDownBox`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drop\_down\_box.d.ts:173
+
+## Docid
+
+_ui_drop_down_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React DropDownBox API v26.1.0
+
+## Namespaces
+
+- [DropDownBoxTypes](DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/README.md)
+
+## Interfaces
+
+- [DropDownBoxRef](interfaces/DropDownBoxRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IDropDownBoxOptions](type-aliases/IDropDownBoxOptions.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFieldAddonsProps](type-aliases/IFieldAddonsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Button](variables/Button.md)
+- [Collision](variables/Collision.md)
+- [DropDownBox](variables/DropDownBox.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [FieldAddons](variables/FieldAddons.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Options](variables/Options.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [DropDownBox](variables/DropDownBox.md)
+
+
+--- SOURCE: interfaces/DropDownBoxRef.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / DropDownBoxRef
+
+# Interface: DropDownBoxRef
+
+Defined in: [devextreme-react/src/drop-down-box.ts:59](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L59)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxDropDownBox`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:60](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L60)
+
+#### Returns
+
+`dxDropDownBox`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:126](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L126)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:149](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L149)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:168](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L168)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L187)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:211](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L211)
+
+
+--- SOURCE: type-aliases/IDropDownBoxOptions.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IDropDownBoxOptions
+
+# Type Alias: IDropDownBoxOptions
+
+> **IDropDownBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-DropDownBox-API/namespaces/DropDownBoxTypes/type-aliases/Properties.md), `IDropDownBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L48)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `dragAndResizeArea?`: `any` \| `string`; `dragEnabled?`: `boolean`; `dragOutsideBoundary?`: `boolean`; `enableBodyScroll?`: `boolean`; `focusStateEnabled?`: `boolean`; `fullScreen?`: `boolean`; `height?`: `number` \| `string`; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onResize?`: (`e`) => `void`; `onResizeEnd?`: (`e`) => `void`; `onResizeStart?`: (`e`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `resizeEnabled?`: `boolean`; `restorePosition?`: `boolean`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showTitle?`: `boolean`; `tabIndex?`: `number`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:230](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L230)
+
+
+--- SOURCE: type-aliases/IFieldAddonsProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IFieldAddonsProps
+
+# Type Alias: IFieldAddonsProps
+
+> **IFieldAddonsProps** = `React.PropsWithChildren`\<\{ `afterComponent?`: `React.ComponentType`\<`any`\>; `afterRender?`: (...`params`) => `React.ReactNode`; `afterTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; `beforeComponent?`: `React.ComponentType`\<`any`\>; `beforeRender?`: (...`params`) => `React.ReactNode`; `beforeTemplate?`: (`data`, `element`) => `string` \| `any` \| `template`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:330](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L330)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L363)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:388](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L388)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:419](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L419)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:438](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L438)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:457](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L457)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:507](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L507)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:553](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L553)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:585](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L585)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:610](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L610)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:143](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L143)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:162](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L162)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:181](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L181)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:205](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L205)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:224](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L224)
+
+
+--- SOURCE: variables/DropDownBox.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / DropDownBox
+
+# Variable: DropDownBox()
+
+> `const` **DropDownBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/drop-down-box.ts:63](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L63)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:324](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L324)
+
+
+--- SOURCE: variables/FieldAddons.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / FieldAddons
+
+# Variable: FieldAddons
+
+> `const` **FieldAddons**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L356)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L382)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:413](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L413)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:432](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L432)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:451](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L451)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:499](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L499)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:547](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L547)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:578](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L578)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:604](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L604)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React DropDownBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React DropDownBox API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/drop-down-box.ts:648](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drop-down-box.ts#L648)
+

@@ -1,0 +1,268 @@
+# RecurrenceEditor Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React RecurrenceEditor API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/README.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../globals.md) / RecurrenceEditorTypes
+
+# RecurrenceEditorTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../../globals.md) / [RecurrenceEditorTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxRecurrenceEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/recurrence\_editor.d.ts:26
+
+## Docid
+
+_ui_recurrence_editor_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../../globals.md) / [RecurrenceEditorTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxRecurrenceEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/recurrence\_editor.d.ts:34
+
+## Docid
+
+_ui_recurrence_editor_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../../globals.md) / [RecurrenceEditorTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxRecurrenceEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/recurrence\_editor.d.ts:42
+
+## Docid
+
+_ui_recurrence_editor_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../../globals.md) / [RecurrenceEditorTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxRecurrenceEditor`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/recurrence\_editor.d.ts:50
+
+## Docid
+
+_ui_recurrence_editor_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../../../../globals.md) / [RecurrenceEditorTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxRecurrenceEditor`, `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/recurrence\_editor.d.ts:58
+
+## Docid
+
+_ui_recurrence_editor_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React RecurrenceEditor API v26.1.0
+
+## Namespaces
+
+- [RecurrenceEditorTypes](DevExtreme-React-RecurrenceEditor-API/namespaces/RecurrenceEditorTypes/README.md)
+
+## Interfaces
+
+- [RecurrenceEditorRef](interfaces/RecurrenceEditorRef.md)
+
+## Type Aliases
+
+- [IRecurrenceEditorOptions](type-aliases/IRecurrenceEditorOptions.md)
+
+## Variables
+
+- [RecurrenceEditor](variables/RecurrenceEditor.md)
+
+## References
+
+### default
+
+Renames and re-exports [RecurrenceEditor](variables/RecurrenceEditor.md)
+
+
+--- SOURCE: interfaces/RecurrenceEditorRef.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../globals.md) / RecurrenceEditorRef
+
+# Interface: RecurrenceEditorRef
+
+Defined in: [devextreme-react/src/recurrence-editor.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/recurrence-editor.ts#L28)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxRecurrenceEditor`
+
+Defined in: [devextreme-react/src/recurrence-editor.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/recurrence-editor.ts#L29)
+
+#### Returns
+
+`dxRecurrenceEditor`
+
+
+--- SOURCE: type-aliases/IRecurrenceEditorOptions.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../globals.md) / IRecurrenceEditorOptions
+
+# Type Alias: IRecurrenceEditorOptions
+
+> **IRecurrenceEditorOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<`Properties`, `IRecurrenceEditorOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/recurrence-editor.ts:23](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/recurrence-editor.ts#L23)
+
+
+--- SOURCE: variables/RecurrenceEditor.md ---
+
+[**DevExtreme React RecurrenceEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RecurrenceEditor API](../globals.md) / RecurrenceEditor
+
+# Variable: RecurrenceEditor()
+
+> `const` **RecurrenceEditor**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/recurrence-editor.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/recurrence-editor.ts#L32)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

@@ -1,0 +1,1809 @@
+# Splitter Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Splitter API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/README.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../globals.md) / SplitterTypes
+
+# SplitterTypes
+
+## Interfaces
+
+- [~~dxSplitterOptions~~](interfaces/dxSplitterOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemCollapsedEvent](type-aliases/ItemCollapsedEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemExpandedEvent](type-aliases/ItemExpandedEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [Mode](type-aliases/Mode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ResizeEndEvent](type-aliases/ResizeEndEvent.md)
+- [ResizeEvent](type-aliases/ResizeEvent.md)
+- [ResizeStartEvent](type-aliases/ResizeStartEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/interfaces/dxSplitterOptions.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / dxSplitterOptions
+
+# ~~Interface: dxSplitterOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:154
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxSplitter`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~allowKeyboardNavigation?~~
+
+> `optional` **allowKeyboardNavigation**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:183
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:164
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:47
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:177
+
+#### Docid
+
+#### Fires
+
+dxSplitterOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemCollapsed()?~~
+
+> `optional` **onItemCollapsed**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:229
+
+#### Parameters
+
+##### e
+
+[`ItemCollapsedEvent`](../type-aliases/ItemCollapsedEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/splitter:ItemCollapsedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemExpanded()?~~
+
+> `optional` **onItemExpanded**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:221
+
+#### Parameters
+
+##### e
+
+[`ItemExpandedEvent`](../type-aliases/ItemExpandedEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/splitter:ItemExpandedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onResize()?~~
+
+> `optional` **onResize**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:197
+
+#### Parameters
+
+##### e
+
+[`ResizeEvent`](../type-aliases/ResizeEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/splitter:ResizeEvent}
+```
+
+#### Action
+
+***
+
+### ~~onResizeEnd()?~~
+
+> `optional` **onResizeEnd**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:205
+
+#### Parameters
+
+##### e
+
+[`ResizeEndEvent`](../type-aliases/ResizeEndEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/splitter:ResizeEndEvent}
+```
+
+#### Action
+
+***
+
+### ~~onResizeStart()?~~
+
+> `optional` **onResizeStart**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:213
+
+#### Parameters
+
+##### e
+
+[`ResizeStartEvent`](../type-aliases/ResizeStartEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/splitter:ResizeStartEvent}
+```
+
+#### Action
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~orientation?~~
+
+> `optional` **orientation**: `Orientation`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:170
+
+#### Docid
+
+#### Default
+
+```ts
+'horizontal'
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~separatorSize?~~
+
+> `optional` **separatorSize**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:189
+
+#### Docid
+
+#### Default
+
+```ts
+8
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:58
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:66
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:74
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / Item
+
+# Type Alias: Item\<TKey\>
+
+> **Item**\<`TKey`\> = `dxSplitterItem`\<`TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:246
+
+**`Namespace`**
+
+DevExpress.ui.dxSplitter
+
+## Type Parameters
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:82
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemCollapsedEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ItemCollapsedEvent
+
+# Type Alias: ItemCollapsedEvent\<TItem, TKey\>
+
+> **ItemCollapsedEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxSplitter`\<`TKey`\>, `InteractionEvent`\> & `ItemInfo`\<`TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:138
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ItemCollapsedEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:90
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemExpandedEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ItemExpandedEvent
+
+# Type Alias: ItemExpandedEvent\<TItem, TKey\>
+
+> **ItemExpandedEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxSplitter`\<`TKey`\>, `InteractionEvent`\> & `ItemInfo`\<`TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:146
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ItemExpandedEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:98
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/Mode.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / Mode
+
+# Type Alias: Mode
+
+> **Mode** = `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:452
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxSplitter`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:106
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxSplitterOptions`](../interfaces/dxSplitterOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:320
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ResizeEndEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ResizeEndEvent
+
+# Type Alias: ResizeEndEvent\<TKey\>
+
+> **ResizeEndEvent**\<`TKey`\> = `NativeEventInfo`\<`dxSplitter`\<`TKey`\>, `InteractionEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:130
+
+## Type Parameters
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ResizeEndEvent
+
+## Inherits
+
+NativeEventInfo,_ui_splitter_ResizeInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ResizeEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ResizeEvent
+
+# Type Alias: ResizeEvent\<TKey\>
+
+> **ResizeEvent**\<`TKey`\> = `Cancelable` & `NativeEventInfo`\<`dxSplitter`\<`TKey`\>, `InteractionEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:114
+
+## Type Parameters
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ResizeEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo,_ui_splitter_ResizeInfo
+
+
+--- SOURCE: DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ResizeStartEvent.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Splitter API](../../../../globals.md) / [SplitterTypes](../README.md) / ResizeStartEvent
+
+# Type Alias: ResizeStartEvent\<TKey\>
+
+> **ResizeStartEvent**\<`TKey`\> = `Cancelable` & `NativeEventInfo`\<`dxSplitter`\<`TKey`\>, `InteractionEvent`\> & `ResizeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:122
+
+## Type Parameters
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_splitter_ResizeStartEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo,_ui_splitter_ResizeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Splitter API v26.1.0
+
+## Namespaces
+
+- [SplitterTypes](DevExtreme-React-Splitter-API/namespaces/SplitterTypes/README.md)
+
+## Interfaces
+
+- [SplitterRef](interfaces/SplitterRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ISplitterOptions](type-aliases/ISplitterOptions.md)
+
+## Variables
+
+- [Item](variables/Item.md)
+- [Splitter](variables/Splitter.md)
+
+## References
+
+### default
+
+Renames and re-exports [Splitter](variables/Splitter.md)
+
+
+--- SOURCE: interfaces/SplitterRef.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / SplitterRef
+
+# Interface: SplitterRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/splitter.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L42)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSplitter`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/splitter.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L43)
+
+#### Returns
+
+`dxSplitter`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:305
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\>
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:310
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:311
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:312
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:313
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:314
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:315
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:316
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/splitter.d.ts:309
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `collapsed?`: `boolean`; `collapsedSize?`: `number` \| `string`; `collapsible?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `maxSize?`: `number` \| `string`; `minSize?`: `number` \| `string`; `render?`: (...`params`) => `React.ReactNode`; `resizable?`: `boolean`; `size?`: `number` \| `string`; `splitter?`: [`dxSplitterOptions`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/interfaces/dxSplitterOptions.md); `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/splitter.ts:97](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L97)
+
+
+--- SOURCE: type-aliases/ISplitterOptions.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / ISplitterOptions
+
+# Type Alias: ISplitterOptions\<TItem, TKey\>
+
+> **ISplitterOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Splitter-API/namespaces/SplitterTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `ISplitterOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/splitter.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L34)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/splitter.ts:127](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L127)
+
+
+--- SOURCE: variables/Splitter.md ---
+
+[**DevExtreme React Splitter API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Splitter API](../globals.md) / Splitter
+
+# Variable: Splitter()
+
+> `const` **Splitter**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/splitter.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/splitter.ts#L46)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

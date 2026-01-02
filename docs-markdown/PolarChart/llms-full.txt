@@ -1,0 +1,5940 @@
+# PolarChart Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React PolarChart API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/README.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../globals.md) / PolarChartTypes
+
+# PolarChartTypes
+
+## Type Aliases
+
+- [AdaptiveLayout](type-aliases/AdaptiveLayout.md)
+- [ArgumentAxis](type-aliases/ArgumentAxis.md)
+- [ArgumentAxisClickEvent](type-aliases/ArgumentAxisClickEvent.md)
+- [ArgumentAxisConstantLines](type-aliases/ArgumentAxisConstantLines.md)
+- [ArgumentAxisConstantLinesLabel](type-aliases/ArgumentAxisConstantLinesLabel.md)
+- [ArgumentAxisHoverMode](type-aliases/ArgumentAxisHoverMode.md)
+- [ArgumentAxisLabel](type-aliases/ArgumentAxisLabel.md)
+- [ArgumentAxisMinorTick](type-aliases/ArgumentAxisMinorTick.md)
+- [ArgumentAxisStrips](type-aliases/ArgumentAxisStrips.md)
+- [ArgumentAxisStripsLabel](type-aliases/ArgumentAxisStripsLabel.md)
+- [ArgumentAxisTick](type-aliases/ArgumentAxisTick.md)
+- [AxisScaleType](type-aliases/AxisScaleType.md)
+- [ChartsDataType](type-aliases/ChartsDataType.md)
+- [CommonAxisSettings](type-aliases/CommonAxisSettings.md)
+- [CommonAxisSettingsConstantLineStyle](type-aliases/CommonAxisSettingsConstantLineStyle.md)
+- [CommonAxisSettingsConstantLineStyleLabel](type-aliases/CommonAxisSettingsConstantLineStyleLabel.md)
+- [CommonAxisSettingsLabel](type-aliases/CommonAxisSettingsLabel.md)
+- [CommonAxisSettingsMinorTick](type-aliases/CommonAxisSettingsMinorTick.md)
+- [CommonAxisSettingsStripStyle](type-aliases/CommonAxisSettingsStripStyle.md)
+- [CommonAxisSettingsStripStyleLabel](type-aliases/CommonAxisSettingsStripStyleLabel.md)
+- [CommonAxisSettingsTick](type-aliases/CommonAxisSettingsTick.md)
+- [CommonSeriesSettings](type-aliases/CommonSeriesSettings.md)
+- [DashStyle](type-aliases/DashStyle.md)
+- [DiscreteAxisDivisionMode](type-aliases/DiscreteAxisDivisionMode.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DoneEvent](type-aliases/DoneEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [HatchDirection](type-aliases/HatchDirection.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LabelOverlap](type-aliases/LabelOverlap.md)
+- [Legend](type-aliases/Legend.md)
+- [LegendClickEvent](type-aliases/LegendClickEvent.md)
+- [LegendHoverMode](type-aliases/LegendHoverMode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PointClickEvent](type-aliases/PointClickEvent.md)
+- [PointHoverChangedEvent](type-aliases/PointHoverChangedEvent.md)
+- [PointInfo](type-aliases/PointInfo.md)
+- [PointInteractionMode](type-aliases/PointInteractionMode.md)
+- [PointSelectionChangedEvent](type-aliases/PointSelectionChangedEvent.md)
+- [PointSymbol](type-aliases/PointSymbol.md)
+- [PolarChartSeriesType](type-aliases/PolarChartSeriesType.md)
+- [Properties](type-aliases/Properties.md)
+- [RelativePosition](type-aliases/RelativePosition.md)
+- [SeriesClickEvent](type-aliases/SeriesClickEvent.md)
+- [SeriesHoverChangedEvent](type-aliases/SeriesHoverChangedEvent.md)
+- [SeriesHoverMode](type-aliases/SeriesHoverMode.md)
+- [SeriesSelectionChangedEvent](type-aliases/SeriesSelectionChangedEvent.md)
+- [SeriesSelectionMode](type-aliases/SeriesSelectionMode.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+- [ValueAxis](type-aliases/ValueAxis.md)
+- [ValueAxisConstantLines](type-aliases/ValueAxisConstantLines.md)
+- [ValueAxisConstantLinesLabel](type-aliases/ValueAxisConstantLinesLabel.md)
+- [ValueAxisLabel](type-aliases/ValueAxisLabel.md)
+- [ValueAxisStrips](type-aliases/ValueAxisStrips.md)
+- [ValueAxisStripsLabel](type-aliases/ValueAxisStripsLabel.md)
+- [ValueAxisTick](type-aliases/ValueAxisTick.md)
+- [ValueAxisVisualRangeUpdateMode](type-aliases/ValueAxisVisualRangeUpdateMode.md)
+- [ValueErrorBarDisplayMode](type-aliases/ValueErrorBarDisplayMode.md)
+- [ValueErrorBarType](type-aliases/ValueErrorBarType.md)
+- [ZoomEndEvent](type-aliases/ZoomEndEvent.md)
+- [ZoomPanAction](type-aliases/ZoomPanAction.md)
+- [ZoomStartEvent](type-aliases/ZoomStartEvent.md)
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/AdaptiveLayout.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / AdaptiveLayout
+
+# Type Alias: AdaptiveLayout
+
+> **AdaptiveLayout** = `BaseChartAdaptiveLayout` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:574
+
+## Type Declaration
+
+### height?
+
+> `optional` **height**: `number`
+
+#### Docid
+
+dxPolarChartOptions.adaptiveLayout.height
+
+#### Default
+
+```ts
+170
+@public
+```
+
+### width?
+
+> `optional` **width**: `number`
+
+#### Docid
+
+dxPolarChartOptions.adaptiveLayout.width
+
+#### Default
+
+```ts
+170
+@public
+```
+
+## Docid
+
+dxPolarChartAdaptiveLayout
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxis.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxis
+
+# Type Alias: ArgumentAxis
+
+> **ArgumentAxis** = [`CommonAxisSettings`](CommonAxisSettings.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:593
+
+## Type Declaration
+
+### argumentType?
+
+> `optional` **argumentType**: [`ChartsDataType`](ChartsDataType.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.argumentType
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### axisDivisionFactor?
+
+> `optional` **axisDivisionFactor**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.axisDivisionFactor
+
+#### Default
+
+```ts
+50
+@public
+```
+
+### categories?
+
+> `optional` **categories**: (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.categories
+
+### constantLines?
+
+> `optional` **constantLines**: [`ArgumentAxisConstantLines`](ArgumentAxisConstantLines.md)[]
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines
+
+#### Inherits
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle
+
+#### Not Used In Theme
+
+### firstPointOnStartAngle?
+
+> `optional` **firstPointOnStartAngle**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.firstPointOnStartAngle
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### hoverMode?
+
+> `optional` **hoverMode**: [`ArgumentAxisHoverMode`](ArgumentAxisHoverMode.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.hoverMode
+
+#### Default
+
+```ts
+'none'
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ArgumentAxisLabel`](ArgumentAxisLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.label
+
+### linearThreshold?
+
+> `optional` **linearThreshold**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.linearThreshold
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### logarithmBase?
+
+> `optional` **logarithmBase**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.logarithmBase
+
+#### Default
+
+```ts
+10
+@public
+```
+
+### minorTick?
+
+> `optional` **minorTick**: [`ArgumentAxisMinorTick`](ArgumentAxisMinorTick.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.minorTick
+
+### minorTickCount?
+
+> `optional` **minorTickCount**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.minorTickCount
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### minorTickInterval?
+
+> `optional` **minorTickInterval**: `TimeIntervalConfig`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.minorTickInterval
+
+#### Inherits
+
+VizTimeInterval
+
+### originValue?
+
+> `optional` **originValue**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.originValue
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### period?
+
+> `optional` **period**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.period
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### startAngle?
+
+> `optional` **startAngle**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.startAngle
+
+#### Default
+
+```ts
+0
+@public
+```
+
+### strips?
+
+> `optional` **strips**: [`ArgumentAxisStrips`](ArgumentAxisStrips.md)[]
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips
+
+#### Not Used In Theme
+
+#### Inherits
+
+dxPolarChartOptions.commonAxisSettings.stripStyle
+
+### tick?
+
+> `optional` **tick**: [`ArgumentAxisTick`](ArgumentAxisTick.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.tick
+
+### tickInterval?
+
+> `optional` **tickInterval**: `TimeIntervalConfig`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.tickInterval
+
+#### Inherits
+
+VizTimeInterval
+
+### type?
+
+> `optional` **type**: [`AxisScaleType`](AxisScaleType.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.type
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxis
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisClickEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisClickEvent
+
+# Type Alias: ArgumentAxisClickEvent
+
+> **ArgumentAxisClickEvent** = `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:117
+
+## Type Declaration
+
+### argument
+
+> `readonly` **argument**: `Date` \| `number` \| `string`
+
+#### Docid
+
+_viz_polar_chart_ArgumentAxisClickEvent.argument
+
+## Docid
+
+_viz_polar_chart_ArgumentAxisClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisConstantLines.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisConstantLines
+
+# Type Alias: ArgumentAxisConstantLines
+
+> **ArgumentAxisConstantLines** = [`CommonAxisSettingsConstantLineStyle`](CommonAxisSettingsConstantLineStyle.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:719
+
+## Type Declaration
+
+### displayBehindSeries?
+
+> `optional` **displayBehindSeries**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines.displayBehindSeries
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### extendAxis?
+
+> `optional` **extendAxis**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines.extendAxis
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ArgumentAxisConstantLinesLabel`](ArgumentAxisConstantLinesLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines.label
+
+### value?
+
+> `optional` **value**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines.value
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisConstantLines
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisConstantLinesLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisConstantLinesLabel
+
+# Type Alias: ArgumentAxisConstantLinesLabel
+
+> **ArgumentAxisConstantLinesLabel** = [`CommonAxisSettingsConstantLineStyleLabel`](CommonAxisSettingsConstantLineStyleLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:750
+
+## Type Declaration
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.constantLines.label.text
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisConstantLinesLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisHoverMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisHoverMode
+
+# Type Alias: ArgumentAxisHoverMode
+
+> **ArgumentAxisHoverMode** = `"allArgumentPoints"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:30
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisLabel
+
+# Type Alias: ArgumentAxisLabel
+
+> **ArgumentAxisLabel** = [`CommonAxisSettingsLabel`](CommonAxisSettingsLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:763
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`argument`) => `string`
+
+#### Parameters
+
+##### argument
+
+###### value?
+
+`Date` \| `number` \| `string`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.label.customizeHint
+
+### customizeText()?
+
+> `optional` **customizeText**: (`argument`) => `string`
+
+#### Parameters
+
+##### argument
+
+###### value?
+
+`Date` \| `number` \| `string`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.label.customizeText
+
+#### Not Used In Theme
+
+### format?
+
+> `optional` **format**: `Format`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.label.format
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisMinorTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisMinorTick
+
+# Type Alias: ArgumentAxisMinorTick
+
+> **ArgumentAxisMinorTick** = [`CommonAxisSettingsMinorTick`](CommonAxisSettingsMinorTick.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:787
+
+## Type Declaration
+
+### shift?
+
+> `optional` **shift**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.minorTick.shift
+
+#### Default
+
+```ts
+3
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisMinorTick
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisStrips.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisStrips
+
+# Type Alias: ArgumentAxisStrips
+
+> **ArgumentAxisStrips** = [`CommonAxisSettingsStripStyle`](CommonAxisSettingsStripStyle.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:800
+
+## Type Declaration
+
+### color?
+
+> `optional` **color**: `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips.color
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### endValue?
+
+> `optional` **endValue**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips.endValue
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ArgumentAxisStripsLabel`](ArgumentAxisStripsLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips.label
+
+### startValue?
+
+> `optional` **startValue**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips.startValue
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisStrips
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisStripsLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisStripsLabel
+
+# Type Alias: ArgumentAxisStripsLabel
+
+> **ArgumentAxisStripsLabel** = [`CommonAxisSettingsStripStyleLabel`](CommonAxisSettingsStripStyleLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:831
+
+## Type Declaration
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.strips.label.text
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisStripsLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ArgumentAxisTick
+
+# Type Alias: ArgumentAxisTick
+
+> **ArgumentAxisTick** = [`CommonAxisSettingsTick`](CommonAxisSettingsTick.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:844
+
+## Type Declaration
+
+### shift?
+
+> `optional` **shift**: `number`
+
+#### Docid
+
+dxPolarChartOptions.argumentAxis.tick.shift
+
+#### Default
+
+```ts
+3
+@public
+```
+
+## Docid
+
+dxPolarChartArgumentAxisTick
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/AxisScaleType.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / AxisScaleType
+
+# Type Alias: AxisScaleType
+
+> **AxisScaleType** = `"continuous"` \| `"discrete"` \| `"logarithmic"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:36
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ChartsDataType.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ChartsDataType
+
+# Type Alias: ChartsDataType
+
+> **ChartsDataType** = `"datetime"` \| `"numeric"` \| `"string"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:54
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettings
+
+# Type Alias: CommonAxisSettings
+
+> **CommonAxisSettings** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:856
+
+## Docid
+
+dxPolarChartCommonAxisSettings
+
+## Properties
+
+### allowDecimals?
+
+> `optional` **allowDecimals**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:862
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.allowDecimals
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### color?
+
+> `optional` **color**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:868
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.color
+
+#### Default
+
+```ts
+'#767676'
+@public
+```
+
+***
+
+### constantLineStyle?
+
+> `optional` **constantLineStyle**: [`CommonAxisSettingsConstantLineStyle`](CommonAxisSettingsConstantLineStyle.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:874
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle
+
+***
+
+### discreteAxisDivisionMode?
+
+> `optional` **discreteAxisDivisionMode**: [`DiscreteAxisDivisionMode`](DiscreteAxisDivisionMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:880
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.discreteAxisDivisionMode
+
+#### Default
+
+```ts
+'betweenLabels'
+@public
+```
+
+***
+
+### endOnTick?
+
+> `optional` **endOnTick**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:886
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.endOnTick
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### grid?
+
+> `optional` **grid**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:891
+
+#### color?
+
+> `optional` **color**: `string`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.grid.color
+
+##### Default
+
+```ts
+'#d3d3d3'
+```
+
+#### opacity?
+
+> `optional` **opacity**: `number`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.grid.opacity
+
+##### Default
+
+```ts
+undefined
+```
+
+#### visible?
+
+> `optional` **visible**: `boolean`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.grid.visible
+
+##### Default
+
+```ts
+true
+```
+
+#### width?
+
+> `optional` **width**: `number`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.grid.width
+
+##### Default
+
+```ts
+1
+```
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.grid
+
+***
+
+### inverted?
+
+> `optional` **inverted**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:918
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.inverted
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### label?
+
+> `optional` **label**: [`CommonAxisSettingsLabel`](CommonAxisSettingsLabel.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:924
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.label
+
+***
+
+### minorGrid?
+
+> `optional` **minorGrid**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:929
+
+#### color?
+
+> `optional` **color**: `string`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorGrid.color
+
+##### Default
+
+```ts
+'#d3d3d3'
+```
+
+#### opacity?
+
+> `optional` **opacity**: `number`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorGrid.opacity
+
+##### Default
+
+```ts
+undefined
+```
+
+#### visible?
+
+> `optional` **visible**: `boolean`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorGrid.visible
+
+##### Default
+
+```ts
+true
+```
+
+#### width?
+
+> `optional` **width**: `number`
+
+##### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorGrid.width
+
+##### Default
+
+```ts
+1
+```
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorGrid
+
+***
+
+### minorTick?
+
+> `optional` **minorTick**: [`CommonAxisSettingsMinorTick`](CommonAxisSettingsMinorTick.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:956
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick
+
+***
+
+### opacity?
+
+> `optional` **opacity**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:962
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.opacity
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### stripStyle?
+
+> `optional` **stripStyle**: [`CommonAxisSettingsStripStyle`](CommonAxisSettingsStripStyle.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:968
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.stripStyle
+
+***
+
+### tick?
+
+> `optional` **tick**: [`CommonAxisSettingsTick`](CommonAxisSettingsTick.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:974
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:980
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.visible
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### width?
+
+> `optional` **width**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:986
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.width
+
+#### Default
+
+```ts
+1
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsConstantLineStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsConstantLineStyle
+
+# Type Alias: CommonAxisSettingsConstantLineStyle
+
+> **CommonAxisSettingsConstantLineStyle** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:992
+
+## Docid
+
+dxPolarChartCommonAxisSettingsConstantLineStyle
+
+## Properties
+
+### color?
+
+> `optional` **color**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:998
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.color
+
+#### Default
+
+```ts
+'#000000'
+@public
+```
+
+***
+
+### dashStyle?
+
+> `optional` **dashStyle**: [`DashStyle`](DashStyle.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1004
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.dashStyle
+
+#### Default
+
+```ts
+'solid'
+@public
+```
+
+***
+
+### label?
+
+> `optional` **label**: [`CommonAxisSettingsConstantLineStyleLabel`](CommonAxisSettingsConstantLineStyleLabel.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1010
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.label
+
+***
+
+### width?
+
+> `optional` **width**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1016
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.width
+
+#### Default
+
+```ts
+1
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsConstantLineStyleLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsConstantLineStyleLabel
+
+# Type Alias: CommonAxisSettingsConstantLineStyleLabel
+
+> **CommonAxisSettingsConstantLineStyleLabel** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1022
+
+## Docid
+
+dxPolarChartCommonAxisSettingsConstantLineStyleLabel
+
+## Properties
+
+### font?
+
+> `optional` **font**: `Font`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1028
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.label.font
+
+#### Default
+
+```ts
+'#767676' &prop(color)
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1034
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle.label.visible
+
+#### Default
+
+```ts
+true
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsLabel
+
+# Type Alias: CommonAxisSettingsLabel
+
+> **CommonAxisSettingsLabel** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1040
+
+## Docid
+
+dxPolarChartCommonAxisSettingsLabel
+
+## Properties
+
+### font?
+
+> `optional` **font**: `Font`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1046
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.label.font
+
+#### Default
+
+```ts
+'#767676' &prop(color)
+@public
+```
+
+***
+
+### indentFromAxis?
+
+> `optional` **indentFromAxis**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1052
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.label.indentFromAxis
+
+#### Default
+
+```ts
+5
+@public
+```
+
+***
+
+### overlappingBehavior?
+
+> `optional` **overlappingBehavior**: [`LabelOverlap`](LabelOverlap.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1058
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.label.overlappingBehavior
+
+#### Default
+
+```ts
+'hide'
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1064
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.label.visible
+
+#### Default
+
+```ts
+true
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsMinorTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsMinorTick
+
+# Type Alias: CommonAxisSettingsMinorTick
+
+> **CommonAxisSettingsMinorTick** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1070
+
+## Docid
+
+dxPolarChartCommonAxisSettingsMinorTick
+
+## Properties
+
+### color?
+
+> `optional` **color**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1076
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick.color
+
+#### Default
+
+```ts
+'#767676'
+@public
+```
+
+***
+
+### length?
+
+> `optional` **length**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1082
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick.length
+
+#### Default
+
+```ts
+7
+@public
+```
+
+***
+
+### opacity?
+
+> `optional` **opacity**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1088
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick.opacity
+
+#### Default
+
+```ts
+0.3
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1094
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick.visible
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### width?
+
+> `optional` **width**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1100
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.minorTick.width
+
+#### Default
+
+```ts
+1
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsStripStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsStripStyle
+
+# Type Alias: CommonAxisSettingsStripStyle
+
+> **CommonAxisSettingsStripStyle** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1106
+
+## Docid
+
+dxPolarChartCommonAxisSettingsStripStyle
+
+## Properties
+
+### label?
+
+> `optional` **label**: [`CommonAxisSettingsStripStyleLabel`](CommonAxisSettingsStripStyleLabel.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1112
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.stripStyle.label
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsStripStyleLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsStripStyleLabel
+
+# Type Alias: CommonAxisSettingsStripStyleLabel
+
+> **CommonAxisSettingsStripStyleLabel** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1118
+
+## Docid
+
+dxPolarChartCommonAxisSettingsStripStyleLabel
+
+## Properties
+
+### font?
+
+> `optional` **font**: `Font`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1124
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.stripStyle.label.font
+
+#### Default
+
+```ts
+'#767676' &prop(color)
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonAxisSettingsTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonAxisSettingsTick
+
+# Type Alias: CommonAxisSettingsTick
+
+> **CommonAxisSettingsTick** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1130
+
+## Docid
+
+dxPolarChartCommonAxisSettingsTick
+
+## Properties
+
+### color?
+
+> `optional` **color**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1136
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick.color
+
+#### Default
+
+```ts
+'#767676'
+@public
+```
+
+***
+
+### length?
+
+> `optional` **length**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1142
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick.length
+
+#### Default
+
+```ts
+7
+@public
+```
+
+***
+
+### opacity?
+
+> `optional` **opacity**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1148
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick.opacity
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1154
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick.visible
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### width?
+
+> `optional` **width**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1160
+
+#### Docid
+
+dxPolarChartOptions.commonAxisSettings.tick.width
+
+#### Default
+
+```ts
+1
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/CommonSeriesSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / CommonSeriesSettings
+
+# Type Alias: CommonSeriesSettings
+
+> **CommonSeriesSettings** = `dxPolarChartSeriesTypesCommonPolarChartSeries` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1167
+
+## Type Declaration
+
+### area?
+
+> `optional` **area**: `any`
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.area
+
+### bar?
+
+> `optional` **bar**: `any`
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.bar
+
+### line?
+
+> `optional` **line**: `any`
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.line
+
+### scatter?
+
+> `optional` **scatter**: `any`
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.scatter
+
+### stackedbar?
+
+> `optional` **stackedbar**: `any`
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.stackedbar
+
+### type?
+
+> `optional` **type**: [`PolarChartSeriesType`](PolarChartSeriesType.md)
+
+#### Docid
+
+dxPolarChartOptions.commonSeriesSettings.type
+
+#### Default
+
+```ts
+'scatter'
+@public
+```
+
+## Docid
+
+dxPolarChartCommonSeriesSetting
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / DashStyle
+
+# Type Alias: DashStyle
+
+> **DashStyle** = `"dash"` \| `"dot"` \| `"longDash"` \| `"solid"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:60
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DiscreteAxisDivisionMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / DiscreteAxisDivisionMode
+
+# Type Alias: DiscreteAxisDivisionMode
+
+> **DiscreteAxisDivisionMode** = `"betweenLabels"` \| `"crossLabels"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:66
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:128
+
+## Docid
+
+_viz_polar_chart_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DoneEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / DoneEvent
+
+# Type Alias: DoneEvent
+
+> **DoneEvent** = `EventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:136
+
+## Docid
+
+_viz_polar_chart_DoneEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:144
+
+## Docid
+
+_viz_polar_chart_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:152
+
+## Docid
+
+_viz_polar_chart_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxPolarChart`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:160
+
+## Docid
+
+_viz_polar_chart_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:168
+
+## Docid
+
+_viz_polar_chart_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / HatchDirection
+
+# Type Alias: HatchDirection
+
+> **HatchDirection** = `"left"` \| `"none"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:72
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxPolarChart`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:176
+
+## Docid
+
+_viz_polar_chart_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxPolarChart`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:184
+
+## Docid
+
+_viz_polar_chart_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / LabelOverlap
+
+# Type Alias: LabelOverlap
+
+> **LabelOverlap** = `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:78
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/Legend.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / Legend
+
+# Type Alias: Legend
+
+> **Legend** = `BaseChartLegend` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1204
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`seriesInfo`) => `string`
+
+#### Parameters
+
+##### seriesInfo
+
+###### seriesColor?
+
+`string`
+
+###### seriesIndex?
+
+`number`
+
+###### seriesName?
+
+`any`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.legend.customizeHint
+
+### customizeText()?
+
+> `optional` **customizeText**: (`seriesInfo`) => `string`
+
+#### Parameters
+
+##### seriesInfo
+
+###### seriesColor?
+
+`string`
+
+###### seriesIndex?
+
+`number`
+
+###### seriesName?
+
+`any`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.legend.customizeText
+
+#### Not Used In Theme
+
+### hoverMode?
+
+> `optional` **hoverMode**: [`LegendHoverMode`](LegendHoverMode.md)
+
+#### Docid
+
+dxPolarChartOptions.legend.hoverMode
+
+#### Default
+
+```ts
+'includePoints'
+@public
+```
+
+## Docid
+
+dxPolarChartLegend
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LegendClickEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / LegendClickEvent
+
+# Type Alias: LegendClickEvent
+
+> **LegendClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:192
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `polarChartSeriesObject`
+
+#### Docid
+
+_viz_polar_chart_LegendClickEvent.target
+
+## Docid
+
+_viz_polar_chart_LegendClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LegendHoverMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / LegendHoverMode
+
+# Type Alias: LegendHoverMode
+
+> **LegendHoverMode** = `"excludePoints"` \| `"includePoints"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:96
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxPolarChart`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:203
+
+## Docid
+
+_viz_polar_chart_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointClickEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointClickEvent
+
+# Type Alias: PointClickEvent
+
+> **PointClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `PointerEvent`\> & `PointInteractionInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:211
+
+## Docid
+
+_viz_polar_chart_PointClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointHoverChangedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointHoverChangedEvent
+
+# Type Alias: PointHoverChangedEvent
+
+> **PointHoverChangedEvent** = `EventInfo`\<`dxPolarChart`\> & `PointInteractionInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:219
+
+## Docid
+
+_viz_polar_chart_PointHoverChangedEvent
+
+## Inherits
+
+EventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInfo.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointInfo
+
+# Type Alias: PointInfo
+
+> **PointInfo** = `BasePointInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1228
+
+## Docid
+
+dxPolarChartPointInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointInteractionMode
+
+# Type Alias: PointInteractionMode
+
+> **PointInteractionMode** = `"allArgumentPoints"` \| `"allSeriesPoints"` \| `"none"` \| `"onlyPoint"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:126
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointSelectionChangedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointSelectionChangedEvent
+
+# Type Alias: PointSelectionChangedEvent
+
+> **PointSelectionChangedEvent** = `EventInfo`\<`dxPolarChart`\> & `PointInteractionInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:227
+
+## Docid
+
+_viz_polar_chart_PointSelectionChangedEvent
+
+## Inherits
+
+EventInfo,PointInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointSymbol.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PointSymbol
+
+# Type Alias: PointSymbol
+
+> **PointSymbol** = `"circle"` \| `"cross"` \| `"polygon"` \| `"square"` \| `"triangle"` \| `"triangleDown"` \| `"triangleUp"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:132
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PolarChartSeriesType.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / PolarChartSeriesType
+
+# Type Alias: PolarChartSeriesType
+
+> **PolarChartSeriesType** = `"area"` \| `"bar"` \| `"line"` \| `"scatter"` \| `"stackedbar"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:109
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxPolarChartOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:2465
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/RelativePosition.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / RelativePosition
+
+# Type Alias: RelativePosition
+
+> **RelativePosition** = `"inside"` \| `"outside"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:138
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesClickEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / SeriesClickEvent
+
+# Type Alias: SeriesClickEvent
+
+> **SeriesClickEvent** = `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:235
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: `polarChartSeriesObject`
+
+#### Docid
+
+_viz_polar_chart_SeriesClickEvent.target
+
+## Docid
+
+_viz_polar_chart_SeriesClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesHoverChangedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / SeriesHoverChangedEvent
+
+# Type Alias: SeriesHoverChangedEvent
+
+> **SeriesHoverChangedEvent** = `EventInfo`\<`dxPolarChart`\> & `SeriesInteractionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:246
+
+## Docid
+
+_viz_polar_chart_SeriesHoverChangedEvent
+
+## Inherits
+
+EventInfo,_viz_polar_chart_SeriesInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesHoverMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / SeriesHoverMode
+
+# Type Alias: SeriesHoverMode
+
+> **SeriesHoverMode** = `"allArgumentPoints"` \| `"allSeriesPoints"` \| `"excludePoints"` \| `"includePoints"` \| `"nearestPoint"` \| `"none"` \| `"onlyPoint"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:178
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesSelectionChangedEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / SeriesSelectionChangedEvent
+
+# Type Alias: SeriesSelectionChangedEvent
+
+> **SeriesSelectionChangedEvent** = `EventInfo`\<`dxPolarChart`\> & `SeriesInteractionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:254
+
+## Docid
+
+_viz_polar_chart_SeriesSelectionChangedEvent
+
+## Inherits
+
+EventInfo,_viz_polar_chart_SeriesInteractionInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesSelectionMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / SeriesSelectionMode
+
+# Type Alias: SeriesSelectionMode
+
+> **SeriesSelectionMode** = `"allArgumentPoints"` \| `"allSeriesPoints"` \| `"excludePoints"` \| `"includePoints"` \| `"none"` \| `"onlyPoint"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:184
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `Omit`\<`BaseChartTooltip`\<[`PointInfo`](PointInfo.md)\>, `"contentTemplate"` \| `"customizeTooltip"`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1241
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`pointInfo`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxPolarChartOptions.tooltip.contentTemplate
+@type_function_param1 pointInfo:dxPolarChartPointInfo
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`pointInfo`) => `any`
+
+#### Parameters
+
+##### pointInfo
+
+[`PointInfo`](PointInfo.md)
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxPolarChartOptions.tooltip.customizeTooltip
+
+@type_function_param1 pointInfo:dxPolarChartPointInfo
+@type_function_return object
+
+#### Default
+
+```ts
+undefined
+```
+
+#### Not Used In Theme
+
+### shared?
+
+> `optional` **shared**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.tooltip.shared
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxPolarChartTooltip
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxPolarChart`\> & `TooltipInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:262
+
+## Docid
+
+_viz_polar_chart_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_chart_components_base_chart_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxPolarChart`\> & `TooltipInfo`\<`polarPointObject`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:270
+
+## Docid
+
+_viz_polar_chart_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_chart_components_base_chart_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxis.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxis
+
+# Type Alias: ValueAxis
+
+> **ValueAxis** = [`CommonAxisSettings`](CommonAxisSettings.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1271
+
+## Type Declaration
+
+### axisDivisionFactor?
+
+> `optional` **axisDivisionFactor**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.axisDivisionFactor
+
+#### Default
+
+```ts
+30
+@public
+```
+
+### categories?
+
+> `optional` **categories**: (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.categories
+
+### constantLines?
+
+> `optional` **constantLines**: [`ValueAxisConstantLines`](ValueAxisConstantLines.md)[]
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines
+
+#### Not Used In Theme
+
+#### Inherits
+
+dxPolarChartOptions.commonAxisSettings.constantLineStyle
+
+### endOnTick?
+
+> `optional` **endOnTick**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.endOnTick
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ValueAxisLabel`](ValueAxisLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.label
+
+### linearThreshold?
+
+> `optional` **linearThreshold**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.linearThreshold
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### logarithmBase?
+
+> `optional` **logarithmBase**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.logarithmBase
+
+#### Default
+
+```ts
+10
+@public
+```
+
+### maxValueMargin?
+
+> `optional` **maxValueMargin**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.maxValueMargin
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### minorTickCount?
+
+> `optional` **minorTickCount**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.minorTickCount
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### minorTickInterval?
+
+> `optional` **minorTickInterval**: `TimeIntervalConfig`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.minorTickInterval
+
+#### Inherits
+
+VizTimeInterval
+
+### minValueMargin?
+
+> `optional` **minValueMargin**: `number`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.minValueMargin
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### minVisualRangeLength?
+
+> `optional` **minVisualRangeLength**: `TimeIntervalConfig`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.minVisualRangeLength
+
+#### Inherits
+
+VizTimeInterval
+
+#### Default
+
+```ts
+undefined
+```
+
+#### Not Used In Theme
+
+### showZero?
+
+> `optional` **showZero**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.showZero
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### strips?
+
+> `optional` **strips**: [`ValueAxisStrips`](ValueAxisStrips.md)[]
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips
+
+#### Not Used In Theme
+
+#### Inherits
+
+dxPolarChartOptions.commonAxisSettings.stripStyle
+
+### tick?
+
+> `optional` **tick**: [`ValueAxisTick`](ValueAxisTick.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.tick
+
+### tickInterval?
+
+> `optional` **tickInterval**: `TimeIntervalConfig`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.tickInterval
+
+#### Inherits
+
+VizTimeInterval
+
+### type?
+
+> `optional` **type**: [`AxisScaleType`](AxisScaleType.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.type
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### valueMarginsEnabled?
+
+> `optional` **valueMarginsEnabled**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.valueMarginsEnabled
+
+#### Default
+
+```ts
+true
+@public
+```
+
+### valueType?
+
+> `optional` **valueType**: [`ChartsDataType`](ChartsDataType.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.valueType
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### visualRange?
+
+> `optional` **visualRange**: `VisualRange` \| (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.visualRange
+
+#### Fires
+
+BaseWidgetOptions.onOptionChanged
+
+#### Not Used In Theme
+
+### visualRangeUpdateMode?
+
+> `optional` **visualRangeUpdateMode**: [`ValueAxisVisualRangeUpdateMode`](ValueAxisVisualRangeUpdateMode.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.visualRangeUpdateMode
+
+#### Default
+
+```ts
+'auto'
+@public
+```
+
+### wholeRange?
+
+> `optional` **wholeRange**: `VisualRange` \| (`number` \| `string` \| `Date`)[]
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.wholeRange
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxis
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisConstantLines.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisConstantLines
+
+# Type Alias: ValueAxisConstantLines
+
+> **ValueAxisConstantLines** = [`CommonAxisSettingsConstantLineStyle`](CommonAxisSettingsConstantLineStyle.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1419
+
+## Type Declaration
+
+### displayBehindSeries?
+
+> `optional` **displayBehindSeries**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines.displayBehindSeries
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### extendAxis?
+
+> `optional` **extendAxis**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines.extendAxis
+
+#### Default
+
+```ts
+false
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ValueAxisConstantLinesLabel`](ValueAxisConstantLinesLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines.label
+
+### value?
+
+> `optional` **value**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines.value
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisConstantLines
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisConstantLinesLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisConstantLinesLabel
+
+# Type Alias: ValueAxisConstantLinesLabel
+
+> **ValueAxisConstantLinesLabel** = [`CommonAxisSettingsConstantLineStyleLabel`](CommonAxisSettingsConstantLineStyleLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1450
+
+## Type Declaration
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.constantLines.label.text
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisConstantLinesLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisLabel
+
+# Type Alias: ValueAxisLabel
+
+> **ValueAxisLabel** = [`CommonAxisSettingsLabel`](CommonAxisSettingsLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1463
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`axisValue`) => `string`
+
+#### Parameters
+
+##### axisValue
+
+###### value?
+
+`Date` \| `number` \| `string`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.label.customizeHint
+
+### customizeText()?
+
+> `optional` **customizeText**: (`axisValue`) => `string`
+
+#### Parameters
+
+##### axisValue
+
+###### value?
+
+`Date` \| `number` \| `string`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.label.customizeText
+
+#### Not Used In Theme
+
+### format?
+
+> `optional` **format**: `Format`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.label.format
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisStrips.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisStrips
+
+# Type Alias: ValueAxisStrips
+
+> **ValueAxisStrips** = [`CommonAxisSettingsStripStyle`](CommonAxisSettingsStripStyle.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1487
+
+## Type Declaration
+
+### color?
+
+> `optional` **color**: `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips.color
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### endValue?
+
+> `optional` **endValue**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips.endValue
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### label?
+
+> `optional` **label**: [`ValueAxisStripsLabel`](ValueAxisStripsLabel.md)
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips.label
+
+### startValue?
+
+> `optional` **startValue**: `number` \| `Date` \| `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips.startValue
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisStrips
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisStripsLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisStripsLabel
+
+# Type Alias: ValueAxisStripsLabel
+
+> **ValueAxisStripsLabel** = [`CommonAxisSettingsStripStyleLabel`](CommonAxisSettingsStripStyleLabel.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1518
+
+## Type Declaration
+
+### text?
+
+> `optional` **text**: `string`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.strips.label.text
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisStripsLabel
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisTick
+
+# Type Alias: ValueAxisTick
+
+> **ValueAxisTick** = [`CommonAxisSettingsTick`](CommonAxisSettingsTick.md) & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:1531
+
+## Type Declaration
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+#### Docid
+
+dxPolarChartOptions.valueAxis.tick.visible
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxPolarChartValueAxisTick
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisVisualRangeUpdateMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueAxisVisualRangeUpdateMode
+
+# Type Alias: ValueAxisVisualRangeUpdateMode
+
+> **ValueAxisVisualRangeUpdateMode** = `"auto"` \| `"keep"` \| `"reset"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:286
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarDisplayMode.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueErrorBarDisplayMode
+
+# Type Alias: ValueErrorBarDisplayMode
+
+> **ValueErrorBarDisplayMode** = `"auto"` \| `"high"` \| `"low"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:236
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarType.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ValueErrorBarType
+
+# Type Alias: ValueErrorBarType
+
+> **ValueErrorBarType** = `"fixed"` \| `"percent"` \| `"stdDeviation"` \| `"stdError"` \| `"variance"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:242
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ZoomEndEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ZoomEndEvent
+
+# Type Alias: ZoomEndEvent
+
+> **ZoomEndEvent** = `Cancelable` & `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `TouchEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:278
+
+## Type Declaration
+
+### actionType
+
+> `readonly` **actionType**: [`ZoomPanAction`](ZoomPanAction.md)
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.actionType
+
+### axis
+
+> `readonly` **axis**: `chartAxisObject`
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.axis
+
+### previousRange
+
+> `readonly` **previousRange**: `VisualRange`
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.previousRange
+
+### range
+
+> `readonly` **range**: `VisualRange`
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.range
+
+### shift
+
+> `readonly` **shift**: `number`
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.shift
+
+### zoomFactor
+
+> `readonly` **zoomFactor**: `number`
+
+#### Docid
+
+_viz_polar_chart_ZoomEndEvent.zoomFactor
+
+## Docid
+
+_viz_polar_chart_ZoomEndEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ZoomPanAction.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ZoomPanAction
+
+# Type Alias: ZoomPanAction
+
+> **ZoomPanAction** = `"zoom"` \| `"pan"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:298
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ZoomStartEvent.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../../../../globals.md) / [PolarChartTypes](../README.md) / ZoomStartEvent
+
+# Type Alias: ZoomStartEvent
+
+> **ZoomStartEvent** = `Cancelable` & `NativeEventInfo`\<`dxPolarChart`, `MouseEvent` \| `TouchEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/polar\_chart.d.ts:301
+
+## Type Declaration
+
+### actionType
+
+> `readonly` **actionType**: [`ZoomPanAction`](ZoomPanAction.md)
+
+#### Docid
+
+_viz_polar_chart_ZoomStartEvent.actionType
+
+### axis
+
+> `readonly` **axis**: `chartAxisObject`
+
+#### Docid
+
+_viz_polar_chart_ZoomStartEvent.axis
+
+### range
+
+> `readonly` **range**: `VisualRange`
+
+#### Docid
+
+_viz_polar_chart_ZoomStartEvent.range
+
+## Docid
+
+_viz_polar_chart_ZoomStartEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React PolarChart API v26.1.0
+
+## Namespaces
+
+- [PolarChartTypes](DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/README.md)
+
+## Interfaces
+
+- [PolarChartRef](interfaces/PolarChartRef.md)
+
+## Type Aliases
+
+- [IAdaptiveLayoutProps](type-aliases/IAdaptiveLayoutProps.md)
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAnnotationBorderProps](type-aliases/IAnnotationBorderProps.md)
+- [IAnnotationProps](type-aliases/IAnnotationProps.md)
+- [IArgumentAxisMinorTickProps](type-aliases/IArgumentAxisMinorTickProps.md)
+- [IArgumentAxisProps](type-aliases/IArgumentAxisProps.md)
+- [IArgumentAxisTickProps](type-aliases/IArgumentAxisTickProps.md)
+- [IArgumentFormatProps](type-aliases/IArgumentFormatProps.md)
+- [IAxisLabelProps](type-aliases/IAxisLabelProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IColorProps](type-aliases/IColorProps.md)
+- [ICommonAnnotationSettingsProps](type-aliases/ICommonAnnotationSettingsProps.md)
+- [ICommonAxisSettingsLabelProps](type-aliases/ICommonAxisSettingsLabelProps.md)
+- [ICommonAxisSettingsMinorTickProps](type-aliases/ICommonAxisSettingsMinorTickProps.md)
+- [ICommonAxisSettingsProps](type-aliases/ICommonAxisSettingsProps.md)
+- [ICommonAxisSettingsTickProps](type-aliases/ICommonAxisSettingsTickProps.md)
+- [ICommonSeriesSettingsHoverStyleProps](type-aliases/ICommonSeriesSettingsHoverStyleProps.md)
+- [ICommonSeriesSettingsLabelProps](type-aliases/ICommonSeriesSettingsLabelProps.md)
+- [ICommonSeriesSettingsProps](type-aliases/ICommonSeriesSettingsProps.md)
+- [ICommonSeriesSettingsSelectionStyleProps](type-aliases/ICommonSeriesSettingsSelectionStyleProps.md)
+- [IConnectorProps](type-aliases/IConnectorProps.md)
+- [IConstantLineLabelProps](type-aliases/IConstantLineLabelProps.md)
+- [IConstantLineProps](type-aliases/IConstantLineProps.md)
+- [IConstantLineStyleLabelProps](type-aliases/IConstantLineStyleLabelProps.md)
+- [IConstantLineStyleProps](type-aliases/IConstantLineStyleProps.md)
+- [IDataPrepareSettingsProps](type-aliases/IDataPrepareSettingsProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGridProps](type-aliases/IGridProps.md)
+- [IHatchingProps](type-aliases/IHatchingProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [IImageProps](type-aliases/IImageProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILegendProps](type-aliases/ILegendProps.md)
+- [ILegendTitleProps](type-aliases/ILegendTitleProps.md)
+- [ILegendTitleSubtitleProps](type-aliases/ILegendTitleSubtitleProps.md)
+- [ILengthProps](type-aliases/ILengthProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IMinorGridProps](type-aliases/IMinorGridProps.md)
+- [IMinorTickIntervalProps](type-aliases/IMinorTickIntervalProps.md)
+- [IMinorTickProps](type-aliases/IMinorTickProps.md)
+- [IMinVisualRangeLengthProps](type-aliases/IMinVisualRangeLengthProps.md)
+- [IPointBorderProps](type-aliases/IPointBorderProps.md)
+- [IPointHoverStyleProps](type-aliases/IPointHoverStyleProps.md)
+- [IPointProps](type-aliases/IPointProps.md)
+- [IPointSelectionStyleProps](type-aliases/IPointSelectionStyleProps.md)
+- [IPolarChartOptions](type-aliases/IPolarChartOptions.md)
+- [IPolarChartTitleProps](type-aliases/IPolarChartTitleProps.md)
+- [IPolarChartTitleSubtitleProps](type-aliases/IPolarChartTitleSubtitleProps.md)
+- [ISelectionStyleProps](type-aliases/ISelectionStyleProps.md)
+- [ISeriesBorderProps](type-aliases/ISeriesBorderProps.md)
+- [ISeriesProps](type-aliases/ISeriesProps.md)
+- [ISeriesTemplateProps](type-aliases/ISeriesTemplateProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [IStripLabelProps](type-aliases/IStripLabelProps.md)
+- [IStripProps](type-aliases/IStripProps.md)
+- [IStripStyleLabelProps](type-aliases/IStripStyleLabelProps.md)
+- [IStripStyleProps](type-aliases/IStripStyleProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITickIntervalProps](type-aliases/ITickIntervalProps.md)
+- [ITickProps](type-aliases/ITickProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+- [IValueAxisProps](type-aliases/IValueAxisProps.md)
+- [IValueErrorBarProps](type-aliases/IValueErrorBarProps.md)
+- [IVisualRangeProps](type-aliases/IVisualRangeProps.md)
+- [IWholeRangeProps](type-aliases/IWholeRangeProps.md)
+
+## Variables
+
+- [AdaptiveLayout](variables/AdaptiveLayout.md)
+- [Animation](variables/Animation.md)
+- [Annotation](variables/Annotation.md)
+- [AnnotationBorder](variables/AnnotationBorder.md)
+- [ArgumentAxis](variables/ArgumentAxis.md)
+- [ArgumentAxisMinorTick](variables/ArgumentAxisMinorTick.md)
+- [ArgumentAxisTick](variables/ArgumentAxisTick.md)
+- [ArgumentFormat](variables/ArgumentFormat.md)
+- [AxisLabel](variables/AxisLabel.md)
+- [Border](variables/Border.md)
+- [Color](variables/Color.md)
+- [CommonAnnotationSettings](variables/CommonAnnotationSettings.md)
+- [CommonAxisSettings](variables/CommonAxisSettings.md)
+- [CommonAxisSettingsLabel](variables/CommonAxisSettingsLabel.md)
+- [CommonAxisSettingsMinorTick](variables/CommonAxisSettingsMinorTick.md)
+- [CommonAxisSettingsTick](variables/CommonAxisSettingsTick.md)
+- [CommonSeriesSettings](variables/CommonSeriesSettings.md)
+- [CommonSeriesSettingsHoverStyle](variables/CommonSeriesSettingsHoverStyle.md)
+- [CommonSeriesSettingsLabel](variables/CommonSeriesSettingsLabel.md)
+- [CommonSeriesSettingsSelectionStyle](variables/CommonSeriesSettingsSelectionStyle.md)
+- [Connector](variables/Connector.md)
+- [ConstantLine](variables/ConstantLine.md)
+- [ConstantLineLabel](variables/ConstantLineLabel.md)
+- [ConstantLineStyle](variables/ConstantLineStyle.md)
+- [ConstantLineStyleLabel](variables/ConstantLineStyleLabel.md)
+- [DataPrepareSettings](variables/DataPrepareSettings.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Grid](variables/Grid.md)
+- [Hatching](variables/Hatching.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Image](variables/Image.md)
+- [Label](variables/Label.md)
+- [Legend](variables/Legend.md)
+- [LegendTitle](variables/LegendTitle.md)
+- [LegendTitleSubtitle](variables/LegendTitleSubtitle.md)
+- [Length](variables/Length.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [MinorGrid](variables/MinorGrid.md)
+- [MinorTick](variables/MinorTick.md)
+- [MinorTickInterval](variables/MinorTickInterval.md)
+- [MinVisualRangeLength](variables/MinVisualRangeLength.md)
+- [Point](variables/Point.md)
+- [PointBorder](variables/PointBorder.md)
+- [PointHoverStyle](variables/PointHoverStyle.md)
+- [PointSelectionStyle](variables/PointSelectionStyle.md)
+- [PolarChart](variables/PolarChart.md)
+- [PolarChartTitle](variables/PolarChartTitle.md)
+- [PolarChartTitleSubtitle](variables/PolarChartTitleSubtitle.md)
+- [SelectionStyle](variables/SelectionStyle.md)
+- [Series](variables/Series.md)
+- [SeriesBorder](variables/SeriesBorder.md)
+- [SeriesTemplate](variables/SeriesTemplate.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Strip](variables/Strip.md)
+- [StripLabel](variables/StripLabel.md)
+- [StripStyle](variables/StripStyle.md)
+- [StripStyleLabel](variables/StripStyleLabel.md)
+- [Subtitle](variables/Subtitle.md)
+- [Tick](variables/Tick.md)
+- [TickInterval](variables/TickInterval.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+- [ValueAxis](variables/ValueAxis.md)
+- [ValueErrorBar](variables/ValueErrorBar.md)
+- [VisualRange](variables/VisualRange.md)
+- [WholeRange](variables/WholeRange.md)
+
+## References
+
+### default
+
+Renames and re-exports [PolarChart](variables/PolarChart.md)
+
+
+--- SOURCE: interfaces/PolarChartRef.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PolarChartRef
+
+# Interface: PolarChartRef
+
+Defined in: [devextreme-react/src/polar-chart.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L48)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxPolarChart`
+
+Defined in: [devextreme-react/src/polar-chart.ts:49](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L49)
+
+#### Returns
+
+`dxPolarChart`
+
+
+--- SOURCE: type-aliases/IAdaptiveLayoutProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IAdaptiveLayoutProps
+
+# Type Alias: IAdaptiveLayoutProps
+
+> **IAdaptiveLayoutProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `keepLabels?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:113](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L113)
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `duration?`: `number`; `easing?`: `AnimationEaseMode`; `enabled?`: `boolean`; `maxPointCountSupported?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:133](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L133)
+
+
+--- SOURCE: type-aliases/IAnnotationBorderProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IAnnotationBorderProps
+
+# Type Alias: IAnnotationBorderProps
+
+> **IAnnotationBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:244](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L244)
+
+
+--- SOURCE: type-aliases/IAnnotationProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IAnnotationProps
+
+# Type Alias: IAnnotationProps
+
+> **IAnnotationProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `angle?`: `number`; `argument?`: `Date` \| `number` \| `string`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `name?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `radius?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `series?`: `string`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `value?`: `Date` \| `number` \| `string`; `width?`: `number`; `wordWrap?`: `WordWrap`; `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:154](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L154)
+
+
+--- SOURCE: type-aliases/IArgumentAxisMinorTickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IArgumentAxisMinorTickProps
+
+# Type Alias: IArgumentAxisMinorTickProps
+
+> **IArgumentAxisMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:415](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L415)
+
+
+--- SOURCE: type-aliases/IArgumentAxisProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IArgumentAxisProps
+
+# Type Alias: IArgumentAxisProps
+
+> **IArgumentAxisProps** = `React.PropsWithChildren`\<\{ `allowDecimals?`: `boolean`; `argumentType?`: [`ChartsDataType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ChartsDataType.md); `axisDivisionFactor?`: `number`; `categories?`: (`Date` \| `number` \| `string`)[]; `color?`: `string`; `constantLines?`: `Record`\<`string`, `any`\>[] \| `object`[]; `constantLineStyle?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `visible?`: `boolean`; \}; `width?`: `number`; \}; `discreteAxisDivisionMode?`: [`DiscreteAxisDivisionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DiscreteAxisDivisionMode.md); `endOnTick?`: `boolean`; `firstPointOnStartAngle?`: `boolean`; `grid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `hoverMode?`: [`ArgumentAxisHoverMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ArgumentAxisHoverMode.md); `inverted?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `customizeHint?`: (`argument`) => `string`; `customizeText?`: (`argument`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `visible?`: `boolean`; \}; `linearThreshold?`: `number`; `logarithmBase?`: `number`; `minorGrid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTickCount?`: `number`; `minorTickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `opacity?`: `number`; `originValue?`: `number`; `period?`: `number`; `startAngle?`: `number`; `strips?`: `Record`\<`string`, `any`\>[] \| `object`[]; `stripStyle?`: `Record`\<`string`, `any`\> \| \{ `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; \}; \}; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `tickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `type?`: [`AxisScaleType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/AxisScaleType.md); `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:267](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L267)
+
+
+--- SOURCE: type-aliases/IArgumentAxisTickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IArgumentAxisTickProps
+
+# Type Alias: IArgumentAxisTickProps
+
+> **IArgumentAxisTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:438](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L438)
+
+
+--- SOURCE: type-aliases/IArgumentFormatProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IArgumentFormatProps
+
+# Type Alias: IArgumentFormatProps
+
+> **IArgumentFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:462](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L462)
+
+
+--- SOURCE: type-aliases/IAxisLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IAxisLabelProps
+
+# Type Alias: IAxisLabelProps
+
+> **IAxisLabelProps** = `React.PropsWithChildren`\<\{ `customizeHint?`: (`argument`) => `string`; `customizeText?`: (`argument`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:486](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L486)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:523](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L523)
+
+
+--- SOURCE: type-aliases/IColorProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IColorProps
+
+# Type Alias: IColorProps
+
+> **IColorProps** = `React.PropsWithChildren`\<\{ `base?`: `string`; `fillId?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:550](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L550)
+
+
+--- SOURCE: type-aliases/ICommonAnnotationSettingsProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonAnnotationSettingsProps
+
+# Type Alias: ICommonAnnotationSettingsProps
+
+> **ICommonAnnotationSettingsProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `angle?`: `number`; `argument?`: `Date` \| `number` \| `string`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `radius?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `series?`: `string`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `value?`: `Date` \| `number` \| `string`; `width?`: `number`; `wordWrap?`: `WordWrap`; `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:569](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L569)
+
+
+--- SOURCE: type-aliases/ICommonAxisSettingsLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonAxisSettingsLabelProps
+
+# Type Alias: ICommonAxisSettingsLabelProps
+
+> **ICommonAxisSettingsLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:738](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L738)
+
+
+--- SOURCE: type-aliases/ICommonAxisSettingsMinorTickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonAxisSettingsMinorTickProps
+
+# Type Alias: ICommonAxisSettingsMinorTickProps
+
+> **ICommonAxisSettingsMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:763](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L763)
+
+
+--- SOURCE: type-aliases/ICommonAxisSettingsProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonAxisSettingsProps
+
+# Type Alias: ICommonAxisSettingsProps
+
+> **ICommonAxisSettingsProps** = `React.PropsWithChildren`\<\{ `allowDecimals?`: `boolean`; `color?`: `string`; `constantLineStyle?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `visible?`: `boolean`; \}; `width?`: `number`; \}; `discreteAxisDivisionMode?`: [`DiscreteAxisDivisionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DiscreteAxisDivisionMode.md); `endOnTick?`: `boolean`; `grid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `inverted?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `visible?`: `boolean`; \}; `minorGrid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `opacity?`: `number`; `stripStyle?`: `Record`\<`string`, `any`\> \| \{ `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; \}; \}; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:655](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L655)
+
+
+--- SOURCE: type-aliases/ICommonAxisSettingsTickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonAxisSettingsTickProps
+
+# Type Alias: ICommonAxisSettingsTickProps
+
+> **ICommonAxisSettingsTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:786](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L786)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsHoverStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonSeriesSettingsHoverStyleProps
+
+# Type Alias: ICommonSeriesSettingsHoverStyleProps
+
+> **ICommonSeriesSettingsHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:975](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L975)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonSeriesSettingsLabelProps
+
+# Type Alias: ICommonSeriesSettingsLabelProps
+
+> **ICommonSeriesSettingsLabelProps** = `React.PropsWithChildren`\<\{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`RelativePosition`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/RelativePosition.md); `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1015](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1015)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonSeriesSettingsProps
+
+# Type Alias: ICommonSeriesSettingsProps
+
+> **ICommonSeriesSettingsProps** = `React.PropsWithChildren`\<\{ `area?`: `any`; `argumentField?`: `string`; `bar?`: `any`; `barPadding?`: `number`; `barWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `closed?`: `boolean`; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hoverMode?`: [`SeriesHoverMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesHoverMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `ignoreEmptyPoints?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`RelativePosition`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/RelativePosition.md); `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `visible?`: `boolean`; \}; `line?`: `any`; `maxLabelCount?`: `number`; `minBarSize?`: `number`; `opacity?`: `number`; `point?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `selectionMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: [`PointSymbol`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointSymbol.md); `visible?`: `boolean`; \}; `scatter?`: `any`; `selectionMode?`: [`SeriesSelectionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesSelectionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `showInLegend?`: `boolean`; `stack?`: `string`; `stackedbar?`: `any`; `tagField?`: `string`; `type?`: [`PolarChartSeriesType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PolarChartSeriesType.md); `valueErrorBar?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `displayMode?`: [`ValueErrorBarDisplayMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarDisplayMode.md); `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: [`ValueErrorBarType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarType.md); `value?`: `number`; \}; `valueField?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:808](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L808)
+
+
+--- SOURCE: type-aliases/ICommonSeriesSettingsSelectionStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ICommonSeriesSettingsSelectionStyleProps
+
+# Type Alias: ICommonSeriesSettingsSelectionStyleProps
+
+> **ICommonSeriesSettingsSelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1062](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1062)
+
+
+--- SOURCE: type-aliases/IConnectorProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IConnectorProps
+
+# Type Alias: IConnectorProps
+
+> **IConnectorProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1101](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1101)
+
+
+--- SOURCE: type-aliases/IConstantLineLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IConstantLineLabelProps
+
+# Type Alias: IConstantLineLabelProps
+
+> **IConstantLineLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1154](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1154)
+
+
+--- SOURCE: type-aliases/IConstantLineProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IConstantLineProps
+
+# Type Alias: IConstantLineProps
+
+> **IConstantLineProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `displayBehindSeries?`: `boolean`; `extendAxis?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `text?`: `string`; `visible?`: `boolean`; \}; `value?`: `Date` \| `number` \| `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1122](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1122)
+
+
+--- SOURCE: type-aliases/IConstantLineStyleLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IConstantLineStyleLabelProps
+
+# Type Alias: IConstantLineStyleLabelProps
+
+> **IConstantLineStyleLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1206](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1206)
+
+
+--- SOURCE: type-aliases/IConstantLineStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IConstantLineStyleProps
+
+# Type Alias: IConstantLineStyleProps
+
+> **IConstantLineStyleProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `visible?`: `boolean`; \}; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1179](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1179)
+
+
+--- SOURCE: type-aliases/IDataPrepareSettingsProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IDataPrepareSettingsProps
+
+# Type Alias: IDataPrepareSettingsProps
+
+> **IDataPrepareSettingsProps** = `React.PropsWithChildren`\<\{ `checkTypeForAllData?`: `boolean`; `convertToAxisDataType?`: `boolean`; `sortingMethod?`: `boolean` \| (`a`, `b`) => `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1228](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1228)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1248](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1248)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1283](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1283)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1307](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1307)
+
+
+--- SOURCE: type-aliases/IGridProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IGridProps
+
+# Type Alias: IGridProps
+
+> **IGridProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1332](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1332)
+
+
+--- SOURCE: type-aliases/IHatchingProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IHatchingProps
+
+# Type Alias: IHatchingProps
+
+> **IHatchingProps** = `React.PropsWithChildren`\<\{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1354](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1354)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `size?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1377](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1377)
+
+
+--- SOURCE: type-aliases/IImageProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IImageProps
+
+# Type Alias: IImageProps
+
+> **IImageProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1420](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1420)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeHint?`: (`argument`) => `string`; `customizeText?`: (`argument`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `position?`: [`RelativePosition`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/RelativePosition.md); `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1448](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1448)
+
+
+--- SOURCE: type-aliases/ILegendProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`seriesInfo`) => `string`; `customizeItems?`: (`items`) => `LegendItem`[]; `customizeText?`: (`seriesInfo`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `hoverMode?`: [`LegendHoverMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LegendHoverMode.md); `itemsAlignment?`: `HorizontalAlignment`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}; `verticalAlignment?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1498](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1498)
+
+
+--- SOURCE: type-aliases/ILegendTitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILegendTitleProps
+
+# Type Alias: ILegendTitleProps
+
+> **ILegendTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1582](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1582)
+
+
+--- SOURCE: type-aliases/ILegendTitleSubtitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILegendTitleSubtitleProps
+
+# Type Alias: ILegendTitleSubtitleProps
+
+> **ILegendTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1621](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1621)
+
+
+--- SOURCE: type-aliases/ILengthProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILengthProps
+
+# Type Alias: ILengthProps
+
+> **ILengthProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1645](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1645)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1671](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1671)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1704](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1704)
+
+
+--- SOURCE: type-aliases/IMinVisualRangeLengthProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IMinVisualRangeLengthProps
+
+# Type Alias: IMinVisualRangeLengthProps
+
+> **IMinVisualRangeLengthProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1800](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1800)
+
+
+--- SOURCE: type-aliases/IMinorGridProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IMinorGridProps
+
+# Type Alias: IMinorGridProps
+
+> **IMinorGridProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1727](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1727)
+
+
+--- SOURCE: type-aliases/IMinorTickIntervalProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IMinorTickIntervalProps
+
+# Type Alias: IMinorTickIntervalProps
+
+> **IMinorTickIntervalProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1774](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1774)
+
+
+--- SOURCE: type-aliases/IMinorTickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IMinorTickProps
+
+# Type Alias: IMinorTickProps
+
+> **IMinorTickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1750](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1750)
+
+
+--- SOURCE: type-aliases/IPointBorderProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPointBorderProps
+
+# Type Alias: IPointBorderProps
+
+> **IPointBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1887](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1887)
+
+
+--- SOURCE: type-aliases/IPointHoverStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPointHoverStyleProps
+
+# Type Alias: IPointHoverStyleProps
+
+> **IPointHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1907](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1907)
+
+
+--- SOURCE: type-aliases/IPointProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPointProps
+
+# Type Alias: IPointProps
+
+> **IPointProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `selectionMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: [`PointSymbol`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointSymbol.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1827](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1827)
+
+
+--- SOURCE: type-aliases/IPointSelectionStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPointSelectionStyleProps
+
+# Type Alias: IPointSelectionStyleProps
+
+> **IPointSelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1936](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1936)
+
+
+--- SOURCE: type-aliases/IPolarChartOptions.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPolarChartOptions
+
+# Type Alias: IPolarChartOptions
+
+> **IPolarChartOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/Properties.md), `IPolarChartOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L41)
+
+
+--- SOURCE: type-aliases/IPolarChartTitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPolarChartTitleProps
+
+# Type Alias: IPolarChartTitleProps
+
+> **IPolarChartTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:1965](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1965)
+
+
+--- SOURCE: type-aliases/IPolarChartTitleSubtitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IPolarChartTitleSubtitleProps
+
+# Type Alias: IPolarChartTitleSubtitleProps
+
+> **IPolarChartTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2008](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2008)
+
+
+--- SOURCE: type-aliases/ISelectionStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISelectionStyleProps
+
+# Type Alias: ISelectionStyleProps
+
+> **ISelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `size?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2035](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2035)
+
+
+--- SOURCE: type-aliases/ISeriesBorderProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISeriesBorderProps
+
+# Type Alias: ISeriesBorderProps
+
+> **ISeriesBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2244](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2244)
+
+
+--- SOURCE: type-aliases/ISeriesProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISeriesProps
+
+# Type Alias: ISeriesProps
+
+> **ISeriesProps** = `React.PropsWithChildren`\<\{ `argumentField?`: `string`; `barPadding?`: `number`; `barWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `closed?`: `boolean`; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hoverMode?`: [`SeriesHoverMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesHoverMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `ignoreEmptyPoints?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `argumentFormat?`: `LocalizationFormat`; `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`pointInfo`) => `string`; `displayFormat?`: `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `position?`: [`RelativePosition`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/RelativePosition.md); `rotationAngle?`: `number`; `showForZeroValues?`: `boolean`; `visible?`: `boolean`; \}; `maxLabelCount?`: `number`; `minBarSize?`: `number`; `name?`: `string`; `opacity?`: `number`; `point?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `hoverMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `selectionMode?`: [`PointInteractionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointInteractionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `size?`: `number`; \}; `size?`: `number`; `symbol?`: [`PointSymbol`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PointSymbol.md); `visible?`: `boolean`; \}; `selectionMode?`: [`SeriesSelectionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/SeriesSelectionMode.md); `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `ChartsColor` \| `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; `highlight?`: `boolean`; `width?`: `number`; \}; `showInLegend?`: `boolean`; `stack?`: `string`; `tag?`: `any`; `tagField?`: `string`; `type?`: [`PolarChartSeriesType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/PolarChartSeriesType.md); `valueErrorBar?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `displayMode?`: [`ValueErrorBarDisplayMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarDisplayMode.md); `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: [`ValueErrorBarType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarType.md); `value?`: `number`; \}; `valueField?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2076](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2076)
+
+
+--- SOURCE: type-aliases/ISeriesTemplateProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISeriesTemplateProps
+
+# Type Alias: ISeriesTemplateProps
+
+> **ISeriesTemplateProps** = `React.PropsWithChildren`\<\{ `customizeSeries?`: (`seriesName`) => `PolarChartSeries`; `nameField?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2265](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2265)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2286](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2286)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2308](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2308)
+
+
+--- SOURCE: type-aliases/IStripLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IStripLabelProps
+
+# Type Alias: IStripLabelProps
+
+> **IStripLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2356)
+
+
+--- SOURCE: type-aliases/IStripProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IStripProps
+
+# Type Alias: IStripProps
+
+> **IStripProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `endValue?`: `Date` \| `number` \| `string`; `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `text?`: `string`; \}; `startValue?`: `Date` \| `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2328](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2328)
+
+
+--- SOURCE: type-aliases/IStripStyleLabelProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IStripStyleLabelProps
+
+# Type Alias: IStripStyleLabelProps
+
+> **IStripStyleLabelProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2403](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2403)
+
+
+--- SOURCE: type-aliases/IStripStyleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IStripStyleProps
+
+# Type Alias: IStripStyleProps
+
+> **IStripStyleProps** = `React.PropsWithChildren`\<\{ `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; \}; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2380](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2380)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2425](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2425)
+
+
+--- SOURCE: type-aliases/ITickIntervalProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ITickIntervalProps
+
+# Type Alias: ITickIntervalProps
+
+> **ITickIntervalProps** = `React.PropsWithChildren`\<\{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2476](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2476)
+
+
+--- SOURCE: type-aliases/ITickProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ITickProps
+
+# Type Alias: ITickProps
+
+> **ITickProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `shift?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2452](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2452)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| `number` \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2503](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2503)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2608](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2608)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `argumentFormat?`: `LocalizationFormat`; `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`pointInfo`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`pointInfo`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `shared?`: `boolean`; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2546](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2546)
+
+
+--- SOURCE: type-aliases/IValueAxisProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IValueAxisProps
+
+# Type Alias: IValueAxisProps
+
+> **IValueAxisProps** = `React.PropsWithChildren`\<\{ `allowDecimals?`: `boolean`; `axisDivisionFactor?`: `number`; `categories?`: (`Date` \| `number` \| `string`)[]; `color?`: `string`; `constantLines?`: `Record`\<`string`, `any`\>[] \| `object`[]; `constantLineStyle?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DashStyle.md); `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; `visible?`: `boolean`; \}; `width?`: `number`; \}; `defaultVisualRange?`: (`Date` \| `number` \| `string`)[] \| `CommonChartTypes.VisualRange`; `discreteAxisDivisionMode?`: [`DiscreteAxisDivisionMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/DiscreteAxisDivisionMode.md); `endOnTick?`: `boolean`; `grid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `inverted?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `customizeHint?`: (`axisValue`) => `string`; `customizeText?`: (`axisValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indentFromAxis?`: `number`; `overlappingBehavior?`: [`LabelOverlap`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/LabelOverlap.md); `visible?`: `boolean`; \}; `linearThreshold?`: `number`; `logarithmBase?`: `number`; `maxValueMargin?`: `number`; `minorGrid?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `minorTickCount?`: `number`; `minorTickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `minValueMargin?`: `number`; `minVisualRangeLength?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `onVisualRangeChange?`: (`value`) => `void`; `opacity?`: `number`; `showZero?`: `boolean`; `strips?`: `Record`\<`string`, `any`\>[] \| `object`[]; `stripStyle?`: `Record`\<`string`, `any`\> \| \{ `label?`: `Record`\<`string`, `any`\> \| \{ `font?`: `ChartsFont`; \}; \}; `tick?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `length?`: `number`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `tickInterval?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `type?`: [`AxisScaleType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/AxisScaleType.md); `valueMarginsEnabled?`: `boolean`; `valueType?`: [`ChartsDataType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ChartsDataType.md); `visible?`: `boolean`; `visualRange?`: (`Date` \| `number` \| `string`)[] \| `CommonChartTypes.VisualRange`; `visualRangeUpdateMode?`: [`ValueAxisVisualRangeUpdateMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueAxisVisualRangeUpdateMode.md); `wholeRange?`: (`Date` \| `number` \| `string`)[] \| `CommonChartTypes.VisualRange`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2630](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2630)
+
+
+--- SOURCE: type-aliases/IValueErrorBarProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IValueErrorBarProps
+
+# Type Alias: IValueErrorBarProps
+
+> **IValueErrorBarProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `displayMode?`: [`ValueErrorBarDisplayMode`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarDisplayMode.md); `edgeLength?`: `number`; `highValueField?`: `string`; `lineWidth?`: `number`; `lowValueField?`: `string`; `opacity?`: `number`; `type?`: [`ValueErrorBarType`](../DevExtreme-React-PolarChart-API/namespaces/PolarChartTypes/type-aliases/ValueErrorBarType.md); `value?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2798](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2798)
+
+
+--- SOURCE: type-aliases/IVisualRangeProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IVisualRangeProps
+
+# Type Alias: IVisualRangeProps
+
+> **IVisualRangeProps** = `React.PropsWithChildren`\<\{ `defaultEndValue?`: `Date` \| `number` \| `string`; `defaultStartValue?`: `Date` \| `number` \| `string`; `endValue?`: `Date` \| `number` \| `string`; `length?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `onEndValueChange?`: (`value`) => `void`; `onStartValueChange?`: (`value`) => `void`; `startValue?`: `Date` \| `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2824](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2824)
+
+
+--- SOURCE: type-aliases/IWholeRangeProps.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / IWholeRangeProps
+
+# Type Alias: IWholeRangeProps
+
+> **IWholeRangeProps** = `React.PropsWithChildren`\<\{ `defaultEndValue?`: `Date` \| `number` \| `string`; `defaultStartValue?`: `Date` \| `number` \| `string`; `endValue?`: `Date` \| `number` \| `string`; `length?`: `number` \| `Record`\<`string`, `any`\> \| `TimeInterval` \| \{ `days?`: `number`; `hours?`: `number`; `milliseconds?`: `number`; `minutes?`: `number`; `months?`: `number`; `quarters?`: `number`; `seconds?`: `number`; `weeks?`: `number`; `years?`: `number`; \}; `onEndValueChange?`: (`value`) => `void`; `onStartValueChange?`: (`value`) => `void`; `startValue?`: `Date` \| `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:2865](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2865)
+
+
+--- SOURCE: variables/AdaptiveLayout.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / AdaptiveLayout
+
+# Variable: AdaptiveLayout
+
+> `const` **AdaptiveLayout**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:127](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L127)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L148)
+
+
+--- SOURCE: variables/Annotation.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Annotation
+
+# Variable: Annotation
+
+> `const` **Annotation**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:236](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L236)
+
+
+--- SOURCE: variables/AnnotationBorder.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / AnnotationBorder
+
+# Variable: AnnotationBorder
+
+> `const` **AnnotationBorder**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:261](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L261)
+
+
+--- SOURCE: variables/ArgumentAxis.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ArgumentAxis
+
+# Variable: ArgumentAxis
+
+> `const` **ArgumentAxis**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:409](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L409)
+
+
+--- SOURCE: variables/ArgumentAxisMinorTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ArgumentAxisMinorTick
+
+# Variable: ArgumentAxisMinorTick
+
+> `const` **ArgumentAxisMinorTick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:432](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L432)
+
+
+--- SOURCE: variables/ArgumentAxisTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ArgumentAxisTick
+
+# Variable: ArgumentAxisTick
+
+> `const` **ArgumentAxisTick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:455](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L455)
+
+
+--- SOURCE: variables/ArgumentFormat.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ArgumentFormat
+
+# Variable: ArgumentFormat
+
+> `const` **ArgumentFormat**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:479](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L479)
+
+
+--- SOURCE: variables/AxisLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / AxisLabel
+
+# Variable: AxisLabel
+
+> `const` **AxisLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:508](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L508)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:540](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L540)
+
+
+--- SOURCE: variables/Color.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Color
+
+# Variable: Color
+
+> `const` **Color**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:563](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L563)
+
+
+--- SOURCE: variables/CommonAnnotationSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonAnnotationSettings
+
+# Variable: CommonAnnotationSettings
+
+> `const` **CommonAnnotationSettings**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:649](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L649)
+
+
+--- SOURCE: variables/CommonAxisSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonAxisSettings
+
+# Variable: CommonAxisSettings
+
+> `const` **CommonAxisSettings**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:732](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L732)
+
+
+--- SOURCE: variables/CommonAxisSettingsLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonAxisSettingsLabel
+
+# Variable: CommonAxisSettingsLabel
+
+> `const` **CommonAxisSettingsLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:756](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L756)
+
+
+--- SOURCE: variables/CommonAxisSettingsMinorTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonAxisSettingsMinorTick
+
+# Variable: CommonAxisSettingsMinorTick
+
+> `const` **CommonAxisSettingsMinorTick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:779](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L779)
+
+
+--- SOURCE: variables/CommonAxisSettingsTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonAxisSettingsTick
+
+# Variable: CommonAxisSettingsTick
+
+> `const` **CommonAxisSettingsTick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:802](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L802)
+
+
+--- SOURCE: variables/CommonSeriesSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonSeriesSettings
+
+# Variable: CommonSeriesSettings
+
+> `const` **CommonSeriesSettings**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:968](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L968)
+
+
+--- SOURCE: variables/CommonSeriesSettingsHoverStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonSeriesSettingsHoverStyle
+
+# Variable: CommonSeriesSettingsHoverStyle
+
+> `const` **CommonSeriesSettingsHoverStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1008](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1008)
+
+
+--- SOURCE: variables/CommonSeriesSettingsLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonSeriesSettingsLabel
+
+# Variable: CommonSeriesSettingsLabel
+
+> `const` **CommonSeriesSettingsLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1055](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1055)
+
+
+--- SOURCE: variables/CommonSeriesSettingsSelectionStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / CommonSeriesSettingsSelectionStyle
+
+# Variable: CommonSeriesSettingsSelectionStyle
+
+> `const` **CommonSeriesSettingsSelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1095](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1095)
+
+
+--- SOURCE: variables/Connector.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Connector
+
+# Variable: Connector
+
+> `const` **Connector**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1115](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1115)
+
+
+--- SOURCE: variables/ConstantLine.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ConstantLine
+
+# Variable: ConstantLine
+
+> `const` **ConstantLine**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1148)
+
+
+--- SOURCE: variables/ConstantLineLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ConstantLineLabel
+
+# Variable: ConstantLineLabel
+
+> `const` **ConstantLineLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1171](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1171)
+
+
+--- SOURCE: variables/ConstantLineStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ConstantLineStyle
+
+# Variable: ConstantLineStyle
+
+> `const` **ConstantLineStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1200](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1200)
+
+
+--- SOURCE: variables/ConstantLineStyleLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ConstantLineStyleLabel
+
+# Variable: ConstantLineStyleLabel
+
+> `const` **ConstantLineStyleLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1222](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1222)
+
+
+--- SOURCE: variables/DataPrepareSettings.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / DataPrepareSettings
+
+# Variable: DataPrepareSettings
+
+> `const` **DataPrepareSettings**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1242](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1242)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1266](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1266)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1299](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1299)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1324](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1324)
+
+
+--- SOURCE: variables/Grid.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Grid
+
+# Variable: Grid
+
+> `const` **Grid**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1347](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1347)
+
+
+--- SOURCE: variables/Hatching.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Hatching
+
+# Variable: Hatching
+
+> `const` **Hatching**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1369](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1369)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1412](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1412)
+
+
+--- SOURCE: variables/Image.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Image
+
+# Variable: Image
+
+> `const` **Image**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1434](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1434)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1492](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1492)
+
+
+--- SOURCE: variables/Legend.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Legend
+
+# Variable: Legend
+
+> `const` **Legend**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1576](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1576)
+
+
+--- SOURCE: variables/LegendTitle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / LegendTitle
+
+# Variable: LegendTitle
+
+> `const` **LegendTitle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1615](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1615)
+
+
+--- SOURCE: variables/LegendTitleSubtitle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / LegendTitleSubtitle
+
+# Variable: LegendTitleSubtitle
+
+> `const` **LegendTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1638](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1638)
+
+
+--- SOURCE: variables/Length.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Length
+
+# Variable: Length
+
+> `const` **Length**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1665](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1665)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1695](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1695)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1719](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1719)
+
+
+--- SOURCE: variables/MinVisualRangeLength.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / MinVisualRangeLength
+
+# Variable: MinVisualRangeLength
+
+> `const` **MinVisualRangeLength**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1820](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1820)
+
+
+--- SOURCE: variables/MinorGrid.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / MinorGrid
+
+# Variable: MinorGrid
+
+> `const` **MinorGrid**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1742](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1742)
+
+
+--- SOURCE: variables/MinorTick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / MinorTick
+
+# Variable: MinorTick
+
+> `const` **MinorTick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1767](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1767)
+
+
+--- SOURCE: variables/MinorTickInterval.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / MinorTickInterval
+
+# Variable: MinorTickInterval
+
+> `const` **MinorTickInterval**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1794](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1794)
+
+
+--- SOURCE: variables/Point.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Point
+
+# Variable: Point
+
+> `const` **Point**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1879](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1879)
+
+
+--- SOURCE: variables/PointBorder.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PointBorder
+
+# Variable: PointBorder
+
+> `const` **PointBorder**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1901](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1901)
+
+
+--- SOURCE: variables/PointHoverStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PointHoverStyle
+
+# Variable: PointHoverStyle
+
+> `const` **PointHoverStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1930](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1930)
+
+
+--- SOURCE: variables/PointSelectionStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PointSelectionStyle
+
+# Variable: PointSelectionStyle
+
+> `const` **PointSelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:1959](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L1959)
+
+
+--- SOURCE: variables/PolarChart.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PolarChart
+
+# Variable: PolarChart()
+
+> `const` **PolarChart**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/polar-chart.ts:52](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L52)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/PolarChartTitle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PolarChartTitle
+
+# Variable: PolarChartTitle
+
+> `const` **PolarChartTitle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2002](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2002)
+
+
+--- SOURCE: variables/PolarChartTitleSubtitle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / PolarChartTitleSubtitle
+
+# Variable: PolarChartTitleSubtitle
+
+> `const` **PolarChartTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2027](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2027)
+
+
+--- SOURCE: variables/SelectionStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / SelectionStyle
+
+# Variable: SelectionStyle
+
+> `const` **SelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2070](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2070)
+
+
+--- SOURCE: variables/Series.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Series
+
+# Variable: Series
+
+> `const` **Series**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2234](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2234)
+
+
+--- SOURCE: variables/SeriesBorder.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / SeriesBorder
+
+# Variable: SeriesBorder
+
+> `const` **SeriesBorder**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2259](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2259)
+
+
+--- SOURCE: variables/SeriesTemplate.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / SeriesTemplate
+
+# Variable: SeriesTemplate
+
+> `const` **SeriesTemplate**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2278](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2278)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2302](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2302)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2321](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2321)
+
+
+--- SOURCE: variables/Strip.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Strip
+
+# Variable: Strip
+
+> `const` **Strip**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2350](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2350)
+
+
+--- SOURCE: variables/StripLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / StripLabel
+
+# Variable: StripLabel
+
+> `const` **StripLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2372](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2372)
+
+
+--- SOURCE: variables/StripStyle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / StripStyle
+
+# Variable: StripStyle
+
+> `const` **StripStyle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2397](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2397)
+
+
+--- SOURCE: variables/StripStyleLabel.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / StripStyleLabel
+
+# Variable: StripStyleLabel
+
+> `const` **StripStyleLabel**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2418](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2418)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2444](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2444)
+
+
+--- SOURCE: variables/Tick.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Tick
+
+# Variable: Tick
+
+> `const` **Tick**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2469](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2469)
+
+
+--- SOURCE: variables/TickInterval.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / TickInterval
+
+# Variable: TickInterval
+
+> `const` **TickInterval**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2496](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2496)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2540](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2540)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2602](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2602)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2624](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2624)
+
+
+--- SOURCE: variables/ValueAxis.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ValueAxis
+
+# Variable: ValueAxis
+
+> `const` **ValueAxis**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2791](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2791)
+
+
+--- SOURCE: variables/ValueErrorBar.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / ValueErrorBar
+
+# Variable: ValueErrorBar
+
+> `const` **ValueErrorBar**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2818](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2818)
+
+
+--- SOURCE: variables/VisualRange.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / VisualRange
+
+# Variable: VisualRange
+
+> `const` **VisualRange**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2859](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2859)
+
+
+--- SOURCE: variables/WholeRange.md ---
+
+[**DevExtreme React PolarChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PolarChart API](../globals.md) / WholeRange
+
+# Variable: WholeRange
+
+> `const` **WholeRange**: `any`
+
+Defined in: [devextreme-react/src/polar-chart.ts:2900](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/polar-chart.ts#L2900)
+

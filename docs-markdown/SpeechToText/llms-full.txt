@@ -1,0 +1,1284 @@
+# SpeechToText Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React SpeechToText API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/README.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../globals.md) / SpeechToTextTypes
+
+# SpeechToTextTypes
+
+## Interfaces
+
+- [Properties](interfaces/Properties.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CustomSpeechRecognizer](type-aliases/CustomSpeechRecognizer.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EndEvent](type-aliases/EndEvent.md)
+- [ErrorEvent](type-aliases/ErrorEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [ResultEvent](type-aliases/ResultEvent.md)
+- [SpeechRecognitionConfig](type-aliases/SpeechRecognitionConfig.md)
+- [StartClickEvent](type-aliases/StartClickEvent.md)
+- [StopClickEvent](type-aliases/StopClickEvent.md)
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/interfaces/Properties.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / Properties
+
+# Interface: Properties
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:155
+
+## Docid
+
+dxSpeechToTextOptions
+
+## Extends
+
+- `WidgetOptions`\<`dxSpeechToText`\>
+
+## Properties
+
+### accessKey?
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.accessKey`
+
+***
+
+### activeStateEnabled?
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.activeStateEnabled`
+
+***
+
+### customSpeechRecognizer?
+
+> `optional` **customSpeechRecognizer**: [`CustomSpeechRecognizer`](../type-aliases/CustomSpeechRecognizer.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:160
+
+#### Docid
+
+dxSpeechToTextOptions.customSpeechRecognizer
+
+***
+
+### disabled?
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.disabled`
+
+***
+
+### elementAttr?
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.elementAttr`
+
+***
+
+### focusStateEnabled?
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:47
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.focusStateEnabled`
+
+***
+
+### height?
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.height`
+
+***
+
+### hint?
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.hint`
+
+***
+
+### hoverStateEnabled?
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.hoverStateEnabled`
+
+***
+
+### onContentReady()?
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSpeechToText`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onContentReady`
+
+***
+
+### onDisposing()?
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxSpeechToText`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onDisposing`
+
+***
+
+### onEnd()?
+
+> `optional` **onEnd**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:253
+
+#### Parameters
+
+##### e
+
+[`EndEvent`](../type-aliases/EndEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+dxSpeechToTextOptions.onEnd
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/speech_to_text:EndEvent}
+```
+
+#### Action
+
+***
+
+### onError()?
+
+> `optional` **onError**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:244
+
+#### Parameters
+
+##### e
+
+[`ErrorEvent`](../type-aliases/ErrorEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+dxSpeechToTextOptions.onError
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/speech_to_text:ErrorEvent}
+```
+
+#### Action
+
+***
+
+### onInitialized()?
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`WidgetOptions.onInitialized`
+
+***
+
+### onOptionChanged()?
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxSpeechToText`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.onOptionChanged`
+
+***
+
+### onResult()?
+
+> `optional` **onResult**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:235
+
+#### Parameters
+
+##### e
+
+[`ResultEvent`](../type-aliases/ResultEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+dxSpeechToTextOptions.onResult
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/speech_to_text:ResultEvent}
+```
+
+#### Action
+
+***
+
+### onStartClick()?
+
+> `optional` **onStartClick**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:217
+
+#### Parameters
+
+##### e
+
+[`StartClickEvent`](../type-aliases/StartClickEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+dxSpeechToTextOptions.onStartClick
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/speech_to_text:StartClickEvent}
+```
+
+#### Action
+
+***
+
+### onStopClick()?
+
+> `optional` **onStopClick**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:226
+
+#### Parameters
+
+##### e
+
+[`StopClickEvent`](../type-aliases/StopClickEvent.md)
+
+#### Returns
+
+`void`
+
+#### Docid
+
+dxSpeechToTextOptions.onStopClick
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 e:{ui/speech_to_text:StopClickEvent}
+```
+
+#### Action
+
+***
+
+### rtlEnabled?
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.rtlEnabled`
+
+***
+
+### speechRecognitionConfig?
+
+> `optional` **speechRecognitionConfig**: [`SpeechRecognitionConfig`](../type-aliases/SpeechRecognitionConfig.md) \| \{\[`key`: `string`\]: `any`; \}
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:208
+
+#### Docid
+
+dxSpeechToTextOptions.speechRecognitionConfig
+
+***
+
+### startIcon?
+
+> `optional` **startIcon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:188
+
+#### Docid
+
+dxSpeechToTextOptions.startIcon
+
+#### Default
+
+```ts
+'micoutline'
+@public
+```
+
+***
+
+### startText?
+
+> `optional` **startText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:167
+
+#### Docid
+
+dxSpeechToTextOptions.startText
+
+#### Default
+
+```ts
+""
+@public
+```
+
+***
+
+### stopIcon?
+
+> `optional` **stopIcon**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:195
+
+#### Docid
+
+dxSpeechToTextOptions.stopIcon
+
+#### Default
+
+```ts
+'stopfilled'
+@public
+```
+
+***
+
+### stopText?
+
+> `optional` **stopText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:174
+
+#### Docid
+
+dxSpeechToTextOptions.stopText
+
+#### Default
+
+```ts
+""
+@public
+```
+
+***
+
+### stylingMode?
+
+> `optional` **stylingMode**: `ButtonStyle`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:181
+
+#### Docid
+
+dxSpeechToTextOptions.stylingMode
+
+#### Default
+
+```ts
+'contained'
+@public
+```
+
+***
+
+### tabIndex?
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.tabIndex`
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:202
+
+#### Docid
+
+dxSpeechToTextOptions.type
+
+#### Default
+
+```ts
+'normal'
+@public
+```
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.visible`
+
+***
+
+### width?
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`WidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxSpeechToText`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:124
+
+## Docid
+
+_ui_speech_to_text_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/CustomSpeechRecognizer.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / CustomSpeechRecognizer
+
+# Type Alias: CustomSpeechRecognizer
+
+> **CustomSpeechRecognizer** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:62
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxSpeechToText
+
+## Properties
+
+### enabled?
+
+> `optional` **enabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:68
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### isListening?
+
+> `optional` **isListening**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:75
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSpeechToText`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:132
+
+## Docid
+
+_ui_speech_to_text_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/EndEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / EndEvent
+
+# Type Alias: EndEvent
+
+> **EndEvent** = `EventInfo`\<`dxSpeechToText`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:116
+
+## Type Declaration
+
+### event
+
+> **event**: `Event`
+
+## Docid
+
+_ui_speech_to_text_EndEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/ErrorEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / ErrorEvent
+
+# Type Alias: ErrorEvent
+
+> **ErrorEvent** = `EventInfo`\<`dxSpeechToText`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:108
+
+## Type Declaration
+
+### event
+
+> **event**: `Event`
+
+## Docid
+
+_ui_speech_to_text_ErrorEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSpeechToText`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:140
+
+## Docid
+
+_ui_speech_to_text_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSpeechToText`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:148
+
+## Docid
+
+_ui_speech_to_text_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/ResultEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / ResultEvent
+
+# Type Alias: ResultEvent
+
+> **ResultEvent** = `EventInfo`\<`dxSpeechToText`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:100
+
+## Type Declaration
+
+### event
+
+> **event**: `Event`
+
+## Docid
+
+_ui_speech_to_text_ResultEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/SpeechRecognitionConfig.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / SpeechRecognitionConfig
+
+# Type Alias: SpeechRecognitionConfig
+
+> **SpeechRecognitionConfig** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:25
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxSpeechToText
+
+## Properties
+
+### continuous?
+
+> `optional` **continuous**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:30
+
+#### Docid
+
+***
+
+### grammars?
+
+> `optional` **grammars**: `string`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:36
+
+#### Docid
+
+***
+
+### interimResults?
+
+> `optional` **interimResults**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:42
+
+#### Docid
+
+***
+
+### lang?
+
+> `optional` **lang**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:48
+
+#### Docid
+
+***
+
+### maxAlternatives?
+
+> `optional` **maxAlternatives**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:54
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/StartClickEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / StartClickEvent
+
+# Type Alias: StartClickEvent
+
+> **StartClickEvent** = `NativeEventInfo`\<`dxSpeechToText`, `InteractionEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:84
+
+## Docid
+
+_ui_speech_to_text_StartClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/type-aliases/StopClickEvent.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../../../../globals.md) / [SpeechToTextTypes](../README.md) / StopClickEvent
+
+# Type Alias: StopClickEvent
+
+> **StopClickEvent** = `NativeEventInfo`\<`dxSpeechToText`, `InteractionEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/speech\_to\_text.d.ts:92
+
+## Docid
+
+_ui_speech_to_text_StopClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React SpeechToText API v26.1.0
+
+## Namespaces
+
+- [SpeechToTextTypes](DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/README.md)
+
+## Interfaces
+
+- [SpeechToTextRef](interfaces/SpeechToTextRef.md)
+
+## Type Aliases
+
+- [ICustomSpeechRecognizerProps](type-aliases/ICustomSpeechRecognizerProps.md)
+- [ISpeechRecognitionConfigProps](type-aliases/ISpeechRecognitionConfigProps.md)
+- [ISpeechToTextOptions](type-aliases/ISpeechToTextOptions.md)
+
+## Variables
+
+- [CustomSpeechRecognizer](variables/CustomSpeechRecognizer.md)
+- [SpeechRecognitionConfig](variables/SpeechRecognitionConfig.md)
+- [SpeechToText](variables/SpeechToText.md)
+
+## References
+
+### default
+
+Renames and re-exports [SpeechToText](variables/SpeechToText.md)
+
+
+--- SOURCE: interfaces/SpeechToTextRef.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / SpeechToTextRef
+
+# Interface: SpeechToTextRef
+
+Defined in: [devextreme-react/src/speech-to-text.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L30)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSpeechToText`
+
+Defined in: [devextreme-react/src/speech-to-text.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L31)
+
+#### Returns
+
+`dxSpeechToText`
+
+
+--- SOURCE: type-aliases/ICustomSpeechRecognizerProps.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / ICustomSpeechRecognizerProps
+
+# Type Alias: ICustomSpeechRecognizerProps
+
+> **ICustomSpeechRecognizerProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `isListening?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/speech-to-text.ts:70](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L70)
+
+
+--- SOURCE: type-aliases/ISpeechRecognitionConfigProps.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / ISpeechRecognitionConfigProps
+
+# Type Alias: ISpeechRecognitionConfigProps
+
+> **ISpeechRecognitionConfigProps** = `React.PropsWithChildren`\<\{ `continuous?`: `boolean`; `grammars?`: `string`[]; `interimResults?`: `boolean`; `lang?`: `string`; `maxAlternatives?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/speech-to-text.ts:89](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L89)
+
+
+--- SOURCE: type-aliases/ISpeechToTextOptions.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / ISpeechToTextOptions
+
+# Type Alias: ISpeechToTextOptions
+
+> **ISpeechToTextOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-SpeechToText-API/namespaces/SpeechToTextTypes/interfaces/Properties.md), `ISpeechToTextOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/speech-to-text.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L28)
+
+
+--- SOURCE: variables/CustomSpeechRecognizer.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / CustomSpeechRecognizer
+
+# Variable: CustomSpeechRecognizer
+
+> `const` **CustomSpeechRecognizer**: `any`
+
+Defined in: [devextreme-react/src/speech-to-text.ts:83](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L83)
+
+
+--- SOURCE: variables/SpeechRecognitionConfig.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / SpeechRecognitionConfig
+
+# Variable: SpeechRecognitionConfig
+
+> `const` **SpeechRecognitionConfig**: `any`
+
+Defined in: [devextreme-react/src/speech-to-text.ts:105](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L105)
+
+
+--- SOURCE: variables/SpeechToText.md ---
+
+[**DevExtreme React SpeechToText API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React SpeechToText API](../globals.md) / SpeechToText
+
+# Variable: SpeechToText()
+
+> `const` **SpeechToText**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/speech-to-text.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/speech-to-text.ts#L34)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

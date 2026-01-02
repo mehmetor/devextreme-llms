@@ -1,0 +1,1768 @@
+# Funnel Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Funnel API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/README.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../globals.md) / FunnelTypes
+
+# FunnelTypes
+
+## Type Aliases
+
+- [DashStyle](type-aliases/DashStyle.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [FunnelAlgorithm](type-aliases/FunnelAlgorithm.md)
+- [HatchDirection](type-aliases/HatchDirection.md)
+- [HorizontalEdge](type-aliases/HorizontalEdge.md)
+- [HoverChangedEvent](type-aliases/HoverChangedEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [LabelPosition](type-aliases/LabelPosition.md)
+- [Legend](type-aliases/Legend.md)
+- [LegendClickEvent](type-aliases/LegendClickEvent.md)
+- [LegendItem](type-aliases/LegendItem.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PaletteExtensionMode](type-aliases/PaletteExtensionMode.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [ShiftLabelOverlap](type-aliases/ShiftLabelOverlap.md)
+- [TextOverflow](type-aliases/TextOverflow.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [WordWrap](type-aliases/WordWrap.md)
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / DashStyle
+
+# Type Alias: DashStyle
+
+> **DashStyle** = `"dash"` \| `"dot"` \| `"longDash"` \| `"solid"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:60
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxFunnel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:117
+
+## Docid
+
+_viz_funnel_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxFunnel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:125
+
+## Docid
+
+_viz_funnel_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxFunnel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:133
+
+## Docid
+
+_viz_funnel_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxFunnel`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:141
+
+## Docid
+
+_viz_funnel_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxFunnel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:149
+
+## Docid
+
+_viz_funnel_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/FunnelAlgorithm.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / FunnelAlgorithm
+
+# Type Alias: FunnelAlgorithm
+
+> **FunnelAlgorithm** = `"dynamicHeight"` \| `"dynamicSlope"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:71
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / HatchDirection
+
+# Type Alias: HatchDirection
+
+> **HatchDirection** = `"left"` \| `"none"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:72
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HorizontalEdge.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / HorizontalEdge
+
+# Type Alias: HorizontalEdge
+
+> **HorizontalEdge** = `"left"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:434
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HoverChangedEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / HoverChangedEvent
+
+# Type Alias: HoverChangedEvent
+
+> **HoverChangedEvent** = `EventInfo`\<`dxFunnel`\> & `FunnelItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:157
+
+## Docid
+
+_viz_funnel_HoverChangedEvent
+
+## Inherits
+
+EventInfo,FunnelItemInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxFunnel`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:165
+
+## Docid
+
+_viz_funnel_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxFunnel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:173
+
+## Docid
+
+_viz_funnel_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxFunnelItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:703
+
+**`Namespace`**
+
+DevExpress.viz.dxFunnel
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `NativeEventInfo`\<`dxFunnel`, `MouseEvent` \| `PointerEvent`\> & `FunnelItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:181
+
+## Docid
+
+_viz_funnel_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,FunnelItemInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/LabelPosition.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / LabelPosition
+
+# Type Alias: LabelPosition
+
+> **LabelPosition** = `"columns"` \| `"inside"` \| `"outside"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:90
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Legend.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / Legend
+
+# Type Alias: Legend
+
+> **Legend** = `BaseLegend` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:612
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`itemInfo`) => `string`
+
+#### Parameters
+
+##### itemInfo
+
+###### item?
+
+[`Item`](Item.md)
+
+###### text?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxFunnelOptions.legend.customizeHint
+@type_function_param1_field item:dxFunnelItem
+
+### customizeItems()?
+
+> `optional` **customizeItems**: (`items`) => [`LegendItem`](LegendItem.md)[]
+
+#### Parameters
+
+##### items
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Returns
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Docid
+
+dxFunnelOptions.legend.customizeItems
+@type_function_param1 items:Array<FunnelLegendItem>
+@type_function_return Array<FunnelLegendItem>
+
+### customizeText()?
+
+> `optional` **customizeText**: (`itemInfo`) => `string`
+
+#### Parameters
+
+##### itemInfo
+
+###### item?
+
+[`Item`](Item.md)
+
+###### text?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxFunnelOptions.legend.customizeText
+@type_function_param1_field item:dxFunnelItem
+
+#### Not Used In Theme
+
+### markerTemplate?
+
+> `optional` **markerTemplate**: `template` \| (`legendItem`, `element`) => `string` \| `UserDefinedElement`\<`SVGElement`\>
+
+#### Docid
+
+dxFunnelOptions.legend.markerTemplate
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 legendItem:FunnelLegendItem
+@type_function_return string|SVGElement|jQuery
+@public
+```
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+#### Docid
+
+dxFunnelOptions.legend.visible
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxFunnelLegend
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/LegendClickEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / LegendClickEvent
+
+# Type Alias: LegendClickEvent
+
+> **LegendClickEvent** = `NativeEventInfo`\<`dxFunnel`, `MouseEvent` \| `PointerEvent`\> & `FunnelItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:189
+
+## Docid
+
+_viz_funnel_LegendClickEvent
+
+## Inherits
+
+NativeEventInfo,FunnelItemInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/LegendItem.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / LegendItem
+
+# Type Alias: LegendItem
+
+> **LegendItem** = `FunnelLegendItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:84
+
+**`Namespace`**
+
+## Docid
+
+FunnelLegendItem
+
+## Inherits
+
+BaseLegendItem
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxFunnel`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:197
+
+## Docid
+
+_viz_funnel_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/PaletteExtensionMode.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / PaletteExtensionMode
+
+# Type Alias: PaletteExtensionMode
+
+> **PaletteExtensionMode** = `"alternate"` \| `"blend"` \| `"extrapolate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:120
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxFunnelOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:769
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxFunnel`\> & `FunnelItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:205
+
+## Docid
+
+_viz_funnel_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,FunnelItemInfo
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/ShiftLabelOverlap.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / ShiftLabelOverlap
+
+# Type Alias: ShiftLabelOverlap
+
+> **ShiftLabelOverlap** = `"hide"` \| `"none"` \| `"shift"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:84
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / TextOverflow
+
+# Type Alias: TextOverflow
+
+> **TextOverflow** = `"ellipsis"` \| `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:190
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `BaseWidgetTooltip` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/funnel.d.ts:652
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`info`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxFunnelOptions.tooltip.contentTemplate
+@type_function_param1_field item:dxFunnelItem
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`info`) => `any`
+
+#### Parameters
+
+##### info
+
+###### item?
+
+[`Item`](Item.md)
+
+###### percent?
+
+`number`
+
+###### percentText?
+
+`string`
+
+###### value?
+
+`number`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxFunnelOptions.tooltip.customizeTooltip
+
+#### Default
+
+```ts
+undefined
+@type_function_param1_field item:dxFunnelItem
+@type_function_return object
+@public
+```
+
+## Docid
+
+dxFunnelTooltip
+
+
+--- SOURCE: DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Funnel API](../../../../globals.md) / [FunnelTypes](../README.md) / WordWrap
+
+# Type Alias: WordWrap
+
+> **WordWrap** = `"normal"` \| `"breakWord"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:292
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Funnel API v26.1.0
+
+## Namespaces
+
+- [FunnelTypes](DevExtreme-React-Funnel-API/namespaces/FunnelTypes/README.md)
+
+## Interfaces
+
+- [FunnelRef](interfaces/FunnelRef.md)
+
+## Type Aliases
+
+- [IAdaptiveLayoutProps](type-aliases/IAdaptiveLayoutProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IConnectorProps](type-aliases/IConnectorProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IFunnelOptions](type-aliases/IFunnelOptions.md)
+- [IFunnelTitleProps](type-aliases/IFunnelTitleProps.md)
+- [IFunnelTitleSubtitleProps](type-aliases/IFunnelTitleSubtitleProps.md)
+- [IHatchingProps](type-aliases/IHatchingProps.md)
+- [IHoverStyleProps](type-aliases/IHoverStyleProps.md)
+- [IItemBorderProps](type-aliases/IItemBorderProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ILabelBorderProps](type-aliases/ILabelBorderProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILegendBorderProps](type-aliases/ILegendBorderProps.md)
+- [ILegendProps](type-aliases/ILegendProps.md)
+- [ILegendTitleProps](type-aliases/ILegendTitleProps.md)
+- [ILegendTitleSubtitleProps](type-aliases/ILegendTitleSubtitleProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [ISelectionStyleProps](type-aliases/ISelectionStyleProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [AdaptiveLayout](variables/AdaptiveLayout.md)
+- [Border](variables/Border.md)
+- [Connector](variables/Connector.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Funnel](variables/Funnel.md)
+- [FunnelTitle](variables/FunnelTitle.md)
+- [FunnelTitleSubtitle](variables/FunnelTitleSubtitle.md)
+- [Hatching](variables/Hatching.md)
+- [HoverStyle](variables/HoverStyle.md)
+- [Item](variables/Item.md)
+- [ItemBorder](variables/ItemBorder.md)
+- [Label](variables/Label.md)
+- [LabelBorder](variables/LabelBorder.md)
+- [Legend](variables/Legend.md)
+- [LegendBorder](variables/LegendBorder.md)
+- [LegendTitle](variables/LegendTitle.md)
+- [LegendTitleSubtitle](variables/LegendTitleSubtitle.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [SelectionStyle](variables/SelectionStyle.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+
+## References
+
+### default
+
+Renames and re-exports [Funnel](variables/Funnel.md)
+
+
+--- SOURCE: interfaces/FunnelRef.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / FunnelRef
+
+# Interface: FunnelRef
+
+Defined in: [devextreme-react/src/funnel.ts:37](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L37)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxFunnel`
+
+Defined in: [devextreme-react/src/funnel.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L38)
+
+#### Returns
+
+`dxFunnel`
+
+
+--- SOURCE: type-aliases/IAdaptiveLayoutProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IAdaptiveLayoutProps
+
+# Type Alias: IAdaptiveLayoutProps
+
+> **IAdaptiveLayoutProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `keepLabels?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:93](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L93)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L118)
+
+
+--- SOURCE: type-aliases/IConnectorProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IConnectorProps
+
+# Type Alias: IConnectorProps
+
+> **IConnectorProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:141](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L141)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:162](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L162)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L193)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:216](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L216)
+
+
+--- SOURCE: type-aliases/IFunnelOptions.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IFunnelOptions
+
+# Type Alias: IFunnelOptions
+
+> **IFunnelOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/Properties.md), `IFunnelOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/funnel.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L32)
+
+
+--- SOURCE: type-aliases/IFunnelTitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IFunnelTitleProps
+
+# Type Alias: IFunnelTitleProps
+
+> **IFunnelTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:239](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L239)
+
+
+--- SOURCE: type-aliases/IFunnelTitleSubtitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IFunnelTitleSubtitleProps
+
+# Type Alias: IFunnelTitleSubtitleProps
+
+> **IFunnelTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:282](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L282)
+
+
+--- SOURCE: type-aliases/IHatchingProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IHatchingProps
+
+# Type Alias: IHatchingProps
+
+> **IHatchingProps** = `React.PropsWithChildren`\<\{ `direction?`: [`HatchDirection`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:308](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L308)
+
+
+--- SOURCE: type-aliases/IHoverStyleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IHoverStyleProps
+
+# Type Alias: IHoverStyleProps
+
+> **IHoverStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:329](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L329)
+
+
+--- SOURCE: type-aliases/IItemBorderProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IItemBorderProps
+
+# Type Alias: IItemBorderProps
+
+> **IItemBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:418](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L418)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `hoverStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; \}; `selectionStyle?`: `Record`\<`string`, `any`\> \| \{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; \}; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:362](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L362)
+
+
+--- SOURCE: type-aliases/ILabelBorderProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILabelBorderProps
+
+# Type Alias: ILabelBorderProps
+
+> **ILabelBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:485](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L485)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `visible?`: `boolean`; `width?`: `number`; \}; `connector?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `customizeText?`: (`itemInfo`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `horizontalAlignment?`: [`HorizontalEdge`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HorizontalEdge.md); `horizontalOffset?`: `number`; `position?`: [`LabelPosition`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/LabelPosition.md); `showForZeroValues?`: `boolean`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `visible?`: `boolean`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:438](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L438)
+
+
+--- SOURCE: type-aliases/ILegendBorderProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILegendBorderProps
+
+# Type Alias: ILegendBorderProps
+
+> **ILegendBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:589](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L589)
+
+
+--- SOURCE: type-aliases/ILegendProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`itemInfo`) => `string`; `customizeItems?`: (`items`) => `FunnelLegendItem`[]; `customizeText?`: (`itemInfo`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `itemsAlignment?`: `HorizontalAlignment`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}; `verticalAlignment?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:506](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L506)
+
+
+--- SOURCE: type-aliases/ILegendTitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILegendTitleProps
+
+# Type Alias: ILegendTitleProps
+
+> **ILegendTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:612](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L612)
+
+
+--- SOURCE: type-aliases/ILegendTitleSubtitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILegendTitleSubtitleProps
+
+# Type Alias: ILegendTitleSubtitleProps
+
+> **ILegendTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:651](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L651)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:674](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L674)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:707](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L707)
+
+
+--- SOURCE: type-aliases/ISelectionStyleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ISelectionStyleProps
+
+# Type Alias: ISelectionStyleProps
+
+> **ISelectionStyleProps** = `React.PropsWithChildren`\<\{ `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `visible?`: `boolean`; `width?`: `number`; \}; `hatching?`: `Record`\<`string`, `any`\> \| \{ `direction?`: [`HatchDirection`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/HatchDirection.md); `opacity?`: `number`; `step?`: `number`; `width?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:728](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L728)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:761](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L761)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:783](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L783)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:803](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L803)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| `number` \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}; `text?`: `string`; `textOverflow?`: [`TextOverflow`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/TextOverflow.md); `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: [`WordWrap`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/WordWrap.md); \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:829](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L829)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:930](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L930)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-Funnel-API/namespaces/FunnelTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`info`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`info`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/funnel.ts:872](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L872)
+
+
+--- SOURCE: variables/AdaptiveLayout.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / AdaptiveLayout
+
+# Variable: AdaptiveLayout
+
+> `const` **AdaptiveLayout**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:107](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L107)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:135](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L135)
+
+
+--- SOURCE: variables/Connector.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Connector
+
+# Variable: Connector
+
+> `const` **Connector**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:156](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L156)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:180](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L180)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:209](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L209)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L233)
+
+
+--- SOURCE: variables/Funnel.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Funnel
+
+# Variable: Funnel()
+
+> `const` **Funnel**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/funnel.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L41)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/FunnelTitle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / FunnelTitle
+
+# Variable: FunnelTitle
+
+> `const` **FunnelTitle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:276](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L276)
+
+
+--- SOURCE: variables/FunnelTitleSubtitle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / FunnelTitleSubtitle
+
+# Variable: FunnelTitleSubtitle
+
+> `const` **FunnelTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:301](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L301)
+
+
+--- SOURCE: variables/Hatching.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Hatching
+
+# Variable: Hatching
+
+> `const` **Hatching**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:323](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L323)
+
+
+--- SOURCE: variables/HoverStyle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / HoverStyle
+
+# Variable: HoverStyle
+
+> `const` **HoverStyle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L356)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:410](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L410)
+
+
+--- SOURCE: variables/ItemBorder.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / ItemBorder
+
+# Variable: ItemBorder
+
+> `const` **ItemBorder**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:432](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L432)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:479](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L479)
+
+
+--- SOURCE: variables/LabelBorder.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / LabelBorder
+
+# Variable: LabelBorder
+
+> `const` **LabelBorder**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:500](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L500)
+
+
+--- SOURCE: variables/Legend.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Legend
+
+# Variable: Legend
+
+> `const` **Legend**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:583](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L583)
+
+
+--- SOURCE: variables/LegendBorder.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / LegendBorder
+
+# Variable: LegendBorder
+
+> `const` **LegendBorder**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:606](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L606)
+
+
+--- SOURCE: variables/LegendTitle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / LegendTitle
+
+# Variable: LegendTitle
+
+> `const` **LegendTitle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:645](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L645)
+
+
+--- SOURCE: variables/LegendTitleSubtitle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / LegendTitleSubtitle
+
+# Variable: LegendTitleSubtitle
+
+> `const` **LegendTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:668](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L668)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:698](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L698)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:722](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L722)
+
+
+--- SOURCE: variables/SelectionStyle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / SelectionStyle
+
+# Variable: SelectionStyle
+
+> `const` **SelectionStyle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:755](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L755)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:777](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L777)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:796](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L796)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:822](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L822)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:866](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L866)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:924](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L924)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React Funnel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Funnel API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/funnel.ts:946](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/funnel.ts#L946)
+

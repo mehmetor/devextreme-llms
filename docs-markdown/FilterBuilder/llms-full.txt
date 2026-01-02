@@ -1,0 +1,961 @@
+# FilterBuilder Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React FilterBuilder API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/README.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../globals.md) / FilterBuilderTypes
+
+# FilterBuilderTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CustomOperation](type-aliases/CustomOperation.md)
+- [CustomOperationEditorTemplate](type-aliases/CustomOperationEditorTemplate.md)
+- [DataType](type-aliases/DataType.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EditorPreparedEvent](type-aliases/EditorPreparedEvent.md)
+- [EditorPreparingEvent](type-aliases/EditorPreparingEvent.md)
+- [Field](type-aliases/Field.md)
+- [FieldEditorTemplate](type-aliases/FieldEditorTemplate.md)
+- [FieldInfo](type-aliases/FieldInfo.md)
+- [FilterOperation](type-aliases/FilterOperation.md)
+- [GroupOperation](type-aliases/GroupOperation.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxFilterBuilder`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:53
+
+## Docid
+
+_ui_filter_builder_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/CustomOperation.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / CustomOperation
+
+# Type Alias: CustomOperation
+
+> **CustomOperation** = `dxFilterBuilderCustomOperation`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:367
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/CustomOperationEditorTemplate.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / CustomOperationEditorTemplate
+
+# Type Alias: CustomOperationEditorTemplate
+
+> **CustomOperationEditorTemplate** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:166
+
+## Properties
+
+### field
+
+> `readonly` **field**: [`Field`](Field.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:168
+
+***
+
+### setValue
+
+> `readonly` **setValue**: `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:169
+
+***
+
+### value?
+
+> `readonly` `optional` **value**: `string` \| `number` \| `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:167
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/DataType.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / DataType
+
+# Type Alias: DataType
+
+> **DataType** = `"string"` \| `"number"` \| `"date"` \| `"boolean"` \| `"object"` \| `"datetime"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:192
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxFilterBuilder`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:61
+
+## Docid
+
+_ui_filter_builder_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/EditorPreparedEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / EditorPreparedEvent
+
+# Type Alias: EditorPreparedEvent
+
+> **EditorPreparedEvent** = `EventInfo`\<`dxFilterBuilder`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:69
+
+## Type Declaration
+
+### dataField?
+
+> `readonly` `optional` **dataField**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.dataField
+
+### disabled
+
+> `readonly` **disabled**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.disabled
+
+### editorElement
+
+> `readonly` **editorElement**: `DxElement`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.editorElement
+
+### editorName
+
+> `readonly` **editorName**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.editorName
+
+### filterOperation?
+
+> `readonly` `optional` **filterOperation**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.filterOperation
+
+### readOnly
+
+> `readonly` **readOnly**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.readOnly
+
+### rtlEnabled
+
+> `readonly` **rtlEnabled**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.rtlEnabled
+
+### setValue
+
+> `readonly` **setValue**: `any`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.setValue
+
+### updateValueTimeout?
+
+> `optional` **updateValueTimeout**: `number`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.updateValueTimeout
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.value
+
+### width?
+
+> `readonly` `optional` **width**: `number`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparedEvent.width
+
+## Docid
+
+_ui_filter_builder_EditorPreparedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/EditorPreparingEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / EditorPreparingEvent
+
+# Type Alias: EditorPreparingEvent
+
+> **EditorPreparingEvent** = `Cancelable` & `EventInfo`\<`dxFilterBuilder`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:100
+
+## Type Declaration
+
+### dataField?
+
+> `readonly` `optional` **dataField**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.dataField
+
+### disabled
+
+> `readonly` **disabled**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.disabled
+
+### editorElement?
+
+> `readonly` `optional` **editorElement**: `DxElement`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.editorElement
+
+### editorName
+
+> **editorName**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.editorName
+
+### editorOptions?
+
+> `optional` **editorOptions**: `any`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.editorOptions
+
+### filterOperation?
+
+> `readonly` `optional` **filterOperation**: `string`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.filterOperation
+
+### readOnly
+
+> `readonly` **readOnly**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.readOnly
+
+### rtlEnabled
+
+> `readonly` **rtlEnabled**: `boolean`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.rtlEnabled
+
+### setValue
+
+> `readonly` **setValue**: `any`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.setValue
+
+### updateValueTimeout?
+
+> `optional` **updateValueTimeout**: `number`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.updateValueTimeout
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.value
+
+### width?
+
+> `readonly` `optional` **width**: `number`
+
+#### Docid
+
+_ui_filter_builder_EditorPreparingEvent.width
+
+## Docid
+
+_ui_filter_builder_EditorPreparingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/Field.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / Field
+
+# Type Alias: Field
+
+> **Field** = `dxFilterBuilderField`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:457
+
+**`Namespace`**
+
+## Docid
+
+dxFilterBuilderField
+ DevExpress.ui
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/FieldEditorTemplate.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / FieldEditorTemplate
+
+# Type Alias: FieldEditorTemplate
+
+> **FieldEditorTemplate** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:173
+
+## Properties
+
+### field
+
+> `readonly` **field**: [`Field`](Field.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:176
+
+***
+
+### filterOperation?
+
+> `readonly` `optional` **filterOperation**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:175
+
+***
+
+### setValue
+
+> `readonly` **setValue**: `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:177
+
+***
+
+### value?
+
+> `readonly` `optional` **value**: `string` \| `number` \| `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:174
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/FieldInfo.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / FieldInfo
+
+# Type Alias: FieldInfo
+
+> **FieldInfo** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:373
+
+## Docid
+
+## Properties
+
+### field?
+
+> `optional` **field**: [`Field`](Field.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:389
+
+#### Docid
+
+***
+
+### value?
+
+> `optional` **value**: `string` \| `number` \| `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:378
+
+#### Docid
+
+***
+
+### valueText?
+
+> `optional` **valueText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:383
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/FilterOperation.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / FilterOperation
+
+# Type Alias: FilterOperation
+
+> **FilterOperation** = `"="` \| `"<>"` \| `"<"` \| `"<="` \| `">"` \| `">="` \| `"contains"` \| `"endswith"` \| `"isblank"` \| `"isnotblank"` \| `"notcontains"` \| `"startswith"` \| `"between"` \| `"anyof"` \| `"noneof"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/grids.d.ts:1184
+
+**`Namespace`**
+
+DevExpress.common.grids
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/GroupOperation.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / GroupOperation
+
+# Type Alias: GroupOperation
+
+> **GroupOperation** = `"and"` \| `"or"` \| `"notAnd"` \| `"notOr"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:45
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxFilterBuilder`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:136
+
+## Docid
+
+_ui_filter_builder_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxFilterBuilder`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:144
+
+## Docid
+
+_ui_filter_builder_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxFilterBuilderOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:569
+
+
+--- SOURCE: DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../../../../globals.md) / [FilterBuilderTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `EventInfo`\<`dxFilterBuilder`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/filter\_builder.d.ts:152
+
+## Type Declaration
+
+### previousValue?
+
+> `readonly` `optional` **previousValue**: `any`
+
+#### Docid
+
+_ui_filter_builder_ValueChangedEvent.previousValue
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+#### Docid
+
+_ui_filter_builder_ValueChangedEvent.value
+
+## Docid
+
+_ui_filter_builder_ValueChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React FilterBuilder API v26.1.0
+
+## Namespaces
+
+- [FilterBuilderTypes](DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/README.md)
+
+## Interfaces
+
+- [FilterBuilderRef](interfaces/FilterBuilderRef.md)
+
+## Type Aliases
+
+- [ICustomOperationProps](type-aliases/ICustomOperationProps.md)
+- [IFieldProps](type-aliases/IFieldProps.md)
+- [IFilterBuilderOptions](type-aliases/IFilterBuilderOptions.md)
+- [IFilterOperationDescriptionsProps](type-aliases/IFilterOperationDescriptionsProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGroupOperationDescriptionsProps](type-aliases/IGroupOperationDescriptionsProps.md)
+- [ILookupProps](type-aliases/ILookupProps.md)
+
+## Variables
+
+- [CustomOperation](variables/CustomOperation.md)
+- [Field](variables/Field.md)
+- [FilterBuilder](variables/FilterBuilder.md)
+- [FilterOperationDescriptions](variables/FilterOperationDescriptions.md)
+- [Format](variables/Format.md)
+- [GroupOperationDescriptions](variables/GroupOperationDescriptions.md)
+- [Lookup](variables/Lookup.md)
+
+## References
+
+### default
+
+Renames and re-exports [FilterBuilder](variables/FilterBuilder.md)
+
+
+--- SOURCE: interfaces/FilterBuilderRef.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / FilterBuilderRef
+
+# Interface: FilterBuilderRef
+
+Defined in: [devextreme-react/src/filter-builder.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L35)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxFilterBuilder`
+
+Defined in: [devextreme-react/src/filter-builder.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L36)
+
+#### Returns
+
+`dxFilterBuilder`
+
+
+--- SOURCE: type-aliases/ICustomOperationProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / ICustomOperationProps
+
+# Type Alias: ICustomOperationProps
+
+> **ICustomOperationProps** = `React.PropsWithChildren`\<\{ `calculateFilterExpression?`: (`filterValue`, `field`) => `string` \| () => `any` \| `any`[]; `caption?`: `string`; `customizeText?`: (`fieldInfo`) => `string`; `dataTypes?`: [`DataType`](../DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/DataType.md)[]; `editorComponent?`: `React.ComponentType`\<`any`\>; `editorRender?`: (...`params`) => `React.ReactNode`; `editorTemplate?`: (`conditionInfo`, `container`) => `string` \| `any` \| `template`; `hasValue?`: `boolean`; `icon?`: `string`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:85](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L85)
+
+
+--- SOURCE: type-aliases/IFieldProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / IFieldProps
+
+# Type Alias: IFieldProps
+
+> **IFieldProps** = `React.PropsWithChildren`\<\{ `calculateFilterExpression?`: (`filterValue`, `selectedFilterOperation`) => `string` \| () => `any` \| `any`[]; `caption?`: `string`; `customizeText?`: (`fieldInfo`) => `string`; `dataField?`: `string`; `dataType?`: [`DataType`](../DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/DataType.md); `editorComponent?`: `React.ComponentType`\<`any`\>; `editorOptions?`: `any`; `editorRender?`: (...`params`) => `React.ReactNode`; `editorTemplate?`: (`conditionInfo`, `container`) => `string` \| `any` \| `template`; `falseText?`: `string`; `filterOperations?`: (`FilterBuilderOperation` \| `string`)[]; `format?`: `LocalizationFormat`; `lookup?`: `Record`\<`string`, `any`\> \| \{ `allowClearing?`: `boolean`; `dataSource?`: `any`[] \| `DataSourceOptions` \| `Store`; `displayExpr?`: (`data`) => `string` \| `string`; `valueExpr?`: (`data`) => `string` \| `number` \| `boolean` \| `string`; \}; `name?`: `string`; `trueText?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L118)
+
+
+--- SOURCE: type-aliases/IFilterBuilderOptions.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / IFilterBuilderOptions
+
+# Type Alias: IFilterBuilderOptions
+
+> **IFilterBuilderOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-FilterBuilder-API/namespaces/FilterBuilderTypes/type-aliases/Properties.md), `IFilterBuilderOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L30)
+
+
+--- SOURCE: type-aliases/IFilterOperationDescriptionsProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / IFilterOperationDescriptionsProps
+
+# Type Alias: IFilterOperationDescriptionsProps
+
+> **IFilterOperationDescriptionsProps** = `React.PropsWithChildren`\<\{ `between?`: `string`; `contains?`: `string`; `endsWith?`: `string`; `equal?`: `string`; `greaterThan?`: `string`; `greaterThanOrEqual?`: `string`; `isBlank?`: `string`; `isNotBlank?`: `string`; `lessThan?`: `string`; `lessThanOrEqual?`: `string`; `notContains?`: `string`; `notEqual?`: `string`; `startsWith?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:165](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L165)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:195](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L195)
+
+
+--- SOURCE: type-aliases/IGroupOperationDescriptionsProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / IGroupOperationDescriptionsProps
+
+# Type Alias: IGroupOperationDescriptionsProps
+
+> **IGroupOperationDescriptionsProps** = `React.PropsWithChildren`\<\{ `and?`: `string`; `notAnd?`: `string`; `notOr?`: `string`; `or?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:218](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L218)
+
+
+--- SOURCE: type-aliases/ILookupProps.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / ILookupProps
+
+# Type Alias: ILookupProps
+
+> **ILookupProps** = `React.PropsWithChildren`\<\{ `allowClearing?`: `boolean`; `dataSource?`: `any`[] \| `DataSourceOptions` \| `Store`; `displayExpr?`: (`data`) => `string` \| `string`; `valueExpr?`: (`data`) => `string` \| `number` \| `boolean` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:239](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L239)
+
+
+--- SOURCE: variables/CustomOperation.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / CustomOperation
+
+# Variable: CustomOperation
+
+> `const` **CustomOperation**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L112)
+
+
+--- SOURCE: variables/Field.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / Field
+
+# Variable: Field
+
+> `const` **Field**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L159)
+
+
+--- SOURCE: variables/FilterBuilder.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / FilterBuilder
+
+# Variable: FilterBuilder()
+
+> `const` **FilterBuilder**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/filter-builder.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L39)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/FilterOperationDescriptions.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / FilterOperationDescriptions
+
+# Variable: FilterOperationDescriptions
+
+> `const` **FilterOperationDescriptions**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:189](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L189)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:212](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L212)
+
+
+--- SOURCE: variables/GroupOperationDescriptions.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / GroupOperationDescriptions
+
+# Variable: GroupOperationDescriptions
+
+> `const` **GroupOperationDescriptions**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L233)
+
+
+--- SOURCE: variables/Lookup.md ---
+
+[**DevExtreme React FilterBuilder API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FilterBuilder API](../globals.md) / Lookup
+
+# Variable: Lookup
+
+> `const` **Lookup**: `any`
+
+Defined in: [devextreme-react/src/filter-builder.ts:254](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/filter-builder.ts#L254)
+

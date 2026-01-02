@@ -1,0 +1,1737 @@
+# ResponsiveBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ResponsiveBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/README.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../globals.md) / ResponsiveBoxTypes
+
+# ResponsiveBoxTypes
+
+## Interfaces
+
+- [~~dxResponsiveBoxOptions~~](interfaces/dxResponsiveBoxOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [Mode](type-aliases/Mode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/interfaces/dxResponsiveBoxOptions.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / dxResponsiveBoxOptions
+
+# ~~Interface: dxResponsiveBoxOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:105
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~cols?~~
+
+> `optional` **cols**: `object`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:113
+
+#### ~~baseSize?~~
+
+> `optional` **baseSize**: `string` \| `number`
+
+##### Docid
+
+##### Default
+
+```ts
+0
+```
+
+#### ~~ratio?~~
+
+> `optional` **ratio**: `number`
+
+##### Docid
+
+##### Default
+
+```ts
+1
+```
+
+#### ~~screen?~~
+
+> `optional` **screen**: `string`
+
+##### Docid
+
+##### Default
+
+```ts
+undefined
+```
+
+#### ~~shrink?~~
+
+> `optional` **shrink**: `number`
+
+##### Docid
+
+##### Default
+
+```ts
+1
+```
+
+#### Docid
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:141
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:47
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:147
+
+#### Docid
+
+#### Default
+
+```ts
+'100%'
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:154
+
+#### Docid
+
+#### Fires
+
+dxResponsiveBoxOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~rows?~~
+
+> `optional` **rows**: `object`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:159
+
+#### ~~baseSize?~~
+
+> `optional` **baseSize**: `string` \| `number`
+
+##### Docid
+
+##### Default
+
+```ts
+0
+```
+
+#### ~~ratio?~~
+
+> `optional` **ratio**: `number`
+
+##### Docid
+
+##### Default
+
+```ts
+1
+```
+
+#### ~~screen?~~
+
+> `optional` **screen**: `string`
+
+##### Docid
+
+##### Default
+
+```ts
+undefined
+```
+
+#### ~~shrink?~~
+
+> `optional` **shrink**: `number`
+
+##### Docid
+
+##### Default
+
+```ts
+1
+```
+
+#### Docid
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~screenByWidth?~~
+
+> `optional` **screenByWidth**: `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:186
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~singleColumnScreen?~~
+
+> `optional` **singleColumnScreen**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:192
+
+#### Docid
+
+#### Default
+
+```ts
+""
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:198
+
+#### Docid
+
+#### Default
+
+```ts
+'100%'
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:41
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:49
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:57
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/Item.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxResponsiveBoxItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:215
+
+**`Namespace`**
+
+DevExpress.ui.dxResponsiveBox
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:65
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:73
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:81
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:89
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/Mode.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / Mode
+
+# Type Alias: Mode
+
+> **Mode** = `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:452
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxResponsiveBox`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:97
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_responsive_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../../../../globals.md) / [ResponsiveBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxResponsiveBoxOptions`](../interfaces/dxResponsiveBoxOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:270
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ResponsiveBox API v26.1.0
+
+## Namespaces
+
+- [ResponsiveBoxTypes](DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/README.md)
+
+## Interfaces
+
+- [ResponsiveBoxRef](interfaces/ResponsiveBoxRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IColProps](type-aliases/IColProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [ILocationProps](type-aliases/ILocationProps.md)
+- [IResponsiveBoxOptions](type-aliases/IResponsiveBoxOptions.md)
+- [IRowProps](type-aliases/IRowProps.md)
+
+## Variables
+
+- [Col](variables/Col.md)
+- [Item](variables/Item.md)
+- [Location](variables/Location.md)
+- [ResponsiveBox](variables/ResponsiveBox.md)
+- [Row](variables/Row.md)
+
+## References
+
+### default
+
+Renames and re-exports [ResponsiveBox](variables/ResponsiveBox.md)
+
+
+--- SOURCE: interfaces/ResponsiveBoxRef.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / ResponsiveBoxRef
+
+# Interface: ResponsiveBoxRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L38)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxResponsiveBox`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L39)
+
+#### Returns
+
+`dxResponsiveBox`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:254
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:259
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:260
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:261
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:262
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:263
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:264
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:265
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:266
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/responsive\_box.d.ts:258
+
+
+--- SOURCE: type-aliases/IColProps.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / IColProps
+
+# Type Alias: IColProps
+
+> **IColProps** = `React.PropsWithChildren`\<\{ `baseSize?`: `number` \| `string`; `ratio?`: `number`; `screen?`: `string`; `shrink?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:95](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L95)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `location?`: `Record`\<`string`, `any`\>[] \| `Record`\<`string`, `any`\> \| `object`[]; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:117](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L117)
+
+
+--- SOURCE: type-aliases/ILocationProps.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / ILocationProps
+
+# Type Alias: ILocationProps
+
+> **ILocationProps** = `React.PropsWithChildren`\<\{ `col?`: `number`; `colspan?`: `number`; `row?`: `number`; `rowspan?`: `number`; `screen?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:157](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L157)
+
+
+--- SOURCE: type-aliases/IResponsiveBoxOptions.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / IResponsiveBoxOptions
+
+# Type Alias: IResponsiveBoxOptions\<TItem, TKey\>
+
+> **IResponsiveBoxOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ResponsiveBox-API/namespaces/ResponsiveBoxTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IResponsiveBoxOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L30)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IRowProps.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / IRowProps
+
+# Type Alias: IRowProps
+
+> **IRowProps** = `React.PropsWithChildren`\<\{ `baseSize?`: `number` \| `string`; `ratio?`: `number`; `screen?`: `string`; `shrink?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:180](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L180)
+
+
+--- SOURCE: variables/Col.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / Col
+
+# Variable: Col
+
+> `const` **Col**: `any`
+
+Defined in: [devextreme-react/src/responsive-box.ts:111](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L111)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/responsive-box.ts:151](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L151)
+
+
+--- SOURCE: variables/Location.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / Location
+
+# Variable: Location
+
+> `const` **Location**: `any`
+
+Defined in: [devextreme-react/src/responsive-box.ts:174](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L174)
+
+
+--- SOURCE: variables/ResponsiveBox.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / ResponsiveBox
+
+# Variable: ResponsiveBox()
+
+> `const` **ResponsiveBox**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/responsive-box.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L42)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Row.md ---
+
+[**DevExtreme React ResponsiveBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ResponsiveBox API](../globals.md) / Row
+
+# Variable: Row
+
+> `const` **Row**: `any`
+
+Defined in: [devextreme-react/src/responsive-box.ts:196](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/responsive-box.ts#L196)
+

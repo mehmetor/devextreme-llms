@@ -1,0 +1,420 @@
+# ButtonGroup Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ButtonGroup API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/README.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../globals.md) / ButtonGroupTypes
+
+# ButtonGroupTypes
+
+## Type Aliases
+
+- [ButtonStyle](type-aliases/ButtonStyle.md)
+- [ButtonType](type-aliases/ButtonType.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SingleMultipleOrNone](type-aliases/SingleMultipleOrNone.md)
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/ButtonStyle.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / ButtonStyle
+
+# Type Alias: ButtonStyle
+
+> **ButtonStyle** = `"text"` \| `"outlined"` \| `"contained"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:84
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/ButtonType.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / ButtonType
+
+# Type Alias: ButtonType
+
+> **ButtonType** = `"danger"` \| `"default"` \| `"normal"` \| `"success"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:90
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxButtonGroup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:50
+
+## Docid
+
+_ui_button_group_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxButtonGroup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:58
+
+## Docid
+
+_ui_button_group_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxButtonGroup`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:66
+
+## Docid
+
+_ui_button_group_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/Item.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxButtonGroupItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:183
+
+**`Namespace`**
+
+DevExpress.ui.dxButtonGroup
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `NativeEventInfo`\<`dxButtonGroup`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:74
+
+## Docid
+
+_ui_button_group_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxButtonGroup`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:82
+
+## Docid
+
+_ui_button_group_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxButtonGroupOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:215
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxButtonGroup`\> & `SelectionChangeInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/button\_group.d.ts:90
+
+## Docid
+
+_ui_button_group_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/SingleMultipleOrNone.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../../../../globals.md) / [ButtonGroupTypes](../README.md) / SingleMultipleOrNone
+
+# Type Alias: SingleMultipleOrNone
+
+> **SingleMultipleOrNone** = `"single"` \| `"multiple"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:665
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ButtonGroup API v26.1.0
+
+## Namespaces
+
+- [ButtonGroupTypes](DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/README.md)
+
+## Interfaces
+
+- [ButtonGroupRef](interfaces/ButtonGroupRef.md)
+
+## Type Aliases
+
+- [IButtonGroupOptions](type-aliases/IButtonGroupOptions.md)
+- [IItemProps](type-aliases/IItemProps.md)
+
+## Variables
+
+- [ButtonGroup](variables/ButtonGroup.md)
+- [Item](variables/Item.md)
+
+## References
+
+### default
+
+Renames and re-exports [ButtonGroup](variables/ButtonGroup.md)
+
+
+--- SOURCE: interfaces/ButtonGroupRef.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../globals.md) / ButtonGroupRef
+
+# Interface: ButtonGroupRef
+
+Defined in: [devextreme-react/src/button-group.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L35)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxButtonGroup`
+
+Defined in: [devextreme-react/src/button-group.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L36)
+
+#### Returns
+
+`dxButtonGroup`
+
+
+--- SOURCE: type-aliases/IButtonGroupOptions.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../globals.md) / IButtonGroupOptions
+
+# Type Alias: IButtonGroupOptions
+
+> **IButtonGroupOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/Properties.md), `IButtonGroupOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/button-group.ts:26](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L26)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `hint?`: `string`; `icon?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: [`ButtonType`](../DevExtreme-React-ButtonGroup-API/namespaces/ButtonGroupTypes/type-aliases/ButtonType.md) \| `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/button-group.ts:91](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L91)
+
+
+--- SOURCE: variables/ButtonGroup.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../globals.md) / ButtonGroup
+
+# Variable: ButtonGroup()
+
+> `const` **ButtonGroup**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/button-group.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L39)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React ButtonGroup API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ButtonGroup API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/button-group.ts:118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/button-group.ts#L118)
+

@@ -1,0 +1,2650 @@
+# Gantt Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Gantt API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/README.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../globals.md) / GanttTypes
+
+# GanttTypes
+
+## Type Aliases
+
+- [Column](type-aliases/Column.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextMenuItem](type-aliases/ContextMenuItem.md)
+- [ContextMenuPreparingEvent](type-aliases/ContextMenuPreparingEvent.md)
+- [CustomCommandEvent](type-aliases/CustomCommandEvent.md)
+- [DependencyDeletedEvent](type-aliases/DependencyDeletedEvent.md)
+- [DependencyDeletingEvent](type-aliases/DependencyDeletingEvent.md)
+- [DependencyInsertedEvent](type-aliases/DependencyInsertedEvent.md)
+- [DependencyInsertingEvent](type-aliases/DependencyInsertingEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [GanttPredefinedContextMenuItem](type-aliases/GanttPredefinedContextMenuItem.md)
+- [GanttPredefinedToolbarItem](type-aliases/GanttPredefinedToolbarItem.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [ProgressTooltipTemplateData](type-aliases/ProgressTooltipTemplateData.md)
+- [Properties](type-aliases/Properties.md)
+- [ResourceAssignedEvent](type-aliases/ResourceAssignedEvent.md)
+- [ResourceAssigningEvent](type-aliases/ResourceAssigningEvent.md)
+- [ResourceDeletedEvent](type-aliases/ResourceDeletedEvent.md)
+- [ResourceDeletingEvent](type-aliases/ResourceDeletingEvent.md)
+- [ResourceInsertedEvent](type-aliases/ResourceInsertedEvent.md)
+- [ResourceInsertingEvent](type-aliases/ResourceInsertingEvent.md)
+- [ResourceManagerDialogShowingEvent](type-aliases/ResourceManagerDialogShowingEvent.md)
+- [ResourceUnassignedEvent](type-aliases/ResourceUnassignedEvent.md)
+- [ResourceUnassigningEvent](type-aliases/ResourceUnassigningEvent.md)
+- [ScaleCellPreparedEvent](type-aliases/ScaleCellPreparedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [TaskClickEvent](type-aliases/TaskClickEvent.md)
+- [TaskContentTemplateData](type-aliases/TaskContentTemplateData.md)
+- [TaskDblClickEvent](type-aliases/TaskDblClickEvent.md)
+- [TaskDeletedEvent](type-aliases/TaskDeletedEvent.md)
+- [TaskDeletingEvent](type-aliases/TaskDeletingEvent.md)
+- [TaskEditDialogShowingEvent](type-aliases/TaskEditDialogShowingEvent.md)
+- [TaskInsertedEvent](type-aliases/TaskInsertedEvent.md)
+- [TaskInsertingEvent](type-aliases/TaskInsertingEvent.md)
+- [TaskMovingEvent](type-aliases/TaskMovingEvent.md)
+- [TaskUpdatedEvent](type-aliases/TaskUpdatedEvent.md)
+- [TaskUpdatingEvent](type-aliases/TaskUpdatingEvent.md)
+- [TimeTooltipTemplateData](type-aliases/TimeTooltipTemplateData.md)
+- [ToolbarItem](type-aliases/ToolbarItem.md)
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/Column.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / Column
+
+# Type Alias: Column\<TRowData, TKey\>
+
+> **Column**\<`TRowData`, `TKey`\> = `dxGanttColumn`\<`TRowData`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:1680
+
+## Type Parameters
+
+### TRowData
+
+`TRowData` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxGantt`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:72
+
+## Docid
+
+_ui_gantt_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ContextMenuItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ContextMenuItem
+
+# Type Alias: ContextMenuItem
+
+> **ContextMenuItem** = `dxGanttContextMenuItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:1415
+
+**`Namespace`**
+
+DevExpress.ui.dxGantt
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ContextMenuPreparingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ContextMenuPreparingEvent
+
+# Type Alias: ContextMenuPreparingEvent
+
+> **ContextMenuPreparingEvent** = `Cancelable` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:80
+
+## Type Declaration
+
+### component?
+
+> `readonly` `optional` **component**: `dxGantt`
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.component
+
+### data?
+
+> `readonly` `optional` **data**: `any`
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.data
+
+### element?
+
+> `readonly` `optional` **element**: `DxElement`
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.element
+
+### event?
+
+> `readonly` `optional` **event**: `DxEvent`\<`PointerInteractionEvent`\>
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.event
+
+### items?
+
+> `readonly` `optional` **items**: `any`[]
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.items
+
+### targetKey?
+
+> `readonly` `optional` **targetKey**: `any`
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.targetKey
+
+### targetType?
+
+> `readonly` `optional` **targetType**: `string`
+
+#### Docid
+
+_ui_gantt_ContextMenuPreparingEvent.targetType
+
+## Docid
+
+_ui_gantt_ContextMenuPreparingEvent
+
+## Inherits
+
+Cancelable
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/CustomCommandEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / CustomCommandEvent
+
+# Type Alias: CustomCommandEvent
+
+> **CustomCommandEvent** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:111
+
+## Docid
+
+_ui_gantt_CustomCommandEvent
+
+## Properties
+
+### component?
+
+> `readonly` `optional` **component**: `dxGantt`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:116
+
+#### Docid
+
+_ui_gantt_CustomCommandEvent.component
+
+***
+
+### element?
+
+> `readonly` `optional` **element**: `DxElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:118
+
+#### Docid
+
+_ui_gantt_CustomCommandEvent.element
+
+***
+
+### name
+
+> `readonly` **name**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:120
+
+#### Docid
+
+_ui_gantt_CustomCommandEvent.name
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/DependencyDeletedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / DependencyDeletedEvent
+
+# Type Alias: DependencyDeletedEvent
+
+> **DependencyDeletedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:129
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyDeletedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyDeletedEvent.values
+
+## Docid
+
+_ui_gantt_DependencyDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/DependencyDeletingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / DependencyDeletingEvent
+
+# Type Alias: DependencyDeletingEvent
+
+> **DependencyDeletingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:142
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyDeletingEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyDeletingEvent.values
+
+## Docid
+
+_ui_gantt_DependencyDeletingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/DependencyInsertedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / DependencyInsertedEvent
+
+# Type Alias: DependencyInsertedEvent
+
+> **DependencyInsertedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:155
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyInsertedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyInsertedEvent.values
+
+## Docid
+
+_ui_gantt_DependencyInsertedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/DependencyInsertingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / DependencyInsertingEvent
+
+# Type Alias: DependencyInsertingEvent
+
+> **DependencyInsertingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:168
+
+## Type Declaration
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_DependencyInsertingEvent.values
+
+## Docid
+
+_ui_gantt_DependencyInsertingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxGantt`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:179
+
+## Docid
+
+_ui_gantt_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedContextMenuItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / GanttPredefinedContextMenuItem
+
+# Type Alias: GanttPredefinedContextMenuItem
+
+> **GanttPredefinedContextMenuItem** = `"undo"` \| `"redo"` \| `"expandAll"` \| `"collapseAll"` \| `"addTask"` \| `"deleteTask"` \| `"zoomIn"` \| `"zoomOut"` \| `"deleteDependency"` \| `"taskDetails"` \| `"resourceManager"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:59
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedToolbarItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / GanttPredefinedToolbarItem
+
+# Type Alias: GanttPredefinedToolbarItem
+
+> **GanttPredefinedToolbarItem** = `"separator"` \| `"undo"` \| `"redo"` \| `"expandAll"` \| `"collapseAll"` \| `"addTask"` \| `"deleteTask"` \| `"zoomIn"` \| `"zoomOut"` \| `"taskDetails"` \| `"fullScreen"` \| `"resourceManager"` \| `"showResources"` \| `"showDependencies"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:61
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxGantt`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:187
+
+## Docid
+
+_ui_gantt_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxGantt`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:195
+
+## Docid
+
+_ui_gantt_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ProgressTooltipTemplateData.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ProgressTooltipTemplateData
+
+# Type Alias: ProgressTooltipTemplateData
+
+> **ProgressTooltipTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:499
+
+## Properties
+
+### progress
+
+> `readonly` **progress**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:500
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxGanttOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:1674
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceAssignedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceAssignedEvent
+
+# Type Alias: ResourceAssignedEvent
+
+> **ResourceAssignedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:203
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceAssignedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceAssignedEvent.values
+
+## Docid
+
+_ui_gantt_ResourceAssignedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceAssigningEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceAssigningEvent
+
+# Type Alias: ResourceAssigningEvent
+
+> **ResourceAssigningEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:216
+
+## Type Declaration
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceAssigningEvent.values
+
+## Docid
+
+_ui_gantt_ResourceAssigningEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceDeletedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceDeletedEvent
+
+# Type Alias: ResourceDeletedEvent
+
+> **ResourceDeletedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:227
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceDeletedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceDeletedEvent.values
+
+## Docid
+
+_ui_gantt_ResourceDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceDeletingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceDeletingEvent
+
+# Type Alias: ResourceDeletingEvent
+
+> **ResourceDeletingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:240
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceDeletingEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceDeletingEvent.values
+
+## Docid
+
+_ui_gantt_ResourceDeletingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceInsertedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceInsertedEvent
+
+# Type Alias: ResourceInsertedEvent
+
+> **ResourceInsertedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:253
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceInsertedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceInsertedEvent.values
+
+## Docid
+
+_ui_gantt_ResourceInsertedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceInsertingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceInsertingEvent
+
+# Type Alias: ResourceInsertingEvent
+
+> **ResourceInsertingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:266
+
+## Type Declaration
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceInsertingEvent.values
+
+## Docid
+
+_ui_gantt_ResourceInsertingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceManagerDialogShowingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceManagerDialogShowingEvent
+
+# Type Alias: ResourceManagerDialogShowingEvent
+
+> **ResourceManagerDialogShowingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:389
+
+## Type Declaration
+
+### values
+
+> `readonly` **values**: `any`[]
+
+#### Docid
+
+_ui_gantt_ResourceManagerDialogShowingEvent.values
+
+## Docid
+
+_ui_gantt_ResourceManagerDialogShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceUnassignedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceUnassignedEvent
+
+# Type Alias: ResourceUnassignedEvent
+
+> **ResourceUnassignedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:277
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceUnassignedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceUnassignedEvent.values
+
+## Docid
+
+_ui_gantt_ResourceUnassignedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ResourceUnassigningEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ResourceUnassigningEvent
+
+# Type Alias: ResourceUnassigningEvent
+
+> **ResourceUnassigningEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:290
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceUnassigningEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_ResourceUnassigningEvent.values
+
+## Docid
+
+_ui_gantt_ResourceUnassigningEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ScaleCellPreparedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ScaleCellPreparedEvent
+
+# Type Alias: ScaleCellPreparedEvent
+
+> **ScaleCellPreparedEvent** = `InitializedEventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:469
+
+## Type Declaration
+
+### endDate
+
+> `readonly` **endDate**: `Date`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.endDate
+
+### scaleElement
+
+> `readonly` **scaleElement**: `DxElement`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.scaleElement
+
+### scaleIndex
+
+> `readonly` **scaleIndex**: `number`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.scaleIndex
+
+### scaleType
+
+> `readonly` **scaleType**: `GanttRenderScaleType`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.scaleType
+
+### separatorElement
+
+> `readonly` **separatorElement**: `DxElement`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.separatorElement
+
+### startDate
+
+> `readonly` **startDate**: `Date`
+
+#### Docid
+
+_ui_gantt_ScaleCellPreparedEvent.startDate
+
+## Docid
+
+_ui_gantt_ScaleCellPreparedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:303
+
+## Type Declaration
+
+### selectedRowKey?
+
+> `readonly` `optional` **selectedRowKey**: `any`
+
+#### Docid
+
+_ui_gantt_SelectionChangedEvent.selectedRowKey
+
+## Docid
+
+_ui_gantt_SelectionChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskClickEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskClickEvent
+
+# Type Alias: TaskClickEvent
+
+> **TaskClickEvent** = `NativeEventInfo`\<`dxGantt`, `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:314
+
+## Type Declaration
+
+### data?
+
+> `readonly` `optional` **data**: `any`
+
+#### Docid
+
+_ui_gantt_TaskClickEvent.data
+
+### key?
+
+> `readonly` `optional` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskClickEvent.key
+
+## Docid
+
+_ui_gantt_TaskClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskContentTemplateData.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskContentTemplateData
+
+# Type Alias: TaskContentTemplateData
+
+> **TaskContentTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:488
+
+## Properties
+
+### cellSize
+
+> `readonly` **cellSize**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:489
+
+***
+
+### isMilestone
+
+> `readonly` **isMilestone**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:490
+
+***
+
+### taskData
+
+> `readonly` **taskData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:491
+
+***
+
+### taskHTML
+
+> `readonly` **taskHTML**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:492
+
+***
+
+### taskPosition
+
+> `readonly` **taskPosition**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:493
+
+***
+
+### taskResources
+
+> `readonly` **taskResources**: `any`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:494
+
+***
+
+### taskSize
+
+> `readonly` **taskSize**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:495
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskDblClickEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskDblClickEvent
+
+# Type Alias: TaskDblClickEvent
+
+> **TaskDblClickEvent** = `Cancelable` & `NativeEventInfo`\<`dxGantt`, `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:327
+
+## Type Declaration
+
+### data?
+
+> `readonly` `optional` **data**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDblClickEvent.data
+
+### key?
+
+> `readonly` `optional` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDblClickEvent.key
+
+## Docid
+
+_ui_gantt_TaskDblClickEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskDeletedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskDeletedEvent
+
+# Type Alias: TaskDeletedEvent
+
+> **TaskDeletedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:340
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDeletedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDeletedEvent.values
+
+## Docid
+
+_ui_gantt_TaskDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskDeletingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskDeletingEvent
+
+# Type Alias: TaskDeletingEvent
+
+> **TaskDeletingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:353
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDeletingEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskDeletingEvent.values
+
+## Docid
+
+_ui_gantt_TaskDeletingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskEditDialogShowingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskEditDialogShowingEvent
+
+# Type Alias: TaskEditDialogShowingEvent
+
+> **TaskEditDialogShowingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:366
+
+## Type Declaration
+
+### hiddenFields?
+
+> `readonly` `optional` **hiddenFields**: `string`[]
+
+#### Docid
+
+_ui_gantt_TaskEditDialogShowingEvent.hiddenFields
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskEditDialogShowingEvent.key
+
+### readOnlyFields?
+
+> `readonly` `optional` **readOnlyFields**: `string`[]
+
+#### Docid
+
+_ui_gantt_TaskEditDialogShowingEvent.readOnlyFields
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskEditDialogShowingEvent.values
+
+## Docid
+
+_ui_gantt_TaskEditDialogShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskInsertedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskInsertedEvent
+
+# Type Alias: TaskInsertedEvent
+
+> **TaskInsertedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:403
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskInsertedEvent.key
+
+### values?
+
+> `readonly` `optional` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskInsertedEvent.values
+
+## Docid
+
+_ui_gantt_TaskInsertedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskInsertingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskInsertingEvent
+
+# Type Alias: TaskInsertingEvent
+
+> **TaskInsertingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:416
+
+## Type Declaration
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskInsertingEvent.values
+
+## Docid
+
+_ui_gantt_TaskInsertingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskMovingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskMovingEvent
+
+# Type Alias: TaskMovingEvent
+
+> **TaskMovingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:427
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskMovingEvent.key
+
+### newValues
+
+> `readonly` **newValues**: `any`
+
+#### Docid
+
+_ui_gantt_TaskMovingEvent.newValues
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskMovingEvent.values
+
+## Docid
+
+_ui_gantt_TaskMovingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskUpdatedEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskUpdatedEvent
+
+# Type Alias: TaskUpdatedEvent
+
+> **TaskUpdatedEvent** = `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:442
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskUpdatedEvent.key
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskUpdatedEvent.values
+
+## Docid
+
+_ui_gantt_TaskUpdatedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TaskUpdatingEvent.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TaskUpdatingEvent
+
+# Type Alias: TaskUpdatingEvent
+
+> **TaskUpdatingEvent** = `Cancelable` & `EventInfo`\<`dxGantt`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:455
+
+## Type Declaration
+
+### key
+
+> `readonly` **key**: `any`
+
+#### Docid
+
+_ui_gantt_TaskUpdatingEvent.key
+
+### newValues
+
+> `readonly` **newValues**: `any`
+
+#### Docid
+
+_ui_gantt_TaskUpdatingEvent.newValues
+
+### values
+
+> `readonly` **values**: `any`
+
+#### Docid
+
+_ui_gantt_TaskUpdatingEvent.values
+
+## Docid
+
+_ui_gantt_TaskUpdatingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/TimeTooltipTemplateData.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / TimeTooltipTemplateData
+
+# Type Alias: TimeTooltipTemplateData
+
+> **TimeTooltipTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:504
+
+## Properties
+
+### end
+
+> `readonly` **end**: `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:506
+
+***
+
+### start
+
+> `readonly` **start**: `Date`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:505
+
+
+--- SOURCE: DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/ToolbarItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Gantt API](../../../../globals.md) / [GanttTypes](../README.md) / ToolbarItem
+
+# Type Alias: ToolbarItem
+
+> **ToolbarItem** = `dxGanttToolbarItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/gantt.d.ts:1391
+
+**`Namespace`**
+
+DevExpress.ui.dxGantt
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Gantt API v26.1.0
+
+## Namespaces
+
+- [GanttTypes](DevExtreme-React-Gantt-API/namespaces/GanttTypes/README.md)
+
+## Interfaces
+
+- [GanttRef](interfaces/GanttRef.md)
+
+## Type Aliases
+
+- [IAIProps](type-aliases/IAIProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [IColumnHeaderFilterProps](type-aliases/IColumnHeaderFilterProps.md)
+- [IColumnHeaderFilterSearchProps](type-aliases/IColumnHeaderFilterSearchProps.md)
+- [IColumnProps](type-aliases/IColumnProps.md)
+- [IContextMenuItemItemProps](type-aliases/IContextMenuItemItemProps.md)
+- [IContextMenuItemProps](type-aliases/IContextMenuItemProps.md)
+- [IContextMenuProps](type-aliases/IContextMenuProps.md)
+- [IDependenciesProps](type-aliases/IDependenciesProps.md)
+- [IEditingProps](type-aliases/IEditingProps.md)
+- [IEditorOptionsProps](type-aliases/IEditorOptionsProps.md)
+- [IFilterRowProps](type-aliases/IFilterRowProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGanttHeaderFilterProps](type-aliases/IGanttHeaderFilterProps.md)
+- [IGanttHeaderFilterSearchProps](type-aliases/IGanttHeaderFilterSearchProps.md)
+- [IGanttOptions](type-aliases/IGanttOptions.md)
+- [IHeaderFilterProps](type-aliases/IHeaderFilterProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IOperationDescriptionsProps](type-aliases/IOperationDescriptionsProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IResourceAssignmentsProps](type-aliases/IResourceAssignmentsProps.md)
+- [IResourcesProps](type-aliases/IResourcesProps.md)
+- [IScaleTypeRangeProps](type-aliases/IScaleTypeRangeProps.md)
+- [ISearchProps](type-aliases/ISearchProps.md)
+- [ISortingProps](type-aliases/ISortingProps.md)
+- [IStripLineProps](type-aliases/IStripLineProps.md)
+- [ITasksProps](type-aliases/ITasksProps.md)
+- [ITextsProps](type-aliases/ITextsProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToolbarProps](type-aliases/IToolbarProps.md)
+- [IValidationProps](type-aliases/IValidationProps.md)
+
+## Variables
+
+- [AI](variables/AI.md)
+- [Button](variables/Button.md)
+- [Column](variables/Column.md)
+- [ColumnHeaderFilter](variables/ColumnHeaderFilter.md)
+- [ColumnHeaderFilterSearch](variables/ColumnHeaderFilterSearch.md)
+- [ContextMenu](variables/ContextMenu.md)
+- [ContextMenuItem](variables/ContextMenuItem.md)
+- [ContextMenuItemItem](variables/ContextMenuItemItem.md)
+- [Dependencies](variables/Dependencies.md)
+- [Editing](variables/Editing.md)
+- [EditorOptions](variables/EditorOptions.md)
+- [FilterRow](variables/FilterRow.md)
+- [Format](variables/Format.md)
+- [Gantt](variables/Gantt.md)
+- [GanttHeaderFilter](variables/GanttHeaderFilter.md)
+- [GanttHeaderFilterSearch](variables/GanttHeaderFilterSearch.md)
+- [HeaderFilter](variables/HeaderFilter.md)
+- [Item](variables/Item.md)
+- [OperationDescriptions](variables/OperationDescriptions.md)
+- [Options](variables/Options.md)
+- [ResourceAssignments](variables/ResourceAssignments.md)
+- [Resources](variables/Resources.md)
+- [ScaleTypeRange](variables/ScaleTypeRange.md)
+- [Search](variables/Search.md)
+- [Sorting](variables/Sorting.md)
+- [StripLine](variables/StripLine.md)
+- [Tasks](variables/Tasks.md)
+- [Texts](variables/Texts.md)
+- [Toolbar](variables/Toolbar.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+- [Validation](variables/Validation.md)
+
+## References
+
+### default
+
+Renames and re-exports [Gantt](variables/Gantt.md)
+
+
+--- SOURCE: interfaces/GanttRef.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / GanttRef
+
+# Interface: GanttRef
+
+Defined in: [devextreme-react/src/gantt.ts:75](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L75)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxGantt`
+
+Defined in: [devextreme-react/src/gantt.ts:76](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L76)
+
+#### Returns
+
+`dxGantt`
+
+
+--- SOURCE: type-aliases/IAIProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IAIProps
+
+# Type Alias: IAIProps
+
+> **IAIProps** = `React.PropsWithChildren`\<\{ `aiIntegration?`: `AIIntegration`; `editorOptions?`: `dxTextBoxOptions`\<`any`\>; `emptyText?`: `string`; `mode?`: `AIColumnMode`; `noDataText?`: `string`; `popup?`: `Record`\<`string`, `any`\>; `prompt?`: `string`; `showHeaderMenu?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:152](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L152)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:180](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L180)
+
+
+--- SOURCE: type-aliases/IColumnHeaderFilterProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IColumnHeaderFilterProps
+
+# Type Alias: IColumnHeaderFilterProps
+
+> **IColumnHeaderFilterProps** = `React.PropsWithChildren`\<\{ `allowSearch?`: `boolean`; `allowSelectAll?`: `boolean`; `dataSource?`: `any`[] \| `DataSourceOptions` \| (`options`) => `void` \| `null` \| `Store`; `groupInterval?`: `HeaderFilterGroupInterval` \| `number`; `height?`: `number` \| `string`; `search?`: `ColumnHeaderFilterSearchConfig`; `searchMode?`: `SearchMode`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:297](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L297)
+
+
+--- SOURCE: type-aliases/IColumnHeaderFilterSearchProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IColumnHeaderFilterSearchProps
+
+# Type Alias: IColumnHeaderFilterSearchProps
+
+> **IColumnHeaderFilterSearchProps** = `React.PropsWithChildren`\<\{ `editorOptions?`: `any`; `enabled?`: `boolean`; `mode?`: `SearchMode`; `searchExpr?`: (() => `any` \| `string`)[] \| () => `any` \| `string`; `timeout?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:326](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L326)
+
+
+--- SOURCE: type-aliases/IColumnProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IColumnProps
+
+# Type Alias: IColumnProps
+
+> **IColumnProps** = `React.PropsWithChildren`\<\{ `ai?`: `ColumnAIOptions`; `alignment?`: `HorizontalAlignment`; `allowFiltering?`: `boolean`; `allowHeaderFiltering?`: `boolean`; `allowSorting?`: `boolean`; `calculateCellValue?`: (`rowData`) => `any`; `calculateDisplayValue?`: (`rowData`) => `any` \| `string`; `calculateFilterExpression?`: (`filterValue`, `selectedFilterOperation`, `target`) => `string` \| () => `any` \| `any`[]; `calculateSortValue?`: (`rowData`) => `any` \| `string`; `caption?`: `string`; `cellComponent?`: `React.ComponentType`\<`any`\>; `cellRender?`: (...`params`) => `React.ReactNode`; `cellTemplate?`: (`cellElement`, `cellInfo`) => `any` \| `template`; `cssClass?`: `string`; `customizeText?`: (`cellInfo`) => `string`; `dataField?`: `string`; `dataType?`: `DataType`; `defaultFilterValue?`: `any`; `defaultFilterValues?`: `any`[]; `defaultSelectedFilterOperation?`: `SelectedFilterOperation`; `defaultSortIndex?`: `number`; `defaultSortOrder?`: `SortOrder`; `defaultVisible?`: `boolean`; `defaultVisibleIndex?`: `number`; `encodeHtml?`: `boolean`; `falseText?`: `string`; `filterOperations?`: (`FilterOperation` \| `string`)[]; `filterType?`: `FilterType`; `filterValue?`: `any`; `filterValues?`: `any`[]; `format?`: `LocalizationFormat`; `headerCellComponent?`: `React.ComponentType`\<`any`\>; `headerCellRender?`: (...`params`) => `React.ReactNode`; `headerCellTemplate?`: (`columnHeader`, `headerInfo`) => `any` \| `template`; `headerFilter?`: `GridsColumnHeaderFilter`; `minWidth?`: `number`; `onFilterValueChange?`: (`value`) => `void`; `onFilterValuesChange?`: (`value`) => `void`; `onSelectedFilterOperationChange?`: (`value`) => `void`; `onSortIndexChange?`: (`value`) => `void`; `onSortOrderChange?`: (`value`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onVisibleIndexChange?`: (`value`) => `void`; `selectedFilterOperation?`: `SelectedFilterOperation`; `sortIndex?`: `number`; `sortingMethod?`: (`value1`, `value2`) => `number`; `sortOrder?`: `SortOrder`; `trueText?`: `string`; `visible?`: `boolean`; `visibleIndex?`: `number`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:204](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L204)
+
+
+--- SOURCE: type-aliases/IContextMenuItemItemProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IContextMenuItemItemProps
+
+# Type Alias: IContextMenuItemItemProps
+
+> **IContextMenuItemItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: `dxContextMenuItem`[]; `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:411](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L411)
+
+
+--- SOURCE: type-aliases/IContextMenuItemProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IContextMenuItemProps
+
+# Type Alias: IContextMenuItemProps
+
+> **IContextMenuItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: `dxContextMenuItem`[]; `name?`: [`GanttPredefinedContextMenuItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedContextMenuItem.md) \| `string`; `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:371](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L371)
+
+
+--- SOURCE: type-aliases/IContextMenuProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IContextMenuProps
+
+# Type Alias: IContextMenuProps
+
+> **IContextMenuProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `items?`: (`dxGanttContextMenuItem` \| [`GanttPredefinedContextMenuItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedContextMenuItem.md))[]; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:348](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L348)
+
+
+--- SOURCE: type-aliases/IDependenciesProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IDependenciesProps
+
+# Type Alias: IDependenciesProps
+
+> **IDependenciesProps** = `React.PropsWithChildren`\<\{ `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `keyExpr?`: () => `void` \| `string`; `predecessorIdExpr?`: () => `void` \| `string`; `successorIdExpr?`: () => `void` \| `string`; `typeExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:446](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L446)
+
+
+--- SOURCE: type-aliases/IEditingProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IEditingProps
+
+# Type Alias: IEditingProps
+
+> **IEditingProps** = `React.PropsWithChildren`\<\{ `allowDependencyAdding?`: `boolean`; `allowDependencyDeleting?`: `boolean`; `allowResourceAdding?`: `boolean`; `allowResourceDeleting?`: `boolean`; `allowResourceUpdating?`: `boolean`; `allowTaskAdding?`: `boolean`; `allowTaskDeleting?`: `boolean`; `allowTaskResourceUpdating?`: `boolean`; `allowTaskUpdating?`: `boolean`; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:468](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L468)
+
+
+--- SOURCE: type-aliases/IEditorOptionsProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IEditorOptionsProps
+
+# Type Alias: IEditorOptionsProps
+
+> **IEditorOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `buttons?`: (`string` \| `TextBoxPredefinedButton` \| `TextEditorButton`)[]; `defaultValue?`: `string`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `inputAttr?`: `any`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `label?`: `string`; `labelMode?`: `LabelMode`; `mask?`: `string`; `maskChar?`: `string`; `maskInvalidMessage?`: `string`; `maskRules?`: `any`; `maxLength?`: `number` \| `string`; `mode?`: `TextBoxType`; `name?`: `string`; `onChange?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onCopy?`: (`e`) => `void`; `onCut?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onEnterKey?`: (`e`) => `void`; `onFocusIn?`: (`e`) => `void`; `onFocusOut?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onInput?`: (`e`) => `void`; `onKeyDown?`: (`e`) => `void`; `onKeyUp?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPaste?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `placeholder?`: `string`; `readOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `showClearButton?`: `boolean`; `showMaskMode?`: `MaskMode`; `spellcheck?`: `boolean`; `stylingMode?`: `EditorStyle`; `tabIndex?`: `number`; `text?`: `string`; `useMaskedValue?`: `boolean`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationMessageMode?`: `ValidationMessageMode`; `validationMessagePosition?`: `Position`; `validationStatus?`: `ValidationStatus`; `value?`: `string`; `valueChangeEvent?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:495](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L495)
+
+
+--- SOURCE: type-aliases/IFilterRowProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IFilterRowProps
+
+# Type Alias: IFilterRowProps
+
+> **IFilterRowProps** = `React.PropsWithChildren`\<\{ `betweenEndText?`: `string`; `betweenStartText?`: `string`; `operationDescriptions?`: `dxGanttFilterRowOperationDescriptions`; `resetOperationText?`: `string`; `showAllText?`: `string`; `showOperationChooser?`: `boolean`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:575](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L575)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:602](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L602)
+
+
+--- SOURCE: type-aliases/IGanttHeaderFilterProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IGanttHeaderFilterProps
+
+# Type Alias: IGanttHeaderFilterProps
+
+> **IGanttHeaderFilterProps** = `React.PropsWithChildren`\<\{ `allowSearch?`: `boolean`; `allowSelectAll?`: `boolean`; `height?`: `number`; `search?`: `HeaderFilterSearchConfig`; `searchTimeout?`: `number`; `texts?`: `dxGanttHeaderFilterTexts`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:625](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L625)
+
+
+--- SOURCE: type-aliases/IGanttHeaderFilterSearchProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IGanttHeaderFilterSearchProps
+
+# Type Alias: IGanttHeaderFilterSearchProps
+
+> **IGanttHeaderFilterSearchProps** = `React.PropsWithChildren`\<\{ `editorOptions?`: `any`; `enabled?`: `boolean`; `mode?`: `SearchMode`; `timeout?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:655](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L655)
+
+
+--- SOURCE: type-aliases/IGanttOptions.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IGanttOptions
+
+# Type Alias: IGanttOptions
+
+> **IGanttOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/Properties.md), `IGanttOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/gantt.ts:64](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L64)
+
+
+--- SOURCE: type-aliases/IHeaderFilterProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IHeaderFilterProps
+
+# Type Alias: IHeaderFilterProps
+
+> **IHeaderFilterProps** = `React.PropsWithChildren`\<\{ `allowSearch?`: `boolean`; `allowSelectAll?`: `boolean`; `dataSource?`: `any`[] \| `DataSourceOptions` \| (`options`) => `void` \| `null` \| `Store`; `groupInterval?`: `HeaderFilterGroupInterval` \| `number`; `height?`: `number` \| `string`; `search?`: `ColumnHeaderFilterSearchConfig` \| `HeaderFilterSearchConfig`; `searchMode?`: `SearchMode`; `searchTimeout?`: `number`; `texts?`: `dxGanttHeaderFilterTexts`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:677](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L677)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `items?`: `dxContextMenuItem`[]; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: [`GanttPredefinedContextMenuItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedContextMenuItem.md) \| `string` \| [`GanttPredefinedToolbarItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedToolbarItem.md); `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:712](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L712)
+
+
+--- SOURCE: type-aliases/IOperationDescriptionsProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IOperationDescriptionsProps
+
+# Type Alias: IOperationDescriptionsProps
+
+> **IOperationDescriptionsProps** = `React.PropsWithChildren`\<\{ `between?`: `string`; `contains?`: `string`; `endsWith?`: `string`; `equal?`: `string`; `greaterThan?`: `string`; `greaterThanOrEqual?`: `string`; `lessThan?`: `string`; `lessThanOrEqual?`: `string`; `notContains?`: `string`; `notEqual?`: `string`; `startsWith?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:766](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L766)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:794](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L794)
+
+
+--- SOURCE: type-aliases/IResourceAssignmentsProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IResourceAssignmentsProps
+
+# Type Alias: IResourceAssignmentsProps
+
+> **IResourceAssignmentsProps** = `React.PropsWithChildren`\<\{ `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `keyExpr?`: () => `void` \| `string`; `resourceIdExpr?`: () => `void` \| `string`; `taskIdExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:842](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L842)
+
+
+--- SOURCE: type-aliases/IResourcesProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IResourcesProps
+
+# Type Alias: IResourcesProps
+
+> **IResourcesProps** = `React.PropsWithChildren`\<\{ `colorExpr?`: () => `void` \| `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `keyExpr?`: () => `void` \| `string`; `textExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:863](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L863)
+
+
+--- SOURCE: type-aliases/IScaleTypeRangeProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IScaleTypeRangeProps
+
+# Type Alias: IScaleTypeRangeProps
+
+> **IScaleTypeRangeProps** = `React.PropsWithChildren`\<\{ `max?`: `GanttScaleType`; `min?`: `GanttScaleType`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:884](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L884)
+
+
+--- SOURCE: type-aliases/ISearchProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ISearchProps
+
+# Type Alias: ISearchProps
+
+> **ISearchProps** = `React.PropsWithChildren`\<\{ `editorOptions?`: `any`; `enabled?`: `boolean`; `mode?`: `SearchMode`; `searchExpr?`: (() => `any` \| `string`)[] \| () => `any` \| `string`; `timeout?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:904](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L904)
+
+
+--- SOURCE: type-aliases/ISortingProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ISortingProps
+
+# Type Alias: ISortingProps
+
+> **ISortingProps** = `React.PropsWithChildren`\<\{ `ascendingText?`: `string`; `clearText?`: `string`; `descendingText?`: `string`; `mode?`: `SingleMultipleOrNone` \| `string`; `showSortIndexes?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:926](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L926)
+
+
+--- SOURCE: type-aliases/IStripLineProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IStripLineProps
+
+# Type Alias: IStripLineProps
+
+> **IStripLineProps** = `React.PropsWithChildren`\<\{ `cssClass?`: `string`; `end?`: `Date` \| () => `Date` \| `number` \| `string` \| `number` \| `string`; `start?`: `Date` \| () => `Date` \| `number` \| `string` \| `number` \| `string`; `title?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:948](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L948)
+
+
+--- SOURCE: type-aliases/ITasksProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ITasksProps
+
+# Type Alias: ITasksProps
+
+> **ITasksProps** = `React.PropsWithChildren`\<\{ `colorExpr?`: () => `void` \| `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `endExpr?`: () => `void` \| `string`; `keyExpr?`: () => `void` \| `string`; `parentIdExpr?`: () => `void` \| `string`; `progressExpr?`: () => `void` \| `string`; `startExpr?`: () => `void` \| `string`; `titleExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:970](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L970)
+
+
+--- SOURCE: type-aliases/ITextsProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ITextsProps
+
+# Type Alias: ITextsProps
+
+> **ITextsProps** = `React.PropsWithChildren`\<\{ `cancel?`: `string`; `emptyValue?`: `string`; `ok?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:995](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L995)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: [`GanttPredefinedToolbarItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedToolbarItem.md) \| `string`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:1037](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1037)
+
+
+--- SOURCE: type-aliases/IToolbarProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IToolbarProps
+
+# Type Alias: IToolbarProps
+
+> **IToolbarProps** = `React.PropsWithChildren`\<\{ `items?`: (`dxGanttToolbarItem` \| [`GanttPredefinedToolbarItem`](../DevExtreme-React-Gantt-API/namespaces/GanttTypes/type-aliases/GanttPredefinedToolbarItem.md))[]; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:1015](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1015)
+
+
+--- SOURCE: type-aliases/IValidationProps.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / IValidationProps
+
+# Type Alias: IValidationProps
+
+> **IValidationProps** = `React.PropsWithChildren`\<\{ `autoUpdateParentTasks?`: `boolean`; `enablePredecessorGap?`: `boolean`; `validateDependencies?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/gantt.ts:1081](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1081)
+
+
+--- SOURCE: variables/AI.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / AI
+
+# Variable: AI
+
+> `const` **AI**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:174](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L174)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:198](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L198)
+
+
+--- SOURCE: variables/Column.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Column
+
+# Variable: Column
+
+> `const` **Column**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:291](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L291)
+
+
+--- SOURCE: variables/ColumnHeaderFilter.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ColumnHeaderFilter
+
+# Variable: ColumnHeaderFilter
+
+> `const` **ColumnHeaderFilter**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:320](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L320)
+
+
+--- SOURCE: variables/ColumnHeaderFilterSearch.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ColumnHeaderFilterSearch
+
+# Variable: ColumnHeaderFilterSearch
+
+> `const` **ColumnHeaderFilterSearch**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:342](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L342)
+
+
+--- SOURCE: variables/ContextMenu.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ContextMenu
+
+# Variable: ContextMenu
+
+> `const` **ContextMenu**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:365](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L365)
+
+
+--- SOURCE: variables/ContextMenuItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ContextMenuItem
+
+# Variable: ContextMenuItem
+
+> `const` **ContextMenuItem**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:405](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L405)
+
+
+--- SOURCE: variables/ContextMenuItemItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ContextMenuItemItem
+
+# Variable: ContextMenuItemItem
+
+> `const` **ContextMenuItemItem**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:440](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L440)
+
+
+--- SOURCE: variables/Dependencies.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Dependencies
+
+# Variable: Dependencies
+
+> `const` **Dependencies**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:462](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L462)
+
+
+--- SOURCE: variables/Editing.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Editing
+
+# Variable: Editing
+
+> `const` **Editing**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:489](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L489)
+
+
+--- SOURCE: variables/EditorOptions.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / EditorOptions
+
+# Variable: EditorOptions
+
+> `const` **EditorOptions**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:569](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L569)
+
+
+--- SOURCE: variables/FilterRow.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / FilterRow
+
+# Variable: FilterRow
+
+> `const` **FilterRow**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:596](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L596)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:619](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L619)
+
+
+--- SOURCE: variables/Gantt.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Gantt
+
+# Variable: Gantt()
+
+> `const` **Gantt**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/gantt.ts:79](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L79)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/GanttHeaderFilter.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / GanttHeaderFilter
+
+# Variable: GanttHeaderFilter
+
+> `const` **GanttHeaderFilter**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:649](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L649)
+
+
+--- SOURCE: variables/GanttHeaderFilterSearch.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / GanttHeaderFilterSearch
+
+# Variable: GanttHeaderFilterSearch
+
+> `const` **GanttHeaderFilterSearch**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:670](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L670)
+
+
+--- SOURCE: variables/HeaderFilter.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / HeaderFilter
+
+# Variable: HeaderFilter
+
+> `const` **HeaderFilter**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:704](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L704)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:760](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L760)
+
+
+--- SOURCE: variables/OperationDescriptions.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / OperationDescriptions
+
+# Variable: OperationDescriptions
+
+> `const` **OperationDescriptions**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:788](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L788)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:836](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L836)
+
+
+--- SOURCE: variables/ResourceAssignments.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ResourceAssignments
+
+# Variable: ResourceAssignments
+
+> `const` **ResourceAssignments**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:857](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L857)
+
+
+--- SOURCE: variables/Resources.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Resources
+
+# Variable: Resources
+
+> `const` **Resources**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:878](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L878)
+
+
+--- SOURCE: variables/ScaleTypeRange.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ScaleTypeRange
+
+# Variable: ScaleTypeRange
+
+> `const` **ScaleTypeRange**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:897](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L897)
+
+
+--- SOURCE: variables/Search.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Search
+
+# Variable: Search
+
+> `const` **Search**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:920](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L920)
+
+
+--- SOURCE: variables/Sorting.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Sorting
+
+# Variable: Sorting
+
+> `const` **Sorting**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:942](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L942)
+
+
+--- SOURCE: variables/StripLine.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / StripLine
+
+# Variable: StripLine
+
+> `const` **StripLine**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:964](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L964)
+
+
+--- SOURCE: variables/Tasks.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Tasks
+
+# Variable: Tasks
+
+> `const` **Tasks**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:989](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L989)
+
+
+--- SOURCE: variables/Texts.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Texts
+
+# Variable: Texts
+
+> `const` **Texts**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:1009](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1009)
+
+
+--- SOURCE: variables/Toolbar.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Toolbar
+
+# Variable: Toolbar
+
+> `const` **Toolbar**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:1031](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1031)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:1075](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1075)
+
+
+--- SOURCE: variables/Validation.md ---
+
+[**DevExtreme React Gantt API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Gantt API](../globals.md) / Validation
+
+# Variable: Validation
+
+> `const` **Validation**: `any`
+
+Defined in: [devextreme-react/src/gantt.ts:1095](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/gantt.ts#L1095)
+

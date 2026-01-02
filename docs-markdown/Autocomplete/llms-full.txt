@@ -1,0 +1,1164 @@
+# Autocomplete Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Autocomplete API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/README.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../globals.md) / AutocompleteTypes
+
+# AutocompleteTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ClosedEvent](type-aliases/ClosedEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DropDownButtonTemplateData](type-aliases/DropDownButtonTemplateData.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OpenedEvent](type-aliases/OpenedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxAutocomplete`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:40
+
+## Docid
+
+_ui_autocomplete_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/ClosedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / ClosedEvent
+
+# Type Alias: ClosedEvent
+
+> **ClosedEvent** = `EventInfo`\<`dxAutocomplete`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:48
+
+## Docid
+
+_ui_autocomplete_ClosedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxAutocomplete`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:56
+
+## Docid
+
+_ui_autocomplete_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxAutocomplete`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:64
+
+## Docid
+
+_ui_autocomplete_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxAutocomplete`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:72
+
+## Docid
+
+_ui_autocomplete_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxAutocomplete`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:80
+
+## Docid
+
+_ui_autocomplete_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/DropDownButtonTemplateData.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / DropDownButtonTemplateData
+
+# Type Alias: DropDownButtonTemplateData
+
+> **DropDownButtonTemplateData** = `DropDownButtonTemplateDataModel`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:190
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:88
+
+## Docid
+
+_ui_autocomplete_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxAutocomplete`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:96
+
+## Docid
+
+_ui_autocomplete_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxAutocomplete`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:104
+
+## Docid
+
+_ui_autocomplete_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxAutocomplete`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:112
+
+## Docid
+
+_ui_autocomplete_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxAutocomplete`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:120
+
+## Docid
+
+_ui_autocomplete_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent
+
+> **ItemClickEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:128
+
+## Docid
+
+_ui_autocomplete_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:136
+
+## Docid
+
+_ui_autocomplete_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:139
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:147
+
+## Docid
+
+_ui_autocomplete_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/OpenedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / OpenedEvent
+
+# Type Alias: OpenedEvent
+
+> **OpenedEvent** = `EventInfo`\<`dxAutocomplete`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:155
+
+## Docid
+
+_ui_autocomplete_OpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxAutocomplete`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:163
+
+## Docid
+
+_ui_autocomplete_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxAutocomplete`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:171
+
+## Docid
+
+_ui_autocomplete_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxAutocompleteOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:246
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxAutocomplete`\> & `SelectionChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:179
+
+## Docid
+
+_ui_autocomplete_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,_ui_drop_down_editor_ui_drop_down_list_SelectionChangedInfo
+
+
+--- SOURCE: DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../../../../globals.md) / [AutocompleteTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxAutocomplete`, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/autocomplete.d.ts:187
+
+## Docid
+
+_ui_autocomplete_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Autocomplete API v26.1.0
+
+## Namespaces
+
+- [AutocompleteTypes](DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/README.md)
+
+## Interfaces
+
+- [AutocompleteRef](interfaces/AutocompleteRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IAutocompleteOptions](type-aliases/IAutocompleteOptions.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IDropDownOptionsProps](type-aliases/IDropDownOptionsProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [Autocomplete](variables/Autocomplete.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Button](variables/Button.md)
+- [Collision](variables/Collision.md)
+- [DropDownOptions](variables/DropDownOptions.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [Item](variables/Item.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Options](variables/Options.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+
+## References
+
+### default
+
+Renames and re-exports [Autocomplete](variables/Autocomplete.md)
+
+
+--- SOURCE: interfaces/AutocompleteRef.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / AutocompleteRef
+
+# Interface: AutocompleteRef
+
+Defined in: [devextreme-react/src/autocomplete.ts:63](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L63)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxAutocomplete`
+
+Defined in: [devextreme-react/src/autocomplete.ts:64](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L64)
+
+#### Returns
+
+`dxAutocomplete`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:131](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L131)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:154](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L154)
+
+
+--- SOURCE: type-aliases/IAutocompleteOptions.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IAutocompleteOptions
+
+# Type Alias: IAutocompleteOptions
+
+> **IAutocompleteOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Autocomplete-API/namespaces/AutocompleteTypes/type-aliases/Properties.md), `IAutocompleteOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:50](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L50)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:173](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L173)
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:192](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L192)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:216](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L216)
+
+
+--- SOURCE: type-aliases/IDropDownOptionsProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IDropDownOptionsProps
+
+# Type Alias: IDropDownOptionsProps
+
+> **IDropDownOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `animation?`: `Record`\<`string`, `any`\> \| \{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`contentElement`) => `string` \| `any` \| `template`; `defaultHeight?`: `number` \| `string`; `defaultPosition?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `defaultVisible?`: `boolean`; `defaultWidth?`: `number` \| `string`; `deferRendering?`: `boolean`; `disabled?`: `boolean`; `dragAndResizeArea?`: `any` \| `string`; `dragEnabled?`: `boolean`; `dragOutsideBoundary?`: `boolean`; `enableBodyScroll?`: `boolean`; `focusStateEnabled?`: `boolean`; `fullScreen?`: `boolean`; `height?`: `number` \| `string`; `hideOnOutsideClick?`: `boolean` \| (`event`) => `boolean`; `hideOnParentScroll?`: `boolean`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `maxHeight?`: `number` \| `string`; `maxWidth?`: `number` \| `string`; `minHeight?`: `number` \| `string`; `minWidth?`: `number` \| `string`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onHeightChange?`: (`value`) => `void`; `onHidden?`: (`e`) => `void`; `onHiding?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPositionChange?`: (`value`) => `void`; `onResize?`: (`e`) => `void`; `onResizeEnd?`: (`e`) => `void`; `onResizeStart?`: (`e`) => `void`; `onShowing?`: (`e`) => `void`; `onShown?`: (`e`) => `void`; `onTitleRendered?`: (`e`) => `void`; `onVisibleChange?`: (`value`) => `void`; `onWidthChange?`: (`value`) => `void`; `position?`: () => `void` \| `PositionAlignment` \| `PositionConfig`; `resizeEnabled?`: `boolean`; `restorePosition?`: `boolean`; `rtlEnabled?`: `boolean`; `shading?`: `boolean`; `shadingColor?`: `string`; `showCloseButton?`: `boolean`; `showTitle?`: `boolean`; `tabIndex?`: `number`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: (`titleElement`) => `string` \| `any` \| `template`; `toolbarItems?`: `dxPopupToolbarItem`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; `wrapperAttr?`: `any`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:235](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L235)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:336](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L336)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:361](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L361)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:392](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L392)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:422](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L422)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:441](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L441)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:460](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L460)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:510](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L510)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:556](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L556)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:588](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L588)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: `ToolbarItemLocation`; `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `toolbar?`: `ToolbarLocation`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:613](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L613)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L148)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:167](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L167)
+
+
+--- SOURCE: variables/Autocomplete.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Autocomplete
+
+# Variable: Autocomplete()
+
+> `const` **Autocomplete**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/autocomplete.ts:67](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L67)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:186](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L186)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:210](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L210)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:229](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L229)
+
+
+--- SOURCE: variables/DropDownOptions.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / DropDownOptions
+
+# Variable: DropDownOptions
+
+> `const` **DropDownOptions**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:329](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L329)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:355](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L355)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:386](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L386)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L416)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:435](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L435)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:454](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L454)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:502](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L502)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:550](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L550)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:581](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L581)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:607](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L607)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React Autocomplete API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Autocomplete API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/autocomplete.ts:651](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/autocomplete.ts#L651)
+

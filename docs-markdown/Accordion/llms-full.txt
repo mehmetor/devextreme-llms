@@ -1,0 +1,1686 @@
+# Accordion Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Accordion API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/README.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../globals.md) / AccordionTypes
+
+# AccordionTypes
+
+## Interfaces
+
+- [~~dxAccordionOptions~~](interfaces/dxAccordionOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [ItemTitleClickEvent](type-aliases/ItemTitleClickEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/interfaces/dxAccordionOptions.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / dxAccordionOptions
+
+# ~~Interface: dxAccordionOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:126
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxAccordion`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~animationDuration?~~
+
+> `optional` **animationDuration**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:137
+
+#### Docid
+
+#### Default
+
+```ts
+300
+```
+
+#### Default
+
+```ts
+200 &for(Material)
+```
+
+#### Default
+
+```ts
+200 &for(Fluent)
+@public
+```
+
+***
+
+### ~~collapsible?~~
+
+> `optional` **collapsible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:143
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:150
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~deferRendering?~~
+
+> `optional` **deferRendering**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:156
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:162
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:168
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:174
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:197
+
+#### Docid
+
+#### Fires
+
+dxAccordionOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:182
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~itemTitleTemplate?~~
+
+> `optional` **itemTitleTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:190
+
+#### Docid
+
+#### Default
+
+```ts
+"title"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~multiple?~~
+
+> `optional` **multiple**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:203
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onItemTitleClick?~~
+
+> `optional` **onItemTitleClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:212
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~repaintChangesOnly?~~
+
+> `optional` **repaintChangesOnly**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:218
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:224
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:46
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:54
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:62
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxAccordionItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:265
+
+**`Namespace`**
+
+DevExpress.ui.dxAccordion
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:70
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:78
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:86
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:94
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemTitleClickEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / ItemTitleClickEvent
+
+# Type Alias: ItemTitleClickEvent\<TItem, TKey\>
+
+> **ItemTitleClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:102
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_ItemTitleClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:110
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxAccordionOptions`](../interfaces/dxAccordionOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:309
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Accordion API](../../../../globals.md) / [AccordionTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxAccordion`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:118
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_accordion_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Accordion API v26.1.0
+
+## Namespaces
+
+- [AccordionTypes](DevExtreme-React-Accordion-API/namespaces/AccordionTypes/README.md)
+
+## Interfaces
+
+- [AccordionRef](interfaces/AccordionRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IAccordionOptions](type-aliases/IAccordionOptions.md)
+- [IItemProps](type-aliases/IItemProps.md)
+
+## Variables
+
+- [Accordion](variables/Accordion.md)
+- [Item](variables/Item.md)
+
+## References
+
+### default
+
+Renames and re-exports [Accordion](variables/Accordion.md)
+
+
+--- SOURCE: interfaces/AccordionRef.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / AccordionRef
+
+# Interface: AccordionRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/accordion.ts:49](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L49)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxAccordion`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/accordion.ts:50](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L50)
+
+#### Returns
+
+`dxAccordion`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:291
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:296
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:297
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:298
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:299
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:300
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:301
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:302
+
+***
+
+### ItemTitleClickEvent
+
+> **ItemTitleClickEvent**: [`ItemTitleClickEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/ItemTitleClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:303
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:304
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:295
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/accordion.d.ts:305
+
+
+--- SOURCE: type-aliases/IAccordionOptions.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / IAccordionOptions
+
+# Type Alias: IAccordionOptions\<TItem, TKey\>
+
+> **IAccordionOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Accordion-API/namespaces/AccordionTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IAccordionOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/accordion.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L31)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `title?`: `string`; `titleComponent?`: `React.ComponentType`\<`any`\>; `titleRender?`: (...`params`) => `React.ReactNode`; `titleTemplate?`: () => `string` \| `any` \| `template`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/accordion.ts:113](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L113)
+
+
+--- SOURCE: variables/Accordion.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / Accordion
+
+# Variable: Accordion()
+
+> `const` **Accordion**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/accordion.ts:53](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L53)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Accordion API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Accordion API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/accordion.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/accordion.ts#L146)
+

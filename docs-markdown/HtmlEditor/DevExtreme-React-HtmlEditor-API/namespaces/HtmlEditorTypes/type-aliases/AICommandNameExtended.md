@@ -1,0 +1,13 @@
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AICommandNameExtended
+
+# Type Alias: AICommandNameExtended
+
+> **AICommandNameExtended** = [`AICommandName`](AICommandName.md) \| `"custom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:100
+
+## Docid

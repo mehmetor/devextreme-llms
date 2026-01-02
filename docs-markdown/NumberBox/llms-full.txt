@@ -1,0 +1,668 @@
+# NumberBox Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React NumberBox API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/README.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../globals.md) / NumberBoxTypes
+
+# NumberBoxTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [NumberBoxPredefinedButton](type-aliases/NumberBoxPredefinedButton.md)
+- [NumberBoxType](type-aliases/NumberBoxType.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxNumberBox`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:44
+
+## Docid
+
+_ui_number_box_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxNumberBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:52
+
+## Docid
+
+_ui_number_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxNumberBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:60
+
+## Docid
+
+_ui_number_box_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxNumberBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:68
+
+## Docid
+
+_ui_number_box_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxNumberBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:76
+
+## Docid
+
+_ui_number_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxNumberBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:84
+
+## Docid
+
+_ui_number_box_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxNumberBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:92
+
+## Docid
+
+_ui_number_box_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxNumberBox`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:100
+
+## Docid
+
+_ui_number_box_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxNumberBox`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:108
+
+## Docid
+
+_ui_number_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxNumberBox`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:116
+
+## Docid
+
+_ui_number_box_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxNumberBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:124
+
+## Docid
+
+_ui_number_box_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxNumberBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:127
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxNumberBox`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:135
+
+## Docid
+
+_ui_number_box_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/NumberBoxPredefinedButton.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / NumberBoxPredefinedButton
+
+# Type Alias: NumberBoxPredefinedButton
+
+> **NumberBoxPredefinedButton** = `"clear"` \| `"spins"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:34
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/NumberBoxType.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / NumberBoxType
+
+# Type Alias: NumberBoxType
+
+> **NumberBoxType** = `"number"` \| `"text"` \| `"tel"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:36
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxNumberBox`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:143
+
+## Docid
+
+_ui_number_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxNumberBox`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:151
+
+## Docid
+
+_ui_number_box_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxNumberBoxOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:248
+
+
+--- SOURCE: DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxNumberBox`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:159
+
+## Docid
+
+_ui_number_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React NumberBox API v26.1.0
+
+## Namespaces
+
+- [NumberBoxTypes](DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/README.md)
+
+## Interfaces
+
+- [NumberBoxRef](interfaces/NumberBoxRef.md)
+
+## Type Aliases
+
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [INumberBoxOptions](type-aliases/INumberBoxOptions.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+
+## Variables
+
+- [Button](variables/Button.md)
+- [Format](variables/Format.md)
+- [NumberBox](variables/NumberBox.md)
+- [Options](variables/Options.md)
+
+## References
+
+### default
+
+Renames and re-exports [NumberBox](variables/NumberBox.md)
+
+
+--- SOURCE: interfaces/NumberBoxRef.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / NumberBoxRef
+
+# Interface: NumberBoxRef
+
+Defined in: [devextreme-react/src/number-box.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxNumberBox`
+
+Defined in: [devextreme-react/src/number-box.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L42)
+
+#### Returns
+
+`dxNumberBox`
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/number-box.ts:88](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L88)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/number-box.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L112)
+
+
+--- SOURCE: type-aliases/INumberBoxOptions.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / INumberBoxOptions
+
+# Type Alias: INumberBoxOptions
+
+> **INumberBoxOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-NumberBox-API/namespaces/NumberBoxTypes/type-aliases/Properties.md), `INumberBoxOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/number-box.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L36)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/number-box.ts:135](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L135)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/number-box.ts:106](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L106)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/number-box.ts:129](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L129)
+
+
+--- SOURCE: variables/NumberBox.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / NumberBox
+
+# Variable: NumberBox()
+
+> `const` **NumberBox**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/number-box.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React NumberBox API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/number-box.ts:177](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/number-box.ts#L177)
+

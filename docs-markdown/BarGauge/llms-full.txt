@@ -1,0 +1,1463 @@
+# BarGauge Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React BarGauge API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/README.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../globals.md) / BarGaugeTypes
+
+# BarGaugeTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LabelOverlap](type-aliases/LabelOverlap.md)
+- [Legend](type-aliases/Legend.md)
+- [LegendItem](type-aliases/LegendItem.md)
+- [LoadingIndicator](type-aliases/LoadingIndicator.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [PaletteExtensionMode](type-aliases/PaletteExtensionMode.md)
+- [Properties](type-aliases/Properties.md)
+- [ShiftLabelOverlap](type-aliases/ShiftLabelOverlap.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxBarGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:119
+
+## Docid
+
+_viz_bar_gauge_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxBarGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:127
+
+## Docid
+
+_viz_bar_gauge_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxBarGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:135
+
+## Docid
+
+_viz_bar_gauge_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxBarGauge`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:143
+
+## Docid
+
+_viz_bar_gauge_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxBarGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:151
+
+## Docid
+
+_viz_bar_gauge_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxBarGauge`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:159
+
+## Docid
+
+_viz_bar_gauge_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxBarGauge`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:167
+
+## Docid
+
+_viz_bar_gauge_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/LabelOverlap.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / LabelOverlap
+
+# Type Alias: LabelOverlap
+
+> **LabelOverlap** = `"hide"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:78
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/Legend.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / Legend
+
+# Type Alias: Legend
+
+> **Legend** = `BaseLegend` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:377
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`arg`) => `string`
+
+#### Parameters
+
+##### arg
+
+###### item?
+
+`BarGaugeBarInfo`
+
+###### text?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxBarGaugeOptions.legend.customizeHint
+
+### customizeItems()?
+
+> `optional` **customizeItems**: (`items`) => [`LegendItem`](LegendItem.md)[]
+
+#### Parameters
+
+##### items
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Returns
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Docid
+
+dxBarGaugeOptions.legend.customizeItems
+@type_function_param1 items:Array<BarGaugeLegendItem>
+@type_function_return Array<BarGaugeLegendItem>
+
+### customizeText()?
+
+> `optional` **customizeText**: (`arg`) => `string`
+
+#### Parameters
+
+##### arg
+
+###### item?
+
+`BarGaugeBarInfo`
+
+###### text?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxBarGaugeOptions.legend.customizeText
+
+#### Not Used In Theme
+
+### itemTextFormat?
+
+> `optional` **itemTextFormat**: `Format`
+
+#### Docid
+
+dxBarGaugeOptions.legend.itemTextFormat
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### markerTemplate?
+
+> `optional` **markerTemplate**: `template` \| (`legendItem`, `element`) => `string` \| `UserDefinedElement`\<`SVGElement`\>
+
+#### Docid
+
+dxBarGaugeOptions.legend.markerTemplate
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 legendItem:BarGaugeLegendItem
+@type_function_return string|SVGElement|jQuery
+@public
+```
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+#### Docid
+
+dxBarGaugeOptions.legend.visible
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxBarGaugeLegend
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/LegendItem.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / LegendItem
+
+# Type Alias: LegendItem
+
+> **LegendItem** = `BarGaugeLegendItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:87
+
+**`Namespace`**
+
+## Docid
+
+BarGaugeLegendItem
+ DevExpress.viz.dxBarGauge
+
+## Inherits
+
+BaseLegendItem
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/LoadingIndicator.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / LoadingIndicator
+
+# Type Alias: LoadingIndicator
+
+> **LoadingIndicator** = `BaseWidgetLoadingIndicator` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:422
+
+## Docid
+
+dxBarGaugeLoadingIndicator
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxBarGauge`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:175
+
+## Docid
+
+_viz_bar_gauge_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/PaletteExtensionMode.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / PaletteExtensionMode
+
+# Type Alias: PaletteExtensionMode
+
+> **PaletteExtensionMode** = `"alternate"` \| `"blend"` \| `"extrapolate"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:120
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxBarGaugeOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:477
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/ShiftLabelOverlap.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / ShiftLabelOverlap
+
+# Type Alias: ShiftLabelOverlap
+
+> **ShiftLabelOverlap** = `"hide"` \| `"none"` \| `"shift"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:84
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `BaseWidgetTooltip` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:433
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`scaleValue`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxBarGaugeOptions.tooltip.contentTemplate
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`scaleValue`) => `any`
+
+#### Parameters
+
+##### scaleValue
+
+###### index?
+
+`number`
+
+###### value?
+
+`number`
+
+###### valueText?
+
+`string`
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxBarGaugeOptions.tooltip.customizeTooltip
+
+#### Default
+
+```ts
+undefined
+@type_function_return object
+@public
+```
+
+### interactive?
+
+> `optional` **interactive**: `boolean`
+
+#### Docid
+
+dxBarGaugeOptions.tooltip.interactive
+
+#### Default
+
+```ts
+false
+@public
+```
+
+## Docid
+
+dxBarGaugeTooltip
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxBarGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:183
+
+## Docid
+
+_viz_bar_gauge_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_bar_gauge_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../../../../globals.md) / [BarGaugeTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxBarGauge`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/bar\_gauge.d.ts:191
+
+## Docid
+
+_viz_bar_gauge_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_bar_gauge_TooltipInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React BarGauge API v26.1.0
+
+## Namespaces
+
+- [BarGaugeTypes](DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/README.md)
+
+## Interfaces
+
+- [BarGaugeRef](interfaces/BarGaugeRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IBarGaugeOptions](type-aliases/IBarGaugeOptions.md)
+- [IBarGaugeTitleProps](type-aliases/IBarGaugeTitleProps.md)
+- [IBarGaugeTitleSubtitleProps](type-aliases/IBarGaugeTitleSubtitleProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IGeometryProps](type-aliases/IGeometryProps.md)
+- [IItemTextFormatProps](type-aliases/IItemTextFormatProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILegendBorderProps](type-aliases/ILegendBorderProps.md)
+- [ILegendProps](type-aliases/ILegendProps.md)
+- [ILegendTitleProps](type-aliases/ILegendTitleProps.md)
+- [ILegendTitleSubtitleProps](type-aliases/ILegendTitleSubtitleProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [BarGauge](variables/BarGauge.md)
+- [BarGaugeTitle](variables/BarGaugeTitle.md)
+- [BarGaugeTitleSubtitle](variables/BarGaugeTitleSubtitle.md)
+- [Border](variables/Border.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Geometry](variables/Geometry.md)
+- [ItemTextFormat](variables/ItemTextFormat.md)
+- [Label](variables/Label.md)
+- [Legend](variables/Legend.md)
+- [LegendBorder](variables/LegendBorder.md)
+- [LegendTitle](variables/LegendTitle.md)
+- [LegendTitleSubtitle](variables/LegendTitleSubtitle.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Subtitle](variables/Subtitle.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+
+## References
+
+### default
+
+Renames and re-exports [BarGauge](variables/BarGauge.md)
+
+
+--- SOURCE: interfaces/BarGaugeRef.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / BarGaugeRef
+
+# Interface: BarGaugeRef
+
+Defined in: [devextreme-react/src/bar-gauge.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxBarGauge`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L42)
+
+#### Returns
+
+`dxBarGauge`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `duration?`: `number`; `easing?`: `AnimationEaseMode`; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:107](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L107)
+
+
+--- SOURCE: type-aliases/IBarGaugeOptions.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IBarGaugeOptions
+
+# Type Alias: IBarGaugeOptions
+
+> **IBarGaugeOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-BarGauge-API/namespaces/BarGaugeTypes/type-aliases/Properties.md), `IBarGaugeOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L32)
+
+
+--- SOURCE: type-aliases/IBarGaugeTitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IBarGaugeTitleProps
+
+# Type Alias: IBarGaugeTitleProps
+
+> **IBarGaugeTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:127](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L127)
+
+
+--- SOURCE: type-aliases/IBarGaugeTitleSubtitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IBarGaugeTitleSubtitleProps
+
+# Type Alias: IBarGaugeTitleSubtitleProps
+
+> **IBarGaugeTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:170](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L170)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:196](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L196)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:219](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L219)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:250](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L250)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:273](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L273)
+
+
+--- SOURCE: type-aliases/IGeometryProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IGeometryProps
+
+# Type Alias: IGeometryProps
+
+> **IGeometryProps** = `React.PropsWithChildren`\<\{ `endAngle?`: `number`; `startAngle?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:296](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L296)
+
+
+--- SOURCE: type-aliases/IItemTextFormatProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IItemTextFormatProps
+
+# Type Alias: IItemTextFormatProps
+
+> **IItemTextFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:315](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L315)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `connectorColor?`: `string`; `connectorWidth?`: `number`; `customizeText?`: (`barValue`) => `string`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `indent?`: `number`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:338](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L338)
+
+
+--- SOURCE: type-aliases/ILegendBorderProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILegendBorderProps
+
+# Type Alias: ILegendBorderProps
+
+> **ILegendBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:451](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L451)
+
+
+--- SOURCE: type-aliases/ILegendProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`arg`) => `string`; `customizeItems?`: (`items`) => `BarGaugeLegendItem`[]; `customizeText?`: (`arg`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `itemsAlignment?`: `HorizontalAlignment`; `itemTextFormat?`: `LocalizationFormat`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}; `verticalAlignment?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:366](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L366)
+
+
+--- SOURCE: type-aliases/ILegendTitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILegendTitleProps
+
+# Type Alias: ILegendTitleProps
+
+> **ILegendTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:474](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L474)
+
+
+--- SOURCE: type-aliases/ILegendTitleSubtitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILegendTitleSubtitleProps
+
+# Type Alias: ILegendTitleSubtitleProps
+
+> **ILegendTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:513](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L513)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:536](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L536)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:568](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L568)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:589](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L589)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:611](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L611)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:631](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L631)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| `number` \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: `VerticalEdge`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:657](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L657)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:759](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L759)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`scaleValue`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`scaleValue`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:700](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L700)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:121](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L121)
+
+
+--- SOURCE: variables/BarGauge.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / BarGauge
+
+# Variable: BarGauge()
+
+> `const` **BarGauge**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/bar-gauge.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/BarGaugeTitle.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / BarGaugeTitle
+
+# Variable: BarGaugeTitle
+
+> `const` **BarGaugeTitle**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:164](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L164)
+
+
+--- SOURCE: variables/BarGaugeTitleSubtitle.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / BarGaugeTitleSubtitle
+
+# Variable: BarGaugeTitleSubtitle
+
+> `const` **BarGaugeTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:189](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L189)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:213](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L213)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:237](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L237)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:266](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L266)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:290](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L290)
+
+
+--- SOURCE: variables/Geometry.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Geometry
+
+# Variable: Geometry
+
+> `const` **Geometry**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:309](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L309)
+
+
+--- SOURCE: variables/ItemTextFormat.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / ItemTextFormat
+
+# Variable: ItemTextFormat
+
+> `const` **ItemTextFormat**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:332](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L332)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:360](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L360)
+
+
+--- SOURCE: variables/Legend.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Legend
+
+# Variable: Legend
+
+> `const` **Legend**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:445](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L445)
+
+
+--- SOURCE: variables/LegendBorder.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / LegendBorder
+
+# Variable: LegendBorder
+
+> `const` **LegendBorder**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:468](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L468)
+
+
+--- SOURCE: variables/LegendTitle.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / LegendTitle
+
+# Variable: LegendTitle
+
+> `const` **LegendTitle**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:507](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L507)
+
+
+--- SOURCE: variables/LegendTitleSubtitle.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / LegendTitleSubtitle
+
+# Variable: LegendTitleSubtitle
+
+> `const` **LegendTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:530](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L530)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:559](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L559)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:583](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L583)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:605](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L605)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:624](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L624)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:650](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L650)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:694](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L694)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:753](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L753)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React BarGauge API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React BarGauge API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/bar-gauge.ts:775](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/bar-gauge.ts#L775)
+

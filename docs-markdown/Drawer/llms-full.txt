@@ -1,0 +1,284 @@
+# Drawer Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Drawer API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/README.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../globals.md) / DrawerTypes
+
+# DrawerTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OpenedStateMode](type-aliases/OpenedStateMode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PanelLocation](type-aliases/PanelLocation.md)
+- [Properties](type-aliases/Properties.md)
+- [RevealMode](type-aliases/RevealMode.md)
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxDrawer`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:46
+
+## Docid
+
+_ui_drawer_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxDrawer`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:54
+
+## Docid
+
+_ui_drawer_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/OpenedStateMode.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / OpenedStateMode
+
+# Type Alias: OpenedStateMode
+
+> **OpenedStateMode** = `"overlap"` \| `"shrink"` \| `"push"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:34
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxDrawer`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:62
+
+## Docid
+
+_ui_drawer_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/PanelLocation.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / PanelLocation
+
+# Type Alias: PanelLocation
+
+> **PanelLocation** = `"left"` \| `"right"` \| `"top"` \| `"bottom"` \| `"before"` \| `"after"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:36
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxDrawerOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:177
+
+
+--- SOURCE: DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/RevealMode.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Drawer API](../../../../globals.md) / [DrawerTypes](../README.md) / RevealMode
+
+# Type Alias: RevealMode
+
+> **RevealMode** = `"slide"` \| `"expand"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/drawer.d.ts:38
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Drawer API v26.1.0
+
+## Namespaces
+
+- [DrawerTypes](DevExtreme-React-Drawer-API/namespaces/DrawerTypes/README.md)
+
+## Interfaces
+
+- [DrawerRef](interfaces/DrawerRef.md)
+
+## Type Aliases
+
+- [IDrawerOptions](type-aliases/IDrawerOptions.md)
+
+## Variables
+
+- [Drawer](variables/Drawer.md)
+
+## References
+
+### default
+
+Renames and re-exports [Drawer](variables/Drawer.md)
+
+
+--- SOURCE: interfaces/DrawerRef.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Drawer API](../globals.md) / DrawerRef
+
+# Interface: DrawerRef
+
+Defined in: [devextreme-react/src/drawer.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drawer.ts#L28)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxDrawer`
+
+Defined in: [devextreme-react/src/drawer.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drawer.ts#L29)
+
+#### Returns
+
+`dxDrawer`
+
+
+--- SOURCE: type-aliases/IDrawerOptions.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Drawer API](../globals.md) / IDrawerOptions
+
+# Type Alias: IDrawerOptions
+
+> **IDrawerOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Drawer-API/namespaces/DrawerTypes/type-aliases/Properties.md), `IDrawerOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/drawer.ts:21](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drawer.ts#L21)
+
+
+--- SOURCE: variables/Drawer.md ---
+
+[**DevExtreme React Drawer API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Drawer API](../globals.md) / Drawer
+
+# Variable: Drawer()
+
+> `const` **Drawer**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/drawer.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/drawer.ts#L32)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

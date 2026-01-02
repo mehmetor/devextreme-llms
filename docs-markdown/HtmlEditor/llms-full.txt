@@ -1,0 +1,1498 @@
+# HtmlEditor Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React HtmlEditor API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/README.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../globals.md) / HtmlEditorTypes
+
+# HtmlEditorTypes
+
+## Interfaces
+
+- [AICustomCommand](interfaces/AICustomCommand.md)
+- [AIToolbarItem](interfaces/AIToolbarItem.md)
+- [MentionTemplateData](interfaces/MentionTemplateData.md)
+
+## Type Aliases
+
+- [AIChangeStyleCommand](type-aliases/AIChangeStyleCommand.md)
+- [AIChangeStyleOption](type-aliases/AIChangeStyleOption.md)
+- [AIChangeToneCommand](type-aliases/AIChangeToneCommand.md)
+- [AIChangeToneOption](type-aliases/AIChangeToneOption.md)
+- [AICommand](type-aliases/AICommand.md)
+- [AICommandName](type-aliases/AICommandName.md)
+- [AICommandNameExtended](type-aliases/AICommandNameExtended.md)
+- [AITranslateCommand](type-aliases/AITranslateCommand.md)
+- [AITranslateOption](type-aliases/AITranslateOption.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextMenuItem](type-aliases/ContextMenuItem.md)
+- [Converter](type-aliases/Converter.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EditorStyle](type-aliases/EditorStyle.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [HtmlEditorFormat](type-aliases/HtmlEditorFormat.md)
+- [HtmlEditorImageUploadMode](type-aliases/HtmlEditorImageUploadMode.md)
+- [HtmlEditorImageUploadTab](type-aliases/HtmlEditorImageUploadTab.md)
+- [HtmlEditorPredefinedContextMenuItem](type-aliases/HtmlEditorPredefinedContextMenuItem.md)
+- [HtmlEditorPredefinedToolbarItem](type-aliases/HtmlEditorPredefinedToolbarItem.md)
+- [ImageUploadTab](type-aliases/ImageUploadTab.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ToolbarItem](type-aliases/ToolbarItem.md)
+- [ToolbarItemLocation](type-aliases/ToolbarItemLocation.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/interfaces/AICustomCommand.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AICustomCommand
+
+# Interface: AICustomCommand
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:156
+
+**`Namespace`**
+
+## Docid
+
+## Inherits
+
+AICommandBase
+ DevExpress.ui.dxHtmlEditor
+
+## Extends
+
+- `AICommandBase`\<`"custom"`, `string`[]\>
+
+## Properties
+
+### name
+
+> **name**: [`AICommandNameExtended`](../type-aliases/AICommandNameExtended.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:113
+
+#### Docid
+
+#### Inherited from
+
+`AICommandBase.name`
+
+***
+
+### options?
+
+> `optional` **options**: `string`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:123
+
+#### Docid
+
+#### Inherited from
+
+`AICommandBase.options`
+
+***
+
+### prompt()
+
+> **prompt**: (`param?`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:161
+
+#### Parameters
+
+##### param?
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+***
+
+### text
+
+> **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:166
+
+#### Docid
+
+#### Overrides
+
+`AICommandBase.text`
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/interfaces/AIToolbarItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AIToolbarItem
+
+# Interface: AIToolbarItem
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:191
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxHtmlEditor
+
+## Extends
+
+- `Omit`\<`dxToolbarItem`, `"menuItemTemplate"` \| `"showText"` \| `"widget"` \| `"options"` \| `"template"` \| `"html"`\>
+
+## Properties
+
+### commands?
+
+> `optional` **commands**: ([`AICommandName`](../type-aliases/AICommandName.md) \| [`AICommand`](../type-aliases/AICommand.md))[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:201
+
+#### Docid
+
+***
+
+### cssClass?
+
+> `optional` **cssClass**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:177
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`Omit.cssClass`
+
+***
+
+### disabled?
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:219
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`Omit.disabled`
+
+***
+
+### locateInMenu?
+
+> `optional` **locateInMenu**: `LocateInMenuMode`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:183
+
+#### Docid
+
+#### Default
+
+```ts
+'never'
+@public
+```
+
+#### Inherited from
+
+`Omit.locateInMenu`
+
+***
+
+### location?
+
+> `optional` **location**: [`ToolbarItemLocation`](../type-aliases/ToolbarItemLocation.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/toolbar.d.ts:189
+
+#### Docid
+
+#### Default
+
+```ts
+'center'
+@public
+```
+
+#### Inherited from
+
+`Omit.location`
+
+***
+
+### name
+
+> **name**: `"ai"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:196
+
+#### Docid
+
+***
+
+### text?
+
+> `optional` **text**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:235
+
+#### Docid
+
+#### Inherited from
+
+`Omit.text`
+
+***
+
+### visible?
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:241
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`Omit.visible`
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/interfaces/MentionTemplateData.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / MentionTemplateData
+
+# Interface: MentionTemplateData
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:261
+
+## Properties
+
+### id?
+
+> `readonly` `optional` **id**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:263
+
+***
+
+### marker
+
+> `readonly` **marker**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:262
+
+***
+
+### value?
+
+> `readonly` `optional` **value**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:264
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AIChangeStyleCommand.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AIChangeStyleCommand
+
+# Type Alias: AIChangeStyleCommand
+
+> **AIChangeStyleCommand** = `AICommandBase`\<`"changeStyle"`, ([`AIChangeStyleOption`](AIChangeStyleOption.md) \| `string`)[]\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:132
+
+**`Namespace`**
+
+## Docid
+
+## Inherits
+
+AICommandBase
+ DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AIChangeStyleOption.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AIChangeStyleOption
+
+# Type Alias: AIChangeStyleOption
+
+> **AIChangeStyleOption** = `"formal"` \| `"informal"` \| `"technical"` \| `"business"` \| `"creative"` \| `"journalistic"` \| `"academic"` \| `"persuasive"` \| `"narrative"` \| `"expository"` \| `"descriptive"` \| `"conversational"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:64
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AIChangeToneCommand.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AIChangeToneCommand
+
+# Type Alias: AIChangeToneCommand
+
+> **AIChangeToneCommand** = `AICommandBase`\<`"changeTone"`, ([`AIChangeToneOption`](AIChangeToneOption.md) \| `string`)[]\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:140
+
+**`Namespace`**
+
+## Docid
+
+## Inherits
+
+AICommandBase
+ DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AIChangeToneOption.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AIChangeToneOption
+
+# Type Alias: AIChangeToneOption
+
+> **AIChangeToneOption** = `"professional"` \| `"casual"` \| `"straightforward"` \| `"confident"` \| `"friendly"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:79
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommand.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AICommand
+
+# Type Alias: AICommand
+
+> **AICommand** = `AICommandBase`\<`"summarize"`, `any`\> \| `AICommandBase`\<`"proofread"`, `any`\> \| `AICommandBase`\<`"expand"`, `any`\> \| `AICommandBase`\<`"shorten"`, `any`\> \| `AICommandBase`\<`"askAI"`, `any`\> \| [`AIChangeStyleCommand`](AIChangeStyleCommand.md) \| [`AIChangeToneCommand`](AIChangeToneCommand.md) \| [`AITranslateCommand`](AITranslateCommand.md) \| [`AICustomCommand`](../interfaces/AICustomCommand.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:175
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxHtmlEditor
+
+## Inherits
+
+AIChangeStyleCommand,AIChangeToneCommand,AITranslateCommand,AICustomCommand
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommandName.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AICommandName
+
+# Type Alias: AICommandName
+
+> **AICommandName** = `"summarize"` \| `"proofread"` \| `"expand"` \| `"shorten"` \| `"changeStyle"` \| `"changeTone"` \| `"translate"` \| `"askAI"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:61
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommandNameExtended.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AICommandNameExtended
+
+# Type Alias: AICommandNameExtended
+
+> **AICommandNameExtended** = [`AICommandName`](AICommandName.md) \| `"custom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:100
+
+## Docid
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AITranslateCommand.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AITranslateCommand
+
+# Type Alias: AITranslateCommand
+
+> **AITranslateCommand** = `AICommandBase`\<`"translate"`, ([`AITranslateOption`](AITranslateOption.md) \| `string`)[]\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:148
+
+**`Namespace`**
+
+## Docid
+
+## Inherits
+
+AICommandBase
+ DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AITranslateOption.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / AITranslateOption
+
+# Type Alias: AITranslateOption
+
+> **AITranslateOption** = `"arabic"` \| `"chinese"` \| `"english"` \| `"french"` \| `"german"` \| `"japanese"` \| `"spanish"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:87
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxHtmlEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:210
+
+## Docid
+
+_ui_html_editor_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ContextMenuItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ContextMenuItem
+
+# Type Alias: ContextMenuItem
+
+> **ContextMenuItem** = `dxHtmlEditorTableContextMenuItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:703
+
+**`Namespace`**
+
+DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/Converter.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / Converter
+
+# Type Alias: Converter
+
+> **Converter** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:272
+
+**`Namespace`**
+
+## Docid
+
+DevExpress.ui.dxHtmlEditor
+
+## Properties
+
+### fromHtml()?
+
+> `optional` **fromHtml**: (`value`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:282
+
+#### Parameters
+
+##### value
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+***
+
+### toHtml()?
+
+> `optional` **toHtml**: (`value`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:277
+
+#### Parameters
+
+##### value
+
+`string`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxHtmlEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:218
+
+## Docid
+
+_ui_html_editor_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/EditorStyle.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / EditorStyle
+
+# Type Alias: EditorStyle
+
+> **EditorStyle** = `"outlined"` \| `"underlined"` \| `"filled"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:228
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxHtmlEditor`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:226
+
+## Docid
+
+_ui_html_editor_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxHtmlEditor`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:234
+
+## Docid
+
+_ui_html_editor_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorFormat.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / HtmlEditorFormat
+
+# Type Alias: HtmlEditorFormat
+
+> **HtmlEditorFormat** = `"background"` \| `"bold"` \| `"color"` \| `"font"` \| `"italic"` \| `"link"` \| `"size"` \| `"strike"` \| `"script"` \| `"underline"` \| `"blockquote"` \| `"header"` \| `"indent"` \| `"list"` \| `"align"` \| `"code-block"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:50
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorImageUploadMode.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / HtmlEditorImageUploadMode
+
+# Type Alias: HtmlEditorImageUploadMode
+
+> **HtmlEditorImageUploadMode** = `"base64"` \| `"server"` \| `"both"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:52
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorImageUploadTab.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / HtmlEditorImageUploadTab
+
+# Type Alias: HtmlEditorImageUploadTab
+
+> **HtmlEditorImageUploadTab** = `"url"` \| `"file"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:54
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / HtmlEditorPredefinedContextMenuItem
+
+# Type Alias: HtmlEditorPredefinedContextMenuItem
+
+> **HtmlEditorPredefinedContextMenuItem** = `"background"` \| `"bold"` \| `"color"` \| `"font"` \| `"italic"` \| `"link"` \| `"image"` \| `"strike"` \| `"subscript"` \| `"superscript"` \| `"underline"` \| `"blockquote"` \| `"increaseIndent"` \| `"decreaseIndent"` \| `"orderedList"` \| `"bulletList"` \| `"alignLeft"` \| `"alignCenter"` \| `"alignRight"` \| `"alignJustify"` \| `"codeBlock"` \| `"variable"` \| `"undo"` \| `"redo"` \| `"clear"` \| `"insertTable"` \| `"insertHeaderRow"` \| `"insertRowAbove"` \| `"insertRowBelow"` \| `"insertColumnLeft"` \| `"insertColumnRight"` \| `"deleteColumn"` \| `"deleteRow"` \| `"deleteTable"` \| `"cellProperties"` \| `"tableProperties"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:56
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedToolbarItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / HtmlEditorPredefinedToolbarItem
+
+# Type Alias: HtmlEditorPredefinedToolbarItem
+
+> **HtmlEditorPredefinedToolbarItem** = `"background"` \| `"bold"` \| `"color"` \| `"font"` \| `"italic"` \| `"link"` \| `"image"` \| `"size"` \| `"strike"` \| `"subscript"` \| `"superscript"` \| `"underline"` \| `"blockquote"` \| `"header"` \| `"increaseIndent"` \| `"decreaseIndent"` \| `"orderedList"` \| `"bulletList"` \| `"alignLeft"` \| `"alignCenter"` \| `"alignRight"` \| `"alignJustify"` \| `"codeBlock"` \| `"variable"` \| `"separator"` \| `"undo"` \| `"redo"` \| `"clear"` \| `"cellProperties"` \| `"tableProperties"` \| `"insertTable"` \| `"insertHeaderRow"` \| `"insertRowAbove"` \| `"insertRowBelow"` \| `"insertColumnLeft"` \| `"insertColumnRight"` \| `"deleteColumn"` \| `"deleteRow"` \| `"deleteTable"` \| `"ai"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:58
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ImageUploadTab.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ImageUploadTab
+
+# Type Alias: ImageUploadTab
+
+> **ImageUploadTab** = `dxHtmlEditorImageUploadTabItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:664
+
+**`Namespace`**
+
+DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxHtmlEditor`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:242
+
+## Docid
+
+_ui_html_editor_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxHtmlEditor`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:250
+
+## Docid
+
+_ui_html_editor_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxHtmlEditorOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:869
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ToolbarItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ToolbarItem
+
+# Type Alias: ToolbarItem
+
+> **ToolbarItem** = `dxHtmlEditorToolbarItem` \| [`AIToolbarItem`](../interfaces/AIToolbarItem.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:822
+
+**`Namespace`**
+
+DevExpress.ui.dxHtmlEditor
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ToolbarItemLocation.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ToolbarItemLocation
+
+# Type Alias: ToolbarItemLocation
+
+> **ToolbarItemLocation** = `"after"` \| `"before"` \| `"center"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:814
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../../../../globals.md) / [HtmlEditorTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxHtmlEditor`, `KeyboardEvent` \| `ClipboardEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/html\_editor.d.ts:258
+
+## Docid
+
+_ui_html_editor_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React HtmlEditor API v26.1.0
+
+## Namespaces
+
+- [HtmlEditorTypes](DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/README.md)
+
+## Interfaces
+
+- [HtmlEditorRef](interfaces/HtmlEditorRef.md)
+
+## Type Aliases
+
+- [ICommandProps](type-aliases/ICommandProps.md)
+- [IConverterProps](type-aliases/IConverterProps.md)
+- [IFileUploaderOptionsProps](type-aliases/IFileUploaderOptionsProps.md)
+- [IHtmlEditorOptions](type-aliases/IHtmlEditorOptions.md)
+- [IImageUploadProps](type-aliases/IImageUploadProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMediaResizingProps](type-aliases/IMediaResizingProps.md)
+- [IMentionProps](type-aliases/IMentionProps.md)
+- [ITableContextMenuItemProps](type-aliases/ITableContextMenuItemProps.md)
+- [ITableContextMenuProps](type-aliases/ITableContextMenuProps.md)
+- [ITableResizingProps](type-aliases/ITableResizingProps.md)
+- [ITabProps](type-aliases/ITabProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToolbarProps](type-aliases/IToolbarProps.md)
+- [IVariablesProps](type-aliases/IVariablesProps.md)
+
+## Variables
+
+- [Command](variables/Command.md)
+- [Converter](variables/Converter.md)
+- [FileUploaderOptions](variables/FileUploaderOptions.md)
+- [HtmlEditor](variables/HtmlEditor.md)
+- [ImageUpload](variables/ImageUpload.md)
+- [Item](variables/Item.md)
+- [MediaResizing](variables/MediaResizing.md)
+- [Mention](variables/Mention.md)
+- [Tab](variables/Tab.md)
+- [TableContextMenu](variables/TableContextMenu.md)
+- [TableContextMenuItem](variables/TableContextMenuItem.md)
+- [TableResizing](variables/TableResizing.md)
+- [Toolbar](variables/Toolbar.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+- [Variables](variables/Variables.md)
+
+## References
+
+### default
+
+Renames and re-exports [HtmlEditor](variables/HtmlEditor.md)
+
+
+--- SOURCE: interfaces/HtmlEditorRef.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / HtmlEditorRef
+
+# Interface: HtmlEditorRef
+
+Defined in: [devextreme-react/src/html-editor.ts:40](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L40)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxHtmlEditor`
+
+Defined in: [devextreme-react/src/html-editor.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L41)
+
+#### Returns
+
+`dxHtmlEditor`
+
+
+--- SOURCE: type-aliases/ICommandProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ICommandProps
+
+# Type Alias: ICommandProps
+
+> **ICommandProps** = `React.PropsWithChildren`\<\{ `name?`: [`AICommandNameExtended`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommandNameExtended.md); `options?`: `any`; `prompt?`: (`param`) => `string`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:93](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L93)
+
+
+--- SOURCE: type-aliases/IConverterProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IConverterProps
+
+# Type Alias: IConverterProps
+
+> **IConverterProps** = `React.PropsWithChildren`\<\{ `fromHtml?`: (`value`) => `string`; `toHtml?`: (`value`) => `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:115](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L115)
+
+
+--- SOURCE: type-aliases/IFileUploaderOptionsProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IFileUploaderOptionsProps
+
+# Type Alias: IFileUploaderOptionsProps
+
+> **IFileUploaderOptionsProps** = `React.PropsWithChildren`\<\{ `abortUpload?`: (`file`, `uploadInfo?`) => `any`; `accept?`: `string`; `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `allowCanceling?`: `boolean`; `allowedFileExtensions?`: `string`[]; `chunkSize?`: `number`; `defaultValue?`: `any`[]; `dialogTrigger?`: `any` \| `string`; `disabled?`: `boolean`; `dropZone?`: `any` \| `string`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `inputAttr?`: `any`; `invalidFileExtensionMessage?`: `string`; `invalidMaxFileSizeMessage?`: `string`; `invalidMinFileSizeMessage?`: `string`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `labelText?`: `string`; `maxFileSize?`: `number`; `minFileSize?`: `number`; `multiple?`: `boolean`; `name?`: `string`; `onBeforeSend?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onDropZoneEnter?`: (`e`) => `void`; `onDropZoneLeave?`: (`e`) => `void`; `onFilesUploaded?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onProgress?`: (`e`) => `void`; `onUploadAborted?`: (`e`) => `void`; `onUploaded?`: (`e`) => `void`; `onUploadError?`: (`e`) => `void`; `onUploadStarted?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `progress?`: `number`; `readOnly?`: `boolean`; `readyToUploadMessage?`: `string`; `rtlEnabled?`: `boolean`; `selectButtonText?`: `string`; `showFileList?`: `boolean`; `tabIndex?`: `number`; `uploadAbortedMessage?`: `string`; `uploadButtonText?`: `string`; `uploadChunk?`: (`file`, `uploadInfo`) => `any`; `uploadCustomData?`: `any`; `uploadedMessage?`: `string`; `uploadFailedMessage?`: `string`; `uploadFile?`: (`file`, `progressCallback`) => `any`; `uploadHeaders?`: `any`; `uploadMethod?`: `UploadHttpMethod`; `uploadMode?`: `FileUploadMode`; `uploadUrl?`: `string`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationStatus?`: `ValidationStatus`; `value?`: `any`[]; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:134](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L134)
+
+
+--- SOURCE: type-aliases/IHtmlEditorOptions.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IHtmlEditorOptions
+
+# Type Alias: IHtmlEditorOptions
+
+> **IHtmlEditorOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/Properties.md), `IHtmlEditorOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/html-editor.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L35)
+
+
+--- SOURCE: type-aliases/IImageUploadProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IImageUploadProps
+
+# Type Alias: IImageUploadProps
+
+> **IImageUploadProps** = `React.PropsWithChildren`\<\{ `fileUploaderOptions?`: `dxFileUploaderOptions`; `fileUploadMode?`: [`HtmlEditorImageUploadMode`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorImageUploadMode.md); `tabs?`: (`dxHtmlEditorImageUploadTabItem` \| [`HtmlEditorImageUploadTab`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorImageUploadTab.md))[]; `uploadDirectory?`: `string`; `uploadUrl?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:220](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L220)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `acceptedValues?`: (`boolean` \| `number` \| `string`)[]; `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `commands?`: ([`AICommand`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommand.md) \| [`AICommandName`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommandName.md))[]; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `items?`: (`dxHtmlEditorTableContextMenuItem` \| [`HtmlEditorPredefinedContextMenuItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md))[]; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ToolbarItemLocation.md); `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: [`HtmlEditorPredefinedContextMenuItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md) \| [`HtmlEditorPredefinedToolbarItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedToolbarItem.md) \| `string`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:248](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L248)
+
+
+--- SOURCE: type-aliases/IMediaResizingProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IMediaResizingProps
+
+# Type Alias: IMediaResizingProps
+
+> **IMediaResizingProps** = `React.PropsWithChildren`\<\{ `allowedTargets?`: `string`[]; `enabled?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:304](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L304)
+
+
+--- SOURCE: type-aliases/IMentionProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IMentionProps
+
+# Type Alias: IMentionProps
+
+> **IMentionProps** = `React.PropsWithChildren`\<\{ `component?`: `React.ComponentType`\<`any`\>; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `displayExpr?`: (`item`) => `string` \| `string`; `itemComponent?`: `React.ComponentType`\<`any`\>; `itemRender?`: (...`params`) => `React.ReactNode`; `itemTemplate?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `marker?`: `string`; `minSearchLength?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `searchExpr?`: (() => `any` \| `string`)[] \| () => `any` \| `string`; `searchTimeout?`: `number`; `template?`: (`mentionData`, `contentElement`) => `string` \| `any` \| `template`; `valueExpr?`: () => `void` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:323](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L323)
+
+
+--- SOURCE: type-aliases/ITabProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ITabProps
+
+# Type Alias: ITabProps
+
+> **ITabProps** = `React.PropsWithChildren`\<\{ `name?`: [`HtmlEditorImageUploadTab`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorImageUploadTab.md); \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L363)
+
+
+--- SOURCE: type-aliases/ITableContextMenuItemProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ITableContextMenuItemProps
+
+# Type Alias: ITableContextMenuItemProps
+
+> **ITableContextMenuItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: (`dxHtmlEditorTableContextMenuItem` \| [`HtmlEditorPredefinedContextMenuItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md))[]; `name?`: [`HtmlEditorPredefinedContextMenuItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md); `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:406](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L406)
+
+
+--- SOURCE: type-aliases/ITableContextMenuProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ITableContextMenuProps
+
+# Type Alias: ITableContextMenuProps
+
+> **ITableContextMenuProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `items?`: (`dxHtmlEditorTableContextMenuItem` \| [`HtmlEditorPredefinedContextMenuItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedContextMenuItem.md))[]; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L382)
+
+
+--- SOURCE: type-aliases/ITableResizingProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ITableResizingProps
+
+# Type Alias: ITableResizingProps
+
+> **ITableResizingProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `minColumnWidth?`: `number`; `minRowHeight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:445](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L445)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `acceptedValues?`: (`boolean` \| `number` \| `string`)[]; `commands?`: ([`AICommand`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommand.md) \| [`AICommandName`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/AICommandName.md))[]; `component?`: `React.ComponentType`\<`any`\>; `cssClass?`: `string`; `disabled?`: `boolean`; `html?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/ToolbarItemLocation.md); `menuItemComponent?`: `React.ComponentType`\<`any`\>; `menuItemRender?`: (...`params`) => `React.ReactNode`; `menuItemTemplate?`: () => `string` \| `any` \| `template`; `name?`: [`HtmlEditorPredefinedToolbarItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedToolbarItem.md) \| `string` \| `string`; `options?`: `any`; `render?`: (...`params`) => `React.ReactNode`; `showText?`: `ShowTextMode`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:489](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L489)
+
+
+--- SOURCE: type-aliases/IToolbarProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IToolbarProps
+
+# Type Alias: IToolbarProps
+
+> **IToolbarProps** = `React.PropsWithChildren`\<\{ `container?`: `any` \| `string`; `items?`: ([`AIToolbarItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/interfaces/AIToolbarItem.md) \| `dxHtmlEditorToolbarItem` \| [`HtmlEditorPredefinedToolbarItem`](../DevExtreme-React-HtmlEditor-API/namespaces/HtmlEditorTypes/type-aliases/HtmlEditorPredefinedToolbarItem.md))[]; `multiline?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:465](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L465)
+
+
+--- SOURCE: type-aliases/IVariablesProps.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / IVariablesProps
+
+# Type Alias: IVariablesProps
+
+> **IVariablesProps** = `React.PropsWithChildren`\<\{ `dataSource?`: `string`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Store` \| `string`; `escapeChar?`: `string`[] \| `string`; \}\>
+
+Defined in: [devextreme-react/src/html-editor.ts:538](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L538)
+
+
+--- SOURCE: variables/Command.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Command
+
+# Variable: Command
+
+> `const` **Command**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:109](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L109)
+
+
+--- SOURCE: variables/Converter.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Converter
+
+# Variable: Converter
+
+> `const` **Converter**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:128](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L128)
+
+
+--- SOURCE: variables/FileUploaderOptions.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / FileUploaderOptions
+
+# Variable: FileUploaderOptions
+
+> `const` **FileUploaderOptions**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:214](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L214)
+
+
+--- SOURCE: variables/HtmlEditor.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / HtmlEditor
+
+# Variable: HtmlEditor()
+
+> `const` **HtmlEditor**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/html-editor.ts:44](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L44)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/ImageUpload.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ImageUpload
+
+# Variable: ImageUpload
+
+> `const` **ImageUpload**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:240](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L240)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:298](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L298)
+
+
+--- SOURCE: variables/MediaResizing.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / MediaResizing
+
+# Variable: MediaResizing
+
+> `const` **MediaResizing**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:317](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L317)
+
+
+--- SOURCE: variables/Mention.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Mention
+
+# Variable: Mention
+
+> `const` **Mention**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:357](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L357)
+
+
+--- SOURCE: variables/Tab.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Tab
+
+# Variable: Tab
+
+> `const` **Tab**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:376](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L376)
+
+
+--- SOURCE: variables/TableContextMenu.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / TableContextMenu
+
+# Variable: TableContextMenu
+
+> `const` **TableContextMenu**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:399](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L399)
+
+
+--- SOURCE: variables/TableContextMenuItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / TableContextMenuItem
+
+# Variable: TableContextMenuItem
+
+> `const` **TableContextMenuItem**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:439](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L439)
+
+
+--- SOURCE: variables/TableResizing.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / TableResizing
+
+# Variable: TableResizing
+
+> `const` **TableResizing**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:459](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L459)
+
+
+--- SOURCE: variables/Toolbar.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Toolbar
+
+# Variable: Toolbar
+
+> `const` **Toolbar**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:483](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L483)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:532](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L532)
+
+
+--- SOURCE: variables/Variables.md ---
+
+[**DevExtreme React HtmlEditor API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React HtmlEditor API](../globals.md) / Variables
+
+# Variable: Variables
+
+> `const` **Variables**: `any`
+
+Defined in: [devextreme-react/src/html-editor.ts:551](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/html-editor.ts#L551)
+

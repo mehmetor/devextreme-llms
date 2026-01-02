@@ -1,0 +1,11 @@
+[**DevExtreme React PieChart API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React PieChart API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: [`DashStyle`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/DashStyle.md); `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`pointInfo`) => `string`; `customizeItems?`: (`items`) => `PieChartLegendItem`[]; `customizeText?`: (`pointInfo`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `hoverMode?`: [`PieChartLegendHoverMode`](../DevExtreme-React-PieChart-API/namespaces/PieChartTypes/type-aliases/PieChartLegendHoverMode.md); `itemsAlignment?`: `HorizontalAlignment`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: `VerticalEdge`; \}; `verticalAlignment?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/pie-chart.ts:757](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/pie-chart.ts#L757)

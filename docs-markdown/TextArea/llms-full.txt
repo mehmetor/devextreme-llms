@@ -1,0 +1,540 @@
+# TextArea Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React TextArea API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/README.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../globals.md) / TextAreaTypes
+
+# TextAreaTypes
+
+## Type Aliases
+
+- [ChangeEvent](type-aliases/ChangeEvent.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CopyEvent](type-aliases/CopyEvent.md)
+- [CutEvent](type-aliases/CutEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [EnterKeyEvent](type-aliases/EnterKeyEvent.md)
+- [FocusInEvent](type-aliases/FocusInEvent.md)
+- [FocusOutEvent](type-aliases/FocusOutEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [InputEvent](type-aliases/InputEvent.md)
+- [KeyDownEvent](type-aliases/KeyDownEvent.md)
+- [KeyPressEvent](type-aliases/KeyPressEvent.md)
+- [KeyUpEvent](type-aliases/KeyUpEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PasteEvent](type-aliases/PasteEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/ChangeEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / ChangeEvent
+
+# Type Alias: ChangeEvent
+
+> **ChangeEvent** = `NativeEventInfo`\<`dxTextArea`, `Event`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:31
+
+## Docid
+
+_ui_text_area_ChangeEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxTextArea`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:39
+
+## Docid
+
+_ui_text_area_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/CopyEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / CopyEvent
+
+# Type Alias: CopyEvent
+
+> **CopyEvent** = `NativeEventInfo`\<`dxTextArea`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:47
+
+## Docid
+
+_ui_text_area_CopyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/CutEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / CutEvent
+
+# Type Alias: CutEvent
+
+> **CutEvent** = `NativeEventInfo`\<`dxTextArea`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:55
+
+## Docid
+
+_ui_text_area_CutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxTextArea`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:63
+
+## Docid
+
+_ui_text_area_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/EnterKeyEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / EnterKeyEvent
+
+# Type Alias: EnterKeyEvent
+
+> **EnterKeyEvent** = `NativeEventInfo`\<`dxTextArea`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:71
+
+## Docid
+
+_ui_text_area_EnterKeyEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/FocusInEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / FocusInEvent
+
+# Type Alias: FocusInEvent
+
+> **FocusInEvent** = `NativeEventInfo`\<`dxTextArea`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:79
+
+## Docid
+
+_ui_text_area_FocusInEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/FocusOutEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / FocusOutEvent
+
+# Type Alias: FocusOutEvent
+
+> **FocusOutEvent** = `NativeEventInfo`\<`dxTextArea`, `FocusEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:87
+
+## Docid
+
+_ui_text_area_FocusOutEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxTextArea`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:95
+
+## Docid
+
+_ui_text_area_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/InputEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / InputEvent
+
+# Type Alias: InputEvent
+
+> **InputEvent** = `NativeEventInfo`\<`dxTextArea`, `UIEvent` & `object`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:103
+
+## Docid
+
+_ui_text_area_InputEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/KeyDownEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / KeyDownEvent
+
+# Type Alias: KeyDownEvent
+
+> **KeyDownEvent** = `NativeEventInfo`\<`dxTextArea`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:111
+
+## Docid
+
+_ui_text_area_KeyDownEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/KeyPressEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / KeyPressEvent
+
+# Type Alias: KeyPressEvent
+
+> **KeyPressEvent** = `NativeEventInfo`\<`dxTextArea`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:114
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/KeyUpEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / KeyUpEvent
+
+# Type Alias: KeyUpEvent
+
+> **KeyUpEvent** = `NativeEventInfo`\<`dxTextArea`, `KeyboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:122
+
+## Docid
+
+_ui_text_area_KeyUpEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxTextArea`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:130
+
+## Docid
+
+_ui_text_area_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/PasteEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / PasteEvent
+
+# Type Alias: PasteEvent
+
+> **PasteEvent** = `NativeEventInfo`\<`dxTextArea`, `ClipboardEvent`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:138
+
+## Docid
+
+_ui_text_area_PasteEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxTextAreaOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:189
+
+
+--- SOURCE: DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React TextArea API](../../../../globals.md) / [TextAreaTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxTextArea`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/text\_area.d.ts:146
+
+## Docid
+
+_ui_text_area_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React TextArea API v26.1.0
+
+## Namespaces
+
+- [TextAreaTypes](DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/README.md)
+
+## Interfaces
+
+- [TextAreaRef](interfaces/TextAreaRef.md)
+
+## Type Aliases
+
+- [ITextAreaOptions](type-aliases/ITextAreaOptions.md)
+
+## Variables
+
+- [TextArea](variables/TextArea.md)
+
+## References
+
+### default
+
+Renames and re-exports [TextArea](variables/TextArea.md)
+
+
+--- SOURCE: interfaces/TextAreaRef.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextArea API](../globals.md) / TextAreaRef
+
+# Interface: TextAreaRef
+
+Defined in: [devextreme-react/src/text-area.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-area.ts#L38)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTextArea`
+
+Defined in: [devextreme-react/src/text-area.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-area.ts#L39)
+
+#### Returns
+
+`dxTextArea`
+
+
+--- SOURCE: type-aliases/ITextAreaOptions.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextArea API](../globals.md) / ITextAreaOptions
+
+# Type Alias: ITextAreaOptions
+
+> **ITextAreaOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-TextArea-API/namespaces/TextAreaTypes/type-aliases/Properties.md), `ITextAreaOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/text-area.ts:33](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-area.ts#L33)
+
+
+--- SOURCE: variables/TextArea.md ---
+
+[**DevExtreme React TextArea API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React TextArea API](../globals.md) / TextArea
+
+# Variable: TextArea()
+
+> `const` **TextArea**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/text-area.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/text-area.ts#L42)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

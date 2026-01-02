@@ -1,0 +1,276 @@
+# LoadIndicator Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React LoadIndicator API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/README.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../globals.md) / LoadIndicatorTypes
+
+# LoadIndicatorTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LoadingAnimationType](type-aliases/LoadingAnimationType.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxLoadIndicator`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:25
+
+## Docid
+
+_ui_load_indicator_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxLoadIndicator`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:33
+
+## Docid
+
+_ui_load_indicator_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxLoadIndicator`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:41
+
+## Docid
+
+_ui_load_indicator_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/LoadingAnimationType.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / LoadingAnimationType
+
+# Type Alias: LoadingAnimationType
+
+> **LoadingAnimationType** = `"circle"` \| `"sparkle"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:52
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxLoadIndicator`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:49
+
+## Docid
+
+_ui_load_indicator_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../../../../globals.md) / [LoadIndicatorTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxLoadIndicatorOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:83
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React LoadIndicator API v26.1.0
+
+## Namespaces
+
+- [LoadIndicatorTypes](DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/README.md)
+
+## Interfaces
+
+- [LoadIndicatorRef](interfaces/LoadIndicatorRef.md)
+
+## Type Aliases
+
+- [ILoadIndicatorOptions](type-aliases/ILoadIndicatorOptions.md)
+
+## Variables
+
+- [LoadIndicator](variables/LoadIndicator.md)
+
+## References
+
+### default
+
+Renames and re-exports [LoadIndicator](variables/LoadIndicator.md)
+
+
+--- SOURCE: interfaces/LoadIndicatorRef.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../globals.md) / LoadIndicatorRef
+
+# Interface: LoadIndicatorRef
+
+Defined in: [devextreme-react/src/load-indicator.ts:24](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-indicator.ts#L24)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxLoadIndicator`
+
+Defined in: [devextreme-react/src/load-indicator.ts:25](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-indicator.ts#L25)
+
+#### Returns
+
+`dxLoadIndicator`
+
+
+--- SOURCE: type-aliases/ILoadIndicatorOptions.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../globals.md) / ILoadIndicatorOptions
+
+# Type Alias: ILoadIndicatorOptions
+
+> **ILoadIndicatorOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-LoadIndicator-API/namespaces/LoadIndicatorTypes/type-aliases/Properties.md), `ILoadIndicatorOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/load-indicator.ts:22](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-indicator.ts#L22)
+
+
+--- SOURCE: variables/LoadIndicator.md ---
+
+[**DevExtreme React LoadIndicator API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadIndicator API](../globals.md) / LoadIndicator
+
+# Variable: LoadIndicator()
+
+> `const` **LoadIndicator**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/load-indicator.ts:28](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-indicator.ts#L28)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

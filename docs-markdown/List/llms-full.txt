@@ -1,0 +1,3205 @@
+# List Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React List API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/README.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../globals.md) / ListTypes
+
+# ListTypes
+
+## Interfaces
+
+- [~~dxListOptions~~](interfaces/dxListOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [GroupRenderedEvent](type-aliases/GroupRenderedEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemDeletedEvent](type-aliases/ItemDeletedEvent.md)
+- [ItemDeleteMode](type-aliases/ItemDeleteMode.md)
+- [ItemDeletingEvent](type-aliases/ItemDeletingEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [ItemReorderedEvent](type-aliases/ItemReorderedEvent.md)
+- [ItemSwipeEvent](type-aliases/ItemSwipeEvent.md)
+- [ListMenuMode](type-aliases/ListMenuMode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PageLoadingEvent](type-aliases/PageLoadingEvent.md)
+- [PageLoadMode](type-aliases/PageLoadMode.md)
+- [Properties](type-aliases/Properties.md)
+- [PullRefreshEvent](type-aliases/PullRefreshEvent.md)
+- [ScrollbarMode](type-aliases/ScrollbarMode.md)
+- [ScrollEvent](type-aliases/ScrollEvent.md)
+- [SelectAllMode](type-aliases/SelectAllMode.md)
+- [SelectAllValueChangedEvent](type-aliases/SelectAllValueChangedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SelectionChangingEvent](type-aliases/SelectionChangingEvent.md)
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/interfaces/dxListOptions.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / dxListOptions
+
+# ~~Interface: dxListOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:285
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxList`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>.`SearchBoxMixinOptions`
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:294
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~allowItemDeleting?~~
+
+> `optional` **allowItemDeleting**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:300
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~bounceEnabled?~~
+
+> `optional` **bounceEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:307
+
+#### Docid
+
+#### Default
+
+```ts
+true
+```
+
+#### Default
+
+```ts
+false &for(desktop)
+@public
+```
+
+***
+
+### ~~collapsibleGroups?~~
+
+> `optional` **collapsibleGroups**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:313
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:320
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~displayExpr?~~
+
+> `optional` **displayExpr**: `string` \| (`item`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:327
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 item:object
+@public
+```
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:333
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~grouped?~~
+
+> `optional` **grouped**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:347
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~groupTemplate?~~
+
+> `optional` **groupTemplate**: `template` \| (`groupData`, `groupIndex`, `groupElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:341
+
+#### Docid
+
+#### Default
+
+```ts
+"group"
+@type_function_param1 groupData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:353
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~indicateLoading?~~
+
+> `optional` **indicateLoading**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:359
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~itemDeleteMode?~~
+
+> `optional` **itemDeleteMode**: [`ItemDeleteMode`](../type-aliases/ItemDeleteMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:367
+
+#### Docid
+
+#### Default
+
+```ts
+'static'
+```
+
+#### Default
+
+```ts
+'slideItem' &for(iOS)
+```
+
+#### Default
+
+```ts
+'swipe' &for(Android)
+@public
+```
+
+***
+
+### ~~itemDragging?~~
+
+> `optional` **itemDragging**: `dxSortableOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:372
+
+#### Docid
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:379
+
+#### Docid
+
+#### Fires
+
+dxListOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~menuItems?~~
+
+> `optional` **menuItems**: `object`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:385
+
+#### ~~action()?~~
+
+> `optional` **action**: (`itemElement`, `itemData`) => `any`
+
+##### Parameters
+
+###### itemElement
+
+`HTMLElement`
+
+###### itemData
+
+`TItem`
+
+##### Returns
+
+`any`
+
+##### Docid
+
+@type_function_param2 itemData:object
+@type_function_return void
+
+#### ~~text?~~
+
+> `optional` **text**: `string`
+
+##### Docid
+
+#### Docid
+
+#### Default
+
+```ts
+[]
+@public
+```
+
+***
+
+### ~~menuMode?~~
+
+> `optional` **menuMode**: [`ListMenuMode`](../type-aliases/ListMenuMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:403
+
+#### Docid
+
+#### Default
+
+```ts
+'context'
+```
+
+#### Default
+
+```ts
+'slide' &for(iOS)
+@public
+```
+
+***
+
+### ~~nextButtonText?~~
+
+> `optional` **nextButtonText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:409
+
+#### Docid
+
+#### Default
+
+```ts
+"More"
+@public
+```
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onGroupRendered()?~~
+
+> `optional` **onGroupRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:417
+
+#### Parameters
+
+##### e
+
+[`GroupRenderedEvent`](../type-aliases/GroupRenderedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:GroupRenderedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:426
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Overrides
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:434
+
+#### Parameters
+
+##### e
+
+[`ItemContextMenuEvent`](../type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:ItemContextMenuEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:460
+
+#### Parameters
+
+##### e
+
+[`ItemHoldEvent`](../type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:ItemHoldEvent}
+```
+
+#### Action
+
+#### Overrides
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onItemSwipe()?~~
+
+> `optional` **onItemSwipe**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:477
+
+#### Parameters
+
+##### e
+
+[`ItemSwipeEvent`](../type-aliases/ItemSwipeEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:ItemSwipeEvent}
+```
+
+#### Action
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onPageLoading()?~~
+
+> `optional` **onPageLoading**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:485
+
+#### Parameters
+
+##### e
+
+[`PageLoadingEvent`](../type-aliases/PageLoadingEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:PageLoadingEvent}
+```
+
+#### Action
+
+***
+
+### ~~onPullRefresh()?~~
+
+> `optional` **onPullRefresh**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:493
+
+#### Parameters
+
+##### e
+
+[`PullRefreshEvent`](../type-aliases/PullRefreshEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:PullRefreshEvent}
+```
+
+#### Action
+
+***
+
+### ~~onScroll()?~~
+
+> `optional` **onScroll**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:501
+
+#### Parameters
+
+##### e
+
+[`ScrollEvent`](../type-aliases/ScrollEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:ScrollEvent}
+```
+
+#### Action
+
+***
+
+### ~~onSelectAllValueChanged()?~~
+
+> `optional` **onSelectAllValueChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:509
+
+#### Parameters
+
+##### e
+
+[`SelectAllValueChangedEvent`](../type-aliases/SelectAllValueChangedEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/list:SelectAllValueChangedEvent}
+```
+
+#### Action
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxList`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~pageLoadingText?~~
+
+> `optional` **pageLoadingText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:524
+
+#### Docid
+
+#### Default
+
+```ts
+"Loading..."
+```
+
+#### Default
+
+```ts
+"" &for(Material)
+```
+
+#### Default
+
+```ts
+"" &for(Fluent)
+@public
+```
+
+***
+
+### ~~pageLoadMode?~~
+
+> `optional` **pageLoadMode**: [`PageLoadMode`](../type-aliases/PageLoadMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:516
+
+#### Docid
+
+#### Default
+
+```ts
+"scrollBottom"
+```
+
+#### Default
+
+```ts
+"nextButton" &for(desktop except Mac)
+@public
+```
+
+***
+
+### ~~pulledDownText?~~
+
+> `optional` **pulledDownText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:538
+
+#### Docid
+
+#### Default
+
+```ts
+"Release to refresh..."
+```
+
+#### Default
+
+```ts
+"" &for(Material)
+```
+
+#### Default
+
+```ts
+"" &for(Fluent)
+@public
+```
+
+***
+
+### ~~pullingDownText?~~
+
+> `optional` **pullingDownText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:546
+
+#### Docid
+
+#### Default
+
+```ts
+"Pull down to refresh..."
+```
+
+#### Default
+
+```ts
+"" &for(Material)
+```
+
+#### Default
+
+```ts
+"" &for(Fluent)
+@public
+```
+
+***
+
+### ~~pullRefreshEnabled?~~
+
+> `optional` **pullRefreshEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:530
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~refreshingText?~~
+
+> `optional` **refreshingText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:554
+
+#### Docid
+
+#### Default
+
+```ts
+"Refreshing..."
+```
+
+#### Default
+
+```ts
+"" &for(Material)
+```
+
+#### Default
+
+```ts
+"" &for(Fluent)
+@public
+```
+
+***
+
+### ~~repaintChangesOnly?~~
+
+> `optional` **repaintChangesOnly**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:560
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~scrollByContent?~~
+
+> `optional` **scrollByContent**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:567
+
+#### Docid
+
+#### Default
+
+```ts
+true
+```
+
+#### Default
+
+```ts
+false &for(non-touch_devices)
+@public
+```
+
+***
+
+### ~~scrollByThumb?~~
+
+> `optional` **scrollByThumb**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:574
+
+#### Docid
+
+#### Default
+
+```ts
+false
+```
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+***
+
+### ~~scrollingEnabled?~~
+
+> `optional` **scrollingEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:580
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~searchEditorOptions?~~
+
+> `optional` **searchEditorOptions**: `Properties`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchEditorOptions`
+
+***
+
+### ~~searchEnabled?~~
+
+> `optional` **searchEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchEnabled`
+
+***
+
+### ~~searchExpr?~~
+
+> `optional` **searchExpr**: `string` \| `Function` \| (`string` \| `Function`)[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:42
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchExpr`
+
+***
+
+### ~~searchMode?~~
+
+> `optional` **searchMode**: `SearchMode`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:48
+
+#### Docid
+
+#### Default
+
+```ts
+'contains'
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchMode`
+
+***
+
+### ~~searchTimeout?~~
+
+> `optional` **searchTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:54
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchTimeout`
+
+***
+
+### ~~searchValue?~~
+
+> `optional` **searchValue**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.search\_box\_mixin.d.ts:60
+
+#### Docid
+
+#### Default
+
+```ts
+""
+@public
+```
+
+#### Inherited from
+
+`SearchBoxMixinOptions.searchValue`
+
+***
+
+### ~~selectAllMode?~~
+
+> `optional` **selectAllMode**: [`SelectAllMode`](../type-aliases/SelectAllMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:586
+
+#### Docid
+
+#### Default
+
+```ts
+'page'
+@public
+```
+
+***
+
+### ~~selectAllText?~~
+
+> `optional` **selectAllText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:617
+
+#### Docid
+
+#### Default
+
+```ts
+"Select All"
+@public
+```
+
+***
+
+### ~~selectByClick?~~
+
+> `optional` **selectByClick**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:592
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~selectionMode?~~
+
+> `optional` **selectionMode**: `SingleMultipleAllOrNone`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:598
+
+#### Docid
+
+#### Default
+
+```ts
+'none'
+@public
+```
+
+***
+
+### ~~showScrollbar?~~
+
+> `optional` **showScrollbar**: [`ScrollbarMode`](../type-aliases/ScrollbarMode.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:605
+
+#### Docid
+
+#### Default
+
+```ts
+'onScroll'
+```
+
+#### Default
+
+```ts
+'onHover' &for(desktop)
+@public
+```
+
+***
+
+### ~~showSelectionControls?~~
+
+> `optional` **showSelectionControls**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:611
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~useNativeScrolling?~~
+
+> `optional` **useNativeScrolling**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:624
+
+#### Docid
+
+#### Default
+
+```ts
+false &for(desktop except Mac)
+```
+
+#### Default
+
+```ts
+true
+@public
+```
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:106
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:114
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/GroupRenderedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / GroupRenderedEvent
+
+# Type Alias: GroupRenderedEvent\<TItem, TKey\>
+
+> **GroupRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:122
+
+## Type Declaration
+
+### groupData?
+
+> `readonly` `optional` **groupData**: `any`
+
+#### Docid
+
+_ui_list_GroupRenderedEvent.groupData
+
+### groupElement?
+
+> `readonly` `optional` **groupElement**: `DxElement`
+
+#### Docid
+
+_ui_list_GroupRenderedEvent.groupElement
+
+### groupIndex?
+
+> `readonly` `optional` **groupIndex**: `number`
+
+#### Docid
+
+_ui_list_GroupRenderedEvent.groupIndex
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_GroupRenderedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:140
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/Item.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxListItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:799
+
+**`Namespace`**
+
+DevExpress.ui.dxList
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxList`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ListItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:148
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxList`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ListItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:156
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemDeleteMode.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemDeleteMode
+
+# Type Alias: ItemDeleteMode
+
+> **ItemDeleteMode** = `"context"` \| `"slideButton"` \| `"slideItem"` \| `"static"` \| `"swipe"` \| `"toggle"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:76
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemDeletedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemDeletedEvent
+
+# Type Alias: ItemDeletedEvent\<TItem, TKey\>
+
+> **ItemDeletedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ListItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:164
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemDeletedEvent
+
+## Inherits
+
+EventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemDeletingEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemDeletingEvent
+
+# Type Alias: ItemDeletingEvent\<TItem, TKey\>
+
+> **ItemDeletingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ListItemInfo`\<`TItem`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:172
+
+## Type Declaration
+
+### cancel?
+
+> `optional` **cancel**: `boolean` \| `PromiseLike`\<`boolean`\> \| `PromiseLike`\<`void`\>
+
+#### Docid
+
+_ui_list_ItemDeletingEvent.cancel
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemDeletingEvent
+
+## Inherits
+
+EventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxList`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ListItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:186
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:194
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* [`Item`](Item.md) \| `any` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemReorderedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemReorderedEvent
+
+# Type Alias: ItemReorderedEvent\<TItem, TKey\>
+
+> **ItemReorderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ListItemInfo`\<`TItem`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:202
+
+## Type Declaration
+
+### fromIndex
+
+> `readonly` **fromIndex**: `number`
+
+#### Docid
+
+_ui_list_ItemReorderedEvent.fromIndex
+
+### toIndex
+
+> `readonly` **toIndex**: `number`
+
+#### Docid
+
+_ui_list_ItemReorderedEvent.toIndex
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemReorderedEvent
+
+## Inherits
+
+EventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemSwipeEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ItemSwipeEvent
+
+# Type Alias: ItemSwipeEvent\<TItem, TKey\>
+
+> **ItemSwipeEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxList`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ListItemInfo`\<`TItem`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:215
+
+## Type Declaration
+
+### direction
+
+> `readonly` **direction**: `string`
+
+#### Docid
+
+_ui_list_ItemSwipeEvent.direction
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ItemSwipeEvent
+
+## Inherits
+
+NativeEventInfo,ListItemInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ListMenuMode.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ListMenuMode
+
+# Type Alias: ListMenuMode
+
+> **ListMenuMode** = `"context"` \| `"slide"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:78
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:226
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/PageLoadMode.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / PageLoadMode
+
+# Type Alias: PageLoadMode
+
+> **PageLoadMode** = `"nextButton"` \| `"scrollBottom"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:491
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/PageLoadingEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / PageLoadingEvent
+
+# Type Alias: PageLoadingEvent\<TItem, TKey\>
+
+> **PageLoadingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:234
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_PageLoadingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxListOptions`](../interfaces/dxListOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:856
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/PullRefreshEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / PullRefreshEvent
+
+# Type Alias: PullRefreshEvent\<TItem, TKey\>
+
+> **PullRefreshEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:242
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_PullRefreshEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ScrollEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ScrollEvent
+
+# Type Alias: ScrollEvent\<TItem, TKey\>
+
+> **ScrollEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxList`\<`TItem`, `TKey`\>, `Event`\> & `ScrollInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:250
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_ScrollEvent
+
+## Inherits
+
+NativeEventInfo,ScrollInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ScrollbarMode.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / ScrollbarMode
+
+# Type Alias: ScrollbarMode
+
+> **ScrollbarMode** = `"always"` \| `"never"` \| `"onHover"` \| `"onScroll"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:623
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectAllMode.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / SelectAllMode
+
+# Type Alias: SelectAllMode
+
+> **SelectAllMode** = `"allPages"` \| `"page"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:647
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectAllValueChangedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / SelectAllValueChangedEvent
+
+# Type Alias: SelectAllValueChangedEvent\<TItem, TKey\>
+
+> **SelectAllValueChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:258
+
+## Type Declaration
+
+### value
+
+> `readonly` **value**: `boolean`
+
+#### Docid
+
+_ui_list_SelectAllValueChangedEvent.value
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_SelectAllValueChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxList`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:277
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectionChangingEvent.md ---
+
+[**DevExtreme React List API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React List API](../../../../globals.md) / [ListTypes](../README.md) / SelectionChangingEvent
+
+# Type Alias: SelectionChangingEvent\<TItem, TKey\>
+
+> **SelectionChangingEvent**\<`TItem`, `TKey`\> = `SelectionChangingEventBase`\<`dxList`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:269
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_list_SelectionChangingEvent
+
+## Inherits
+
+AsyncCancelable,EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React List API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React List API v26.1.0
+
+## Namespaces
+
+- [ListTypes](DevExtreme-React-List-API/namespaces/ListTypes/README.md)
+
+## Interfaces
+
+- [ListRef](interfaces/ListRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IButtonProps](type-aliases/IButtonProps.md)
+- [ICursorOffsetProps](type-aliases/ICursorOffsetProps.md)
+- [IItemDraggingProps](type-aliases/IItemDraggingProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IListOptions](type-aliases/IListOptions.md)
+- [IMenuItemProps](type-aliases/IMenuItemProps.md)
+- [IOptionsProps](type-aliases/IOptionsProps.md)
+- [ISearchEditorOptionsProps](type-aliases/ISearchEditorOptionsProps.md)
+
+## Variables
+
+- [Button](variables/Button.md)
+- [CursorOffset](variables/CursorOffset.md)
+- [Item](variables/Item.md)
+- [ItemDragging](variables/ItemDragging.md)
+- [List](variables/List.md)
+- [MenuItem](variables/MenuItem.md)
+- [Options](variables/Options.md)
+- [SearchEditorOptions](variables/SearchEditorOptions.md)
+
+## References
+
+### default
+
+Renames and re-exports [List](variables/List.md)
+
+
+--- SOURCE: interfaces/ListRef.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / ListRef
+
+# Interface: ListRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/list.ts:57](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L57)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxList`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/list.ts:58](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L58)
+
+#### Returns
+
+`dxList`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:829
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:834
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:835
+
+***
+
+### GroupRenderedEvent
+
+> **GroupRenderedEvent**: [`GroupRenderedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/GroupRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:836
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:837
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:838
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:839
+
+***
+
+### ItemDeletedEvent
+
+> **ItemDeletedEvent**: [`ItemDeletedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemDeletedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:840
+
+***
+
+### ItemDeletingEvent
+
+> **ItemDeletingEvent**: [`ItemDeletingEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemDeletingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:841
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:842
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:843
+
+***
+
+### ItemReorderedEvent
+
+> **ItemReorderedEvent**: [`ItemReorderedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemReorderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:844
+
+***
+
+### ItemSwipeEvent
+
+> **ItemSwipeEvent**: [`ItemSwipeEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ItemSwipeEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:845
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:846
+
+***
+
+### PageLoadingEvent
+
+> **PageLoadingEvent**: [`PageLoadingEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/PageLoadingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:847
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:833
+
+***
+
+### PullRefreshEvent
+
+> **PullRefreshEvent**: [`PullRefreshEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/PullRefreshEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:848
+
+***
+
+### ScrollEvent
+
+> **ScrollEvent**: [`ScrollEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/ScrollEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:849
+
+***
+
+### SelectAllValueChangedEvent
+
+> **SelectAllValueChangedEvent**: [`SelectAllValueChangedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectAllValueChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:850
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:852
+
+***
+
+### SelectionChangingEvent
+
+> **SelectionChangingEvent**: [`SelectionChangingEvent`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/SelectionChangingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/list.d.ts:851
+
+
+--- SOURCE: type-aliases/IButtonProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IButtonProps
+
+# Type Alias: IButtonProps
+
+> **IButtonProps** = `React.PropsWithChildren`\<\{ `location?`: `TextEditorButtonLocation`; `name?`: `string`; `options?`: `dxButtonOptions`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:122](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L122)
+
+
+--- SOURCE: type-aliases/ICursorOffsetProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / ICursorOffsetProps
+
+# Type Alias: ICursorOffsetProps
+
+> **ICursorOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L146)
+
+
+--- SOURCE: type-aliases/IItemDraggingProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IItemDraggingProps
+
+# Type Alias: IItemDraggingProps
+
+> **IItemDraggingProps** = `React.PropsWithChildren`\<\{ `allowDropInsideItem?`: `boolean`; `allowReordering?`: `boolean`; `autoScroll?`: `boolean`; `boundary?`: `any` \| `string`; `container?`: `any` \| `string`; `cursorOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `data?`: `any`; `dragComponent?`: `React.ComponentType`\<`any`\>; `dragDirection?`: `DragDirection`; `dragRender?`: (...`params`) => `React.ReactNode`; `dragTemplate?`: (`dragInfo`, `containerElement`) => `string` \| `any` \| `template`; `dropFeedbackMode?`: `DragHighlight`; `elementAttr?`: `Record`\<`string`, `any`\>; `filter?`: `string`; `group?`: `string`; `handle?`: `string`; `height?`: `number` \| `string`; `itemOrientation?`: `Orientation`; `moveItemOnDrop?`: `boolean`; `onAdd?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onDragChange?`: (`e`) => `void`; `onDragEnd?`: (`e`) => `void`; `onDragMove?`: (`e`) => `void`; `onDragStart?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onRemove?`: (`e`) => `void`; `onReorder?`: (`e`) => `void`; `rtlEnabled?`: `boolean`; `scrollSensitivity?`: `number`; `scrollSpeed?`: `number`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:199](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L199)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `badge?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `icon?`: `string`; `key?`: `string`; `render?`: (...`params`) => `React.ReactNode`; `showChevron?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:165](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L165)
+
+
+--- SOURCE: type-aliases/IListOptions.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IListOptions
+
+# Type Alias: IListOptions\<TItem, TKey\>
+
+> **IListOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-List-API/namespaces/ListTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IListOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/list.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L43)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IMenuItemProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IMenuItemProps
+
+# Type Alias: IMenuItemProps
+
+> **IMenuItemProps** = `React.PropsWithChildren`\<\{ `action?`: (`itemElement`, `itemData`) => `void`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:260](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L260)
+
+
+--- SOURCE: type-aliases/IOptionsProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / IOptionsProps
+
+# Type Alias: IOptionsProps
+
+> **IOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `icon?`: `string`; `onClick?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `render?`: (...`params`) => `React.ReactNode`; `rtlEnabled?`: `boolean`; `stylingMode?`: `ButtonStyle`; `tabIndex?`: `number`; `template?`: (`buttonData`, `contentElement`) => `string` \| `any` \| `template`; `text?`: `string`; `type?`: `ButtonType` \| `string`; `useSubmitBehavior?`: `boolean`; `validationGroup?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:280](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L280)
+
+
+--- SOURCE: type-aliases/ISearchEditorOptionsProps.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / ISearchEditorOptionsProps
+
+# Type Alias: ISearchEditorOptionsProps
+
+> **ISearchEditorOptionsProps** = `React.PropsWithChildren`\<\{ `accessKey?`: `string`; `activeStateEnabled?`: `boolean`; `buttons?`: (`string` \| `TextBoxPredefinedButton` \| `TextEditorButton`)[]; `defaultValue?`: `string`; `disabled?`: `boolean`; `elementAttr?`: `Record`\<`string`, `any`\>; `focusStateEnabled?`: `boolean`; `height?`: `number` \| `string`; `hint?`: `string`; `hoverStateEnabled?`: `boolean`; `inputAttr?`: `any`; `isDirty?`: `boolean`; `isValid?`: `boolean`; `label?`: `string`; `labelMode?`: `LabelMode`; `mask?`: `string`; `maskChar?`: `string`; `maskInvalidMessage?`: `string`; `maskRules?`: `any`; `maxLength?`: `number` \| `string`; `mode?`: `TextBoxType`; `name?`: `string`; `onChange?`: (`e`) => `void`; `onContentReady?`: (`e`) => `void`; `onCopy?`: (`e`) => `void`; `onCut?`: (`e`) => `void`; `onDisposing?`: (`e`) => `void`; `onEnterKey?`: (`e`) => `void`; `onFocusIn?`: (`e`) => `void`; `onFocusOut?`: (`e`) => `void`; `onInitialized?`: (`e`) => `void`; `onInput?`: (`e`) => `void`; `onKeyDown?`: (`e`) => `void`; `onKeyUp?`: (`e`) => `void`; `onOptionChanged?`: (`e`) => `void`; `onPaste?`: (`e`) => `void`; `onValueChange?`: (`value`) => `void`; `onValueChanged?`: (`e`) => `void`; `placeholder?`: `string`; `readOnly?`: `boolean`; `rtlEnabled?`: `boolean`; `showClearButton?`: `boolean`; `showMaskMode?`: `MaskMode`; `spellcheck?`: `boolean`; `stylingMode?`: `EditorStyle`; `tabIndex?`: `number`; `text?`: `string`; `useMaskedValue?`: `boolean`; `validationError?`: `any`; `validationErrors?`: `any`[]; `validationMessageMode?`: `ValidationMessageMode`; `validationMessagePosition?`: `Position`; `validationStatus?`: `ValidationStatus`; `value?`: `string`; `valueChangeEvent?`: `string`; `visible?`: `boolean`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/list.ts:328](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L328)
+
+
+--- SOURCE: variables/Button.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / Button
+
+# Variable: Button
+
+> `const` **Button**: `any`
+
+Defined in: [devextreme-react/src/list.ts:140](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L140)
+
+
+--- SOURCE: variables/CursorOffset.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / CursorOffset
+
+# Variable: CursorOffset
+
+> `const` **CursorOffset**: `any`
+
+Defined in: [devextreme-react/src/list.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L159)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/list.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L193)
+
+
+--- SOURCE: variables/ItemDragging.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / ItemDragging
+
+# Variable: ItemDragging
+
+> `const` **ItemDragging**: `any`
+
+Defined in: [devextreme-react/src/list.ts:254](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L254)
+
+
+--- SOURCE: variables/List.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / List
+
+# Variable: List()
+
+> `const` **List**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/list.ts:61](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L61)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/MenuItem.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / MenuItem
+
+# Variable: MenuItem
+
+> `const` **MenuItem**: `any`
+
+Defined in: [devextreme-react/src/list.ts:274](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L274)
+
+
+--- SOURCE: variables/Options.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / Options
+
+# Variable: Options
+
+> `const` **Options**: `any`
+
+Defined in: [devextreme-react/src/list.ts:322](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L322)
+
+
+--- SOURCE: variables/SearchEditorOptions.md ---
+
+[**DevExtreme React List API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React List API](../globals.md) / SearchEditorOptions
+
+# Variable: SearchEditorOptions
+
+> `const` **SearchEditorOptions**: `any`
+
+Defined in: [devextreme-react/src/list.ts:402](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/list.ts#L402)
+

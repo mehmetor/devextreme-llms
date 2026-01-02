@@ -1,0 +1,406 @@
+# RangeSlider Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React RangeSlider API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/README.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../globals.md) / RangeSliderTypes
+
+# RangeSliderTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ValueChangedEvent](type-aliases/ValueChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxRangeSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:33
+
+## Docid
+
+_ui_range_slider_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxRangeSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:41
+
+## Docid
+
+_ui_range_slider_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxRangeSlider`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:49
+
+## Docid
+
+_ui_range_slider_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxRangeSlider`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:57
+
+## Docid
+
+_ui_range_slider_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxRangeSliderOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:137
+
+
+--- SOURCE: DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/ValueChangedEvent.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../../../../globals.md) / [RangeSliderTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxRangeSlider`, `InteractionEvent` \| `UIEvent` \| `Event`\> & `ValueChangedInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/range\_slider.d.ts:65
+
+## Type Declaration
+
+### end?
+
+> `readonly` `optional` **end**: `number`
+
+#### Docid
+
+_ui_range_slider_ValueChangedEvent.end
+
+### start?
+
+> `readonly` `optional` **start**: `number`
+
+#### Docid
+
+_ui_range_slider_ValueChangedEvent.start
+
+### value?
+
+> `readonly` `optional` **value**: `number`[]
+
+#### Docid
+
+_ui_range_slider_ValueChangedEvent.value
+
+## Docid
+
+_ui_range_slider_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React RangeSlider API v26.1.0
+
+## Namespaces
+
+- [RangeSliderTypes](DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/README.md)
+
+## Interfaces
+
+- [RangeSliderRef](interfaces/RangeSliderRef.md)
+
+## Type Aliases
+
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [IRangeSliderOptions](type-aliases/IRangeSliderOptions.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [Format](variables/Format.md)
+- [Label](variables/Label.md)
+- [RangeSlider](variables/RangeSlider.md)
+- [Tooltip](variables/Tooltip.md)
+
+## References
+
+### default
+
+Renames and re-exports [RangeSlider](variables/RangeSlider.md)
+
+
+--- SOURCE: interfaces/RangeSliderRef.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / RangeSliderRef
+
+# Interface: RangeSliderRef
+
+Defined in: [devextreme-react/src/range-slider.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L31)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxRangeSlider`
+
+Defined in: [devextreme-react/src/range-slider.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L32)
+
+#### Returns
+
+`dxRangeSlider`
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-slider.ts:79](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L79)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `format?`: `LocalizationFormat`; `position?`: `VerticalEdge`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/range-slider.ts:102](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L102)
+
+
+--- SOURCE: type-aliases/IRangeSliderOptions.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / IRangeSliderOptions
+
+# Type Alias: IRangeSliderOptions
+
+> **IRangeSliderOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-RangeSlider-API/namespaces/RangeSliderTypes/type-aliases/Properties.md), `IRangeSliderOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/range-slider.ts:26](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L26)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `enabled?`: `boolean`; `format?`: `LocalizationFormat`; `position?`: `VerticalEdge`; `showMode?`: `TooltipShowMode`; \}\>
+
+Defined in: [devextreme-react/src/range-slider.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L125)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/range-slider.ts:96](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L96)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/range-slider.ts:119](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L119)
+
+
+--- SOURCE: variables/RangeSlider.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / RangeSlider
+
+# Variable: RangeSlider()
+
+> `const` **RangeSlider**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/range-slider.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L35)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React RangeSlider API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React RangeSlider API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/range-slider.ts:143](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/range-slider.ts#L143)
+

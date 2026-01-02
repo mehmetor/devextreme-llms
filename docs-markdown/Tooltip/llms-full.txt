@@ -1,0 +1,772 @@
+# Tooltip Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Tooltip API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/README.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../globals.md) / TooltipTypes
+
+# TooltipTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:26
+
+## Docid
+
+_ui_tooltip_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:34
+
+## Docid
+
+_ui_tooltip_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent
+
+> **HiddenEvent** = `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:50
+
+## Docid
+
+_ui_tooltip_HiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent
+
+> **HidingEvent** = `Cancelable` & `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:42
+
+## Docid
+
+_ui_tooltip_HidingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:58
+
+## Docid
+
+_ui_tooltip_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxTooltip`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:66
+
+## Docid
+
+_ui_tooltip_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxTooltipOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:100
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent
+
+> **ShowingEvent** = `Cancelable` & `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:74
+
+## Docid
+
+_ui_tooltip_ShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../../../../globals.md) / [TooltipTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent
+
+> **ShownEvent** = `EventInfo`\<`dxTooltip`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/tooltip.d.ts:82
+
+## Docid
+
+_ui_tooltip_ShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Tooltip API v26.1.0
+
+## Namespaces
+
+- [TooltipTypes](DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/README.md)
+
+## Interfaces
+
+- [TooltipRef](interfaces/TooltipRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideEventProps](type-aliases/IHideEventProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowEventProps](type-aliases/IShowEventProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [ITooltipOptions](type-aliases/ITooltipOptions.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [HideEvent](variables/HideEvent.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [ShowEvent](variables/ShowEvent.md)
+- [To](variables/To.md)
+- [Tooltip](variables/Tooltip.md)
+
+## References
+
+### default
+
+Renames and re-exports [Tooltip](variables/Tooltip.md)
+
+
+--- SOURCE: interfaces/TooltipRef.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / TooltipRef
+
+# Interface: TooltipRef
+
+Defined in: [devextreme-react/src/tooltip.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L42)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxTooltip`
+
+Defined in: [devextreme-react/src/tooltip.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L43)
+
+#### Returns
+
+`dxTooltip`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:104](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L104)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:127](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L127)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:146](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L146)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:165](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L165)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:185](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L185)
+
+
+--- SOURCE: type-aliases/IHideEventProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IHideEventProps
+
+# Type Alias: IHideEventProps
+
+> **IHideEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:241](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L241)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:210](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L210)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:260](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L260)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:279](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L279)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:300](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L300)
+
+
+--- SOURCE: type-aliases/IShowEventProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IShowEventProps
+
+# Type Alias: IShowEventProps
+
+> **IShowEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:377](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L377)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:346](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L346)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/tooltip.ts:397](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L397)
+
+
+--- SOURCE: type-aliases/ITooltipOptions.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / ITooltipOptions
+
+# Type Alias: ITooltipOptions
+
+> **ITooltipOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Tooltip-API/namespaces/TooltipTypes/type-aliases/Properties.md), `ITooltipOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/tooltip.ts:29](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L29)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:121](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L121)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:140](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L140)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:159](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L159)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:178](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L178)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:204](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L204)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:235](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L235)
+
+
+--- SOURCE: variables/HideEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / HideEvent
+
+# Variable: HideEvent
+
+> `const` **HideEvent**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:254](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L254)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:273](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L273)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:292](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L292)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:340](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L340)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:371](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L371)
+
+
+--- SOURCE: variables/ShowEvent.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / ShowEvent
+
+# Variable: ShowEvent
+
+> `const` **ShowEvent**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:390](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L390)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/tooltip.ts:416](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L416)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Tooltip API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Tooltip API](../globals.md) / Tooltip
+
+# Variable: Tooltip()
+
+> `const` **Tooltip**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/tooltip.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/tooltip.ts#L46)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

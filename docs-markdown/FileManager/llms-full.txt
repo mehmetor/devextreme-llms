@@ -1,0 +1,1754 @@
+# FileManager Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React FileManager API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/README.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../globals.md) / FileManagerTypes
+
+# FileManagerTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextMenuItem](type-aliases/ContextMenuItem.md)
+- [ContextMenuItemClickEvent](type-aliases/ContextMenuItemClickEvent.md)
+- [ContextMenuShowingEvent](type-aliases/ContextMenuShowingEvent.md)
+- [CurrentDirectoryChangedEvent](type-aliases/CurrentDirectoryChangedEvent.md)
+- [DataType](type-aliases/DataType.md)
+- [DirectoryCreatedEvent](type-aliases/DirectoryCreatedEvent.md)
+- [DirectoryCreatingEvent](type-aliases/DirectoryCreatingEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [ErrorOccurredEvent](type-aliases/ErrorOccurredEvent.md)
+- [FileManagerPredefinedContextMenuItem](type-aliases/FileManagerPredefinedContextMenuItem.md)
+- [FileManagerPredefinedToolbarItem](type-aliases/FileManagerPredefinedToolbarItem.md)
+- [FileUploadedEvent](type-aliases/FileUploadedEvent.md)
+- [FileUploadingEvent](type-aliases/FileUploadingEvent.md)
+- [FocusedItemChangedEvent](type-aliases/FocusedItemChangedEvent.md)
+- [HorizontalAlignment](type-aliases/HorizontalAlignment.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [ItemCopiedEvent](type-aliases/ItemCopiedEvent.md)
+- [ItemCopyingEvent](type-aliases/ItemCopyingEvent.md)
+- [ItemDeletedEvent](type-aliases/ItemDeletedEvent.md)
+- [ItemDeletingEvent](type-aliases/ItemDeletingEvent.md)
+- [ItemDownloadingEvent](type-aliases/ItemDownloadingEvent.md)
+- [ItemMovedEvent](type-aliases/ItemMovedEvent.md)
+- [ItemMovingEvent](type-aliases/ItemMovingEvent.md)
+- [ItemRenamedEvent](type-aliases/ItemRenamedEvent.md)
+- [ItemRenamingEvent](type-aliases/ItemRenamingEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectedFileOpenedEvent](type-aliases/SelectedFileOpenedEvent.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SingleOrMultiple](type-aliases/SingleOrMultiple.md)
+- [SortOrder](type-aliases/SortOrder.md)
+- [ToolbarItem](type-aliases/ToolbarItem.md)
+- [ToolbarItemClickEvent](type-aliases/ToolbarItemClickEvent.md)
+- [ToolbarItemLocation](type-aliases/ToolbarItemLocation.md)
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxFileManager`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:86
+
+## Docid
+
+_ui_file_manager_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ContextMenuItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ContextMenuItem
+
+# Type Alias: ContextMenuItem
+
+> **ContextMenuItem** = `dxFileManagerContextMenuItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:819
+
+**`Namespace`**
+
+DevExpress.ui.dxFileManager
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ContextMenuItemClickEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ContextMenuItemClickEvent
+
+# Type Alias: ContextMenuItemClickEvent
+
+> **ContextMenuItemClickEvent** = `NativeEventInfo`\<`dxFileManager`, `KeyboardEvent` \| `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:94
+
+## Type Declaration
+
+### fileSystemItem?
+
+> `readonly` `optional` **fileSystemItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ContextMenuItemClickEvent.fileSystemItem
+
+### itemData
+
+> `readonly` **itemData**: `any`
+
+#### Docid
+
+_ui_file_manager_ContextMenuItemClickEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_file_manager_ContextMenuItemClickEvent.itemElement
+
+### itemIndex
+
+> `readonly` **itemIndex**: `number`
+
+#### Docid
+
+_ui_file_manager_ContextMenuItemClickEvent.itemIndex
+
+### viewArea
+
+> `readonly` **viewArea**: `FileManagerViewArea`
+
+#### Docid
+
+_ui_file_manager_ContextMenuItemClickEvent.viewArea
+
+## Docid
+
+_ui_file_manager_ContextMenuItemClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ContextMenuShowingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ContextMenuShowingEvent
+
+# Type Alias: ContextMenuShowingEvent
+
+> **ContextMenuShowingEvent** = `Cancelable` & `NativeEventInfo`\<`dxFileManager`, `KeyboardEvent` \| `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:119
+
+## Type Declaration
+
+### fileSystemItem?
+
+> `readonly` `optional` **fileSystemItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ContextMenuShowingEvent.fileSystemItem
+
+### targetElement?
+
+> `readonly` `optional` **targetElement**: `DxElement`
+
+#### Docid
+
+_ui_file_manager_ContextMenuShowingEvent.targetElement
+
+### viewArea
+
+> `readonly` **viewArea**: `FileManagerViewArea`
+
+#### Docid
+
+_ui_file_manager_ContextMenuShowingEvent.viewArea
+
+## Docid
+
+_ui_file_manager_ContextMenuShowingEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/CurrentDirectoryChangedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / CurrentDirectoryChangedEvent
+
+# Type Alias: CurrentDirectoryChangedEvent
+
+> **CurrentDirectoryChangedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:137
+
+## Type Declaration
+
+### directory
+
+> `readonly` **directory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_CurrentDirectoryChangedEvent.directory
+
+## Docid
+
+_ui_file_manager_CurrentDirectoryChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/DataType.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / DataType
+
+# Type Alias: DataType
+
+> **DataType** = `"string"` \| `"number"` \| `"date"` \| `"boolean"` \| `"object"` \| `"datetime"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:192
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/DirectoryCreatedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / DirectoryCreatedEvent
+
+# Type Alias: DirectoryCreatedEvent
+
+> **DirectoryCreatedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:271
+
+## Type Declaration
+
+### name
+
+> `readonly` **name**: `string`
+
+#### Docid
+
+_ui_file_manager_DirectoryCreatedEvent.name
+
+### parentDirectory
+
+> `readonly` **parentDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_DirectoryCreatedEvent.parentDirectory
+
+## Docid
+
+_ui_file_manager_DirectoryCreatedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/DirectoryCreatingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / DirectoryCreatingEvent
+
+# Type Alias: DirectoryCreatingEvent
+
+> **DirectoryCreatingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:258
+
+## Type Declaration
+
+### name
+
+> `readonly` **name**: `string`
+
+#### Docid
+
+_ui_file_manager_DirectoryCreatingEvent.name
+
+### parentDirectory
+
+> `readonly` **parentDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_DirectoryCreatingEvent.parentDirectory
+
+## Docid
+
+_ui_file_manager_DirectoryCreatingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxFileManager`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:148
+
+## Docid
+
+_ui_file_manager_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ErrorOccurredEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ErrorOccurredEvent
+
+# Type Alias: ErrorOccurredEvent
+
+> **ErrorOccurredEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:156
+
+## Type Declaration
+
+### errorCode?
+
+> `readonly` `optional` **errorCode**: `number`
+
+#### Docid
+
+_ui_file_manager_ErrorOccurredEvent.errorCode
+
+### errorText?
+
+> `optional` **errorText**: `string`
+
+#### Docid
+
+_ui_file_manager_ErrorOccurredEvent.errorText
+
+### fileSystemItem?
+
+> `readonly` `optional` **fileSystemItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ErrorOccurredEvent.fileSystemItem
+
+## Docid
+
+_ui_file_manager_ErrorOccurredEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedContextMenuItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / FileManagerPredefinedContextMenuItem
+
+# Type Alias: FileManagerPredefinedContextMenuItem
+
+> **FileManagerPredefinedContextMenuItem** = `"create"` \| `"upload"` \| `"refresh"` \| `"download"` \| `"move"` \| `"copy"` \| `"rename"` \| `"delete"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:75
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / FileManagerPredefinedToolbarItem
+
+# Type Alias: FileManagerPredefinedToolbarItem
+
+> **FileManagerPredefinedToolbarItem** = `"showNavPane"` \| `"create"` \| `"upload"` \| `"refresh"` \| `"switchView"` \| `"download"` \| `"move"` \| `"copy"` \| `"rename"` \| `"delete"` \| `"clearSelection"` \| `"separator"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:77
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileUploadedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / FileUploadedEvent
+
+# Type Alias: FileUploadedEvent
+
+> **FileUploadedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:405
+
+## Type Declaration
+
+### fileData
+
+> `readonly` **fileData**: `File`
+
+#### Docid
+
+_ui_file_manager_FileUploadedEvent.fileData
+
+### parentDirectory
+
+> `readonly` **parentDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_FileUploadedEvent.parentDirectory
+
+## Docid
+
+_ui_file_manager_FileUploadedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileUploadingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / FileUploadingEvent
+
+# Type Alias: FileUploadingEvent
+
+> **FileUploadingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:392
+
+## Type Declaration
+
+### destinationDirectory
+
+> `readonly` **destinationDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_FileUploadingEvent.destinationDirectory
+
+### fileData
+
+> `readonly` **fileData**: `File`
+
+#### Docid
+
+_ui_file_manager_FileUploadingEvent.fileData
+
+## Docid
+
+_ui_file_manager_FileUploadingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FocusedItemChangedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / FocusedItemChangedEvent
+
+# Type Alias: FocusedItemChangedEvent
+
+> **FocusedItemChangedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:171
+
+## Type Declaration
+
+### item?
+
+> `readonly` `optional` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_FocusedItemChangedEvent.item
+
+### itemElement?
+
+> `readonly` `optional` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_file_manager_FocusedItemChangedEvent.itemElement
+
+## Docid
+
+_ui_file_manager_FocusedItemChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/HorizontalAlignment.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / HorizontalAlignment
+
+# Type Alias: HorizontalAlignment
+
+> **HorizontalAlignment** = `"center"` \| `"left"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:428
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxFileManager`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:184
+
+## Docid
+
+_ui_file_manager_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemCopiedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemCopiedEvent
+
+# Type Alias: ItemCopiedEvent
+
+> **ItemCopiedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:353
+
+## Type Declaration
+
+### itemName
+
+> `readonly` **itemName**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemCopiedEvent.itemName
+
+### itemPath
+
+> `readonly` **itemPath**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemCopiedEvent.itemPath
+
+### parentDirectory
+
+> `readonly` **parentDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemCopiedEvent.parentDirectory
+
+### sourceItem
+
+> `readonly` **sourceItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemCopiedEvent.sourceItem
+
+## Docid
+
+_ui_file_manager_ItemCopiedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemCopyingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemCopyingEvent
+
+# Type Alias: ItemCopyingEvent
+
+> **ItemCopyingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:340
+
+## Type Declaration
+
+### destinationDirectory
+
+> `readonly` **destinationDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemCopyingEvent.destinationDirectory
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemCopyingEvent.item
+
+## Docid
+
+_ui_file_manager_ItemCopyingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemDeletedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemDeletedEvent
+
+# Type Alias: ItemDeletedEvent
+
+> **ItemDeletedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:381
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemDeletedEvent.item
+
+## Docid
+
+_ui_file_manager_ItemDeletedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemDeletingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemDeletingEvent
+
+# Type Alias: ItemDeletingEvent
+
+> **ItemDeletingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:370
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemDeletingEvent.item
+
+## Docid
+
+_ui_file_manager_ItemDeletingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemDownloadingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemDownloadingEvent
+
+# Type Alias: ItemDownloadingEvent
+
+> **ItemDownloadingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:418
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemDownloadingEvent.item
+
+## Docid
+
+_ui_file_manager_ItemDownloadingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemMovedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemMovedEvent
+
+# Type Alias: ItemMovedEvent
+
+> **ItemMovedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:323
+
+## Type Declaration
+
+### itemName
+
+> `readonly` **itemName**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemMovedEvent.itemName
+
+### itemPath
+
+> `readonly` **itemPath**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemMovedEvent.itemPath
+
+### parentDirectory
+
+> `readonly` **parentDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemMovedEvent.parentDirectory
+
+### sourceItem
+
+> `readonly` **sourceItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemMovedEvent.sourceItem
+
+## Docid
+
+_ui_file_manager_ItemMovedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemMovingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemMovingEvent
+
+# Type Alias: ItemMovingEvent
+
+> **ItemMovingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:310
+
+## Type Declaration
+
+### destinationDirectory
+
+> `readonly` **destinationDirectory**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemMovingEvent.destinationDirectory
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemMovingEvent.item
+
+## Docid
+
+_ui_file_manager_ItemMovingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemRenamedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemRenamedEvent
+
+# Type Alias: ItemRenamedEvent
+
+> **ItemRenamedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:297
+
+## Type Declaration
+
+### itemName
+
+> `readonly` **itemName**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemRenamedEvent.itemName
+
+### sourceItem
+
+> `readonly` **sourceItem**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemRenamedEvent.sourceItem
+
+## Docid
+
+_ui_file_manager_ItemRenamedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ItemRenamingEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ItemRenamingEvent
+
+# Type Alias: ItemRenamingEvent
+
+> **ItemRenamingEvent** = `EventInfo`\<`dxFileManager`\> & `ActionEventInfo` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:284
+
+## Type Declaration
+
+### item
+
+> `readonly` **item**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_ItemRenamingEvent.item
+
+### newName
+
+> `readonly` **newName**: `string`
+
+#### Docid
+
+_ui_file_manager_ItemRenamingEvent.newName
+
+## Docid
+
+_ui_file_manager_ItemRenamingEvent
+
+## Inherits
+
+EventInfo,ActionEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxFileManager`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:192
+
+## Docid
+
+_ui_file_manager_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxFileManagerOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:1002
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/SelectedFileOpenedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / SelectedFileOpenedEvent
+
+# Type Alias: SelectedFileOpenedEvent
+
+> **SelectedFileOpenedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:200
+
+## Type Declaration
+
+### file
+
+> `readonly` **file**: `FileSystemItem`
+
+#### Docid
+
+_ui_file_manager_SelectedFileOpenedEvent.file
+
+## Docid
+
+_ui_file_manager_SelectedFileOpenedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxFileManager`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:211
+
+## Type Declaration
+
+### currentDeselectedItemKeys
+
+> `readonly` **currentDeselectedItemKeys**: `string`[]
+
+#### Docid
+
+_ui_file_manager_SelectionChangedEvent.currentDeselectedItemKeys
+
+### currentSelectedItemKeys
+
+> `readonly` **currentSelectedItemKeys**: `string`[]
+
+#### Docid
+
+_ui_file_manager_SelectionChangedEvent.currentSelectedItemKeys
+
+### selectedItemKeys
+
+> `readonly` **selectedItemKeys**: `string`[]
+
+#### Docid
+
+_ui_file_manager_SelectionChangedEvent.selectedItemKeys
+
+### selectedItems
+
+> `readonly` **selectedItems**: `FileSystemItem`[]
+
+#### Docid
+
+_ui_file_manager_SelectionChangedEvent.selectedItems
+
+## Docid
+
+_ui_file_manager_SelectionChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/SingleOrMultiple.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / SingleOrMultiple
+
+# Type Alias: SingleOrMultiple
+
+> **SingleOrMultiple** = `"single"` \| `"multiple"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:671
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/SortOrder.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / SortOrder
+
+# Type Alias: SortOrder
+
+> **SortOrder** = `"asc"` \| `"desc"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:695
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ToolbarItem
+
+# Type Alias: ToolbarItem
+
+> **ToolbarItem** = `dxFileManagerToolbarItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:876
+
+**`Namespace`**
+
+DevExpress.ui.dxFileManager
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItemClickEvent.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ToolbarItemClickEvent
+
+# Type Alias: ToolbarItemClickEvent
+
+> **ToolbarItemClickEvent** = `NativeEventInfo`\<`dxFileManager`, `PointerEvent` \| `MouseEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/file\_manager.d.ts:240
+
+## Type Declaration
+
+### itemData
+
+> `readonly` **itemData**: `any`
+
+#### Docid
+
+_ui_file_manager_ToolbarItemClickEvent.itemData
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_file_manager_ToolbarItemClickEvent.itemElement
+
+### itemIndex
+
+> `readonly` **itemIndex**: `number`
+
+#### Docid
+
+_ui_file_manager_ToolbarItemClickEvent.itemIndex
+
+## Docid
+
+_ui_file_manager_ToolbarItemClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItemLocation.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React FileManager API](../../../../globals.md) / [FileManagerTypes](../README.md) / ToolbarItemLocation
+
+# Type Alias: ToolbarItemLocation
+
+> **ToolbarItemLocation** = `"after"` \| `"before"` \| `"center"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:814
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React FileManager API v26.1.0
+
+## Namespaces
+
+- [FileManagerTypes](DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/README.md)
+
+## Interfaces
+
+- [FileManagerRef](interfaces/FileManagerRef.md)
+
+## Type Aliases
+
+- [IColumnProps](type-aliases/IColumnProps.md)
+- [IContextMenuItemProps](type-aliases/IContextMenuItemProps.md)
+- [IContextMenuProps](type-aliases/IContextMenuProps.md)
+- [IDetailsProps](type-aliases/IDetailsProps.md)
+- [IFileManagerOptions](type-aliases/IFileManagerOptions.md)
+- [IFileSelectionItemProps](type-aliases/IFileSelectionItemProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IItemViewProps](type-aliases/IItemViewProps.md)
+- [INotificationsProps](type-aliases/INotificationsProps.md)
+- [IPermissionsProps](type-aliases/IPermissionsProps.md)
+- [IToolbarItemProps](type-aliases/IToolbarItemProps.md)
+- [IToolbarProps](type-aliases/IToolbarProps.md)
+- [IUploadProps](type-aliases/IUploadProps.md)
+
+## Variables
+
+- [Column](variables/Column.md)
+- [ContextMenu](variables/ContextMenu.md)
+- [ContextMenuItem](variables/ContextMenuItem.md)
+- [Details](variables/Details.md)
+- [FileManager](variables/FileManager.md)
+- [FileSelectionItem](variables/FileSelectionItem.md)
+- [Item](variables/Item.md)
+- [ItemView](variables/ItemView.md)
+- [Notifications](variables/Notifications.md)
+- [Permissions](variables/Permissions.md)
+- [Toolbar](variables/Toolbar.md)
+- [ToolbarItem](variables/ToolbarItem.md)
+- [Upload](variables/Upload.md)
+
+## References
+
+### default
+
+Renames and re-exports [FileManager](variables/FileManager.md)
+
+
+--- SOURCE: interfaces/FileManagerRef.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / FileManagerRef
+
+# Interface: FileManagerRef
+
+Defined in: [devextreme-react/src/file-manager.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L45)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxFileManager`
+
+Defined in: [devextreme-react/src/file-manager.ts:46](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L46)
+
+#### Returns
+
+`dxFileManager`
+
+
+--- SOURCE: type-aliases/IColumnProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IColumnProps
+
+# Type Alias: IColumnProps
+
+> **IColumnProps** = `React.PropsWithChildren`\<\{ `alignment?`: [`HorizontalAlignment`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/HorizontalAlignment.md); `caption?`: `string`; `cssClass?`: `string`; `dataField?`: `string`; `dataType?`: [`DataType`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/DataType.md); `hidingPriority?`: `number`; `sortIndex?`: `number`; `sortOrder?`: [`SortOrder`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/SortOrder.md); `visible?`: `boolean`; `visibleIndex?`: `number`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:89](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L89)
+
+
+--- SOURCE: type-aliases/IContextMenuItemProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IContextMenuItemProps
+
+# Type Alias: IContextMenuItemProps
+
+> **IContextMenuItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `disabled?`: `boolean`; `icon?`: `string`; `items?`: `dxFileManagerContextMenuItem`[]; `name?`: [`FileManagerPredefinedContextMenuItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedContextMenuItem.md) \| `string`; `selectable?`: `boolean`; `selected?`: `boolean`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:141](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L141)
+
+
+--- SOURCE: type-aliases/IContextMenuProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IContextMenuProps
+
+# Type Alias: IContextMenuProps
+
+> **IContextMenuProps** = `React.PropsWithChildren`\<\{ `items?`: (`dxFileManagerContextMenuItem` \| [`FileManagerPredefinedContextMenuItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedContextMenuItem.md))[]; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:118](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L118)
+
+
+--- SOURCE: type-aliases/IDetailsProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IDetailsProps
+
+# Type Alias: IDetailsProps
+
+> **IDetailsProps** = `React.PropsWithChildren`\<\{ `columns?`: (`dxFileManagerDetailsColumn` \| `string`)[]; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:172](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L172)
+
+
+--- SOURCE: type-aliases/IFileManagerOptions.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IFileManagerOptions
+
+# Type Alias: IFileManagerOptions
+
+> **IFileManagerOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/Properties.md), `IFileManagerOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/file-manager.ts:43](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L43)
+
+
+--- SOURCE: type-aliases/IFileSelectionItemProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IFileSelectionItemProps
+
+# Type Alias: IFileSelectionItemProps
+
+> **IFileSelectionItemProps** = `React.PropsWithChildren`\<\{ `cssClass?`: `string`; `disabled?`: `boolean`; `icon?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItemLocation.md); `name?`: [`FileManagerPredefinedToolbarItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md) \| `string`; `options?`: `any`; `showText?`: `ShowTextMode`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L193)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `cssClass?`: `string`; `disabled?`: `boolean`; `icon?`: `string`; `items?`: `dxFileManagerContextMenuItem`[]; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItemLocation.md); `name?`: [`FileManagerPredefinedContextMenuItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedContextMenuItem.md) \| `string` \| [`FileManagerPredefinedToolbarItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md); `options?`: `any`; `selectable?`: `boolean`; `selected?`: `boolean`; `showText?`: `ShowTextMode`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:224](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L224)
+
+
+--- SOURCE: type-aliases/IItemViewProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IItemViewProps
+
+# Type Alias: IItemViewProps
+
+> **IItemViewProps** = `React.PropsWithChildren`\<\{ `details?`: `Record`\<`string`, `any`\> \| \{ `columns?`: (`dxFileManagerDetailsColumn` \| `string`)[]; \}; `mode?`: `FileManagerItemViewMode`; `showFolders?`: `boolean`; `showParentFolder?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:261](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L261)
+
+
+--- SOURCE: type-aliases/INotificationsProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / INotificationsProps
+
+# Type Alias: INotificationsProps
+
+> **INotificationsProps** = `React.PropsWithChildren`\<\{ `showPanel?`: `boolean`; `showPopup?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:287](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L287)
+
+
+--- SOURCE: type-aliases/IPermissionsProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IPermissionsProps
+
+# Type Alias: IPermissionsProps
+
+> **IPermissionsProps** = `React.PropsWithChildren`\<\{ `copy?`: `boolean`; `create?`: `boolean`; `delete?`: `boolean`; `download?`: `boolean`; `move?`: `boolean`; `rename?`: `boolean`; `upload?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:306](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L306)
+
+
+--- SOURCE: type-aliases/IToolbarItemProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IToolbarItemProps
+
+# Type Alias: IToolbarItemProps
+
+> **IToolbarItemProps** = `React.PropsWithChildren`\<\{ `cssClass?`: `string`; `disabled?`: `boolean`; `icon?`: `string`; `locateInMenu?`: `LocateInMenuMode`; `location?`: [`ToolbarItemLocation`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/ToolbarItemLocation.md); `name?`: [`FileManagerPredefinedToolbarItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md) \| `string`; `options?`: `any`; `showText?`: `ShowTextMode`; `text?`: `string`; `visible?`: `boolean`; `widget?`: `ToolbarItemComponent`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:354](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L354)
+
+
+--- SOURCE: type-aliases/IToolbarProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IToolbarProps
+
+# Type Alias: IToolbarProps
+
+> **IToolbarProps** = `React.PropsWithChildren`\<\{ `fileSelectionItems?`: (`dxFileManagerToolbarItem` \| [`FileManagerPredefinedToolbarItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md))[]; `items?`: (`dxFileManagerToolbarItem` \| [`FileManagerPredefinedToolbarItem`](../DevExtreme-React-FileManager-API/namespaces/FileManagerTypes/type-aliases/FileManagerPredefinedToolbarItem.md))[]; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:330](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L330)
+
+
+--- SOURCE: type-aliases/IUploadProps.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / IUploadProps
+
+# Type Alias: IUploadProps
+
+> **IUploadProps** = `React.PropsWithChildren`\<\{ `chunkSize?`: `number`; `maxFileSize?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/file-manager.ts:383](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L383)
+
+
+--- SOURCE: variables/Column.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Column
+
+# Variable: Column
+
+> `const` **Column**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:112](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L112)
+
+
+--- SOURCE: variables/ContextMenu.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / ContextMenu
+
+# Variable: ContextMenu
+
+> `const` **ContextMenu**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:134](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L134)
+
+
+--- SOURCE: variables/ContextMenuItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / ContextMenuItem
+
+# Variable: ContextMenuItem
+
+> `const` **ContextMenuItem**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:166](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L166)
+
+
+--- SOURCE: variables/Details.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Details
+
+# Variable: Details
+
+> `const` **Details**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L187)
+
+
+--- SOURCE: variables/FileManager.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / FileManager
+
+# Variable: FileManager()
+
+> `const` **FileManager**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/file-manager.ts:49](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L49)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/FileSelectionItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / FileSelectionItem
+
+# Variable: FileSelectionItem
+
+> `const` **FileSelectionItem**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:216](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L216)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:255](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L255)
+
+
+--- SOURCE: variables/ItemView.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / ItemView
+
+# Variable: ItemView
+
+> `const` **ItemView**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:281](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L281)
+
+
+--- SOURCE: variables/Notifications.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Notifications
+
+# Variable: Notifications
+
+> `const` **Notifications**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:300](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L300)
+
+
+--- SOURCE: variables/Permissions.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Permissions
+
+# Variable: Permissions
+
+> `const` **Permissions**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:324](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L324)
+
+
+--- SOURCE: variables/Toolbar.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Toolbar
+
+# Variable: Toolbar
+
+> `const` **Toolbar**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:348](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L348)
+
+
+--- SOURCE: variables/ToolbarItem.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / ToolbarItem
+
+# Variable: ToolbarItem
+
+> `const` **ToolbarItem**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:377](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L377)
+
+
+--- SOURCE: variables/Upload.md ---
+
+[**DevExtreme React FileManager API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React FileManager API](../globals.md) / Upload
+
+# Variable: Upload
+
+> `const` **Upload**: `any`
+
+Defined in: [devextreme-react/src/file-manager.ts:396](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/file-manager.ts#L396)
+

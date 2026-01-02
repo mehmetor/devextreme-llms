@@ -1,0 +1,842 @@
+# LoadPanel Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React LoadPanel API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/README.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../globals.md) / LoadPanelTypes
+
+# LoadPanelTypes
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [LoadingAnimationType](type-aliases/LoadingAnimationType.md)
+- [LoadPanelIndicatorProperties](type-aliases/LoadPanelIndicatorProperties.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent
+
+> **ContentReadyEvent** = `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:75
+
+## Docid
+
+_ui_load_panel_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:83
+
+## Docid
+
+_ui_load_panel_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent
+
+> **HiddenEvent** = `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:99
+
+## Docid
+
+_ui_load_panel_HiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent
+
+> **HidingEvent** = `Cancelable` & `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:91
+
+## Docid
+
+_ui_load_panel_HidingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:107
+
+## Docid
+
+_ui_load_panel_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/LoadPanelIndicatorProperties.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / LoadPanelIndicatorProperties
+
+# Type Alias: LoadPanelIndicatorProperties
+
+> **LoadPanelIndicatorProperties** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:42
+
+## Docid
+
+## Properties
+
+### animationType?
+
+> `optional` **animationType**: [`LoadingAnimationType`](LoadingAnimationType.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:48
+
+#### Docid
+
+#### Default
+
+```ts
+'circle'
+@public
+```
+
+***
+
+### height?
+
+> `optional` **height**: `number` \| `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:60
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### src?
+
+> `optional` **src**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:54
+
+#### Docid
+
+#### Default
+
+```ts
+''
+@public
+```
+
+***
+
+### width?
+
+> `optional` **width**: `number` \| `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:66
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/LoadingAnimationType.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / LoadingAnimationType
+
+# Type Alias: LoadingAnimationType
+
+> **LoadingAnimationType** = `"circle"` \| `"sparkle"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_indicator.d.ts:52
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxLoadPanel`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:115
+
+## Docid
+
+_ui_load_panel_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxLoadPanelOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:263
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent
+
+> **ShowingEvent** = `Cancelable` & `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:123
+
+## Docid
+
+_ui_load_panel_ShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../../../../globals.md) / [LoadPanelTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent
+
+> **ShownEvent** = `EventInfo`\<`dxLoadPanel`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/load\_panel.d.ts:131
+
+## Docid
+
+_ui_load_panel_ShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React LoadPanel API v26.1.0
+
+## Namespaces
+
+- [LoadPanelTypes](DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/README.md)
+
+## Interfaces
+
+- [LoadPanelRef](interfaces/LoadPanelRef.md)
+
+## Type Aliases
+
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IIndicatorOptionsProps](type-aliases/IIndicatorOptionsProps.md)
+- [ILoadPanelOptions](type-aliases/ILoadPanelOptions.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [IndicatorOptions](variables/IndicatorOptions.md)
+- [LoadPanel](variables/LoadPanel.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [To](variables/To.md)
+
+## References
+
+### default
+
+Renames and re-exports [LoadPanel](variables/LoadPanel.md)
+
+
+--- SOURCE: interfaces/LoadPanelRef.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / LoadPanelRef
+
+# Interface: LoadPanelRef
+
+Defined in: [devextreme-react/src/load-panel.ts:37](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L37)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxLoadPanel`
+
+Defined in: [devextreme-react/src/load-panel.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L38)
+
+#### Returns
+
+`dxLoadPanel`
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:87](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L87)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:110](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L110)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:129](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L129)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:148](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L148)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:168](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L168)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:193](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L193)
+
+
+--- SOURCE: type-aliases/IIndicatorOptionsProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IIndicatorOptionsProps
+
+# Type Alias: IIndicatorOptionsProps
+
+> **IIndicatorOptionsProps** = `React.PropsWithChildren`\<\{ `animationType?`: [`LoadingAnimationType`](../DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/LoadingAnimationType.md); `height?`: `number` \| `string`; `src?`: `string`; `width?`: `number` \| `string`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:224](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L224)
+
+
+--- SOURCE: type-aliases/ILoadPanelOptions.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / ILoadPanelOptions
+
+# Type Alias: ILoadPanelOptions
+
+> **ILoadPanelOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-LoadPanel-API/namespaces/LoadPanelTypes/type-aliases/Properties.md), `ILoadPanelOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/load-panel.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L30)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:245](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L245)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:264](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L264)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:285](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L285)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:331](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L331)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/load-panel.ts:363](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L363)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:104](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L104)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:123](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L123)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:142](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L142)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:161](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L161)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:187](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L187)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:218](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L218)
+
+
+--- SOURCE: variables/IndicatorOptions.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / IndicatorOptions
+
+# Variable: IndicatorOptions
+
+> `const` **IndicatorOptions**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:239](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L239)
+
+
+--- SOURCE: variables/LoadPanel.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / LoadPanel
+
+# Variable: LoadPanel()
+
+> `const` **LoadPanel**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/load-panel.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L41)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:258](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L258)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:277](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L277)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:325](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L325)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:356](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L356)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React LoadPanel API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React LoadPanel API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/load-panel.ts:382](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/load-panel.ts#L382)
+

@@ -1,0 +1,664 @@
+# Sparkline Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Sparkline API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/README.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../globals.md) / SparklineTypes
+
+# SparklineTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PointSymbol](type-aliases/PointSymbol.md)
+- [Properties](type-aliases/Properties.md)
+- [SparklineType](type-aliases/SparklineType.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:44
+
+## Docid
+
+_viz_sparkline_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:52
+
+## Docid
+
+_viz_sparkline_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:60
+
+## Docid
+
+_viz_sparkline_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxSparkline`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:68
+
+## Docid
+
+_viz_sparkline_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:76
+
+## Docid
+
+_viz_sparkline_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxSparkline`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:84
+
+## Docid
+
+_viz_sparkline_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:92
+
+## Docid
+
+_viz_sparkline_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxSparkline`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:100
+
+## Docid
+
+_viz_sparkline_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/PointSymbol.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / PointSymbol
+
+# Type Alias: PointSymbol
+
+> **PointSymbol** = `"circle"` \| `"cross"` \| `"polygon"` \| `"square"` \| `"triangle"` \| `"triangleDown"` \| `"triangleUp"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:132
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxSparklineOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:269
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/SparklineType.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / SparklineType
+
+# Type Alias: SparklineType
+
+> **SparklineType** = `"area"` \| `"bar"` \| `"line"` \| `"spline"` \| `"splinearea"` \| `"steparea"` \| `"stepline"` \| `"winloss"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:36
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:108
+
+## Docid
+
+_viz_sparkline_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../../../../globals.md) / [SparklineTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxSparkline`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/sparkline.d.ts:116
+
+## Docid
+
+_viz_sparkline_TooltipShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Sparkline API v26.1.0
+
+## Namespaces
+
+- [SparklineTypes](DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/README.md)
+
+## Interfaces
+
+- [SparklineRef](interfaces/SparklineRef.md)
+
+## Type Aliases
+
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IFormatProps](type-aliases/IFormatProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISparklineOptions](type-aliases/ISparklineOptions.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+
+## Variables
+
+- [Border](variables/Border.md)
+- [Font](variables/Font.md)
+- [Format](variables/Format.md)
+- [Margin](variables/Margin.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Sparkline](variables/Sparkline.md)
+- [Tooltip](variables/Tooltip.md)
+
+## References
+
+### default
+
+Renames and re-exports [Sparkline](variables/Sparkline.md)
+
+
+--- SOURCE: interfaces/SparklineRef.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / SparklineRef
+
+# Interface: SparklineRef
+
+Defined in: [devextreme-react/src/sparkline.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L34)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxSparkline`
+
+Defined in: [devextreme-react/src/sparkline.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L35)
+
+#### Returns
+
+`dxSparkline`
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:75](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L75)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:97](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L97)
+
+
+--- SOURCE: type-aliases/IFormatProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / IFormatProps
+
+# Type Alias: IFormatProps
+
+> **IFormatProps** = `React.PropsWithChildren`\<\{ `currency?`: `string`; `formatter?`: (`value`) => `string`; `parser?`: (`value`) => `number` \| `Date`; `precision?`: `number`; `type?`: `CommonFormat` \| `string`; `useCurrencyAccountingStyle?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:119](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L119)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:142](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L142)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:163](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L163)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:185](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L185)
+
+
+--- SOURCE: type-aliases/ISparklineOptions.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / ISparklineOptions
+
+# Type Alias: ISparklineOptions
+
+> **ISparklineOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Sparkline-API/namespaces/SparklineTypes/type-aliases/Properties.md), `ISparklineOptionsNarrowedEvents`\> & `IHtmlOptions`\>
+
+Defined in: [devextreme-react/src/sparkline.ts:32](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L32)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`pointsInfo`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`pointsInfo`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `format?`: `LocalizationFormat`; `interactive?`: `boolean`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/sparkline.ts:204](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L204)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:91](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L91)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:113](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L113)
+
+
+--- SOURCE: variables/Format.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Format
+
+# Variable: Format
+
+> `const` **Format**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:136](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L136)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:157](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L157)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:179](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L179)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:198](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L198)
+
+
+--- SOURCE: variables/Sparkline.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Sparkline
+
+# Variable: Sparkline()
+
+> `const` **Sparkline**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/sparkline.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L38)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React Sparkline API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Sparkline API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/sparkline.ts:256](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/sparkline.ts#L256)
+

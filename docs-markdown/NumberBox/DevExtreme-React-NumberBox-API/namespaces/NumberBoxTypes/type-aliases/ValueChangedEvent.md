@@ -1,0 +1,19 @@
+[**DevExtreme React NumberBox API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React NumberBox API](../../../../globals.md) / [NumberBoxTypes](../README.md) / ValueChangedEvent
+
+# Type Alias: ValueChangedEvent
+
+> **ValueChangedEvent** = `NativeEventInfo`\<`dxNumberBox`, `InteractionEvent` \| `Event`\> & `ValueChangedInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/number\_box.d.ts:159
+
+## Docid
+
+_ui_number_box_ValueChangedEvent
+
+## Inherits
+
+NativeEventInfo,ValueChangedInfo

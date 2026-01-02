@@ -1,0 +1,1991 @@
+# VectorMap Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React VectorMap API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/README.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../globals.md) / VectorMapTypes
+
+# VectorMapTypes
+
+## Interfaces
+
+- [MapLayerElement](interfaces/MapLayerElement.md)
+
+## Type Aliases
+
+- [CenterChangedEvent](type-aliases/CenterChangedEvent.md)
+- [ClickEvent](type-aliases/ClickEvent.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DrawnEvent](type-aliases/DrawnEvent.md)
+- [ExportedEvent](type-aliases/ExportedEvent.md)
+- [ExportingEvent](type-aliases/ExportingEvent.md)
+- [FileSavingEvent](type-aliases/FileSavingEvent.md)
+- [IncidentOccurredEvent](type-aliases/IncidentOccurredEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Legend](type-aliases/Legend.md)
+- [LegendItem](type-aliases/LegendItem.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Palette](type-aliases/Palette.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [SingleMultipleOrNone](type-aliases/SingleMultipleOrNone.md)
+- [Tooltip](type-aliases/Tooltip.md)
+- [TooltipHiddenEvent](type-aliases/TooltipHiddenEvent.md)
+- [TooltipShownEvent](type-aliases/TooltipShownEvent.md)
+- [VectorMapLayerType](type-aliases/VectorMapLayerType.md)
+- [VectorMapMarkerShape](type-aliases/VectorMapMarkerShape.md)
+- [VectorMapMarkerType](type-aliases/VectorMapMarkerType.md)
+- [VectorMapProjection](type-aliases/VectorMapProjection.md)
+- [VerticalEdge](type-aliases/VerticalEdge.md)
+- [ZoomFactorChangedEvent](type-aliases/ZoomFactorChangedEvent.md)
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/interfaces/MapLayerElement.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / MapLayerElement
+
+# Interface: MapLayerElement
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:261
+
+**`Namespace`**
+
+## Docid
+
+## Public Name
+
+Layer Element
+ DevExpress.viz
+
+## Properties
+
+### layer?
+
+> `optional` **layer**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:292
+
+#### Docid
+
+## Methods
+
+### applySettings()
+
+> **applySettings**(`settings`): `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:268
+
+#### Parameters
+
+##### settings
+
+`any`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Public Name
+
+applySettings(settings)
+
+#### Param1
+
+settings:object
+
+***
+
+### attribute()
+
+#### Call Signature
+
+> **attribute**(`name`): `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:274
+
+##### Parameters
+
+###### name
+
+`string`
+
+##### Returns
+
+`any`
+
+##### Docid
+
+##### Public Name
+
+attribute(name)
+
+#### Call Signature
+
+> **attribute**(`name`, `value`): `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:280
+
+##### Parameters
+
+###### name
+
+`string`
+
+###### value
+
+`any`
+
+##### Returns
+
+`void`
+
+##### Docid
+
+##### Public Name
+
+attribute(name, value)
+
+***
+
+### coordinates()
+
+> **coordinates**(): `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:287
+
+#### Returns
+
+`any`
+
+object
+
+#### Docid
+
+#### Public Name
+
+coordinates()
+
+***
+
+### selected()
+
+#### Call Signature
+
+> **selected**(): `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:298
+
+##### Returns
+
+`boolean`
+
+##### Docid
+
+##### Public Name
+
+selected()
+
+#### Call Signature
+
+> **selected**(`state`): `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:304
+
+##### Parameters
+
+###### state
+
+`boolean`
+
+##### Returns
+
+`void`
+
+##### Docid
+
+##### Public Name
+
+selected(state)
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/CenterChangedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / CenterChangedEvent
+
+# Type Alias: CenterChangedEvent
+
+> **CenterChangedEvent** = `EventInfo`\<`dxVectorMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:88
+
+## Type Declaration
+
+### center
+
+> `readonly` **center**: `number`[]
+
+#### Docid
+
+_viz_vector_map_CenterChangedEvent.center
+
+## Docid
+
+_viz_vector_map_CenterChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/ClickEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / ClickEvent
+
+# Type Alias: ClickEvent
+
+> **ClickEvent** = `NativeEventInfo`\<`dxVectorMap`, `MouseEvent` \| `PointerEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:102
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: [`MapLayerElement`](../interfaces/MapLayerElement.md)
+
+#### Docid
+
+_viz_vector_map_ClickEvent.target
+
+## Docid
+
+_viz_vector_map_ClickEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxVectorMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:113
+
+## Docid
+
+_viz_vector_map_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/DrawnEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / DrawnEvent
+
+# Type Alias: DrawnEvent
+
+> **DrawnEvent** = `EventInfo`\<`dxVectorMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:121
+
+## Docid
+
+_viz_vector_map_DrawnEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/ExportedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / ExportedEvent
+
+# Type Alias: ExportedEvent
+
+> **ExportedEvent** = `EventInfo`\<`dxVectorMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:129
+
+## Docid
+
+_viz_vector_map_ExportedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/ExportingEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / ExportingEvent
+
+# Type Alias: ExportingEvent
+
+> **ExportingEvent** = `EventInfo`\<`dxVectorMap`\> & `ExportInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:137
+
+## Docid
+
+_viz_vector_map_ExportingEvent
+
+## Inherits
+
+EventInfo,ExportInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/FileSavingEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / FileSavingEvent
+
+# Type Alias: FileSavingEvent
+
+> **FileSavingEvent** = `FileSavingEventInfo`\<`dxVectorMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:145
+
+## Docid
+
+_viz_vector_map_FileSavingEvent
+
+## Inherits
+
+FileSavingEventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/IncidentOccurredEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / IncidentOccurredEvent
+
+# Type Alias: IncidentOccurredEvent
+
+> **IncidentOccurredEvent** = `EventInfo`\<`dxVectorMap`\> & `IncidentInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:153
+
+## Docid
+
+_viz_vector_map_IncidentOccurredEvent
+
+## Inherits
+
+EventInfo,IncidentInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxVectorMap`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:161
+
+## Docid
+
+_viz_vector_map_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Legend.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / Legend
+
+# Type Alias: Legend
+
+> **Legend** = `BaseLegend` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:794
+
+## Type Declaration
+
+### customizeHint()?
+
+> `optional` **customizeHint**: (`itemInfo`) => `string`
+
+#### Parameters
+
+##### itemInfo
+
+###### color?
+
+`string`
+
+###### end?
+
+`number`
+
+###### index?
+
+`number`
+
+###### size?
+
+`number`
+
+###### start?
+
+`number`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxVectorMapOptions.legends.customizeHint
+
+#### Not Used In Theme
+
+### customizeItems()?
+
+> `optional` **customizeItems**: (`items`) => [`LegendItem`](LegendItem.md)[]
+
+#### Parameters
+
+##### items
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Returns
+
+[`LegendItem`](LegendItem.md)[]
+
+#### Docid
+
+dxVectorMapOptions.legends.customizeItems
+@type_function_param1 items:Array<VectorMapLegendItem>
+@type_function_return Array<VectorMapLegendItem>
+
+### customizeText()?
+
+> `optional` **customizeText**: (`itemInfo`) => `string`
+
+#### Parameters
+
+##### itemInfo
+
+###### color?
+
+`string`
+
+###### end?
+
+`number`
+
+###### index?
+
+`number`
+
+###### size?
+
+`number`
+
+###### start?
+
+`number`
+
+#### Returns
+
+`string`
+
+#### Docid
+
+dxVectorMapOptions.legends.customizeText
+
+#### Not Used In Theme
+
+### font?
+
+> `optional` **font**: `Font`
+
+#### Docid
+
+dxVectorMapOptions.legends.font
+
+#### Default
+
+```ts
+'#2b2b2b' &prop(color)
+@public
+```
+
+### markerColor?
+
+> `optional` **markerColor**: `string`
+
+#### Docid
+
+dxVectorMapOptions.legends.markerColor
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### markerShape?
+
+> `optional` **markerShape**: [`VectorMapMarkerShape`](VectorMapMarkerShape.md)
+
+#### Docid
+
+dxVectorMapOptions.legends.markerShape
+
+#### Default
+
+```ts
+"square"
+@public
+```
+
+### markerSize?
+
+> `optional` **markerSize**: `number`
+
+#### Docid
+
+dxVectorMapOptions.legends.markerSize
+
+#### Default
+
+```ts
+12
+@public
+```
+
+### markerTemplate?
+
+> `optional` **markerTemplate**: `template` \| (`legendItem`, `element`) => `string` \| `UserDefinedElement`\<`SVGElement`\>
+
+#### Docid
+
+dxVectorMapOptions.legends.markerTemplate
+
+#### Default
+
+```ts
+undefined
+@type_function_param1 legendItem:VectorMapLegendItem
+@type_function_return string|SVGElement|jQuery
+@public
+```
+
+### source?
+
+> `optional` **source**: `object`
+
+#### Docid
+
+dxVectorMapOptions.legends.source
+
+#### Not Used In Theme
+
+#### source.grouping?
+
+> `optional` **grouping**: `string`
+
+##### Docid
+
+dxVectorMapOptions.legends.source.grouping
+
+##### Not Used In Theme
+
+#### source.layer?
+
+> `optional` **layer**: `string`
+
+##### Docid
+
+dxVectorMapOptions.legends.source.layer
+
+##### Not Used In Theme
+
+## Docid
+
+dxVectorMapLegends
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/LegendItem.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / LegendItem
+
+# Type Alias: LegendItem
+
+> **LegendItem** = `VectorMapLegendItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:314
+
+**`Namespace`**
+
+## Docid
+
+VectorMapLegendItem
+ DevExpress.viz.dxVectorMap
+
+## Inherits
+
+BaseLegendItem
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxVectorMap`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:169
+
+## Docid
+
+_viz_vector_map_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Palette.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / Palette
+
+# Type Alias: Palette
+
+> **Palette** = `"Bright"` \| `"Harmony Light"` \| `"Ocean"` \| `"Pastel"` \| `"Soft"` \| `"Soft Pastel"` \| `"Vintage"` \| `"Violet"` \| `"Carmine"` \| `"Dark Moon"` \| `"Dark Violet"` \| `"Green Mist"` \| `"Soft Blue"` \| `"Material"` \| `"Office"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common/charts.d.ts:108
+
+**`Namespace`**
+
+DevExpress.common.charts
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxVectorMapOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:972
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent
+
+> **SelectionChangedEvent** = `EventInfo`\<`dxVectorMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:177
+
+## Type Declaration
+
+### target
+
+> `readonly` **target**: [`MapLayerElement`](../interfaces/MapLayerElement.md)
+
+#### Docid
+
+_viz_vector_map_SelectionChangedEvent.target
+
+## Docid
+
+_viz_vector_map_SelectionChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/SingleMultipleOrNone.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / SingleMultipleOrNone
+
+# Type Alias: SingleMultipleOrNone
+
+> **SingleMultipleOrNone** = `"single"` \| `"multiple"` \| `"none"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:665
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Tooltip.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / Tooltip
+
+# Type Alias: Tooltip
+
+> **Tooltip** = `BaseWidgetTooltip` & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:868
+
+## Type Declaration
+
+### contentTemplate?
+
+> `optional` **contentTemplate**: `template` \| (`info`, `element`) => `string` \| `UserDefinedElement`
+
+#### Docid
+
+dxVectorMapOptions.tooltip.contentTemplate
+@type_function_return string|Element|jQuery
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+### customizeTooltip()?
+
+> `optional` **customizeTooltip**: (`info`) => `any`
+
+#### Parameters
+
+##### info
+
+[`MapLayerElement`](../interfaces/MapLayerElement.md)
+
+#### Returns
+
+`any`
+
+#### Docid
+
+dxVectorMapOptions.tooltip.customizeTooltip
+@type_function_return object
+
+#### Default
+
+```ts
+undefined
+```
+
+#### Not Used In Theme
+
+## Docid
+
+dxVectorMapTooltip
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/TooltipHiddenEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / TooltipHiddenEvent
+
+# Type Alias: TooltipHiddenEvent
+
+> **TooltipHiddenEvent** = `EventInfo`\<`dxVectorMap`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:188
+
+## Docid
+
+_viz_vector_map_TooltipHiddenEvent
+
+## Inherits
+
+EventInfo,_viz_vector_map_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/TooltipShownEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / TooltipShownEvent
+
+# Type Alias: TooltipShownEvent
+
+> **TooltipShownEvent** = `EventInfo`\<`dxVectorMap`\> & `TooltipInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:196
+
+## Docid
+
+_viz_vector_map_TooltipShownEvent
+
+## Inherits
+
+EventInfo,_viz_vector_map_TooltipInfo
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapLayerType.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / VectorMapLayerType
+
+# Type Alias: VectorMapLayerType
+
+> **VectorMapLayerType** = `"area"` \| `"line"` \| `"marker"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:67
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapMarkerShape.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / VectorMapMarkerShape
+
+# Type Alias: VectorMapMarkerShape
+
+> **VectorMapMarkerShape** = `"circle"` \| `"square"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:69
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapMarkerType.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / VectorMapMarkerType
+
+# Type Alias: VectorMapMarkerType
+
+> **VectorMapMarkerType** = `"bubble"` \| `"dot"` \| `"image"` \| `"pie"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:71
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapProjection.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / VectorMapProjection
+
+# Type Alias: VectorMapProjection
+
+> **VectorMapProjection** = `"equirectangular"` \| `"lambert"` \| `"mercator"` \| `"miller"`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map/projection.d.ts:10
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / VerticalEdge
+
+# Type Alias: VerticalEdge
+
+> **VerticalEdge** = `"bottom"` \| `"top"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:870
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/ZoomFactorChangedEvent.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../../../../globals.md) / [VectorMapTypes](../README.md) / ZoomFactorChangedEvent
+
+# Type Alias: ZoomFactorChangedEvent
+
+> **ZoomFactorChangedEvent** = `EventInfo`\<`dxVectorMap`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/viz/vector\_map.d.ts:204
+
+## Type Declaration
+
+### zoomFactor
+
+> `readonly` **zoomFactor**: `number`
+
+#### Docid
+
+_viz_vector_map_ZoomFactorChangedEvent.zoomFactor
+
+## Docid
+
+_viz_vector_map_ZoomFactorChangedEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React VectorMap API v26.1.0
+
+## Namespaces
+
+- [VectorMapTypes](DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/README.md)
+
+## Interfaces
+
+- [VectorMapRef](interfaces/VectorMapRef.md)
+
+## Type Aliases
+
+- [IAnnotationBorderProps](type-aliases/IAnnotationBorderProps.md)
+- [IAnnotationProps](type-aliases/IAnnotationProps.md)
+- [IBackgroundProps](type-aliases/IBackgroundProps.md)
+- [IBorderProps](type-aliases/IBorderProps.md)
+- [ICommonAnnotationSettingsProps](type-aliases/ICommonAnnotationSettingsProps.md)
+- [IControlBarProps](type-aliases/IControlBarProps.md)
+- [IExportProps](type-aliases/IExportProps.md)
+- [IFontProps](type-aliases/IFontProps.md)
+- [IImageProps](type-aliases/IImageProps.md)
+- [ILabelProps](type-aliases/ILabelProps.md)
+- [ILayerProps](type-aliases/ILayerProps.md)
+- [ILegendProps](type-aliases/ILegendProps.md)
+- [ILegendTitleProps](type-aliases/ILegendTitleProps.md)
+- [ILegendTitleSubtitleProps](type-aliases/ILegendTitleSubtitleProps.md)
+- [ILoadingIndicatorProps](type-aliases/ILoadingIndicatorProps.md)
+- [IMarginProps](type-aliases/IMarginProps.md)
+- [IProjectionProps](type-aliases/IProjectionProps.md)
+- [IShadowProps](type-aliases/IShadowProps.md)
+- [ISizeProps](type-aliases/ISizeProps.md)
+- [ISourceProps](type-aliases/ISourceProps.md)
+- [ISubtitleProps](type-aliases/ISubtitleProps.md)
+- [ITitleProps](type-aliases/ITitleProps.md)
+- [ITooltipBorderProps](type-aliases/ITooltipBorderProps.md)
+- [ITooltipProps](type-aliases/ITooltipProps.md)
+- [IVectorMapOptions](type-aliases/IVectorMapOptions.md)
+- [IVectorMapTitleProps](type-aliases/IVectorMapTitleProps.md)
+- [IVectorMapTitleSubtitleProps](type-aliases/IVectorMapTitleSubtitleProps.md)
+
+## Variables
+
+- [Annotation](variables/Annotation.md)
+- [AnnotationBorder](variables/AnnotationBorder.md)
+- [Background](variables/Background.md)
+- [Border](variables/Border.md)
+- [CommonAnnotationSettings](variables/CommonAnnotationSettings.md)
+- [ControlBar](variables/ControlBar.md)
+- [Export](variables/Export.md)
+- [Font](variables/Font.md)
+- [Image](variables/Image.md)
+- [Label](variables/Label.md)
+- [Layer](variables/Layer.md)
+- [Legend](variables/Legend.md)
+- [LegendTitle](variables/LegendTitle.md)
+- [LegendTitleSubtitle](variables/LegendTitleSubtitle.md)
+- [LoadingIndicator](variables/LoadingIndicator.md)
+- [Margin](variables/Margin.md)
+- [Projection](variables/Projection.md)
+- [Shadow](variables/Shadow.md)
+- [Size](variables/Size.md)
+- [Source](variables/Source.md)
+- [Subtitle](variables/Subtitle.md)
+- [Title](variables/Title.md)
+- [Tooltip](variables/Tooltip.md)
+- [TooltipBorder](variables/TooltipBorder.md)
+- [VectorMap](variables/VectorMap.md)
+- [VectorMapTitle](variables/VectorMapTitle.md)
+- [VectorMapTitleSubtitle](variables/VectorMapTitleSubtitle.md)
+
+## References
+
+### default
+
+Renames and re-exports [VectorMap](variables/VectorMap.md)
+
+
+--- SOURCE: interfaces/VectorMapRef.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / VectorMapRef
+
+# Interface: VectorMapRef
+
+Defined in: [devextreme-react/src/vector-map.ts:41](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L41)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxVectorMap`
+
+Defined in: [devextreme-react/src/vector-map.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L42)
+
+#### Returns
+
+`dxVectorMap`
+
+
+--- SOURCE: type-aliases/IAnnotationBorderProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IAnnotationBorderProps
+
+# Type Alias: IAnnotationBorderProps
+
+> **IAnnotationBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:185](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L185)
+
+
+--- SOURCE: type-aliases/IAnnotationProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IAnnotationProps
+
+# Type Alias: IAnnotationProps
+
+> **IAnnotationProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `coordinates?`: `number`[]; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `name?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `width?`: `number`; `wordWrap?`: `WordWrap`; `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:99](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L99)
+
+
+--- SOURCE: type-aliases/IBackgroundProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IBackgroundProps
+
+# Type Alias: IBackgroundProps
+
+> **IBackgroundProps** = `React.PropsWithChildren`\<\{ `borderColor?`: `string`; `color?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:208](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L208)
+
+
+--- SOURCE: type-aliases/IBorderProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IBorderProps
+
+# Type Alias: IBorderProps
+
+> **IBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:230](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L230)
+
+
+--- SOURCE: type-aliases/ICommonAnnotationSettingsProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ICommonAnnotationSettingsProps
+
+# Type Alias: ICommonAnnotationSettingsProps
+
+> **ICommonAnnotationSettingsProps** = `React.PropsWithChildren`\<\{ `allowDragging?`: `boolean`; `arrowLength?`: `number`; `arrowWidth?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `component?`: `React.ComponentType`\<`any`\>; `coordinates?`: `number`[]; `customizeTooltip?`: (`annotation`) => `Record`\<`string`, `any`\>; `data?`: `any`; `description?`: `string`; `font?`: `ChartsFont`; `height?`: `number`; `image?`: `Record`\<`string`, `any`\> \| `string` \| \{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `template?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `tooltipComponent?`: `React.ComponentType`\<`any`\>; `tooltipEnabled?`: `boolean`; `tooltipRender?`: (...`params`) => `React.ReactNode`; `tooltipTemplate?`: (`annotation`, `element`) => `string` \| `any` \| `template`; `type?`: `AnnotationType`; `width?`: `number`; `wordWrap?`: `WordWrap`; `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:253](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L253)
+
+
+--- SOURCE: type-aliases/IControlBarProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IControlBarProps
+
+# Type Alias: IControlBarProps
+
+> **IControlBarProps** = `React.PropsWithChildren`\<\{ `borderColor?`: `string`; `color?`: `string`; `enabled?`: `boolean`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number`; `opacity?`: `number`; `panVisible?`: `boolean`; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); `zoomVisible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:335](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L335)
+
+
+--- SOURCE: type-aliases/IExportProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IExportProps
+
+# Type Alias: IExportProps
+
+> **IExportProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `enabled?`: `boolean`; `fileName?`: `string`; `formats?`: `ExportFormat`[]; `margin?`: `number`; `printingEnabled?`: `boolean`; `svgToCanvas?`: (`svg`, `canvas`) => `any`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:361](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L361)
+
+
+--- SOURCE: type-aliases/IFontProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IFontProps
+
+# Type Alias: IFontProps
+
+> **IFontProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `family?`: `string`; `opacity?`: `number`; `size?`: `number` \| `string`; `weight?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:394](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L394)
+
+
+--- SOURCE: type-aliases/IImageProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IImageProps
+
+# Type Alias: IImageProps
+
+> **IImageProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `url?`: `string`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:417](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L417)
+
+
+--- SOURCE: type-aliases/ILabelProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILabelProps
+
+# Type Alias: ILabelProps
+
+> **ILabelProps** = `React.PropsWithChildren`\<\{ `dataField?`: `string`; `enabled?`: `boolean`; `font?`: `ChartsFont`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:437](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L437)
+
+
+--- SOURCE: type-aliases/ILayerProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILayerProps
+
+# Type Alias: ILayerProps
+
+> **ILayerProps** = `React.PropsWithChildren`\<\{ `borderColor?`: `string`; `borderWidth?`: `number`; `color?`: `string`; `colorGroupingField?`: `string`; `colorGroups?`: `number`[]; `customize?`: (`elements`) => `void`; `dataField?`: `string`; `dataSource?`: `any`[] \| `DataSource` \| `DataSourceOptions` \| `null` \| `Record`\<`string`, `any`\> \| `Store` \| `string`; `elementType?`: [`VectorMapMarkerType`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapMarkerType.md); `hoveredBorderColor?`: `string`; `hoveredBorderWidth?`: `number`; `hoveredColor?`: `string`; `hoverEnabled?`: `boolean`; `label?`: `Record`\<`string`, `any`\> \| \{ `dataField?`: `string`; `enabled?`: `boolean`; `font?`: `ChartsFont`; \}; `maxSize?`: `number`; `minSize?`: `number`; `name?`: `string`; `opacity?`: `number`; `palette?`: `string`[] \| [`Palette`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Palette.md); `paletteIndex?`: `number`; `paletteSize?`: `number`; `selectedBorderColor?`: `string`; `selectedBorderWidth?`: `number`; `selectedColor?`: `string`; `selectionMode?`: [`SingleMultipleOrNone`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/SingleMultipleOrNone.md); `size?`: `number`; `sizeGroupingField?`: `string`; `sizeGroups?`: `number`[]; `type?`: [`VectorMapLayerType`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapLayerType.md); \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:460](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L460)
+
+
+--- SOURCE: type-aliases/ILegendProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILegendProps
+
+# Type Alias: ILegendProps
+
+> **ILegendProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `cornerRadius?`: `number`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `columnCount?`: `number`; `columnItemSpacing?`: `number`; `customizeHint?`: (`itemInfo`) => `string`; `customizeItems?`: (`items`) => `VectorMapLegendItem`[]; `customizeText?`: (`itemInfo`) => `string`; `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `itemsAlignment?`: `HorizontalAlignment`; `itemTextPosition?`: `Position`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `markerColor?`: `string`; `markerComponent?`: `React.ComponentType`\<`any`\>; `markerRender?`: (...`params`) => `React.ReactNode`; `markerShape?`: [`VectorMapMarkerShape`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VectorMapMarkerShape.md); `markerSize?`: `number`; `markerTemplate?`: (`legendItem`, `element`) => `string` \| `any` \| `template`; `orientation?`: `Orientation`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `rowCount?`: `number`; `rowItemSpacing?`: `number`; `source?`: `Record`\<`string`, `any`\> \| \{ `grouping?`: `string`; `layer?`: `string`; \}; `title?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); \}; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:514](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L514)
+
+
+--- SOURCE: type-aliases/ILegendTitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILegendTitleProps
+
+# Type Alias: ILegendTitleProps
+
+> **ILegendTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}; `text?`: `string`; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:605](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L605)
+
+
+--- SOURCE: type-aliases/ILegendTitleSubtitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILegendTitleSubtitleProps
+
+# Type Alias: ILegendTitleSubtitleProps
+
+> **ILegendTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:644](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L644)
+
+
+--- SOURCE: type-aliases/ILoadingIndicatorProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ILoadingIndicatorProps
+
+# Type Alias: ILoadingIndicatorProps
+
+> **ILoadingIndicatorProps** = `React.PropsWithChildren`\<\{ `backgroundColor?`: `string`; `defaultShow?`: `boolean`; `enabled?`: `boolean`; `font?`: `ChartsFont`; `onShowChange?`: (`value`) => `void`; `show?`: `boolean`; `text?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:667](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L667)
+
+
+--- SOURCE: type-aliases/IMarginProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IMarginProps
+
+# Type Alias: IMarginProps
+
+> **IMarginProps** = `React.PropsWithChildren`\<\{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:699](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L699)
+
+
+--- SOURCE: type-aliases/IProjectionProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IProjectionProps
+
+# Type Alias: IProjectionProps
+
+> **IProjectionProps** = `React.PropsWithChildren`\<\{ `aspectRatio?`: `number`; `from?`: (`coordinates`) => `number`[]; `to?`: (`coordinates`) => `number`[]; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:720](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L720)
+
+
+--- SOURCE: type-aliases/IShadowProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IShadowProps
+
+# Type Alias: IShadowProps
+
+> **IShadowProps** = `React.PropsWithChildren`\<\{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:742](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L742)
+
+
+--- SOURCE: type-aliases/ISizeProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ISizeProps
+
+# Type Alias: ISizeProps
+
+> **ISizeProps** = `React.PropsWithChildren`\<\{ `height?`: `number`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:764](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L764)
+
+
+--- SOURCE: type-aliases/ISourceProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ISourceProps
+
+# Type Alias: ISourceProps
+
+> **ISourceProps** = `React.PropsWithChildren`\<\{ `grouping?`: `string`; `layer?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:783](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L783)
+
+
+--- SOURCE: type-aliases/ISubtitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ISubtitleProps
+
+# Type Alias: ISubtitleProps
+
+> **ISubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:803](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L803)
+
+
+--- SOURCE: type-aliases/ITitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ITitleProps
+
+# Type Alias: ITitleProps
+
+> **ITitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `Record`\<`string`, `any`\> \| `number` \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:829](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L829)
+
+
+--- SOURCE: type-aliases/ITooltipBorderProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ITooltipBorderProps
+
+# Type Alias: ITooltipBorderProps
+
+> **ITooltipBorderProps** = `React.PropsWithChildren`\<\{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:928](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L928)
+
+
+--- SOURCE: type-aliases/ITooltipProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ITooltipProps
+
+# Type Alias: ITooltipProps
+
+> **ITooltipProps** = `React.PropsWithChildren`\<\{ `arrowLength?`: `number`; `border?`: `Record`\<`string`, `any`\> \| \{ `color?`: `string`; `dashStyle?`: `DashStyle`; `opacity?`: `number`; `visible?`: `boolean`; `width?`: `number`; \}; `color?`: `string`; `container?`: `any` \| `string`; `contentComponent?`: `React.ComponentType`\<`any`\>; `contentRender?`: (...`params`) => `React.ReactNode`; `contentTemplate?`: (`info`, `element`) => `string` \| `any` \| `template`; `cornerRadius?`: `number`; `customizeTooltip?`: (`info`) => `Record`\<`string`, `any`\>; `enabled?`: `boolean`; `font?`: `ChartsFont`; `opacity?`: `number`; `paddingLeftRight?`: `number`; `paddingTopBottom?`: `number`; `shadow?`: `Record`\<`string`, `any`\> \| \{ `blur?`: `number`; `color?`: `string`; `offsetX?`: `number`; `offsetY?`: `number`; `opacity?`: `number`; \}; `zIndex?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:872](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L872)
+
+
+--- SOURCE: type-aliases/IVectorMapOptions.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IVectorMapOptions
+
+# Type Alias: IVectorMapOptions
+
+> **IVectorMapOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/Properties.md), `IVectorMapOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/vector-map.ts:36](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L36)
+
+
+--- SOURCE: type-aliases/IVectorMapTitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IVectorMapTitleProps
+
+# Type Alias: IVectorMapTitleProps
+
+> **IVectorMapTitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `horizontalAlignment?`: `HorizontalAlignment`; `margin?`: `number` \| `Record`\<`string`, `any`\> \| \{ `bottom?`: `number`; `left?`: `number`; `right?`: `number`; `top?`: `number`; \}; `placeholderSize?`: `number`; `subtitle?`: `Record`\<`string`, `any`\> \| `string` \| \{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}; `text?`: `string`; `textOverflow?`: `TextOverflow`; `verticalAlignment?`: [`VerticalEdge`](../DevExtreme-React-VectorMap-API/namespaces/VectorMapTypes/type-aliases/VerticalEdge.md); `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:950](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L950)
+
+
+--- SOURCE: type-aliases/IVectorMapTitleSubtitleProps.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / IVectorMapTitleSubtitleProps
+
+# Type Alias: IVectorMapTitleSubtitleProps
+
+> **IVectorMapTitleSubtitleProps** = `React.PropsWithChildren`\<\{ `font?`: `ChartsFont`; `offset?`: `number`; `text?`: `string`; `textOverflow?`: `TextOverflow`; `wordWrap?`: `WordWrap`; \}\>
+
+Defined in: [devextreme-react/src/vector-map.ts:993](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L993)
+
+
+--- SOURCE: variables/Annotation.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Annotation
+
+# Variable: Annotation
+
+> `const` **Annotation**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:177](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L177)
+
+
+--- SOURCE: variables/AnnotationBorder.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / AnnotationBorder
+
+# Variable: AnnotationBorder
+
+> `const` **AnnotationBorder**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:202](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L202)
+
+
+--- SOURCE: variables/Background.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Background
+
+# Variable: Background
+
+> `const` **Background**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:221](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L221)
+
+
+--- SOURCE: variables/Border.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Border
+
+# Variable: Border
+
+> `const` **Border**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:247](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L247)
+
+
+--- SOURCE: variables/CommonAnnotationSettings.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / CommonAnnotationSettings
+
+# Variable: CommonAnnotationSettings
+
+> `const` **CommonAnnotationSettings**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:329](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L329)
+
+
+--- SOURCE: variables/ControlBar.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / ControlBar
+
+# Variable: ControlBar
+
+> `const` **ControlBar**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:355](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L355)
+
+
+--- SOURCE: variables/Export.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Export
+
+# Variable: Export
+
+> `const` **Export**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:379](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L379)
+
+
+--- SOURCE: variables/Font.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Font
+
+# Variable: Font
+
+> `const` **Font**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:410](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L410)
+
+
+--- SOURCE: variables/Image.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Image
+
+# Variable: Image
+
+> `const` **Image**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:431](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L431)
+
+
+--- SOURCE: variables/Label.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Label
+
+# Variable: Label
+
+> `const` **Label**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:454](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L454)
+
+
+--- SOURCE: variables/Layer.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Layer
+
+# Variable: Layer
+
+> `const` **Layer**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:508](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L508)
+
+
+--- SOURCE: variables/Legend.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Legend
+
+# Variable: Legend
+
+> `const` **Legend**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:599](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L599)
+
+
+--- SOURCE: variables/LegendTitle.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / LegendTitle
+
+# Variable: LegendTitle
+
+> `const` **LegendTitle**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:638](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L638)
+
+
+--- SOURCE: variables/LegendTitleSubtitle.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / LegendTitleSubtitle
+
+# Variable: LegendTitleSubtitle
+
+> `const` **LegendTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:661](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L661)
+
+
+--- SOURCE: variables/LoadingIndicator.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / LoadingIndicator
+
+# Variable: LoadingIndicator
+
+> `const` **LoadingIndicator**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:691](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L691)
+
+
+--- SOURCE: variables/Margin.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Margin
+
+# Variable: Margin
+
+> `const` **Margin**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:714](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L714)
+
+
+--- SOURCE: variables/Projection.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Projection
+
+# Variable: Projection
+
+> `const` **Projection**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:734](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L734)
+
+
+--- SOURCE: variables/Shadow.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Shadow
+
+# Variable: Shadow
+
+> `const` **Shadow**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:758](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L758)
+
+
+--- SOURCE: variables/Size.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Size
+
+# Variable: Size
+
+> `const` **Size**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:777](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L777)
+
+
+--- SOURCE: variables/Source.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Source
+
+# Variable: Source
+
+> `const` **Source**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:796](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L796)
+
+
+--- SOURCE: variables/Subtitle.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Subtitle
+
+# Variable: Subtitle
+
+> `const` **Subtitle**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:822](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L822)
+
+
+--- SOURCE: variables/Title.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Title
+
+# Variable: Title
+
+> `const` **Title**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:866](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L866)
+
+
+--- SOURCE: variables/Tooltip.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / Tooltip
+
+# Variable: Tooltip
+
+> `const` **Tooltip**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:922](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L922)
+
+
+--- SOURCE: variables/TooltipBorder.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / TooltipBorder
+
+# Variable: TooltipBorder
+
+> `const` **TooltipBorder**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:944](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L944)
+
+
+--- SOURCE: variables/VectorMap.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / VectorMap
+
+# Variable: VectorMap()
+
+> `const` **VectorMap**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/vector-map.ts:45](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L45)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/VectorMapTitle.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / VectorMapTitle
+
+# Variable: VectorMapTitle
+
+> `const` **VectorMapTitle**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:987](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L987)
+
+
+--- SOURCE: variables/VectorMapTitleSubtitle.md ---
+
+[**DevExtreme React VectorMap API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React VectorMap API](../globals.md) / VectorMapTitleSubtitle
+
+# Variable: VectorMapTitleSubtitle
+
+> `const` **VectorMapTitleSubtitle**: `any`
+
+Defined in: [devextreme-react/src/vector-map.ts:1012](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/vector-map.ts#L1012)
+

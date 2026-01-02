@@ -1,0 +1,498 @@
+# Draggable Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Draggable API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/README.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../globals.md) / DraggableTypes
+
+# DraggableTypes
+
+## Type Aliases
+
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [DragEndEvent](type-aliases/DragEndEvent.md)
+- [DragMoveEvent](type-aliases/DragMoveEvent.md)
+- [DragStartEvent](type-aliases/DragStartEvent.md)
+- [DragTemplateData](type-aliases/DragTemplateData.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent
+
+> **DisposingEvent** = `EventInfo`\<`dxDraggable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:127
+
+## Docid
+
+_ui_draggable_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/DragEndEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / DragEndEvent
+
+# Type Alias: DragEndEvent
+
+> **DragEndEvent** = `Cancelable` & `NativeEventInfo`\<`dxDraggable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:135
+
+## Type Declaration
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.fromData
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.itemData
+
+### itemElement?
+
+> `readonly` `optional` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.itemElement
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_draggable_DragEndEvent.toData
+
+## Docid
+
+_ui_draggable_DragEndEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/DragMoveEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / DragMoveEvent
+
+# Type Alias: DragMoveEvent
+
+> **DragMoveEvent** = `Cancelable` & `NativeEventInfo`\<`dxDraggable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:156
+
+## Type Declaration
+
+### fromComponent
+
+> `readonly` **fromComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.fromComponent
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.fromData
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.itemData
+
+### itemElement?
+
+> `readonly` `optional` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.itemElement
+
+### toComponent
+
+> `readonly` **toComponent**: `dxSortable` \| `dxDraggable`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.toComponent
+
+### toData?
+
+> `readonly` `optional` **toData**: `any`
+
+#### Docid
+
+_ui_draggable_DragMoveEvent.toData
+
+## Docid
+
+_ui_draggable_DragMoveEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/DragStartEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / DragStartEvent
+
+# Type Alias: DragStartEvent
+
+> **DragStartEvent** = `Cancelable` & `NativeEventInfo`\<`dxDraggable`, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:177
+
+## Type Declaration
+
+### fromData?
+
+> `readonly` `optional` **fromData**: `any`
+
+#### Docid
+
+_ui_draggable_DragStartEvent.fromData
+
+### itemData?
+
+> `optional` **itemData**: `any`
+
+#### Docid
+
+_ui_draggable_DragStartEvent.itemData
+
+### itemElement?
+
+> `readonly` `optional` **itemElement**: `DxElement`
+
+#### Docid
+
+_ui_draggable_DragStartEvent.itemElement
+
+## Docid
+
+_ui_draggable_DragStartEvent
+
+## Inherits
+
+Cancelable,NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/DragTemplateData.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / DragTemplateData
+
+# Type Alias: DragTemplateData
+
+> **DragTemplateData** = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:203
+
+## Properties
+
+### itemData?
+
+> `readonly` `optional` **itemData**: `any`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:204
+
+***
+
+### itemElement
+
+> `readonly` **itemElement**: `DxElement`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:205
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent
+
+> **InitializedEvent** = `InitializedEventInfo`\<`dxDraggable`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:192
+
+## Docid
+
+_ui_draggable_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent
+
+> **OptionChangedEvent** = `EventInfo`\<`dxDraggable`\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:200
+
+## Docid
+
+_ui_draggable_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Draggable API](../../../../globals.md) / [DraggableTypes](../README.md) / Properties
+
+# Type Alias: Properties
+
+> **Properties** = `dxDraggableOptions`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/draggable.d.ts:263
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Draggable API v26.1.0
+
+## Namespaces
+
+- [DraggableTypes](DevExtreme-React-Draggable-API/namespaces/DraggableTypes/README.md)
+
+## Interfaces
+
+- [DraggableRef](interfaces/DraggableRef.md)
+
+## Type Aliases
+
+- [ICursorOffsetProps](type-aliases/ICursorOffsetProps.md)
+- [IDraggableOptions](type-aliases/IDraggableOptions.md)
+
+## Variables
+
+- [CursorOffset](variables/CursorOffset.md)
+- [Draggable](variables/Draggable.md)
+
+## References
+
+### default
+
+Renames and re-exports [Draggable](variables/Draggable.md)
+
+
+--- SOURCE: interfaces/DraggableRef.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Draggable API](../globals.md) / DraggableRef
+
+# Interface: DraggableRef
+
+Defined in: [devextreme-react/src/draggable.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L30)
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxDraggable`
+
+Defined in: [devextreme-react/src/draggable.ts:31](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L31)
+
+#### Returns
+
+`dxDraggable`
+
+
+--- SOURCE: type-aliases/ICursorOffsetProps.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Draggable API](../globals.md) / ICursorOffsetProps
+
+# Type Alias: ICursorOffsetProps
+
+> **ICursorOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/draggable.ts:78](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L78)
+
+
+--- SOURCE: type-aliases/IDraggableOptions.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Draggable API](../globals.md) / IDraggableOptions
+
+# Type Alias: IDraggableOptions
+
+> **IDraggableOptions** = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Draggable-API/namespaces/DraggableTypes/type-aliases/Properties.md), `IDraggableOptionsNarrowedEvents`\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/draggable.ts:25](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L25)
+
+
+--- SOURCE: variables/CursorOffset.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Draggable API](../globals.md) / CursorOffset
+
+# Variable: CursorOffset
+
+> `const` **CursorOffset**: `any`
+
+Defined in: [devextreme-react/src/draggable.ts:91](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L91)
+
+
+--- SOURCE: variables/Draggable.md ---
+
+[**DevExtreme React Draggable API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Draggable API](../globals.md) / Draggable
+
+# Variable: Draggable()
+
+> `const` **Draggable**: (`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/draggable.ts:34](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/draggable.ts#L34)
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+

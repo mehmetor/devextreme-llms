@@ -1,0 +1,2669 @@
+# ContextMenu Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React ContextMenu API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/README.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../globals.md) / ContextMenuTypes
+
+# ContextMenuTypes
+
+## Interfaces
+
+- [~~dxContextMenuOptions~~](interfaces/dxContextMenuOptions.md)
+
+## Type Aliases
+
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [ContextSubmenuDirection](type-aliases/ContextSubmenuDirection.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [HiddenEvent](type-aliases/HiddenEvent.md)
+- [HidingEvent](type-aliases/HidingEvent.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [PositioningEvent](type-aliases/PositioningEvent.md)
+- [Properties](type-aliases/Properties.md)
+- [SelectionChangedEvent](type-aliases/SelectionChangedEvent.md)
+- [ShowingEvent](type-aliases/ShowingEvent.md)
+- [ShownEvent](type-aliases/ShownEvent.md)
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/interfaces/dxContextMenuOptions.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / dxContextMenuOptions
+
+# ~~Interface: dxContextMenuOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:163
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `dxMenuBaseOptions`\<`dxContextMenu`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:44
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.activeStateEnabled`
+
+***
+
+### ~~animation?~~
+
+> `optional` **animation**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:51
+
+#### ~~hide?~~
+
+> `optional` **hide**: `AnimationConfig`
+
+##### Docid
+
+##### Default
+
+```ts
+{ type: "fade", from: 1, to: 0, duration: 100 }
+```
+
+#### ~~show?~~
+
+> `optional` **show**: `AnimationConfig`
+
+##### Docid
+
+##### Default
+
+```ts
+{ type: "fade", from: 0, to: 1, duration: 100 }
+```
+
+#### Docid
+
+#### Default
+
+```ts
+{ show: { type: "fade", from: 0, to: 1, duration: 100 }, hide: { type: "fade", from: 1, to: 0, duration: 100 } }
+```
+
+#### Ref
+
+#### Inherited from
+
+`dxMenuBaseOptions.animation`
+
+***
+
+### ~~cssClass?~~
+
+> `optional` **cssClass**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:68
+
+#### Docid
+
+#### Default
+
+```ts
+""
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.cssClass`
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:173
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`dxMenuBaseOptions.dataSource`
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.disabled`
+
+***
+
+### ~~disabledExpr?~~
+
+> `optional` **disabledExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:30
+
+#### Docid
+
+#### Default
+
+```ts
+'disabled'
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.disabledExpr`
+
+***
+
+### ~~displayExpr?~~
+
+> `optional` **displayExpr**: `string` \| (`item`) => `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:37
+
+#### Docid
+
+#### Default
+
+```ts
+'text'
+@type_function_param1 item:object
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.displayExpr`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:43
+
+#### Docid
+
+#### Default
+
+```ts
+true &for(desktop)
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.height`
+
+***
+
+### ~~hideOnOutsideClick?~~
+
+> `optional` **hideOnOutsideClick**: `boolean` \| (`event`) => `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:181
+
+#### Docid
+
+#### Default
+
+```ts
+true
+```
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:49
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:187
+
+#### Docid
+
+#### Overrides
+
+`dxMenuBaseOptions.items`
+
+***
+
+### ~~itemsExpr?~~
+
+> `optional` **itemsExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+'items'
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.itemsExpr`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:61
+
+#### Docid
+
+#### Default
+
+```ts
+'id'
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.keyExpr`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.onDisposing`
+
+***
+
+### ~~onHidden()?~~
+
+> `optional` **onHidden**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:195
+
+#### Parameters
+
+##### e
+
+[`HiddenEvent`](../type-aliases/HiddenEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/context_menu:HiddenEvent}
+```
+
+#### Action
+
+***
+
+### ~~onHiding()?~~
+
+> `optional` **onHiding**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:203
+
+#### Parameters
+
+##### e
+
+[`HidingEvent`](../type-aliases/HidingEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/context_menu:HidingEvent}
+```
+
+#### Action
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.onOptionChanged`
+
+***
+
+### ~~onPositioning()?~~
+
+> `optional` **onPositioning**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:211
+
+#### Parameters
+
+##### e
+
+[`PositioningEvent`](../type-aliases/PositioningEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/context_menu:PositioningEvent}
+```
+
+#### Action
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`dxMenuBaseOptions.onSelectionChanging`
+
+***
+
+### ~~onShowing()?~~
+
+> `optional` **onShowing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:219
+
+#### Parameters
+
+##### e
+
+[`ShowingEvent`](../type-aliases/ShowingEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/context_menu:ShowingEvent}
+```
+
+#### Action
+
+***
+
+### ~~onShown()?~~
+
+> `optional` **onShown**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:227
+
+#### Parameters
+
+##### e
+
+[`ShownEvent`](../type-aliases/ShownEvent.md)\<`TItem`, `TKey`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:{ui/context_menu:ShownEvent}
+```
+
+#### Action
+
+***
+
+### ~~position?~~
+
+> `optional` **position**: `PositionConfig`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:234
+
+#### Docid
+
+#### Default
+
+```ts
+{ my: 'top left', at: 'top left' }
+```
+
+#### Ref
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.rtlEnabled`
+
+***
+
+### ~~selectByClick?~~
+
+> `optional` **selectByClick**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:87
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectByClick`
+
+***
+
+### ~~selectedExpr?~~
+
+> `optional` **selectedExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/hierarchical\_collection/ui.hierarchical\_collection\_widget.d.ts:67
+
+#### Docid
+
+#### Default
+
+```ts
+'selected'
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectedExpr`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectedItems`
+
+***
+
+### ~~selectionMode?~~
+
+> `optional` **selectionMode**: `SingleOrNone`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:93
+
+#### Docid
+
+#### Default
+
+```ts
+none
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.selectionMode`
+
+***
+
+### ~~showEvent?~~
+
+> `optional` **showEvent**: `string` \| \{ `delay?`: `number`; `name?`: `string`; \}
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:240
+
+#### Type Declaration
+
+`string`
+
+\{ `delay?`: `number`; `name?`: `string`; \}
+
+#### ~~delay?~~
+
+> `optional` **delay**: `number`
+
+##### Docid
+
+##### Default
+
+```ts
+undefined
+```
+
+#### ~~name?~~
+
+> `optional` **name**: `string`
+
+##### Docid
+
+##### Default
+
+```ts
+undefined
+```
+
+#### Docid
+
+#### Default
+
+```ts
+"dxcontextmenu"
+@public
+```
+
+***
+
+### ~~showSubmenuMode?~~
+
+> `optional` **showSubmenuMode**: `SubmenuShowMode` \| \{ `delay?`: `number` \| \{ `hide?`: `number`; `show?`: `number`; \}; `name?`: `SubmenuShowMode`; \}
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu/ui.menu\_base.d.ts:99
+
+#### Type Declaration
+
+`SubmenuShowMode`
+
+\{ `delay?`: `number` \| \{ `hide?`: `number`; `show?`: `number`; \}; `name?`: `SubmenuShowMode`; \}
+
+#### ~~delay?~~
+
+> `optional` **delay**: `number` \| \{ `hide?`: `number`; `show?`: `number`; \}
+
+##### Type Declaration
+
+`number`
+
+\{ `hide?`: `number`; `show?`: `number`; \}
+
+##### Docid
+
+##### Default
+
+```ts
+{ show: 50, hide: 300 }
+```
+
+#### ~~name?~~
+
+> `optional` **name**: `SubmenuShowMode`
+
+##### Docid
+
+##### Default
+
+```ts
+"onHover"
+```
+
+#### Docid
+
+#### Default
+
+```ts
+{ name: "onHover", delay: { show: 50, hide: 300 } }
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.showSubmenuMode`
+
+***
+
+### ~~submenuDirection?~~
+
+> `optional` **submenuDirection**: [`ContextSubmenuDirection`](../type-aliases/ContextSubmenuDirection.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:257
+
+#### Docid
+
+#### Default
+
+```ts
+"auto"
+@public
+```
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.tabIndex`
+
+***
+
+### ~~target?~~
+
+> `optional` **target**: `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:263
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:271
+
+#### Docid
+
+#### Default
+
+```ts
+false
+```
+
+#### Fires
+
+dxContextMenuOptions.onShowing
+
+#### Fires
+
+dxContextMenuOptions.onHiding
+
+#### Overrides
+
+`dxMenuBaseOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`dxMenuBaseOptions.width`
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:56
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ContextSubmenuDirection.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ContextSubmenuDirection
+
+# Type Alias: ContextSubmenuDirection
+
+> **ContextSubmenuDirection** = `"auto"` \| `"left"` \| `"right"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:48
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:64
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/HiddenEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / HiddenEvent
+
+# Type Alias: HiddenEvent\<TItem, TKey\>
+
+> **HiddenEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:72
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_HiddenEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/HidingEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / HidingEvent
+
+# Type Alias: HidingEvent\<TItem, TKey\>
+
+> **HidingEvent**\<`TItem`, `TKey`\> = `Cancelable` & `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:80
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_HidingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:88
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/Item.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / Item
+
+# Type Alias: Item
+
+> **Item** = `dxContextMenuItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:310
+
+**`Namespace`**
+
+DevExpress.ui.dxContextMenu
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>, `KeyboardEvent` \| `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:96
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:104
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:112
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:120
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/PositioningEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / PositioningEvent
+
+# Type Alias: PositioningEvent\<TItem, TKey\>
+
+> **PositioningEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:128
+
+## Type Declaration
+
+### position
+
+> `readonly` **position**: `PositionConfig`
+
+#### Docid
+
+_ui_context_menu_PositioningEvent.position
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_PositioningEvent
+
+## Inherits
+
+NativeEventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxContextMenuOptions`](../interfaces/dxContextMenuOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:344
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/SelectionChangedEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / SelectionChangedEvent
+
+# Type Alias: SelectionChangedEvent\<TItem, TKey\>
+
+> **SelectionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:139
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_SelectionChangedEvent
+
+## Inherits
+
+EventInfo,SelectionChangeInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ShowingEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ShowingEvent
+
+# Type Alias: ShowingEvent\<TItem, TKey\>
+
+> **ShowingEvent**\<`TItem`, `TKey`\> = `Cancelable` & `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:147
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ShowingEvent
+
+## Inherits
+
+Cancelable,EventInfo
+
+
+--- SOURCE: DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ShownEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../../../../globals.md) / [ContextMenuTypes](../README.md) / ShownEvent
+
+# Type Alias: ShownEvent\<TItem, TKey\>
+
+> **ShownEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxContextMenu`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:155
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_context_menu_ShownEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React ContextMenu API v26.1.0
+
+## Namespaces
+
+- [ContextMenuTypes](DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/README.md)
+
+## Interfaces
+
+- [ContextMenuRef](interfaces/ContextMenuRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IAnimationProps](type-aliases/IAnimationProps.md)
+- [IAtProps](type-aliases/IAtProps.md)
+- [IBoundaryOffsetProps](type-aliases/IBoundaryOffsetProps.md)
+- [ICollisionProps](type-aliases/ICollisionProps.md)
+- [IContextMenuOptions](type-aliases/IContextMenuOptions.md)
+- [IDelayProps](type-aliases/IDelayProps.md)
+- [IFromProps](type-aliases/IFromProps.md)
+- [IHideProps](type-aliases/IHideProps.md)
+- [IItemProps](type-aliases/IItemProps.md)
+- [IMyProps](type-aliases/IMyProps.md)
+- [IOffsetProps](type-aliases/IOffsetProps.md)
+- [IPositionProps](type-aliases/IPositionProps.md)
+- [IShowEventProps](type-aliases/IShowEventProps.md)
+- [IShowProps](type-aliases/IShowProps.md)
+- [IShowSubmenuModeProps](type-aliases/IShowSubmenuModeProps.md)
+- [IToProps](type-aliases/IToProps.md)
+
+## Variables
+
+- [Animation](variables/Animation.md)
+- [At](variables/At.md)
+- [BoundaryOffset](variables/BoundaryOffset.md)
+- [Collision](variables/Collision.md)
+- [ContextMenu](variables/ContextMenu.md)
+- [Delay](variables/Delay.md)
+- [From](variables/From.md)
+- [Hide](variables/Hide.md)
+- [Item](variables/Item.md)
+- [My](variables/My.md)
+- [Offset](variables/Offset.md)
+- [Position](variables/Position.md)
+- [Show](variables/Show.md)
+- [ShowEvent](variables/ShowEvent.md)
+- [ShowSubmenuMode](variables/ShowSubmenuMode.md)
+- [To](variables/To.md)
+
+## References
+
+### default
+
+Renames and re-exports [ContextMenu](variables/ContextMenu.md)
+
+
+--- SOURCE: interfaces/ContextMenuRef.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ContextMenuRef
+
+# Interface: ContextMenuRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/context-menu.ts:47](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L47)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxContextMenu`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/context-menu.ts:48](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L48)
+
+#### Returns
+
+`dxContextMenu`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:326
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:328
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:329
+
+***
+
+### HiddenEvent
+
+> **HiddenEvent**: [`HiddenEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/HiddenEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:330
+
+***
+
+### HidingEvent
+
+> **HidingEvent**: [`HidingEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/HidingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:331
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:332
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:333
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:334
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:335
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:336
+
+***
+
+### PositioningEvent
+
+> **PositioningEvent**: [`PositioningEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/PositioningEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:337
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:327
+
+***
+
+### SelectionChangedEvent
+
+> **SelectionChangedEvent**: [`SelectionChangedEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/SelectionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:338
+
+***
+
+### ShowingEvent
+
+> **ShowingEvent**: [`ShowingEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ShowingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:339
+
+***
+
+### ShownEvent
+
+> **ShownEvent**: [`ShownEvent`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/ShownEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/context\_menu.d.ts:340
+
+
+--- SOURCE: type-aliases/IAnimationProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IAnimationProps
+
+# Type Alias: IAnimationProps
+
+> **IAnimationProps** = `React.PropsWithChildren`\<\{ `hide?`: `AnimationConfig`; `show?`: `AnimationConfig`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:108](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L108)
+
+
+--- SOURCE: type-aliases/IAtProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IAtProps
+
+# Type Alias: IAtProps
+
+> **IAtProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:131](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L131)
+
+
+--- SOURCE: type-aliases/IBoundaryOffsetProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IBoundaryOffsetProps
+
+# Type Alias: IBoundaryOffsetProps
+
+> **IBoundaryOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:150](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L150)
+
+
+--- SOURCE: type-aliases/ICollisionProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ICollisionProps
+
+# Type Alias: ICollisionProps
+
+> **ICollisionProps** = `React.PropsWithChildren`\<\{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:169](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L169)
+
+
+--- SOURCE: type-aliases/IContextMenuOptions.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IContextMenuOptions
+
+# Type Alias: IContextMenuOptions\<TItem, TKey\>
+
+> **IContextMenuOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-ContextMenu-API/namespaces/ContextMenuTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IContextMenuOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/context-menu.ts:35](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L35)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IDelayProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IDelayProps
+
+# Type Alias: IDelayProps
+
+> **IDelayProps** = `React.PropsWithChildren`\<\{ `hide?`: `number`; `show?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:188](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L188)
+
+
+--- SOURCE: type-aliases/IFromProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IFromProps
+
+# Type Alias: IFromProps
+
+> **IFromProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:208](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L208)
+
+
+--- SOURCE: type-aliases/IHideProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IHideProps
+
+# Type Alias: IHideProps
+
+> **IHideProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:233](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L233)
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `beginGroup?`: `boolean`; `closeMenuOnClick?`: `boolean`; `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `icon?`: `string`; `items?`: `dxContextMenuItem`[]; `render?`: (...`params`) => `React.ReactNode`; `selectable?`: `boolean`; `selected?`: `boolean`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:265](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L265)
+
+
+--- SOURCE: type-aliases/IMyProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IMyProps
+
+# Type Alias: IMyProps
+
+> **IMyProps** = `React.PropsWithChildren`\<\{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:303](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L303)
+
+
+--- SOURCE: type-aliases/IOffsetProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IOffsetProps
+
+# Type Alias: IOffsetProps
+
+> **IOffsetProps** = `React.PropsWithChildren`\<\{ `x?`: `number`; `y?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:322](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L322)
+
+
+--- SOURCE: type-aliases/IPositionProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IPositionProps
+
+# Type Alias: IPositionProps
+
+> **IPositionProps** = `React.PropsWithChildren`\<\{ `at?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `boundary?`: `any` \| `string`; `boundaryOffset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; `collision?`: `CollisionResolutionCombination` \| `Record`\<`string`, `any`\> \| \{ `x?`: `CollisionResolution`; `y?`: `CollisionResolution`; \}; `my?`: `Record`\<`string`, `any`\> \| `PositionAlignment` \| \{ `x?`: `HorizontalAlignment`; `y?`: `VerticalAlignment`; \}; `of?`: `any` \| `string`; `offset?`: `Record`\<`string`, `any`\> \| `string` \| \{ `x?`: `number`; `y?`: `number`; \}; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:343](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L343)
+
+
+--- SOURCE: type-aliases/IShowEventProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IShowEventProps
+
+# Type Alias: IShowEventProps
+
+> **IShowEventProps** = `React.PropsWithChildren`\<\{ `delay?`: `number`; `name?`: `string`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:420](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L420)
+
+
+--- SOURCE: type-aliases/IShowProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IShowProps
+
+# Type Alias: IShowProps
+
+> **IShowProps** = `React.PropsWithChildren`\<\{ `complete?`: (`$element`, `config`) => `void`; `delay?`: `number`; `direction?`: `Direction`; `duration?`: `number`; `easing?`: `string`; `from?`: `AnimationState`; `staggerDelay?`: `number`; `start?`: (`$element`, `config`) => `void`; `to?`: `AnimationState`; `type?`: `AnimationType`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:389](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L389)
+
+
+--- SOURCE: type-aliases/IShowSubmenuModeProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IShowSubmenuModeProps
+
+# Type Alias: IShowSubmenuModeProps
+
+> **IShowSubmenuModeProps** = `React.PropsWithChildren`\<\{ `delay?`: `number` \| `Record`\<`string`, `any`\> \| \{ `hide?`: `number`; `show?`: `number`; \}; `name?`: `SubmenuShowMode`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:439](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L439)
+
+
+--- SOURCE: type-aliases/IToProps.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / IToProps
+
+# Type Alias: IToProps
+
+> **IToProps** = `React.PropsWithChildren`\<\{ `left?`: `number`; `opacity?`: `number`; `position?`: `PositionConfig`; `scale?`: `number`; `top?`: `number`; \}\>
+
+Defined in: [devextreme-react/src/context-menu.ts:465](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L465)
+
+
+--- SOURCE: variables/Animation.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Animation
+
+# Variable: Animation
+
+> `const` **Animation**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:125](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L125)
+
+
+--- SOURCE: variables/At.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / At
+
+# Variable: At
+
+> `const` **At**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:144](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L144)
+
+
+--- SOURCE: variables/BoundaryOffset.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / BoundaryOffset
+
+# Variable: BoundaryOffset
+
+> `const` **BoundaryOffset**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:163](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L163)
+
+
+--- SOURCE: variables/Collision.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Collision
+
+# Variable: Collision
+
+> `const` **Collision**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:182](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L182)
+
+
+--- SOURCE: variables/ContextMenu.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ContextMenu
+
+# Variable: ContextMenu()
+
+> `const` **ContextMenu**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/context-menu.ts:51](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L51)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Delay.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Delay
+
+# Variable: Delay
+
+> `const` **Delay**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:201](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L201)
+
+
+--- SOURCE: variables/From.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / From
+
+# Variable: From
+
+> `const` **From**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:227](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L227)
+
+
+--- SOURCE: variables/Hide.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Hide
+
+# Variable: Hide
+
+> `const` **Hide**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:258](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L258)
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:297](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L297)
+
+
+--- SOURCE: variables/My.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / My
+
+# Variable: My
+
+> `const` **My**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:316](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L316)
+
+
+--- SOURCE: variables/Offset.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Offset
+
+# Variable: Offset
+
+> `const` **Offset**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:335](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L335)
+
+
+--- SOURCE: variables/Position.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Position
+
+# Variable: Position
+
+> `const` **Position**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:383](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L383)
+
+
+--- SOURCE: variables/Show.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / Show
+
+# Variable: Show
+
+> `const` **Show**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:414](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L414)
+
+
+--- SOURCE: variables/ShowEvent.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ShowEvent
+
+# Variable: ShowEvent
+
+> `const` **ShowEvent**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:433](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L433)
+
+
+--- SOURCE: variables/ShowSubmenuMode.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / ShowSubmenuMode
+
+# Variable: ShowSubmenuMode
+
+> `const` **ShowSubmenuMode**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:458](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L458)
+
+
+--- SOURCE: variables/To.md ---
+
+[**DevExtreme React ContextMenu API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React ContextMenu API](../globals.md) / To
+
+# Variable: To
+
+> `const` **To**: `any`
+
+Defined in: [devextreme-react/src/context-menu.ts:484](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/context-menu.ts#L484)
+

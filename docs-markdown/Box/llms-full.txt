@@ -1,0 +1,1596 @@
+# Box Full API Documentation
+
+
+--- SOURCE: README.md ---
+
+**DevExtreme React Box API v26.1.0**
+
+***
+
+# DevExtreme for React
+
+[![NPM version](https://img.shields.io/npm/v/devextreme-react.svg?maxAge=43200)](https://www.npmjs.com/package/devextreme-react)
+
+The `devextreme-react` package contains the [DevExtreme component suite](http://js.devexpress.com/Demos/WidgetsGallery/) for the [React](https://react.dev/) framework.
+
+* [Documentation](https://js.devexpress.com/React/Documentation/Guide/React_Components/DevExtreme_React_Components/)
+* [Demo Gallery](https://js.devexpress.com/React/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/)
+* [Responsive UI Templates](https://js.devexpress.com/React/Templates/UITemplates/)
+* [Application Template](https://js.devexpress.com/React/Documentation/Guide/React_Components/Application_Template/)
+
+## License
+
+DevExpress distributes the `devextreme-react` package under the free and open-source **MIT** license.
+
+For more information on licensing requirements, read the following articles:
+
+* [Licensing Guide](https://js.devexpress.com/Angular/Documentation/Guide/Common/Licensing/) 
+* [Licensing FAQ](https://js.devexpress.com/Licensing/)
+* [EULA](https://js.devexpress.com/EULAs/DevExtremeComplete/)
+
+DevExpress offers a [free trial](https://js.devexpress.com/Download/) of the product.
+
+## Support & Feedback
+
+For more information on the React framework and how to use it, see this [official documentation](https://react.dev/learn).
+
+If you own an [active DevExtreme license](https://js.devexpress.com/Licensing/#Commercial), submit your questions, suggestions, and bug reports to the [DevExpress Support Center](https://www.devexpress.com/sc).
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/README.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../globals.md) / BoxTypes
+
+# BoxTypes
+
+## Interfaces
+
+- [~~dxBoxOptions~~](interfaces/dxBoxOptions.md)
+
+## Type Aliases
+
+- [BoxDirection](type-aliases/BoxDirection.md)
+- [ContentReadyEvent](type-aliases/ContentReadyEvent.md)
+- [CrosswiseDistribution](type-aliases/CrosswiseDistribution.md)
+- [DisposingEvent](type-aliases/DisposingEvent.md)
+- [Distribution](type-aliases/Distribution.md)
+- [InitializedEvent](type-aliases/InitializedEvent.md)
+- [Item](type-aliases/Item.md)
+- [ItemClickEvent](type-aliases/ItemClickEvent.md)
+- [ItemContextMenuEvent](type-aliases/ItemContextMenuEvent.md)
+- [ItemHoldEvent](type-aliases/ItemHoldEvent.md)
+- [ItemRenderedEvent](type-aliases/ItemRenderedEvent.md)
+- [Mode](type-aliases/Mode.md)
+- [OptionChangedEvent](type-aliases/OptionChangedEvent.md)
+- [Properties](type-aliases/Properties.md)
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/interfaces/dxBoxOptions.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / dxBoxOptions
+
+# ~~Interface: dxBoxOptions\<TItem, TKey\>~~
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:112
+
+**`Namespace`**
+
+## Deprecated
+
+use Properties instead
+ DevExpress.ui
+
+## Docid
+
+## Extends
+
+- `CollectionWidgetOptions`\<`dxBox`\<`TItem`, `TKey`\>, `TItem`, `TKey`\>
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### ~~accessKey?~~
+
+> `optional` **accessKey**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:29
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.accessKey`
+
+***
+
+### ~~activeStateEnabled?~~
+
+> `optional` **activeStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:35
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.activeStateEnabled`
+
+***
+
+### ~~align?~~
+
+> `optional` **align**: [`Distribution`](../type-aliases/Distribution.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:121
+
+#### Docid
+
+#### Default
+
+```ts
+'start'
+@public
+```
+
+***
+
+### ~~crossAlign?~~
+
+> `optional` **crossAlign**: [`CrosswiseDistribution`](../type-aliases/CrosswiseDistribution.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:127
+
+#### Docid
+
+#### Default
+
+```ts
+'start'
+@public
+```
+
+***
+
+### ~~dataSource?~~
+
+> `optional` **dataSource**: `DataSourceLike`\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:134
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Overrides
+
+`CollectionWidgetOptions.dataSource`
+
+***
+
+### ~~direction?~~
+
+> `optional` **direction**: [`BoxDirection`](../type-aliases/BoxDirection.md)
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:140
+
+#### Docid
+
+#### Default
+
+```ts
+'row'
+@public
+```
+
+***
+
+### ~~disabled?~~
+
+> `optional` **disabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:41
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.disabled`
+
+***
+
+### ~~elementAttr?~~
+
+> `optional` **elementAttr**: `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:49
+
+#### Index Signature
+
+\[`key`: `string`\]: `any`
+
+#### Docid
+
+#### Default
+
+```ts
+{}
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.elementAttr`
+
+***
+
+### ~~focusStateEnabled?~~
+
+> `optional` **focusStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:47
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.focusStateEnabled`
+
+***
+
+### ~~height?~~
+
+> `optional` **height**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:55
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.height`
+
+***
+
+### ~~hint?~~
+
+> `optional` **hint**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:53
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hint`
+
+***
+
+### ~~hoverStateEnabled?~~
+
+> `optional` **hoverStateEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:59
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.hoverStateEnabled`
+
+***
+
+### ~~itemHoldTimeout?~~
+
+> `optional` **itemHoldTimeout**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:70
+
+#### Docid
+
+#### Default
+
+```ts
+750
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemHoldTimeout`
+
+***
+
+### ~~items?~~
+
+> `optional` **items**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:147
+
+#### Docid
+
+#### Fires
+
+dxBoxOptions.onOptionChanged
+
+#### Overrides
+
+`CollectionWidgetOptions.items`
+
+***
+
+### ~~itemTemplate?~~
+
+> `optional` **itemTemplate**: `template` \| (`itemData`, `itemIndex`, `itemElement`) => `string` \| `Element`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+"item"
+@type_function_param1 itemData:object
+@type_function_return string|Element|jQuery
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.itemTemplate`
+
+***
+
+### ~~keyExpr?~~
+
+> `optional` **keyExpr**: `string` \| `Function`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:91
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.keyExpr`
+
+***
+
+### ~~noDataText?~~
+
+> `optional` **noDataText**: `string`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:97
+
+#### Docid
+
+#### Default
+
+```ts
+"No data to display"
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.noDataText`
+
+***
+
+### ~~onContentReady()?~~
+
+> `optional` **onContentReady**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:66
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onContentReady`
+
+***
+
+### ~~onDisposing()?~~
+
+> `optional` **onDisposing**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:62
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onDisposing`
+
+***
+
+### ~~onInitialized()?~~
+
+> `optional` **onInitialized**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/component.d.ts:33
+
+#### Parameters
+
+##### e
+
+`InitializedEventInfo`
+
+#### Returns
+
+`void`
+
+#### Docid
+
+@type_function_param1 e:object
+@type_function_param1_field component:this
+@type_function_param1_field element:DxElement
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onInitialized`
+
+***
+
+### ~~onItemClick?~~
+
+> `optional` **onItemClick**: `string` \| (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:109
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemClick`
+
+***
+
+### ~~onItemContextMenu()?~~
+
+> `optional` **onItemContextMenu**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:120
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemContextMenu`
+
+***
+
+### ~~onItemHold()?~~
+
+> `optional` **onItemHold**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:131
+
+#### Parameters
+
+##### e
+
+`NativeEventInfo`\<`dxBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field event:event
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemHold`
+
+***
+
+### ~~onItemRendered()?~~
+
+> `optional` **onItemRendered**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:141
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field itemData:object
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onItemRendered`
+
+***
+
+### ~~onOptionChanged()?~~
+
+> `optional` **onOptionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:71
+
+#### Parameters
+
+##### e
+
+`OptionChangedEventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Action
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field component:<DOMComponent>
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.onOptionChanged`
+
+***
+
+### ~~onSelectionChanged()?~~
+
+> `optional` **onSelectionChanged**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:164
+
+#### Parameters
+
+##### e
+
+`EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\> & `SelectionChangeInfo`\<`TItem`\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanged`
+
+***
+
+### ~~onSelectionChanging()?~~
+
+> `optional` **onSelectionChanging**: (`e`) => `void`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:153
+
+#### Parameters
+
+##### e
+
+`SelectionChangingEventBase`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+#### Returns
+
+`void`
+
+#### Docid
+
+#### Default
+
+```ts
+null
+@type_function_param1 e:object
+@type_function_param1_field cancel:boolean|Promise<boolean>
+@type_function_param1_field addedItems:array<any>
+@type_function_param1_field removedItems:array<any>
+@type_function_param1_field component:this
+```
+
+#### Action
+
+#### Inherited from
+
+`CollectionWidgetOptions.onSelectionChanging`
+
+***
+
+### ~~rtlEnabled?~~
+
+> `optional` **rtlEnabled**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:77
+
+#### Docid
+
+#### Default
+
+```ts
+false
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.rtlEnabled`
+
+***
+
+### ~~selectedIndex?~~
+
+> `optional` **selectedIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:171
+
+#### Docid
+
+#### Default
+
+```ts
+-1
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedIndex`
+
+***
+
+### ~~selectedItem?~~
+
+> `optional` **selectedItem**: `TItem`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:179
+
+#### Docid
+
+#### Default
+
+```ts
+null
+```
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Ref
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItem`
+
+***
+
+### ~~selectedItemKeys?~~
+
+> `optional` **selectedItemKeys**: `TKey`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:185
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItemKeys`
+
+***
+
+### ~~selectedItems?~~
+
+> `optional` **selectedItems**: `TItem`[]
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/collection/ui.collection\_widget.base.d.ts:191
+
+#### Docid
+
+#### Fires
+
+CollectionWidgetOptions.onSelectionChanged
+
+#### Inherited from
+
+`CollectionWidgetOptions.selectedItems`
+
+***
+
+### ~~tabIndex?~~
+
+> `optional` **tabIndex**: `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:72
+
+#### Docid
+
+#### Default
+
+```ts
+0
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.tabIndex`
+
+***
+
+### ~~visible?~~
+
+> `optional` **visible**: `boolean`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/widget/ui.widget.d.ts:78
+
+#### Docid
+
+#### Default
+
+```ts
+true
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.visible`
+
+***
+
+### ~~width?~~
+
+> `optional` **width**: `string` \| `number`
+
+Defined in: devextreme/artifacts/npm/devextreme/core/dom\_component.d.ts:83
+
+#### Docid
+
+#### Default
+
+```ts
+undefined
+@public
+```
+
+#### Inherited from
+
+`CollectionWidgetOptions.width`
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/BoxDirection.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / BoxDirection
+
+# Type Alias: BoxDirection
+
+> **BoxDirection** = `"col"` \| `"row"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:40
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ContentReadyEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / ContentReadyEvent
+
+# Type Alias: ContentReadyEvent\<TItem, TKey\>
+
+> **ContentReadyEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:48
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_ContentReadyEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/CrosswiseDistribution.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / CrosswiseDistribution
+
+# Type Alias: CrosswiseDistribution
+
+> **CrosswiseDistribution** = `"center"` \| `"end"` \| `"start"` \| `"stretch"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:38
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/DisposingEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / DisposingEvent
+
+# Type Alias: DisposingEvent\<TItem, TKey\>
+
+> **DisposingEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:56
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_DisposingEvent
+
+## Inherits
+
+EventInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Distribution.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / Distribution
+
+# Type Alias: Distribution
+
+> **Distribution** = `"center"` \| `"end"` \| `"space-around"` \| `"space-between"` \| `"start"`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:36
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/InitializedEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / InitializedEvent
+
+# Type Alias: InitializedEvent\<TItem, TKey\>
+
+> **InitializedEvent**\<`TItem`, `TKey`\> = `InitializedEventInfo`\<`dxBox`\<`TItem`, `TKey`\>\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:64
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_InitializedEvent
+
+## Inherits
+
+InitializedEventInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Item.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / Item
+
+# Type Alias: Item\<TKey\>
+
+> **Item**\<`TKey`\> = `dxBoxItem`\<`TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:164
+
+**`Namespace`**
+
+DevExpress.ui.dxBox
+
+## Type Parameters
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemClickEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / ItemClickEvent
+
+# Type Alias: ItemClickEvent\<TItem, TKey\>
+
+> **ItemClickEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxBox`\<`TItem`, `TKey`\>, `MouseEvent` \| `PointerEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:72
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_ItemClickEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemContextMenuEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / ItemContextMenuEvent
+
+# Type Alias: ItemContextMenuEvent\<TItem, TKey\>
+
+> **ItemContextMenuEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:80
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_ItemContextMenuEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemHoldEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / ItemHoldEvent
+
+# Type Alias: ItemHoldEvent\<TItem, TKey\>
+
+> **ItemHoldEvent**\<`TItem`, `TKey`\> = `NativeEventInfo`\<`dxBox`\<`TItem`, `TKey`\>, `PointerInteractionEvent`\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:88
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_ItemHoldEvent
+
+## Inherits
+
+NativeEventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemRenderedEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / ItemRenderedEvent
+
+# Type Alias: ItemRenderedEvent\<TItem, TKey\>
+
+> **ItemRenderedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\> & `ItemInfo`\<`TItem`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:96
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_ItemRenderedEvent
+
+## Inherits
+
+EventInfo,ItemInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Mode.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / Mode
+
+# Type Alias: Mode
+
+> **Mode** = `"auto"`
+
+Defined in: devextreme/artifacts/npm/devextreme/common.d.ts:452
+
+**`Namespace`**
+
+DevExpress.common
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/OptionChangedEvent.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / OptionChangedEvent
+
+# Type Alias: OptionChangedEvent\<TItem, TKey\>
+
+> **OptionChangedEvent**\<`TItem`, `TKey`\> = `EventInfo`\<`dxBox`\<`TItem`, `TKey`\>\> & `ChangedOptionInfo`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:104
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Docid
+
+_ui_box_OptionChangedEvent
+
+## Inherits
+
+EventInfo,ChangedOptionInfo
+
+
+--- SOURCE: DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Properties.md ---
+
+[**DevExtreme React Box API v26.1.0**](../../../../README.md)
+
+***
+
+[DevExtreme React Box API](../../../../globals.md) / [BoxTypes](../README.md) / Properties
+
+# Type Alias: Properties\<TItem, TKey\>
+
+> **Properties**\<`TItem`, `TKey`\> = [`dxBoxOptions`](../interfaces/dxBoxOptions.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:215
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\> = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: globals.md ---
+
+[**DevExtreme React Box API v26.1.0**](README.md)
+
+***
+
+# DevExtreme React Box API v26.1.0
+
+## Namespaces
+
+- [BoxTypes](DevExtreme-React-Box-API/namespaces/BoxTypes/README.md)
+
+## Interfaces
+
+- [BoxRef](interfaces/BoxRef.md)
+
+## Type Aliases
+
+- [ExplicitTypes](type-aliases/ExplicitTypes.md)
+- [IBoxOptions](type-aliases/IBoxOptions.md)
+- [IItemProps](type-aliases/IItemProps.md)
+
+## Variables
+
+- [Box](variables/Box.md)
+- [Item](variables/Item.md)
+
+## References
+
+### default
+
+Renames and re-exports [Box](variables/Box.md)
+
+
+--- SOURCE: interfaces/BoxRef.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / BoxRef
+
+# Interface: BoxRef\<TItem, TKey\>
+
+Defined in: [devextreme-react/src/box.ts:38](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L38)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Properties
+
+### instance()
+
+> **instance**: () => `dxBox`\<`TItem`, `TKey`\>
+
+Defined in: [devextreme-react/src/box.ts:39](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L39)
+
+#### Returns
+
+`dxBox`\<`TItem`, `TKey`\>
+
+
+--- SOURCE: type-aliases/ExplicitTypes.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / ExplicitTypes
+
+# Type Alias: ExplicitTypes\<TItem, TKey\>
+
+> **ExplicitTypes**\<`TItem`, `TKey`\> = `object`
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:199
+
+## Type Parameters
+
+### TItem
+
+`TItem` *extends* `ItemLike`\<`TKey`\>
+
+### TKey
+
+`TKey`
+
+## Properties
+
+### ContentReadyEvent
+
+> **ContentReadyEvent**: [`ContentReadyEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ContentReadyEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:204
+
+***
+
+### DisposingEvent
+
+> **DisposingEvent**: [`DisposingEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/DisposingEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:205
+
+***
+
+### InitializedEvent
+
+> **InitializedEvent**: [`InitializedEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/InitializedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:206
+
+***
+
+### ItemClickEvent
+
+> **ItemClickEvent**: [`ItemClickEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemClickEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:207
+
+***
+
+### ItemContextMenuEvent
+
+> **ItemContextMenuEvent**: [`ItemContextMenuEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemContextMenuEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:208
+
+***
+
+### ItemHoldEvent
+
+> **ItemHoldEvent**: [`ItemHoldEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemHoldEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:209
+
+***
+
+### ItemRenderedEvent
+
+> **ItemRenderedEvent**: [`ItemRenderedEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/ItemRenderedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:210
+
+***
+
+### OptionChangedEvent
+
+> **OptionChangedEvent**: [`OptionChangedEvent`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/OptionChangedEvent.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:211
+
+***
+
+### Properties
+
+> **Properties**: [`Properties`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>
+
+Defined in: devextreme/artifacts/npm/devextreme/ui/box.d.ts:203
+
+
+--- SOURCE: type-aliases/IBoxOptions.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / IBoxOptions
+
+# Type Alias: IBoxOptions\<TItem, TKey\>
+
+> **IBoxOptions**\<`TItem`, `TKey`\> = `React.PropsWithChildren`\<`ReplaceFieldTypes`\<[`Properties`](../DevExtreme-React-Box-API/namespaces/BoxTypes/type-aliases/Properties.md)\<`TItem`, `TKey`\>, `IBoxOptionsNarrowedEvents`\<`TItem`, `TKey`\>\> & `IHtmlOptions` & `object`\>
+
+Defined in: [devextreme-react/src/box.ts:30](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L30)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+
+--- SOURCE: type-aliases/IItemProps.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / IItemProps
+
+# Type Alias: IItemProps
+
+> **IItemProps** = `React.PropsWithChildren`\<\{ `baseSize?`: `number` \| `string`; `box?`: [`dxBoxOptions`](../DevExtreme-React-Box-API/namespaces/BoxTypes/interfaces/dxBoxOptions.md); `component?`: `React.ComponentType`\<`any`\>; `disabled?`: `boolean`; `html?`: `string`; `ratio?`: `number`; `render?`: (...`params`) => `React.ReactNode`; `shrink?`: `number`; `template?`: (`itemData`, `itemIndex`, `itemElement`) => `string` \| `any` \| `template`; `text?`: `string`; `visible?`: `boolean`; \}\>
+
+Defined in: [devextreme-react/src/box.ts:93](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L93)
+
+
+--- SOURCE: variables/Box.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / Box
+
+# Variable: Box()
+
+> `const` **Box**: \<`TItem`, `TKey`\>(`props`) => `ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+Defined in: [devextreme-react/src/box.ts:42](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L42)
+
+## Type Parameters
+
+### TItem
+
+`TItem` = `any`
+
+### TKey
+
+`TKey` = `any`
+
+## Parameters
+
+### props
+
+`any`
+
+## Returns
+
+`ReactElement`\<`any`, `string` \| `JSXElementConstructor`\<`any`\>\>
+
+
+--- SOURCE: variables/Item.md ---
+
+[**DevExtreme React Box API v26.1.0**](../README.md)
+
+***
+
+[DevExtreme React Box API](../globals.md) / Item
+
+# Variable: Item
+
+> `const` **Item**: `any`
+
+Defined in: [devextreme-react/src/box.ts:121](https://github.com/mehmetor/DevExtreme/blob/67d1bae579611228bb429bb2f212926c8ea04747/packages/devextreme-react/src/box.ts#L121)
+
